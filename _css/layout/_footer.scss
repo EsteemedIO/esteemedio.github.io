@@ -1,4 +1,5 @@
 .footer {
+  font-family: 'Lato', sans-serif;
   padding: $small-section-spacing 0;
 
   .menu {
@@ -35,8 +36,11 @@
   margin-bottom: $spacing;
 }
 
-.footerbottom__social {
-  margin-bottom: $spacing;
+a.footerbottom__menu-item {
+  width: 100%;
+  float: left;
+  line-height: 2em;
+  color: $black;
 }
 
 .footerbottom__social-icon {
@@ -47,5 +51,9 @@
 
 .footerbottom__copyright {
   font-size: rem-calc(10);
-  font-weight: $global-weight-bold;
+  color: #B6B6B6;
+  margin-top: $lg-section-spacing;
+    a {
+      color: #B6B6B6;
+  }
 }
