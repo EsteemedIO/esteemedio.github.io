@@ -5310,15 +5310,18 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: flex-end; }
 
 .w-nav {
-  padding: 1em 0; }
+  padding: 1em 0;
+  font-family: 'Poppins', 'SemiBold', sans-serif;
+  color: #000000; }
   .w-nav .menu a:not(.button) {
-    color: #8a8a8a;
-    font-weight: bold; }
+    color: #000000;
+    font-weight: bold;
+    padding: 1rem; }
   @media print, screen and (min-width: 40em) {
     .w-nav .menu .button-group {
       margin-bottom: 0; } }
   .w-nav .menu .button {
-    padding: 1.5em 1.2em; }
+    padding: .5em 3.2em; }
 
 .w-nav-menu {
   padding: 1em; }
@@ -5401,3 +5404,19 @@ a.footerbottom__menu-item {
     text-align: center; }
   .simple-card .simple-card__title {
     margin-bottom: 1em; }
+
+.our-value .simple-card .simple-card__image img, .our-vision .simple-card .simple-card__image img {
+  height: 100px;
+  width: 100px; }
+
+.our-value .simple-card p, .our-vision .simple-card p {
+  font-family: 'Lato', sans-serif; }
+
+.our-people h2 {
+  line-height: 3.75rem; }
+
+.image-cards .image-card {
+  padding: 10px 5px; }
+  .image-cards .image-card img {
+    height: 345px;
+    padding: 5px; }
