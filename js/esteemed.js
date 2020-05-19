@@ -13895,8 +13895,6 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_jquery__;
 /******/ });
 });
 //# sourceMappingURL=foundation.js.map
-$(document).ready(function() {
-    $(document).foundation();
-});
+$(document).foundation();
 
 
