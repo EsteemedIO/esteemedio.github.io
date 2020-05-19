@@ -16,6 +16,7 @@ gulp.task('sass', function() {
       includePaths: [
         './_css',
         './node_modules/foundation-sites/scss',
+        './node_modules/motion-ui/src',
       ],
       //outputStyle: 'compressed'
     })
