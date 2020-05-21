@@ -25,31 +25,55 @@
   }
 }
 
+.our-team {
+  font-family: 'Poppins', 'SemiBold', sans-serif;
+  .button {
+    padding: 1.5em 1.2em;
+    font-size: 1.1rem;
+  }
+}
+
 .our-value,
 .our-vision {
-  .simple-card {
+  @include breakpoint(medium) {
+    .simple-card {
+      &.simple-card--narrow {
+        max-width: 290px;
+      }
+
+      .simple-card__image img {
+        height: 100px;
+        width: 100px;
+      }
+
+      p {
+        font-family: 'Lato', sans-serif;
+        line-height: 1.7;
+      }
+    }
+  }
+  @include breakpoint(small) {
     .simple-card__image img {
       height: 100px;
       width: 100px;
-    }
-
-    p {
-      font-family: 'Lato', sans-serif;
     }
   }
 }
 
 .our-people {
-  h2 {
-    line-height: $section-spacing;
+  @include breakpoint(medium) {
+    h2 {
+      line-height: $section-spacing;
+    }
   }
 }
-
-.image-cards .image-card {
-  padding: 10px 5px;
-
-  img {
-    height: 345px;
-    padding: 5px;
+.grid-container.image-cards-container {
+  @include breakpoint(medium) {
+    max-width: 100%;
+  }
+}
+.image-cards .image-card img {
+  @include breakpoint(medium) {
+    padding: 10px 5px;
   }
 }

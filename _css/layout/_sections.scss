@@ -5,6 +5,10 @@
     padding: $section-spacing 0;
   }
 
+  @include breakpoint(small) {
+    padding: $half-spacing;
+  }
+
   &.texture--above {
     padding-top: $section-spacing;
 
