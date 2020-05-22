@@ -26,7 +26,7 @@
 }
 
 .our-team {
-  font-family: 'Poppins', 'SemiBold', sans-serif;
+  font-family: 'Poppins', sans-serif;
   .button {
     padding: 1.5em 1.2em;
     font-size: 1.1rem;
@@ -72,7 +72,7 @@
     max-width: 100%;
   }
 }
-.image-cards .image-card img {
+.image-cards .image-card {
   @include breakpoint(medium) {
     padding: 10px 5px;
   }
