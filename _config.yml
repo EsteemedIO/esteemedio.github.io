@@ -16,3 +16,6 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+# Google Analytics
+google_analytics: UA-167435008-1
