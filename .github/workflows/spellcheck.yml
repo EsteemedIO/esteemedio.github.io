@@ -11,5 +11,7 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-      - name: Check Spelling
-        uses: rojopolis/spellcheck-github-actions@0.5.0
+    - uses: actions/checkout@develop
+    - uses: rojopolis/spellcheck-github-actions@0.5.0
+      name: Check Spelling
+
