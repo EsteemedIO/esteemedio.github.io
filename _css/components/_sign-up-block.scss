@@ -1,0 +1,59 @@
+#mc_embed_signup {
+
+  h2 {
+    
+    @include breakpoint(small only) {
+      font-size: 1.25rem !important;
+    }
+  }
+
+  .sign-up-subtitle {
+    font-family: $font-lato;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  button {
+    background-color: $blue--btn !important;
+    font-size: 1.125rem !important;
+    height: initial !important;
+    line-height: 1 !important;
+    padding: 1.4em 1.7em !important;
+    border: 1px solid transparent !important;
+    margin-top: 1rem !important;
+
+    &:hover {
+      background-color: $blue--btn-hover !important;
+    }
+  }
+
+  input[type="email"] {
+    border: 1px solid $medium-gray !important;
+    font-family: $font-lato !important;
+    font-size: 1.125rem !important;
+    max-width: 100% !important;
+    padding: 1.4em 1em !important;
+
+    @include breakpoint(medium down) {
+      width: 100% !important;
+    }
+  }
+
+  .sign-up-image {
+
+    @include breakpoint(small only) {
+      order: 1;
+    }
+  }
+
+  .sign-up-text {
+
+    @include breakpoint(large) {
+      margin-top: 7rem;
+    }
+
+    @include breakpoint(small only) {
+      order: 2;
+    }
+  }
+}

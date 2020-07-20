@@ -34,7 +34,11 @@ pagination:
       </a>
     {% endfor %}
   </div>
+</div>
 
+  {% include sign-up-block.html %}
+
+<div class="grid-container page--blog">
   <h2 class="u-text-bold">All Posts</h2>
   <div class="grid-x align-top grid-padding-x blog-all-posts">
     {% for post in paginator.posts %}
