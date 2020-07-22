@@ -75,16 +75,16 @@
 
     @include breakpoint(medium down) {
       order: 2;
+      text-align: center;
     }
   }
 
   img {
-
-    @include breakpoint(medium down) {
-      max-width: 400px;
-    }
+    margin-top: 3rem;
+    max-width: 400px;
 
     @include breakpoint(large) {
+      margin-top: 5rem;
       width: 85%;
     }
   }
