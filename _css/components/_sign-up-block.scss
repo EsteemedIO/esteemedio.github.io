@@ -1,5 +1,6 @@
 #mc_embed_signup {
   background: $lightest-gray;
+  overflow: hidden;
 
   @include breakpoint(medium down) {
     padding-bottom: 3rem;
@@ -80,8 +81,10 @@
   }
 
   img {
+    -webkit-filter: drop-shadow(2px 2px 28px $medium-gray);
+    filter: drop-shadow(2px 2px 28px $medium-gray);
     margin-top: 3rem;
-    max-width: 400px;
+    max-width: 350px;
 
     @include breakpoint(large) {
       margin-top: 5rem;
