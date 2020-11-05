@@ -1,6 +1,65 @@
 ---
-title: Pricing and Plans
+title: Get a quote
 description: Get more details on Esteemed's pricing. We analyze your business and then craft a plan that's right for your needs.
 image: "/img/pricing-plans.png"
-permalink: /pricing/
+permalink: /get-a-quote/
 ---
+{% assign partners = site.data.partners %}
+<div class="page--quote content">
+  <div class="row-quote">
+    <div class="col-quote row-1 background-grey">
+      <div class="quote-block-1">
+        <h1 class="title">Get a quote</h1>
+        <div class="text"><p>Whether you’re looking for contractors, part-time employees, or full-time team
+          members, Esteemed finds your company top talent so you can focus on growth.</p>
+          <p>We assemble the team members you need before you need them, so you can scale with confidence.
+            Trust us with finding the best candidate — often in as little as an hour. Our Talent Network is
+            comprised of thousands upon thousands of pre-screened, high-performing stars.</p>
+          <p>To help you get started, provide your contact information and tell us about your upcoming
+            project(s). We’ll review your request and assess your staffing needs. Your team then gets a
+            free, no obligation quote and optional in-depth consultation.</p>
+          <p class="text-bold">An elastic workforce calls for an elastic pricing structure. Request a
+            customized pricing plan to fit your exact business requirements, so you pay only for what you
+            use.</p>
+          <p>We’re in the business of making your business run smoothly. When you sign up with us, you’ll be
+            granted access to our Talent Network, where you can find, interview, and manage esteemed
+            freelancers for your projects in a quick, painless way.</p>
+          <p>Still looking for expert contractors? Get matched with stars now. Kick-start your Esteemed
+            staffing plan today.</p></div>
+      </div>
+    </div>
+    <div class="col-quote row-1">
+      <div id="contact-form">
+        <div class="contact-form__wrapper padding-top-3 text-center">
+          <div class="grid-container">
+            <h3>Scale your workforce instantly to meet the needs of your business</h3>
+            <!--[if lte IE 8]>
+            <script src="//js.hsforms.net/forms/v2-legacy.js"></script>
+            <![endif]-->
+            <script src="//js.hsforms.net/forms/v2.js"></script>
+            <script>
+              hbspt.forms.create({
+                portalId: "7487839",
+                formId: "c90c625f-b0d1-4950-9cdd-678e43e49838"
+              });
+
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-quote row-2 order-mob-2">
+      <div class="partners-logo">
+        {% for partner in site.data.partners %}
+          {% if partner.image %}
+            <div class="bg" style="background-image: url({{ partner.image }});"></div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="col-quote row-2 background-grey order-mob-1">
+      <h2 class="partners-title">These top agencies and<br />employers trust<br />esteemed</h2>
+<!--      <a href="#" onclick="alert('Stories will be added soon.')"><div class="partners-button">Read their stories</div></a>-->
+    </div>
+  </div>
+</div>

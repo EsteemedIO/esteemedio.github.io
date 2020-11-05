@@ -355,12 +355,14 @@ body {
   background: $blue--btn;
   color: $white;
   padding-bottom: 4rem;
+  padding-left: 2rem;
 
   h3 {
-    margin: 0 auto 2rem auto;
+    margin-bottom: 2rem;
+    text-align: left;
 
     @include breakpoint(large) {
-      margin: 0 auto 5rem auto;
+      margin-bottom: 2rem;
       max-width: 60%;
     }
   }
@@ -395,6 +397,146 @@ body {
 
     @include breakpoint(small only) {
       height: 630px !important;
+    }
+  }
+}
+
+.page--quote {
+  h1, h2 {
+    font-family: $font-georgia;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85px;
+    letter-spacing: -0.055em;
+    text-align: left;
+    @include breakpoint(small only) {
+      font-size: 55px;
+      line-height: 75px;
+    }
+  }
+  .background-grey {
+    background: rgba(221, 228, 232, 0.35);
+  }
+  .row-quote {
+    display: flex;
+    flex-flow: wrap;
+
+    .col-quote {
+      flex: 0 0 50%;
+      @include breakpoint(small only) {
+        flex: 0 0 100%;
+      }
+      @include breakpoint(large down) {
+        flex: 0 0 100%;
+      }
+
+      .quote-block-1 {
+        padding: 2rem 1rem 0 5rem;
+        p {
+          font-family: $font-lato;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 38px;
+          display: flex;
+          align-items: center;
+          letter-spacing: -0.045em;
+          margin-bottom: 2rem;
+        }
+        .text-bold {
+          font-weight: bold;
+        }
+        .text {
+          margin-top: 40px;
+        }
+        @include breakpoint(small only) {
+          padding: 2rem 1rem 0 2rem;
+        }
+        @include breakpoint(large down) {
+          padding: 2rem 1rem 0 2rem;
+        }
+      }
+    }
+  }
+  .row-1 {
+    height: auto;
+    @include breakpoint(large down) {
+      flex: 0 0 100% !important;
+    }
+  }
+  .row-2 {
+    height: auto;
+    @include breakpoint(small only) {
+      order: 2;
+    }
+    .partners-logo {
+      display: flex;
+      flex-flow: wrap;
+      justify-content: center;
+      .bg {
+        flex: 0 0 40%;
+        width: 15rem;
+        height: 10rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 20px;
+        @include breakpoint(small only) {
+          flex: 0 0 100%;
+        }
+        @include breakpoint(large down) {
+          height: 8rem;
+        }
+      }
+    }
+    .partners-title {
+      margin-left: 5rem;
+      margin-top: 3rem;
+      @include breakpoint(small only) {
+        margin-left: 2rem;
+      }
+      @include breakpoint(large down) {
+        margin-left: 2rem;
+      }
+    }
+    .partners-button {
+      font-family: $font-lato;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 65px;
+      letter-spacing: -0.055em;
+      color: $white;
+      background: #4389C8;
+      border-radius: 30px;
+      width: 200px;
+      text-align: center;
+      margin-top: 5rem;
+      margin-left: 5rem;
+      @include breakpoint(small only) {
+        margin-left: 7rem;
+        margin-bottom: 5rem;
+      }
+      @include breakpoint(large down) {
+        margin-bottom: 5rem;
+      }
+    }
+  }
+  .order-mob-1 {
+    @include breakpoint(small only) {
+      order: 1;
+    }
+    @include breakpoint(large down) {
+      order: 1;
+    }
+  }
+  .order-mob-2 {
+    @include breakpoint(small only) {
+      order: 2;
+    }
+    @include breakpoint(large down) {
+      order: 2;
     }
   }
 }
