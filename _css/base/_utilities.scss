@@ -30,6 +30,10 @@
   background-color: $gray--bg;
 }
 
+.u-bg-yellow {
+  background-color: $yellow;
+}
+
 .u-leader {
   margin-top: $spacing;
 }
@@ -59,4 +63,26 @@ h1, h2, h3, h4, h5, h6 {
   @include breakpoint(small only) {
     margin-bottom: 2rem;
   }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.width-50vw {
+  min-width: 50vw;
+  height: 100%;
+  overflow: hidden;
+
+  & > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.card-text {
+  font-family: $font-poppins;
+  font-size: 1.125rem;
+  line-height: 2.1;
 }
