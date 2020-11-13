@@ -1,0 +1,28 @@
+<div class="card-horizontal overflow-hidden">
+  <div class="row">
+    <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+      <h1 class="u-trailer u-text-bold">{{ include.title }}</h1>
+
+      {% if include.body %}
+      <div class="cell">
+        <p class="card-text">
+          {{ include.body }}
+        </p>
+      </div>
+      {% endif %}
+
+      {% if include.link_text %}
+        <div class="cell">
+          <a href="{{ include.link_href }}" class="button" target="_blank">
+            {{ include.link_text }}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+    <div class="small-12 medium-6 padding-horizontal-0 img-wrapper">
+      <div class="width-50vw">
+        <img src="{{ include.img }}" alt="{{ include.img_alt }}">
+      </div>
+    </div>
+  </div>
+</div>
