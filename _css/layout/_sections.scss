@@ -540,3 +540,150 @@ body {
     }
   }
 }
+
+.page--home {
+  .grid-container {
+    max-width: 100%;
+  }
+
+  .section {
+    padding: 0 !important;
+  }
+
+  .section-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  h1, h2, h3 {
+    font-family: $font-georgia;
+    @include breakpoint(small and large down) {
+      font-size: 2rem;
+    }
+  }
+
+  .width-50 {
+    @include breakpoint(small only) {
+      width: 85% !important;
+    }
+    @include breakpoint(large down) {
+      width: 70% !important;
+    }
+  }
+
+  #section-01 .medium-order-2 {
+    position: relative;
+  }
+
+  #section-01, #section-02 {
+    .section-content {
+      @include breakpoint(large down) {
+        padding-top: 15%;
+      }
+    }
+  }
+
+  #section-02 .medium-order-2 {
+    height: 40rem;
+    background: $blue--btn;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include breakpoint(small and large down) {
+      height: 25rem;
+    }
+  }
+
+  #section-03 .medium-order-1 {
+    height: 40rem;
+    background: $light-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include breakpoint(small and large down) {
+      height: 30rem;
+    }
+  }
+
+  #section-05 .grid-container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  #section-04, #section-06 {
+    .section-content {
+      padding-top: 0 !important;
+    }
+  }
+
+  .cell {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15% 10% 0 10%;
+    @include breakpoint(xlarge down) {
+      padding: 3% 5% 0 5%;
+    }
+    @include breakpoint(large down) {
+      font-size: 2rem;
+    }
+  }
+
+  .button__no-bg {
+    @include breakpoint(small and large down) {
+      font-size: 1rem;
+    }
+  }
+
+  .reverse {
+    @include breakpoint(small only) {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  #mc_embed_signup_home {
+    position: absolute;
+    background: #f3f3f3;
+    border-radius: 10px;
+    width: 25rem;
+    padding: .8em 3em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @include breakpoint(small only) {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+      border-radius: 0;
+      background: transparent;
+    }
+    @include breakpoint(large down) {
+      width: 18rem;
+    }
+    h2 {
+      font-size: 2rem;
+      font-weight: 900;
+      max-width: 75%;
+      @include breakpoint(large down) {
+        font-size: 1rem;
+      }
+      @include breakpoint(small only) {
+        max-width: 100%;
+        font-size: 2rem;
+      }
+    }
+
+    #mc-embedded-subscribe {
+      margin-left: 0;
+      padding: 0.5rem 1.25rem;
+    }
+  }
+}
