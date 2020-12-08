@@ -627,9 +627,6 @@ body {
     flex-direction: column;
     justify-content: center;
     padding: 15% 10% 0 10%;
-    @include breakpoint(xlarge down) {
-      padding: 3% 5% 0 5%;
-    }
     @include breakpoint(large down) {
       font-size: 2rem;
     }
@@ -667,6 +664,9 @@ body {
     }
     @include breakpoint(large down) {
       width: 18rem;
+      @include breakpoint(small only) {
+        width: 100%;
+      }
     }
     h2 {
       font-size: 2rem;
