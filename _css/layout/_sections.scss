@@ -312,7 +312,8 @@ body {
 }
 
 .hero-blog-container {
-  max-width: 100%;
+  max-width: 75rem;
+  margin: 0 auto;
   display: flex;
   flex-flow: wrap;
   margin-bottom: 4rem;
@@ -326,7 +327,7 @@ body {
 
     .main-title {
       font-family: $font-georgia;
-      padding-left: 25%;
+      padding-left: 1rem;
       padding-top: 5rem;
       @include breakpoint(small only) {
         padding-left: 0;
@@ -337,7 +338,7 @@ body {
 
     .heading-subtitle {
       font-family: $font-poppins;
-      padding-left: 25%;
+      padding-left: 1rem;
       text-align: left;
       width: 65%;
       margin-left: 0;
@@ -411,7 +412,6 @@ body {
 .contact-form__wrapper {
   background: $blue--btn;
   color: $white;
-  padding-bottom: 4rem;
   padding-left: 2rem;
   @include breakpoint(small only) {
     padding-left: 0;
@@ -462,6 +462,9 @@ body {
 }
 
 .page--quote {
+  max-width: 75rem;
+  margin: 0 auto;
+
   h1 {
     font-family: $font-georgia;
     font-size: 5rem;
@@ -506,17 +509,6 @@ body {
 
       .quote-block-1 {
         padding: 2rem 1rem 0 5rem;
-        p {
-          font-family: $font-lato;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 24px;
-          line-height: 38px;
-          display: flex;
-          align-items: center;
-          letter-spacing: -0.045em;
-          margin-bottom: 2rem;
-        }
         .text-bold {
           font-weight: bold;
         }
@@ -550,7 +542,7 @@ body {
       .bg {
         flex: 0 0 40%;
         width: 15rem;
-        height: 10rem;
+        height: 7rem;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -628,7 +620,10 @@ body {
 
   h1, h2, h3 {
     font-family: $font-georgia;
-    @include breakpoint(small and large down) {
+    @include breakpoint(large down) {
+      font-size: 3rem;
+    }
+    @include breakpoint(small only) {
       font-size: 2rem;
     }
   }
@@ -759,6 +754,9 @@ body {
   }
 }
 #section-partner, #section-member-compensation-plan {
+  max-width: 75rem;
+  margin: 0 auto;
+
   h1 {
     font-family: $font-georgia;
     font-weight: normal;
