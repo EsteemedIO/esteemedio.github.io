@@ -615,9 +615,6 @@ body {
 }
 
 .page--home, .page--talent {
-  .grid-container {
-    max-width: 100%;
-  }
 
   .section {
     padding: 0 !important;
@@ -639,9 +636,6 @@ body {
   .width-50 {
     @include breakpoint(small only) {
       width: 85% !important;
-    }
-    @include breakpoint(large down) {
-      width: 70% !important;
     }
   }
 
