@@ -1,0 +1,120 @@
+---
+title: "News & events"
+description: ""
+layout: default
+permalink: "/news-center/"
+---
+
+{% assign featured_posts = site.posts | where:'featured', true | sort: 'date' | reverse %}
+{% assign press = site.press | sort: 'date' | reverse %}
+<div class="page--news">
+  <section id="section-01" class="section padding-vertical-0 u-bg-lighter-gray">
+    <div class="cards-list-reverse">
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+            <h1 class="u-trailer u-text-bold">News & events</h1>
+
+            <div class="cell">
+              <a href="#section-04" class="button">Read All</a>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper">
+            <div class="width-25vw">
+              <img src="/img/news_1.jpg" alt="News & events">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="section-02" class="section padding-vertical-0">
+    <div class="cards-list-reverse">
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="cell margin-bottom-2 margin-top-2 padding-left-3 width-75">
+            <h2 class="u-trailer u-text-bold">About Esteemed</h2>
+            <p class="card-text">
+              Based in Olympia, Washington with employees in Florida,
+              California, Illinois, and internationally, Esteemed is a leader in
+              talent management. Successful companies and agencies like
+              Robert Half, Avionos, FreshForm, Oomph, and Isovera use
+              Esteemed’s talent network to cut hiring time by 80%, and attract
+              pre-screened, high-performing digital talent.
+            </p>
+
+            <p class="card-text">
+              Esteemed has made many conference appearances, including
+              Drupal Camp Ashville, Drupal Camp NYC, and BADCAMP. Follow
+              us here for more media and press updates. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="section-03" class="section padding-vertical-0 u-bg-gray">
+    <div class="row">
+      <p class="card-text margin-top-2 margin-left-3">Featured Resources</p>
+      <h2 class="u-trailer u-text-bold margin-left-3">Get curated insights into freelancing, networking, and working remotely.</h2>
+      <div class="grid-x align-top grid-padding-x news-blog-featured-posts">
+        {% for featured_post in featured_posts limit:3 %}
+          <div class="news-blog-card__wrapper">
+            {% if featured_post.thumbnail %}
+            <a href="{{ featured_post.url }}">
+              <div class="news-blog-card__wrapper--image" style="background-image: url('{{ featured_post.thumbnail }}');"></div>
+            </a>
+            {% endif %}
+            <div class="news-blog-card__bottom margin-top-1 margin-bottom-1">
+              <div class="news-blog-card__bottom--date-categories">
+                <a href="/blog/category/{{ featured_post.categories | first | downcase }}/">
+                  <span class="news-blog-card__bottom--categories">{{ featured_post.categories | first }}</span>
+                </a>
+              </div>
+              <a href="{{ featured_post.url }}" class="news-blog-card__bottom--date-title">
+                <p class="card-text margin-top-1 margin-bottom-2">{{ featured_post.title }}</p>
+              </a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <section id="section-04" class="section padding-vertical-0 press-list padding-bottom-2 padding-top-2">
+    <div class="row">
+      <div class="cell margin-bottom-2 margin-top-2 padding-left-3 width-75 column-block press-list-wrapper">
+        <h2>All press</h2>
+        {% for item in press %}
+        <div class="press-item margin-top-1">
+          {{ item.date | date: "%B %d, %Y" }}
+          <a href="{{ item.url }}"><h3>{{ item.title }}</h3></a>
+          <p class="card-text press-type">{{ item.type }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    </div>
+  </section>
+  <section id="section-05" class="section padding-vertical-0 u-bg-lighter-gray padding-bottom-3 padding-top-3">
+    <div class="cards-list-reverse">
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 border-right-1">
+            <h2 class="u-trailer u-text-bold">Need more info?</h2>
+
+            <div class="cell">
+              <a href="mailto:press@esteemed.io" class="button">Email Us</a>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+            <h2 class="u-trailer u-text-bold">Writing about us?</h2>
+
+            <div class="cell">
+              <a href="https://styleguide.esteemed.io/" class="button">Get Our Press Kit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
