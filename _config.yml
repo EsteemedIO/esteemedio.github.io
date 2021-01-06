@@ -57,6 +57,7 @@ defaults:
       contact_form: true
   -
     scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
