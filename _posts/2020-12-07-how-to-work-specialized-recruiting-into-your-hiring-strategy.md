@@ -2,7 +2,7 @@
 date: 2020-12-07 17:15:06 +0000
 author: kelton-reid
 categories:
-- hiring strategy
+- Hiring Strategy
 title: How to Work Specialized Recruiting into Your Hiring Strategy
 description: "Enlisting specialized recruiters to help fill highly-technical roles
   gives you a huge advantage. \nSpecialists are a natural extension of your HR team."
