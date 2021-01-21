@@ -673,12 +673,6 @@ body {
     padding-bottom: 5rem;
   }
 
-  #section-04, #section-06 {
-    .section-content {
-      padding-top: 0 !important;
-    }
-  }
-
   .cell {
     padding-left: 0;
     padding-right: 0;
@@ -688,7 +682,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15% 10% 0 10%;
+    padding: 15% 10% 10% 10%;
     @include breakpoint(large down) {
       font-size: 2rem;
     }
