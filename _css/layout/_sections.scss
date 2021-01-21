@@ -673,12 +673,6 @@ body {
     padding-bottom: 5rem;
   }
 
-  #section-04, #section-06 {
-    .section-content {
-      padding-top: 0 !important;
-    }
-  }
-
   .cell {
     padding-left: 0;
     padding-right: 0;
@@ -688,7 +682,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15% 10% 0 10%;
+    padding: 15% 10% 10% 10%;
     @include breakpoint(large down) {
       font-size: 2rem;
     }
@@ -756,6 +750,12 @@ body {
 #section-partner, #section-member-compensation-plan, #section-talent-network {
   max-width: 75rem;
   margin: 0 auto;
+
+  .section-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
 
   h1 {
     font-family: $font-georgia;
@@ -894,12 +894,12 @@ body {
       background: $yellow-slider;
     }
     .orbit-previous {
-      left: -20%;
+      left: -18%;
       background-image: url(/img/arrow-prev-y.png);
     }
 
     .orbit-next {
-      right: -20%;
+      right: -18%;
       background-image: url(/img/arrow-next-y.png);
     }
   }
