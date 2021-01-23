@@ -27,6 +27,9 @@ plugins:
   - jekyll-sitemap
 author_dir: "blog/author"
 author_title_suffix: ""
+collections:
+  press:
+    output: true
 pagination:
   enabled: true
   per_page: 10
@@ -57,8 +60,14 @@ defaults:
       contact_form: true
   -
     scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
       permalink: /blog/:year/:month/:day/:title/
       image: "/img/default-blog.jpg"
+  - scope:
+      path: ""
+      type: "press"
+    values:
+      layout: "post"

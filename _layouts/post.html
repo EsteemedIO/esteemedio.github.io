@@ -3,23 +3,25 @@ layout: default
 ---
 
 {% assign author = site.data.authors[page.author] %}
-{% assign category = page.categories | first %}
+{% assign categories = site[page.collection] | map: 'categories' | uniq | sort %}
+{% assign category = categories | first %}
+{% assign list_url = page.url | split: "/" %}
+{% assign list_url = list_url[1] %}
 
 <div class="grid-container breadcrumb">
-  <a href="/blog/">Blog</a>
+  <a href="/{{ list_url }}/">{{ list_url | camelcase }}</a>
   {% if category %}
   <span class="breadcrumb--chevron">></span>
-  <a href="/blog/category/{{ category | trim | downcase | uri_escape }}/">{{ category }}</a>
+  <a href="/{{ list_url }}/category/{{ category | trim | downcase | uri_escape }}/">{{ category }}</a>
   {% endif %}
 </div>
 
 <div class="grid-container blog-post">
 
   <div class="blog-categories">
-    <a href="/blog/">All posts</a>
-    {% for category_element in site.categories %}
-    {% assign this = category_element | first %}
-    <a {% if this == category %}class="active" {% endif %}href="/blog/category/{{ category_element | first | downcase }}/">{{ category_element | first }}</a>
+    <a href="/{{ list_url }}/">All {{ page.collection | camelcase }}</a>
+    {% for category_element in categories %}
+    <a {% if category_element == category %}class="active" {% endif %}href="/{{ list_url }}/category/{{ category_element | downcase }}/">{{ category_element }}</a>
     {% endfor %}
   </div>
 
@@ -48,15 +50,15 @@ layout: default
 
         {{ page.content | markdownify }}
       </div>
-
+      {% if page.categories %}
       <div class="post-categories">
         <span class="post-categories--title">Category: </span>
         {% for category in page.categories %}
-        <a href="/blog/category/{{ category | downcase }}/">{{ category }}</a>
+        <a href="/{{ list_url }}/category/{{ category | downcase }}/">{{ category }}</a>
         {% unless forloop.last %}<span class="space-between">,</span>{% endunless %}
         {% endfor %}
       </div>
-
+      {% endif %}
       <div class="blog-post__author-block">
         <div class="blog-post__author-block--container grid-x">
           <div class="cell medium-4 large-3">

@@ -1,0 +1,22 @@
+---
+title: Press
+description:
+permalink: /press/
+---
+
+<div class="page--press padding-top-2 padding-bottom-2 u-bg-lighter-gray">
+  <section id="section-01" class="section padding-vertical-0">
+    <h2 class="text-center">All press</h2>
+    <div class="row">
+      <div class="press-wrapper">
+        {% for item in site.press %}
+        <div class="press-item margin-top-1">
+          {{ item.date | date: "%B %d, %Y" }}
+          <a href="{{ item.url }}"><h3>{{ item.title }}</h3></a>
+          <p class="card-text press-type">{{ item.type }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+</div>
