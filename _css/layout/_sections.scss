@@ -1161,6 +1161,9 @@ body {
     background-position: right bottom;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    @include breakpoint(small only) {
+      background-image: none !important;
+    }
   }
   .container {
     max-width: 100%;
