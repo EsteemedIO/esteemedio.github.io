@@ -1184,4 +1184,20 @@ body {
       }
     }
   }
+  .services-grid-item {
+    a {
+      color: $link-blue;
+      font-size: 1.25rem;
+    }
+    padding: 3rem;
+    img {
+      width: 10rem;
+      @include breakpoint(small only) {
+        margin-bottom: 2rem;
+      }
+    }
+    .card-text {
+      font-size: 1rem;
+    }
+  }
 }
