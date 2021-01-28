@@ -747,7 +747,7 @@ body {
     padding: 10%;
   }
 }
-#section-partner, #section-member-compensation-plan, #section-talent-network {
+#section-partner, #section-member-compensation-plan, #section-talent-network, #section-service {
   max-width: 75rem;
   margin: 0 auto;
 
@@ -1132,6 +1132,72 @@ body {
 
     .press-type {
       text-decoration: underline;
+    }
+  }
+}
+
+.page--service {
+  .width-75rem {
+    max-width: 75rem;
+    margin: 0 auto;
+  }
+  h2 {
+    font-family: $font-georgia;
+    @include breakpoint(small only) {
+      font-size: 2rem;
+    }
+  }
+  .padding-right-20 {
+    padding-right: 20%;
+    @include breakpoint(small only) {
+      padding-right: 2rem;
+    }
+  }
+  .section__testimonial {
+    padding-top: 4rem;
+  }
+  .block-bg-text {
+    padding-bottom: 1rem;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    @include breakpoint(small only) {
+      background-image: none !important;
+    }
+  }
+  .container {
+    max-width: 100%;
+  }
+  .simple-block {
+    @include breakpoint(small only) {
+      padding: 2rem;
+      text-align: center;
+    }
+    .simple-block-title {
+      @include breakpoint(small only) {
+        text-align: center;
+      }
+    }
+    img {
+      @include breakpoint(small only) {
+        width: 100% !important;
+      }
+    }
+  }
+  .services-grid-item {
+    a {
+      color: $link-blue;
+      font-size: 1.25rem;
+    }
+    padding: 3rem;
+    img {
+      width: 10rem;
+      @include breakpoint(small only) {
+        margin-bottom: 2rem;
+      }
+    }
+    .card-text {
+      font-size: 1rem;
     }
   }
 }
