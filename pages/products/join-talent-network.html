@@ -1,0 +1,223 @@
+---
+title: "Welcome to the Esteemed Talent Network"
+description: "We're here to help you succeed."
+permalink: "/join-talent-network/"
+---
+{% assign featured_posts = site.posts | where:'featured', true | sort: 'date' | reverse %}
+<div class="page--products">
+  <section id="section-talent-network" class="section padding-vertical-0">
+    <div class="cards-list-reverse">
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+            <h1 class="u-text-bold">Welcome to the Esteemed Talent Network.</h1>
+            <p class="h5 main-text-description">We're here to help you succeed.</p>
+            <div class="cell">
+              <a href="https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
+                 class="button button__small" target="_blank">Join Us</a>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/products/talent_network_1.jpg"
+                   alt="Welcome to the Esteemed Talent Network.">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+            <h2 class="u-trailer u-text-bold">We Bring Colleagues Together</h2>
+
+            <div class="cell">
+              <p class="card-text">
+                Whether you’re a front-end developer, UX designer, project manager, or one of the many other digital
+                professions we support, our Talent Network is here to boost your career.
+              </p>
+              <ul>
+                <li aria-level="1">
+                  <p role="presentation">Meet like-minded members </p>
+                </li>
+                <li aria-level="1">
+                  <p role="presentation">Explore new career options </p>
+                </li>
+                <li aria-level="1">
+                  <p role="presentation">Grow personally and professionally</p>
+                </li>
+              </ul>
+              <div class="cell">
+                <a href="https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
+                   class="button button__small" target="_blank">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/products/talent_network_2.jpg" alt="We Bring Colleagues Together">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-lighter-blue">
+            <h2 class="u-trailer u-text-bold">Find your community.</h2>
+
+            <div class="cell">
+              <p class="card-text">
+                We connect you with top digital professionals from all around the world - instantly. No bells, no
+                whistles, just unfettered access to your peers. You’re in the right place if you’re looking for
+                employment, interested in mentoring others, or hoping to collaborate with other members.
+              </p>
+              <div class="cell">
+                <a href="https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
+                   class="button button__small" target="_blank">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/products/talent_network_3.jpg" alt="Find your community.">
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="section-03" class="section padding-vertical-0 u-bg-gray">
+        <div class="row">
+          <p class="card-text margin-top-2 margin-left-3">Featured Resources</p>
+          <h2 class="u-trailer u-text-bold margin-left-3">Get curated insights into freelancing, networking, and working
+            remotely.</h2>
+          <div class="grid-x align-top grid-padding-x news-blog-featured-posts">
+            {% for featured_post in featured_posts limit:3 %}
+            <div class="news-blog-card__wrapper">
+              {% if featured_post.thumbnail %}
+              <a href="{{ featured_post.url }}">
+                <div class="news-blog-card__wrapper--image"
+                     style="background-image: url('{{ featured_post.thumbnail }}');"></div>
+              </a>
+              {% endif %}
+              <div class="news-blog-card__bottom margin-top-1 margin-bottom-1">
+                <div class="news-blog-card__bottom--date-categories">
+                  <a href="/blog/category/{{ featured_post.categories | first | downcase }}/">
+                    <span class="news-blog-card__bottom--categories">{{ featured_post.categories | first }}</span>
+                  </a>
+                </div>
+                <a href="{{ featured_post.url }}" class="news-blog-card__bottom--date-title">
+                  <p class="card-text margin-top-1 margin-bottom-2">{{ featured_post.title }}</p>
+                </a>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="card-horizontal overflow-hidden">
+      <div class="row mobile-reverse">
+        <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+          <div class="width-25vw">
+            <img class="section-image" src="/img/talent_network_3.jpg" alt="Welcome to the Esteemed Talent Network.">
+          </div>
+        </div>
+
+        <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 talent_tabs">
+          <ul class="tabs" data-tabs id="talent_tabs">
+            <li class="tabs-title is-active"><span class="circle"></span><a href="#tab1" class="text">1</a></li>
+            <li class="tabs-title"><span class="circle"></span><a href="#tab2" class="text">2</a></li>
+            <li class="tabs-title"><span class="circle"></span><a href="#tab3" class="text">3</a></li>
+          </ul>
+
+          <div class="tabs-content" data-tabs-content="talent_tabs">
+            <div class="tabs-panel is-active" id="tab1">
+              <h2>Apply</h2>
+              <p class="card-text">Apply to the Esteemed Talent Network using our Slack app, and complete your
+                profile.</p>
+            </div>
+
+            <div class="tabs-panel" id="tab2">
+              <h2>Screening</h2>
+              <p class="card-text">Complete a skills assessment that will be reviewed by a senior member well-versed
+                in your area of interest.</p>
+            </div>
+
+            <div class="tabs-panel" id="tab3">
+              <h2>Matching</h2>
+              <p class="card-text">We’ll recommend you to our diverse client pool, so that you can match with the right
+                opportunities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-horizontal overflow-hidden">
+      <div class="row">
+        <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 slack-channels">
+          <h2 class="u-trailer u-text-bold">Find your Niche</h2>
+
+          <div class="cell">
+            <p class="card-text">
+              Join Slack channels to find colleagues,
+              discussions, resources, contracts, and other
+              opportunities.
+            <p class="h6 strong">#drupal</p>
+            <p class="h6 strong">#wordpress</p>
+            <p class="h6 strong">#react</p>
+            <p class="h6 strong">#shopify</p>
+            <p class="h6 strong">#devops</p>
+            <p class="h6 strong">#virtual-coffee</p>
+            <p class="h6"> ...and more</p>
+            <div class="cell">
+              <a href="https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
+                 class="button button__small" target="_blank">Join Slack</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="small-12 medium-6 padding-horizontal-0 img-wrapper u-bg-gray flex-container">
+          <div class="width-25vw">
+            <img class="section-image" src="/img/products/talent_network_5.jpg" alt="Join your niche">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card-horizontal overflow-hidden">
+      <div class="row mobile-reverse">
+        <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+          <div class="width-25vw">
+            <img class="section-image" src="/img/products/talent_network_6.jpg" alt="Find your community.">
+          </div>
+        </div>
+
+        <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+          <h2 class="u-trailer u-text-bold">Follow Us on Social Media</h2>
+
+          <div class="cell">
+            <p class="card-text">
+              Check us out on LinkedIn and Instagram for
+              up-to-date news, open positions, and tips on
+              navigating the world of contract work and flexible
+              hiring.
+            </p>
+            <div class="cell">
+              <a href="https://www.linkedin.com/company/esteemed/" class="button button__small" target="_blank"><i
+                class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</a>
+            </div>
+            <div class="cell">
+              <a href="https://www.instagram.com/esteemed_inc/" class="button button__small" target="_blank"><i
+                class="fa fa-instagram" aria-hidden="true"></i>Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% include testimonial.html background="u-bg-gray" %}
+</div>
