@@ -921,8 +921,8 @@ body {
 
   .news-blog-featured-posts {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0 auto;
   }
 
   .news-blog-card__wrapper {
@@ -1065,7 +1065,7 @@ body {
   }
 }
 
-.page--news {
+.page--news, .page--case-studies {
   h1, h2, h3 {
     font-family: $font-georgia;
   }
@@ -1080,12 +1080,6 @@ body {
     @include breakpoint(small only) {
       font-size: 2rem;
     }
-  }
-
-  .news-blog-featured-posts {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
   }
 
   .news-blog-card__wrapper {
@@ -1133,6 +1127,12 @@ body {
     .press-type {
       text-decoration: underline;
     }
+  }
+
+  .section-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
 }
 
