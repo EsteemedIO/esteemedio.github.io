@@ -1076,10 +1076,7 @@ body {
     }
   }
   h2 {
-    font-size: 3rem;
-    @include breakpoint(small only) {
-      font-size: 2rem;
-    }
+    font-size: 2rem;
   }
 
   .news-blog-card__wrapper {
@@ -1141,21 +1138,41 @@ body {
     max-width: 75rem;
     margin: 0 auto;
   }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
   h2 {
+    font-size: 3rem !important;
     font-family: $font-georgia;
+    margin-bottom: 0;
     @include breakpoint(small only) {
       font-size: 2rem;
     }
   }
+
+  .ebook-title {
+    font-family: $font-georgia;
+    font-size: 2rem !important;
+    color: $black !important;
+    width: 100% !important;
+    font-style: italic;
+    padding-top: 0 !important;
+    padding-bottom: 1rem;
+  }
+
   .padding-right-20 {
     padding-right: 20%;
     @include breakpoint(small only) {
       padding-right: 2rem;
     }
   }
+
   .section__testimonial {
     padding-top: 4rem;
   }
+
   .block-bg-text {
     padding-bottom: 1rem;
     background-position: right bottom;
@@ -1165,37 +1182,45 @@ body {
       background-image: none !important;
     }
   }
+
   .container {
     max-width: 100%;
   }
+
   .simple-block {
     @include breakpoint(small only) {
       padding: 2rem;
       text-align: center;
     }
+
     .simple-block-title {
       @include breakpoint(small only) {
         text-align: center;
       }
     }
+
     img {
       @include breakpoint(small only) {
         width: 100% !important;
       }
     }
   }
+
   .services-grid-item {
     a {
       color: $link-blue;
       font-size: 1.25rem;
     }
+
     padding: 3rem;
+
     img {
       width: 10rem;
       @include breakpoint(small only) {
         margin-bottom: 2rem;
       }
     }
+
     .card-text {
       font-size: 1rem;
     }
