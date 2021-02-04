@@ -1,0 +1,112 @@
+---
+title: "Events"
+description: "At Esteemed, we’re a thriving community of top talent in design, business, and technology."
+permalink: "/events/"
+---
+<div class="page--events">
+  <section id="section-service" class="section padding-vertical-0">
+    <div class="cards-list-reverse">
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-lighter-blue">
+            <h1 class="u-trailer">Events</h1>
+            <p class="card-text">At Esteemed, we’re a thriving community of top talent in design, business, and
+              technology. Members of Esteemed host and sponsor events in cities across the globe to learn from top
+              experts and one another. Connect with your colleagues in remote niches all over the world! See where we’re
+              headed next. </p>
+          </div>
+
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/partner_2.jpg" alt="Events">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-gray">
+            <h2 class="u-trailer">Featured: Florida Drupal Camp</h2>
+
+            <div class="cell">
+              <p class="card-text">
+                Florida DrupalCamp is an annual conference that brings together web developers from all over the world
+                to learn, network and discuss web development and the Drupal content management system. Join us online,
+                February 18 - 20th!
+              </p>
+              <div class="cell">
+                <a href="https://www.fldrupal.camp/" class="button" target="_blank">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 padding-horizontal-0 flex-container">
+            <div class="width-25vw align-center">
+              <img class="section-image" src="/img/dcf.svg"
+                   alt="Featured: Florida Drupal Camp">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="events row">
+        {% assign events = site.press | where:'type', 'Event' | sort: 'date' | reverse %}
+        {% assign today_date = 'now' | date: '%s' %}
+        {% assign past_events = false %}
+        {% assign upcoming_events = false %}
+        {% for event in events %}
+        <div class="large-12">
+          {% assign event_date = event.date | date: '%s' %}
+          {% if event_date > today_date %}
+          {% if upcoming_events == false %}
+            <h2 class="margin-top-1 margin-bottom-1">Upcoming Events</h2>
+          {% assign upcoming_events = true %}
+          {% endif %}
+          <div class="event row margin-bottom-1 padding-bottom-1">
+            <div class="large-3 medium-3 small-12">
+              {% if event.thumbnail %}
+              <a href="{{ event.url }}">
+                <div class="event-card__wrapper--image" style="background-image: url('{{ event.thumbnail }}');"></div>
+              </a>
+              {% endif %}
+            </div>
+            <div class="large-9 medium-9 small-12 padding-left-1">
+              <div class="event-item margin-top-1">
+                <div class="event-title">{{ event.title }}</div>
+                <p class="card-text">{{ event.description | slice: 0, 200 }}...</p>
+                <div class="event-date margin-bottom-1">{{ event.date | date: "%B %d, %Y" }}</div>
+                <a class="get-more" href="{{ event.url }}">Get More Info</a>
+              </div>
+            </div>
+          </div>
+          {% else %}
+          {% if past_events == false %}
+            <h2 class="margin-top-1 margin-bottom-1">Past Events</h2>
+          {% assign past_events = true %}
+          {% endif %}
+          <div class="event row margin-bottom-1 padding-bottom-1">
+            <div class="large-3 medium-3 small-12">
+              {% if event.thumbnail %}
+              <a href="{{ event.url }}">
+                <div class="event-card__wrapper--image" style="background-image: url('{{ event.thumbnail }}');"></div>
+              </a>
+              {% endif %}
+            </div>
+            <div class="large-9 medium-9 small-12 padding-left-1">
+              <div class="event-item margin-top-1">
+                <div class="event-title">{{ event.title }}</div>
+                <p class="card-text">{{ event.description | slice: 0, 200 }}...</p>
+                <div class="event-date margin-bottom-1">{{ event.date | date: "%B %d, %Y" }}</div>
+                <a class="get-more" href="{{ event.url }}">Get More Info</a>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% include testimonial.html background="u-bg-gray" %}
+</div>

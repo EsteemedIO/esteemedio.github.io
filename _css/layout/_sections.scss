@@ -1133,7 +1133,10 @@ body {
   }
 }
 
-.page--service, .page--products, .page--careers {
+.page--service,
+.page--products,
+.page--careers,
+.page--events {
   .width-75rem {
     max-width: 75rem;
     margin: 0 auto;
@@ -1234,6 +1237,60 @@ body {
     .card-title {
       color: $link-blue;
       font-size: 1.5rem;
+    }
+  }
+  .events {
+    margin: 5%;
+    h2 {
+      @include breakpoint(small only) {
+        text-align: center;
+      }
+    }
+    .event-title {
+      color: $black;
+      font-family: $font-georgia;
+      font-size: 2rem;
+      @include breakpoint(small only) {
+        font-size: 1.5rem;
+      }
+    }
+
+    .event {
+      border-bottom: solid 1px $black;
+      @include breakpoint(small only) {
+        padding: 10%;
+      }
+    }
+
+    .event-card__wrapper--image{
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      @include breakpoint(small only) {
+        margin: 0 auto;
+        height: 15rem;
+      }
+    }
+    .get-more {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+    }
+
+    .get-more:after {
+      background-image: url(../img/arrow-sm-right.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      content: "";
+      display: inline-block;
+      height: 1rem;
+      margin-left: 0.5rem;
+      width: 1rem;
+    }
+    .event-date {
+      font-style: italic;
+      font-size: 1.25rem;
     }
   }
 }
