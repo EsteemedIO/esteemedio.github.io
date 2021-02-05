@@ -30,6 +30,8 @@ author_title_suffix: ""
 collections:
   press:
     output: true
+  case-studies:
+    output: true
 pagination:
   enabled: true
   per_page: 10
@@ -69,5 +71,10 @@ defaults:
   - scope:
       path: ""
       type: "press"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "case-studies"
     values:
       layout: "post"

@@ -1,0 +1,119 @@
+---
+title: "Case Studies"
+description: "See what our customers are saying about Esteemed, and how we’ve helped them achieve their goals."
+layout: default
+permalink: "/case-studies/"
+---
+{% assign featured_cases = site.case-studies | where:'featured', true | sort: 'date' | reverse %}
+{% assign case_studies = site.case-studies | sort: 'date' | reverse %}
+<div class="page--case-studies">
+  <section id="section-01" class="section padding-vertical-0">
+    <div class="cards-list-reverse">
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-lighter-blue">
+            <h1 class="u-trailer">Case Studies</h1>
+            <p class="card-text">See what our customers are saying about Esteemed, and how we’ve helped them achieve their goals. </p>
+            <div class="cell">
+              <a href="#section-04" class="button">Learn More</a>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/resources/case_studies_1.jpg" alt="News & events">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+            <h2 class="u-trailer u-text-bold">People: Our Greatest Asset</h2>
+            <p class="card-text">For more than 10 years, Esteemed has assisted technology companies with their remote recruitment and staffing needs. We are proud to have worked with some of the top technology companies across the globe. </p>
+            <div class="cell">
+              <a href="/get-a-quote" class="button">Get a Quote</a>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/resources/case_studies_2.jpg" alt="People: Our Greatest Asset">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-lighter-gray">
+            <h2 class="u-trailer u-text-bold">When We Shoot, We Score</h2>
+            <p class="card-text">Below are several case studies that demonstrate the wide range of services we provide to our clients. Not seeing everything you need? Contact us for more case studies, and to learn about our service offerings.</p>
+            <div class="cell">
+              <a href="/get-a-quote" class="button">Contact Us</a>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/resources/case_studies_3.jpg" alt="News & events">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="section-02" class="section padding-vertical-0">
+    <div class="cards-list-reverse">
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="cell margin-bottom-2 margin-top-2 padding-left-3 width-75">
+            <h2 class="u-trailer u-text-bold">About Esteemed</h2>
+            <p class="card-text">
+              Based in Olympia, Washington with employees in Florida,
+              California, Illinois, and internationally, Esteemed is a leader in
+              talent management. Successful companies and agencies like
+              Robert Half, Avionos, FreshForm, Oomph, and Isovera use
+              Esteemed’s talent network to cut hiring time by 80%, and attract
+              pre-screened, high-performing digital talent.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="section-03" class="section padding-vertical-0 u-bg-lighter-blue">
+    <div class="row">
+      <h2 class="u-trailer u-text-bold margin-left-3 margin-top-2">Featured Customer Stories</h2>
+      <div class="grid-x grid-padding-x news-blog-featured-posts">
+        {% for case in featured_cases limit:3 %}
+          <div class="news-blog-card__wrapper">
+            {% if case.thumbnail %}
+            <a href="{{ case.url }}">
+              <div class="news-blog-card__wrapper--image" style="background-image: url('{{ case.thumbnail }}');"></div>
+            </a>
+            {% endif %}
+            <div class="news-blog-card__bottom margin-top-1 margin-bottom-1">
+              <a href="{{ case.url }}" class="news-blog-card__bottom--date-title">
+                <p class="card-text margin-top-1 margin-bottom-2">{{ case.title }}</p>
+              </a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <section id="section-04" class="section padding-vertical-0 press-list padding-bottom-2 padding-top-2">
+    <div class="row">
+      <div class="cell margin-bottom-2 margin-top-2 padding-left-3 width-75 column-block press-list-wrapper">
+        <h2>All Case Studies</h2>
+        {% for item in case_studies %}
+        <div class="press-item margin-top-1">
+          {{ item.date | date: "%B %d, %Y" }}
+          <a href="{{ item.url }}"><h3>{{ item.title }}</h3></a>
+          <p class="card-text press-type">{{ item.type }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    </div>
+  </section>
+</div>
