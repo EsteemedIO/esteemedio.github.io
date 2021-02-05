@@ -1133,7 +1133,7 @@ body {
   }
 }
 
-.page--service, .page--products {
+.page--service, .page--products, .page--careers {
   .width-75rem {
     max-width: 75rem;
     margin: 0 auto;
@@ -1223,6 +1223,17 @@ body {
 
     .card-text {
       font-size: 1rem;
+    }
+  }
+
+  .career-positions {
+    max-width: 75rem;
+    .positions-item {
+      padding: 3%;
+    }
+    .card-title {
+      color: $link-blue;
+      font-size: 1.5rem;
     }
   }
 }
