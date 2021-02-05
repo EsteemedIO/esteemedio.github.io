@@ -28,7 +28,15 @@ layout: default
   <div class="grid-x align-center-middle">
     <div class="cell large-8">
       <h1>{{ page.title }}</h1>
-      <address class="blog-post__author">By <span><a href="/blog/author/{{ page.author }}/">{{ author.name }}</a></span></address>
+      <address class="blog-post__author">By
+        <span>
+          {% if list_url == 'press' %}
+            {{ author.name }}
+          {% else %}
+            <a href="/blog/author/{{ page.author }}/">{{ author.name }}</a>
+          {% endif %}
+        </span>
+      </address>
       <div class="blog-post__date">{{ page.date | date: "%m.%-d.%Y" }}</div>
 
       <div class="blog-post__content">
@@ -63,12 +71,20 @@ layout: default
         <div class="blog-post__author-block--container grid-x">
           <div class="cell medium-4 large-3">
             <div class="blog-post__author-block--image">
-              <a href="/blog/author/{{ page.author }}/"><img src="{% if author.profile_image %}{{ author.profile_image }}{% else %}/img/profile-pic.png{% endif %}" alt="{{ author.name }}"></a>
+              {% if list_url == 'press' %}
+                <img src="{% if author.profile_image %}{{ author.profile_image }}{% else %}/img/profile-pic.png{% endif %}" alt="{{ author.name }}">
+              {% else %}
+                <a href="/blog/author/{{ page.author }}/"><img src="{% if author.profile_image %}{{ author.profile_image }}{% else %}/img/profile-pic.png{% endif %}" alt="{{ author.name }}"></a>
+              {% endif %}
             </div>
           </div>
           <div class="cell medium-8 large-9">
             <div class="blog-post__author-block--name">
-              <a href="/blog/author/{{ page.author }}/">{{ author.name }}</a>
+              {% if list_url == 'press' %}
+                {{ author.name }}
+              {% else %}
+                <a href="/blog/author/{{ page.author }}/">{{ author.name }}</a>
+              {% endif %}
             </div>
             <div class="blog-post__author-block--bio">
               {{ author.bio | markdownify }}
