@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: learn-more.html
+  path: pages/learn-more.html
   label: Learn More
 - type: jekyll-posts
   label: Blog
@@ -16,13 +16,13 @@ sections:
   path: index.html
   label: Homepage
 - type: document
-  path: faq.html
+  path: pages/faq.html
   label: FAQs
 - type: document
-  path: company.html
+  path: pages/company.html
   label: Company
 - type: document
-  path: member-compensation-plan.html
+  path: pages/member-compensation-plan.html
   label: Compensation Plan
 - type: document
   path: terms-of-use.md

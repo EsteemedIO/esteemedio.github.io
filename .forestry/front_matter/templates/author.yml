@@ -7,5 +7,3 @@ fields:
   label: Name
   config:
     required: true
-pages:
-- member-compensation-plan.html
