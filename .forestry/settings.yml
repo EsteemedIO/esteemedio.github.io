@@ -19,7 +19,7 @@ sections:
   path: pages/faq.html
   label: FAQs
 - type: document
-  path: pages/company.html
+  path: about_us/pages/company.html
   label: Company
 - type: document
   path: pages/member-compensation-plan.html
