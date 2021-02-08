@@ -1,17 +1,30 @@
 ---
 navigation:
 - button: 0
-  title: Company
-  url: "/company/"
+  title: Products
+  url: "/products/"
   weight: 1
 - button: 0
-  title: Blog
-  url: "/blog/"
+  title: Solutions
+  url: "/solutions/"
   weight: 2
+- button: 0
+  title: Resources
+  url: "/resources/"
+  weight: 3
+- button: 0
+  title: About Us
+  url: "/about-us/"
+  weight: 4
 - button: 1
   title: Get a Quote
   url: "/get-a-quote/"
-  weight: 3
+  weight: 6
+- button: 1
+  bg_white: 1
+  title: Join Talent Network
+  url: "/join-talent-network/"
+  weight: 7
 footer:
 - title: Communities
   menu:

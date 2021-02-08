@@ -90,44 +90,74 @@
       </div>
       {% include social-links.html class="hide-for-medium" %}
       <div class="grid-x footerbottom w-clearfix">
-        <div class="footerbottom__first cell small-6 large-3">
+        <div class="col5-unit">
+          <div class="grid-x">
+            <div class="large-12 medium-12 small-12">
+              <a href="/products/"><h6>Products</h6></a>
+              <ul>
+                <li><a href="/join-talent-network/">Esteemed Talent Network</a></li>
+                <li><a href="/xcontractors/">[x]Contractors</a></li>
+                <li><a href="/esteemed-digital/">Esteemed Digital</a></li>
+              </ul>
+            </div>
+            <div class="large-12 medium-12 small-12">
+              <a href="/services/"><h6>Solutions</h6></a>
+              <ul>
+                <li><a href="/for-brands/">For Brands</a></li>
+                <li><a href="/for-agencies/">For Agencies</a></li>
+                <li><a href="/for-talent/">For Talent</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col5-unit">
           <div class="footerbottom__first--content">
-            <h6>About</h6>
+            <a href="/services/"><h6>Services</h6></a>
             <ul>
-              <li><a href="/company/">Company</a></li>
-              <li><a href="/contact/">Contact</a></li>
-              <li><a class="mail" href="mailto:press@esteemed.io">press@esteemed.io</a></li>
-              <li><a class="tel" href="tel:13607123866">1 (360) 712-3866</a></li>
+              <li><a href="/digital-delivery/">Digital Delivery</a></li>
+              <li><a href="/agile-coaching/">Agile Coaching</a></li>
+              <li><a href="/technical-architecture/">Technical Architecture</a></li>
+              <li><a href="/project-management/">Project Management</a></li>
+              <li><a href="/discovery-planning/">Discovery & Planning</a></li>
+              <li><a href="/fractional-cto/">Fractional CTO</a></li>
             </ul>
           </div>
-          {% include social-links.html class="show-for-medium" %}
         </div>
-        <div class="footerbottom__second cell small-6 large-3">
+        <div class="col5-unit">
           <div class="footerbottom__first--content">
-            <h6>Resources</h6>
+            <a href="/resources/"><h6>Resources</h6></a>
             <ul>
-              <li><a href="https://talent.esteemed.io/#/jobs">Open Jobs</a></li>
+              <li><a href="/blog/">Blog</a></li>
+              <li><a href="/resources/">Tips & Tools</a></li>
+              <li><a href="/case-studies/">Case Studies</a></li>
               <li><a href="/partners/partner-registration/">Partner With Us</a></li>
-              <li><a href="https://trello.com/b/kuk5ahtY/esteemed-open-product-roadmap" target="_blank">Open Product Roadmap</a></li>
+              <li><a href="https://talent.esteemed.io/jobs/#/">Open Jobs</a></li>
             </ul>
           </div>
         </div>
-        <div class="footerbottom__second cell small-6 large-3">
+        <div class="col5-unit">
           <div class="footerbottom__first--content">
-            <h6>Products</h6>
+            <a href="/about-us/"><h6>About Us</h6></a>
             <ul>
-              <li><a href="https://app.drupalcontractors.com/" target="_blank">Drupal Contractors</a></li>
-              <li><a href="https://app.wpcontractors.com/" target="_blank">WP Contractors</a></li>
+              <li><a href="/company/">Our Company</a></li>
+              <li><a href="/careers/">Careers</a></li>
+              <li><a href="/news-center/">Press</a></li>
+              <li><a href="https://us10.list-manage.com/contact-form?u=ec5b82da5b213df9999d28215&form_id=3748ccb203457ce78b32c876123b02bf">Contact Us</a></li>
             </ul>
           </div>
         </div>
-        <div class="footerbottom__third cell small-6 large-3">
-          <h6>Support</h6>
-          <ul>
-            <li><a class="mail" href="mailto:support@esteemed.io">support@esteemed.io</a></li>
-          </ul>
+        <div class="col5-unit">
+          <div class="footerbottom__first--content">
+            <a href="/community/"><h6>Community</h6></a>
+            <ul>
+              <li><a href="/events/">Events</a></li>
+              <li><a href="https://eepurl.com/g_fqE1">Join Our Newsletter</a></li>
+              <li><a class="button bg-black" href="https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg">Join Talent Network</a></li>
+            </ul>
+          </div>
         </div>
         <div class="footerbottom__forth cell small-6 large-3">
+          {% include social-links.html class="hide-for-small-only" %}
         </div>
       </div>
       <div class="footer__copyright">Copyright&copy; {{ "now" | date: "%Y" }} Esteemed. <a href="/privacy-policy/">Privacy</a> | <a href="/terms-use/">Terms</a> | <a href="/code-of-conduct/">Code of Conduct</a></div>
