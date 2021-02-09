@@ -12,9 +12,11 @@ sections:
   create: documents
   templates:
   - blog
-- type: document
-  path: _press/*
+- type: directory
+  path: _press
   label: Press
+  create: documents
+  match: "**/*"
 - type: document
   path: index.html
   label: Homepage
