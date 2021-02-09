@@ -120,4 +120,4 @@ Esteemed teams work smarter. Make a request and be collaborate with trusted pros
 
 We are some of the brightest digital minds in the business, and we are colleagues recommending colleagues. It’s a win-win.
 
-Let us take some of the burden off of your talent sourcing strategies. [Drop us a line](esteemed.io/get-a-quote) today to share your staffing needs!
+Let us take some of the burden off of your talent sourcing strategies. [Drop us a line](/get-a-quote/) today to share your staffing needs!
