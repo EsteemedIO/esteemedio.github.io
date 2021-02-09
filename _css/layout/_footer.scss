@@ -65,7 +65,7 @@
   }
 
   &__copyright {
-    margin-top: 4rem;
+    padding-left: .9375rem;
 
     @include breakpoint(medium down) {
       margin-top: 1rem;
@@ -94,9 +94,8 @@
 .footerbottom {
 
   &__social {
-    margin-left: -0.375rem;
-    margin-right: -0.375rem;
-    margin-bottom: $spacing;
+    margin: 4rem -0.375rem $spacing;
+    padding-left: .9375rem;
 
     &-icon {
       display: inline-block;
@@ -108,5 +107,13 @@
         opacity: .8;
       }
     }
+  }
+  .bg-black {
+    background-color: $black;
+    color: $white;
+  }
+  .bg-black:hover {
+    background-color: $button-hover-black;
+    color: $white;
   }
 }

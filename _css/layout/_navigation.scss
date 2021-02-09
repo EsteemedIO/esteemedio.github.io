@@ -190,6 +190,10 @@
             font-weight: $global-weight-medium;
           }
 
+          @include breakpoint(large down) {
+            font-size: 1rem;
+          }
+
           &:hover {
             color: $blue--btn;
           }
@@ -233,7 +237,7 @@
 
         @include breakpoint(medium up) {
           display: inline-block;
-          margin-left: 3.5rem;
+          margin-left: 1.5rem;
         }
 
         @include breakpoint(medium down) {
@@ -243,6 +247,16 @@
         @include breakpoint(small only) {
           width: calc(100% - 20px);
         }
+      }
+
+      .bg-white {
+        color: $button-blue !important;
+        border: solid 1px $button-blue;
+        background: $white;
+      }
+
+      .bg-white:hover {
+        background-color: $lighter-gray
       }
     }
   }
@@ -272,5 +286,15 @@
     &.active {
       color: $blue--btn;
     }
+  }
+}
+
+.col5-unit{
+  @include grid-column(2.4);
+  @include breakpoint(medium down) {
+    width: 33.33%;
+  }
+  @include breakpoint(small only) {
+    width: 50%;
   }
 }
