@@ -15,7 +15,6 @@ sections:
 - type: document
   path: _press
   label: Press
-  match: "**/*"
 - type: document
   path: index.html
   label: Homepage
