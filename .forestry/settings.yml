@@ -13,7 +13,7 @@ sections:
   templates:
   - blog
 - type: document
-  path: _press/**/*
+  path: _press/*
   label: Press
 - type: document
   path: index.html
