@@ -17,6 +17,8 @@ sections:
   label: Press
   create: documents
   match: "**/*"
+  templates:
+  - blog
 - type: document
   path: index.html
   label: Homepage
