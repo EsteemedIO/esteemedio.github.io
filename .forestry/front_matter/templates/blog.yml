@@ -59,6 +59,19 @@ fields:
 - name: featured
   type: boolean
   label: Featured
+- name: type
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Events
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type
 pages:
 - _posts/2020-07-08-5-benefits-of-a-distributed-workforce.md
 - _posts/2020-07-25-5-reasons-why-you-should-join-a-talent-network.md
