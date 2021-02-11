@@ -1,6 +1,6 @@
 ---
-date: 2021-02-08 22:31:30 +0000
-author: matthew-pritchard
+date: 2021-02-08T22:31:30.000+00:00
+author: dori-kelner
 categories:
 - Hiring Strategy
 - Talent Sourcing
