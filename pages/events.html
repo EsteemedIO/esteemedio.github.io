@@ -51,7 +51,7 @@ permalink: "/events/"
       </div>
 
       <div class="events row">
-        {% assign events = site.press | where:'type', 'Event' | sort: 'date' | reverse %}
+        {% assign events = site.press | where:'type', 'Events' | sort: 'date' | reverse %}
         {% assign today_date = 'now' | date: '%s' %}
         {% assign past_events = false %}
         {% assign upcoming_events = false %}
