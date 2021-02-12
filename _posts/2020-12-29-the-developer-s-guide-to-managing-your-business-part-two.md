@@ -81,7 +81,7 @@ Whether your business plan entails [SaaS](https://www.entrepreneur.com/article/2
 We hear this question all the time, “Sure I want to freelance, but how do I keep the work coming?” Here are a few solutions for establishing a foundation for the long haul:
 
 * **Your LinkedIn profile**: Your personal web page connected to a search engine specifically for your skills and experience. Don't make the mistake of wasting it.
-* **Job boards**: As a tight-knit community, we can keep an eye on just a few places to capture [new opportunities](https://talent.esteemed.io/#/jobs).
+* **Job boards**: As a tight-knit community, we can keep an eye on just a few places to capture [new opportunities](https://talent.esteemed.io/jobs).
 * **Client career pages**: Your best clients are your existing clients. Keep an eye on past client career pages. As needs arise, reach out and offer your assistance.
 
 Important factors to keep in mind doing client work:
