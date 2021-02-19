@@ -9,7 +9,7 @@ image: "/uploads/screen-shot-2021-02-19-at-9-00-21-pm.png"
 thumbnail: "/uploads/screen-shot-2021-02-18-at-8-50-42-pm.png"
 color_overlay: "#000000"
 featured: false
-type: ''
+type: Events
 published: false
 
 ---
