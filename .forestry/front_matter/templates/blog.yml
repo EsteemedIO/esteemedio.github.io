@@ -50,7 +50,7 @@ fields:
   type: color
   label: Color Overlay
   config:
-    required: true
+    required: false
     color_format: Hex
 - name: categories
   type: tag_list
