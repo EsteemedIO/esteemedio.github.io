@@ -3,6 +3,8 @@ title: "Case Studies"
 description: "See what our customers are saying about Esteemed, and how we’ve helped them achieve their goals."
 layout: default
 permalink: "/case-studies/"
+redirect_to:
+- /
 ---
 {% assign featured_cases = site.case-studies | where:'featured', true | sort: 'date' | reverse %}
 {% assign case_studies = site.case-studies | sort: 'date' | reverse %}
