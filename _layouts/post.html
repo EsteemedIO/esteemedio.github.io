@@ -58,10 +58,10 @@ layout: default
 
         {{ page.content | markdownify }}
       </div>
-      {% if page.categories %}
+      {% if categories != empty %}
       <div class="post-categories">
         <span class="post-categories--title">Category: </span>
-        {% for category in page.categories %}
+        {% for category in categories %}
         <a href="/{{ list_url }}/category/{{ category | downcase }}/">{{ category }}</a>
         {% unless forloop.last %}<span class="space-between">,</span>{% endunless %}
         {% endfor %}
