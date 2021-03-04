@@ -1,6 +1,6 @@
 ---
-date: 2021-02-18 18:11:02 +0000
-author: matthew-pritchard
+date: 2021-02-18T18:11:02.000+00:00
+author: casey-horgan
 categories: []
 title: Find Drupal Contractors at Florida DrupalCamp 2021
 description: Join us at Florida DrupalCamp 2021 (FLDC) for the Sunshine State’s annual
@@ -9,7 +9,7 @@ description: Join us at Florida DrupalCamp 2021 (FLDC) for the Sunshine State’
   day.
 image: "/uploads/photo-1598257006460-4cd5d043cf49.jpeg"
 thumbnail: "/uploads/pexels-photo-2280913.jpg"
-color_overlay: "#B2A3A3"
+color_overlay: ''
 featured: false
 type: Events
 
