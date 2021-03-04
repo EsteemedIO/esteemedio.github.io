@@ -6,7 +6,7 @@ title: Drupal Contractors Announces Diamond Sponsorship of DrupalCamp Atlanta 20
 description: Drupal Contractors is proud to announce that we’re the Diamond Sponsor
   for this year’s two-day event.
 image: "/uploads/screen-shot-2021-02-19-at-9-00-21-pm.png"
-thumbnail: "/uploads/screen-shot-2021-02-18-at-8-50-42-pm.png"
+thumbnail: "/uploads/compare-fibre-frgotjfqahm-unsplash.jpg"
 color_overlay: ''
 featured: false
 type: Events
