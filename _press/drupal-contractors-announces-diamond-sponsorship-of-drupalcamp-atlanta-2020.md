@@ -1,5 +1,5 @@
 ---
-date: 2021-02-19 20:55:03 +0000
+date: 2021-02-19T20:55:03.000+00:00
 author: casey-horgan
 categories: []
 title: Drupal Contractors Announces Diamond Sponsorship of DrupalCamp Atlanta 2020
@@ -7,13 +7,12 @@ description: Drupal Contractors is proud to announce that we’re the Diamond Sp
   for this year’s two-day event.
 image: "/uploads/screen-shot-2021-02-19-at-9-00-21-pm.png"
 thumbnail: "/uploads/screen-shot-2021-02-18-at-8-50-42-pm.png"
-color_overlay: "#000000"
+color_overlay: ''
 featured: false
 type: Events
 published: false
 
 ---
-
 DrupalCamp Atlanta (DCATL) is going virtual this September 10th and 11th, and in a nod to the necessary shift in venue, it’s been renamed “DigitalCamp Atlanta 2020.” Drupal Contractors, by Esteemed is proud to announce that we’re the Diamond Sponsor for this year’s two-day event.
 
 DCATL is one of the largest annual Drupal conferences in the Southeast, and is a popular destination for developers, designers, and Drupal enthusiasts of all levels. Attendees can expect to enjoy hands-on learning, collaboration, networking, and skill-sharing in a laid back, informal atmosphere. This year’s featured speakers include AmyJune Hineline, Jim Vomero, Mario Hernandez, and Iwantha Lekamge. Matt Obert and Tyler Ashbaugh of Drupal Contractors will also present tutorials at this year’s camp. More information about their sessions can be found below.
@@ -52,6 +51,6 @@ Friday, September 11 | 1:00 - 1:45pm
 
 This session is tailored to attendees with an intermediate level of Drupal experience. Join Matt Obert of Drupal Contractors as he discusses using Drupal Behaviors and contributed modules in order to achieve data protection compliance. Europe's General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA) are two examples of recent legislation aimed at restricting the ways in which companies can legally track site visitors. Obert will demonstrate how contributed modules for Drupal 7, 8, and 9 can help developers achieve basic regulatory compliance. In addition, he’ll show attendees how to achieve strict compliance by writing Drupal Behaviors in a custom module.
 
-### About Drupal Contractors
+#### About Drupal Contractors
 
 Drupal Contractors, a subsidiary of Esteemed Inc., is the largest source for contract Drupal resources in the world. Esteemed is a multi-channel brand and integrated service provider founded in 2019. We help job seekers succeed in their chosen careers and employers scale their businesses with quality tools and resources to thrive within the changing global landscape.
