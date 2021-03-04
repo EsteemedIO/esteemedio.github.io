@@ -1,8 +1,8 @@
 ---
-date: 2021-02-22 19:26:21 +0000
+date: 2021-02-22T19:26:21.000+00:00
 author: casey-horgan
 categories: []
-title: Drupal Contractors announces Gold Sponsorship of Drupal Camp Chattanooga 2020
+title: Drupal Contractors Announces Gold Sponsorship of Drupal Camp Chattanooga 2020
 description: 'Join Drupal Contractors at this year’s Drupal Camp Chattanooga - an
   annual conference that will be going virtual on November 7, 2020. We’re pleased
   to announce that we’re a Gold Sponsor of Drupal Camp Chattanooga. Drupal Camp Chattanooga
