@@ -1,5 +1,5 @@
 ---
-date: 2020-07-10 19:46:51 +0000
+date: 2020-07-10T19:46:51.000+00:00
 author: casey-horgan
 categories: []
 title: Drupal Contractors is Gold Sponsor for Drupal Camp Asheville 2020
@@ -10,10 +10,9 @@ description: In furthering our mission, Drupal Contractors is proud to announce 
   connect in a laid-back (and productive) environment.
 image: "/uploads/screen-shot-2021-02-18-at-8-49-24-pm.png"
 thumbnail: "/uploads/screen-shot-2021-02-18-at-8-50-42-pm.png"
-color_overlay: "#E81616"
+color_overlay: ''
 featured: false
 type: Events
-published: false
 
 ---
 Drupal Camp Asheville 2020 will be held virtually from Friday, July 10 to Saturday, July 11. Join Drupal Contractors and your local Drupal community as we embark on a two-day “unconference” filled with hands-on training, community collaboration, and networking for Drupal enthusiasts of all levels. This year, Drupal Camp Asheville will celebrate its tenth anniversary.
