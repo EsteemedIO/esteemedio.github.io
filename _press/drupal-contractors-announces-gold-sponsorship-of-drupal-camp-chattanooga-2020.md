@@ -10,7 +10,7 @@ description: 'Join Drupal Contractors at this year’s Drupal Camp Chattanooga -
   and built around a singular goal: to bring together local web developers to learn,
   network, and collaborate in a casual environment.'
 image: "/uploads/screen-shot-2021-02-22-at-7-28-48-pm.png"
-thumbnail: "/uploads/screen-shot-2021-02-18-at-8-50-42-pm.png"
+thumbnail: "/uploads/surface-hjgav1qjhs0-unsplash-1.jpg"
 color_overlay: ''
 featured: false
 type: Events
