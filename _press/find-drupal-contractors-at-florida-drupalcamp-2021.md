@@ -8,7 +8,7 @@ description: Join us at Florida DrupalCamp 2021 (FLDC) for the Sunshine State’
   20, FLDC is going virtual with training events, informational sessions, and a contribution
   day.
 image: "/uploads/photo-1598257006460-4cd5d043cf49.jpeg"
-thumbnail: "/uploads/pexels-photo-2280913.jpg"
+thumbnail: "/uploads/surface-hjgav1qjhs0-unsplash.jpg"
 color_overlay: ''
 featured: false
 type: Events

@@ -9,7 +9,7 @@ description: In furthering our mission, Drupal Contractors is proud to announce 
   an inclusive, forward-thinking manner. We invite you to join us as we learn and
   connect in a laid-back (and productive) environment.
 image: "/uploads/screen-shot-2021-02-18-at-8-49-24-pm.png"
-thumbnail: "/uploads/screen-shot-2021-02-18-at-8-50-42-pm.png"
+thumbnail: "/uploads/surface-tjesicve-tu-unsplash.jpg"
 color_overlay: ''
 featured: false
 type: Events
