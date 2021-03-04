@@ -1,12 +1,12 @@
 ---
-date: 2021-02-24 20:35:32 +0000
+date: 2021-02-24T20:35:32.000+00:00
 author: casey-horgan
 categories: []
 title: WP Contractors Partners With WordFest Live 2021
 description: 'We’re proud to announce our micro sponsorship of WordFest Live 2021
   to start the year off with a global celebration of all things WordPress. '
 image: "/uploads/screen-shot-2021-02-24-at-8-38-27-pm.png"
-thumbnail: "/uploads/2020-wpc-logo-icon.png"
+thumbnail: "/uploads/screen-shot-2021-03-04-at-5-18-37-pm.png"
 color_overlay: ''
 featured: false
 type: Events
