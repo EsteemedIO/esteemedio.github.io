@@ -9,7 +9,7 @@ description: Drupal Contractors is proud to sponsor DrupalCampNYC 2020, a popula
   General admission will be free for all attendees this year, as sponsorship funds
   have covered the cost of tickets.
 image: "/uploads/screen-shot-2021-02-18-at-9-35-38-pm.png"
-thumbnail: "/uploads/screen-shot-2021-02-18-at-8-50-42-pm.png"
+thumbnail: "/uploads/steve-ding-t42j_xloqw0-unsplash.jpg"
 color_overlay: ''
 featured: false
 type: Events

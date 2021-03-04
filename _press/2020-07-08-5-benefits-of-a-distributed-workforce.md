@@ -1,14 +1,14 @@
 ---
-date: 2020-09-20 10:56:15 +0000
-author: matthew-pritchard
+date: 2020-09-20T10:56:15.000+00:00
+author: casey-horgan
 categories: []
 title: Drupal Contractors Announces Platinum Sponsorship of BADCamp 2020
 image: "/uploads/woman-lying-and-typing-on-laptop-6249.jpg"
 description: 'Join Drupal Contractors and like-minded developers, marketing professionals,
   and content specialists from around the world for BADCamp 2020. '
-thumbnail: "/uploads/chris-montgomery-smgtvepind4-unsplash.jpg"
+thumbnail: "/uploads/gabriel-benois-qnwpjzewewa-unsplash.jpg"
 type: Events
-color_overlay: "#957A7A"
+color_overlay: ''
 featured: false
 
 ---
