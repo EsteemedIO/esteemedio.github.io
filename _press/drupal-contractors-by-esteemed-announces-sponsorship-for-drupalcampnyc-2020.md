@@ -1,5 +1,5 @@
 ---
-date: 2021-02-18 21:34:46 +0000
+date: 2021-02-18T21:34:46.000+00:00
 author: casey-horgan
 categories: []
 title: Drupal Contractors by Esteemed Announces Sponsorship for DrupalCampNYC 2020
@@ -10,10 +10,9 @@ description: Drupal Contractors is proud to sponsor DrupalCampNYC 2020, a popula
   have covered the cost of tickets.
 image: "/uploads/screen-shot-2021-02-18-at-9-35-38-pm.png"
 thumbnail: "/uploads/screen-shot-2021-02-18-at-8-50-42-pm.png"
-color_overlay: "#9D3939"
+color_overlay: ''
 featured: false
 type: Events
-published: false
 
 ---
 Drupal Contractors is proud to sponsor DrupalCampNYC 2020, a popular annual developer’s conference serving the New York Drupal community. This event will be held virtually from Thursday, November 12 to Saturday, November 14, 2020. General admission will be free for all attendees this year, as sponsorship funds have covered the cost of tickets.
