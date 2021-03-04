@@ -10,7 +10,6 @@ thumbnail: "/uploads/screen-shot-2021-02-18-at-8-50-42-pm.png"
 color_overlay: ''
 featured: false
 type: Events
-published: false
 
 ---
 DrupalCamp Atlanta (DCATL) is going virtual this September 10th and 11th, and in a nod to the necessary shift in venue, it’s been renamed “DigitalCamp Atlanta 2020.” Drupal Contractors, by Esteemed is proud to announce that we’re the Diamond Sponsor for this year’s two-day event.
