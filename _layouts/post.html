@@ -61,7 +61,7 @@ layout: default
       {% if categories != empty %}
       <div class="post-categories">
         <span class="post-categories--title">Category: </span>
-        {% for category in categories %}
+        {% for category in page.categories %}
         <a href="/{{ list_url }}/category/{{ category | downcase }}/">{{ category }}</a>
         {% unless forloop.last %}<span class="space-between">,</span>{% endunless %}
         {% endfor %}
