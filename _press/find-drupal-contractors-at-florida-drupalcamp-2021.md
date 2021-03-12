@@ -34,11 +34,15 @@ Connecting with the right person at the right time can have profound implication
 
 In this session, attendees will have a chance to learn about the importance of mentor/mentee relationships in the Drupal community and hear about the various tools and resources available for improving such relationships. In addition, Chris will walk attendees through potential Drupal and engineering mentorship obstacles and how to overcome them.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XGFS2sKoj9s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### [Creating and Using Plugins as a Module Developer](https://www.fldrupal.camp/sessions/development-performance/creating-and-using-plugins-module-developer){:target='_blank'}
 
 Gloria Tucker, a senior backend web developer who [specializes in Drupal](https://www.fldrupal.camp/users/gtucker6){:target='_blank'}, is presenting an intermediate-level tutorial on Drupal plugins for module developers. She’ll lead attendees through the process of creating and using Drupal plugins.
 
 This tutorial will explore plugin discovery, decorators, management, derivatives, and definitions. If you’ve ever wanted to learn about Drupal plugins as a module developer, this session is for you.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yFGvVG-B9nw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Don’t Miss FLDC’s Contribution Day
 
