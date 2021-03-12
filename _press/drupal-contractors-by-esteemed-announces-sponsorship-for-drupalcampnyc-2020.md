@@ -44,3 +44,5 @@ Matthew Obert, Director of Screening with [Drupal Contractor’s parent company]
 2:00 - 2:45p EST | Friday, November 13, 2020
 
 In addition to the above BoFs, Drupal Contractors is excited to announce that one of our own, Boris Smirnov, will lead a talk on how he helped modernize New York City’s radio news using Drupal, AWS, and SalesForce. Smirnov is a Drupal 7 & 8 Solution Architect with over ten years of experience leading teams and engineering, designing, and developing optimized web applications. He’ll walk attendees through the challenges he faced as he undertook the task of building a custom workaround for New York’s biggest internet radio station. For more information on this session, check out the detailed [DrupalCampNYC 2020 schedule](https://2020.drupalcamp.nyc/session/modernizing-nycs-radio-news-using-drupal-aws-and-salesforce){:target='_blank'}.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i_xiVS3PzsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
