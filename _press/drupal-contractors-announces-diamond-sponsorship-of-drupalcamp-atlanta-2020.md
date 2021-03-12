@@ -44,11 +44,15 @@ This afternoon session is great for beginners. Tyler Ashbaugh, a web developer f
 
 By the end of this tutorial, attendees will know more about where to start, what to do, and how to tackle SAML-based SSO.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Frh9KF6KmKg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### [Drupal Behaviors for Data Protection](https://www.drupalcampatlanta.com/2020/sessions/drupal-behaviors-data-protection){:target='_blank'}
 
 Friday, September 11 | 1:00 - 1:45pm
 
 This session is tailored to attendees with an intermediate level of Drupal experience. Join Matt Obert of Drupal Contractors as he discusses using Drupal Behaviors and contributed modules in order to achieve data protection compliance. Europe's General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA) are two examples of recent legislation aimed at restricting the ways in which companies can legally track site visitors. Obert will demonstrate how contributed modules for Drupal 7, 8, and 9 can help developers achieve basic regulatory compliance. In addition, he’ll show attendees how to achieve strict compliance by writing Drupal Behaviors in a custom module.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MAKYpgnjK-Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### About Drupal Contractors
 
