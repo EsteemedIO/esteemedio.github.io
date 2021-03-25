@@ -1251,9 +1251,18 @@ body {
     .positions-item {
       padding: 3%;
     }
+    .positions-item:hover {
+      transform: translateY(-3px);
+      top: -3px;
+      box-shadow: 0 10px 20px 0 rgba(108, 135, 135, 0.2);
+      border: none;
+    }
     .card-title {
       color: $link-blue;
       font-size: 1.5rem;
+    }
+    .card-text {
+      color: $black;
     }
   }
   .events {
