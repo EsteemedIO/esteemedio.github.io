@@ -1248,8 +1248,24 @@ body {
 
   .career-positions {
     max-width: 75rem;
+
+    .row {
+      justify-content: space-between;
+    }
+
     .positions-item {
       padding: 3%;
+      border: 2px solid #ebf2f2;
+      margin: 1% 0;
+      @include breakpoint(medium up) {
+        flex: 0 0 49%;
+        max-width: 49%;
+      }
+      @include breakpoint(small only) {
+        flex: 0 0 98%;
+        max-width: 98%;
+        margin: 1% auto;
+      }
     }
     .positions-item:hover {
       transform: translateY(-3px);
@@ -1322,5 +1338,20 @@ body {
   .florida-drupalcamp {
     width: 75% !important;
     min-height: auto;
+  }
+}
+
+.page--404 {
+  h1 {
+    font-family: $font-georgia;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-height: 600px;
   }
 }
