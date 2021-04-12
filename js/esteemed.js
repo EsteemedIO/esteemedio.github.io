@@ -14084,3 +14084,16 @@ $('.main-form').submit(function (e) {
   });
   return false;
 });
+
+$('#lead_submission').on('submit', function(e) {
+  e.preventDefault();
+  $('#lead_submission input[name="submit"]').fadeOut(2000, function() {
+    $.post('https://esteemed-api-97dnt.ondigitalocean.app/register-deal', $('#lead_submission').serialize())
+      .done(function(data) {
+        $('#success-response').html('Thank you for your submission!').show();
+      })
+      .fail(function(data) {
+        $('#success-response').html('There was an issue submitting your lead').show();
+      });
+  });
+});
