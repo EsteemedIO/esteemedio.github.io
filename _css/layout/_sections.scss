@@ -1355,3 +1355,12 @@ body {
     max-height: 600px;
   }
 }
+
+.fadein, .fadeinAfterLoad {
+  opacity:0;
+}
+
+.eyebrow {
+  margin-bottom: 0 !important;
+  line-height: 160%;
+}
