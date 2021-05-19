@@ -14100,6 +14100,7 @@ $('#lead_submission').on('submit', function(e) {
 
 $(document).ready(function() {
   $('.fadeinAfterLoad').delay(1000).animate({'opacity':'1'},1000);
+  $('.fadeinHero').delay(200).animate({'opacity':'1'},500);
   $(window).scroll( function(){
     $('.fadein').each( function(i){
       var bottom_of_element = $(this).offset().top + ($(this).outerHeight()/4);
