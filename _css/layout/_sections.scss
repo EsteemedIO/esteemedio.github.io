@@ -1191,6 +1191,9 @@ body {
 
   .section__testimonial {
     padding-top: 4rem;
+    .orbit-container {
+      overflow: visible;
+    }
   }
 
   .block-bg-text {
