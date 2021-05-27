@@ -774,6 +774,9 @@ body {
     font-family: $font-georgia;
     font-weight: normal;
     font-size: 5rem;
+    @include breakpoint(medium only) {
+      font-size: 4rem;
+    }
     @include breakpoint(small only) {
       font-size: 3rem;
     }
