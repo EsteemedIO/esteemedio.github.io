@@ -774,6 +774,9 @@ body {
     font-family: $font-georgia;
     font-weight: normal;
     font-size: 5rem;
+    @include breakpoint(medium only) {
+      font-size: 4rem;
+    }
     @include breakpoint(small only) {
       font-size: 3rem;
     }
@@ -918,6 +921,81 @@ body {
   }
   .font-italic {
     font-style: italic;
+  }
+
+  .cloud-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px 20px;
+    justify-content: space-between;
+    @include breakpoint(small and medium down) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    @include breakpoint(large down) {
+      padding: 0 5%;
+    }
+  }
+
+  .cloud-desc-items {
+    padding: 5%;
+  }
+
+  .cloud-item {
+    position: relative;
+    height: 500px;
+    border: solid 1px $gray--bg;
+    border-radius: 5px;
+    @include breakpoint(large only) {
+      height: 570px;
+    }
+    .cloud-title {
+      font-size: 1.5rem;
+      border-bottom: solid 1px $gray--bg;
+      background-color: $light-gray;
+    }
+
+    .cloud-price {
+      font-size: 3rem;
+      font-weight: bold;
+
+      .tc-grey {
+        color: $dark-gray;
+      }
+    }
+
+    .cloud-desc {
+      font-family: $font-poppins;
+      font-size: 1.125rem;
+      line-height: 1.75;
+    }
+
+    .bg-white {
+      color: #4389c8 !important;
+      border: solid 1px #4389c8;
+      background: #fefefe;
+    }
+
+    .bg-white:hover {
+      background-color: #f3f3f3;
+    }
+
+    .cloud-button {
+      position: absolute;
+      bottom: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: fit-content;
+    }
+  }
+
+  .social {
+    height: 550px;
+  }
+
+  .cloud-item:hover {
+    transform: translateY(-3px);
+    top: -3px;
+    box-shadow: 0 10px 20px 0 rgba(108,135,135,.2);
   }
 }
 
