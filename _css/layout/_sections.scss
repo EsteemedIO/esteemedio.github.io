@@ -923,10 +923,16 @@ body {
     font-style: italic;
   }
 
+  .sub-header {
+    width: 75%;
+    margin: 0 auto;
+  }
+
   .cloud-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px 20px;
+    padding: 20px 20px 0 20px;
     justify-content: space-between;
     @include breakpoint(small and medium down) {
       grid-template-columns: repeat(1, 1fr);
@@ -945,6 +951,7 @@ body {
     height: 500px;
     border: solid 1px $gray--bg;
     border-radius: 5px;
+    background-color: white;
     @include breakpoint(large only) {
       height: 570px;
     }
@@ -989,7 +996,7 @@ body {
   }
 
   .social {
-    height: 550px;
+    height: 575px;
   }
 
   .cloud-item:hover {
