@@ -73,8 +73,10 @@ defaults:
       type: "press"
     values:
       layout: "post"
+      permalink: /:title/
   - scope:
       path: ""
       type: "case-studies"
     values:
       layout: "post"
+      permalink: /:title/
