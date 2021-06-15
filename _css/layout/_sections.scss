@@ -880,6 +880,10 @@ body {
     background: $slider-background-green
   }
 
+  .u-bg-darkest-blue {
+    background-color: $darkest-blue;
+  }
+
   .mcp-slider {
     display: flex;
     justify-content: center;
@@ -1451,4 +1455,83 @@ body {
 .eyebrow {
   margin-bottom: 0 !important;
   line-height: 160%;
+}
+
+// Our team members.
+.block--team-members {
+
+  .row-block-padding {
+    margin-top: -30px;
+    margin-bottom: -30px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: -15px;
+    padding-left: -15px;
+  }
+
+  .member-wrapper {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+
+    .image-wrapper {
+      max-width: 100%;
+      width: 146px;
+    }
+
+    .member-name {
+      font-family: $font-georgia;
+    }
+
+    @include breakpoint(small only) {
+      .image-wrapper {
+        max-width: 100%;
+        //width: 246px;
+      }
+
+      .member-name {
+        font-size: 1.5rem;
+      }
+
+      .member-title {
+        font-size: 1rem;
+      }
+    }
+
+    .grayscale {
+      filter: grayscale(1);
+    }
+
+    .rounded-circle {
+      border-radius: 50% !important;
+    }
+  }
+
+  @include breakpoint(small only) {
+    .block-title {
+      text-align: center !important;
+    }
+  }
+}
+
+.our-team-about-company {
+  color: white;
+
+  .border-right {
+    border-right: 1px solid #dee2e6 !important;
+  }
+
+  .text-info {
+    color: #a7ccdf;
+    font-size: 100px;
+    font-family: $font-poppins;
+    font-weight: 100;
+  }
+
+  .number-description {
+    font-size: 32px;
+  }
 }

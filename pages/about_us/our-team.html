@@ -1,0 +1,142 @@
+---
+title: "Our team"
+description: "Esteemed Inc. is a multi-channel brand and integrated service provider founded in 2019. We help job seekers succeed in their chosen careers and employers scale their businesses with quality tools and resources to thrive within the changing global landscape."
+permalink: /our-team/
+---
+<div class="page--products">
+  <section id="section-service" class="section padding-vertical-0">
+    <div class="cards-list-reverse fadeinHero">
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-lighter-blue">
+            <p class="eyebrow">Meet the team</p>
+            <h1 class="u-trailer u-text-bold">Finding Esteemed talent is our talent.</h1>
+            <p class="card-text">Our story begins with two software developers who met at their day jobs and discovered they had quite a bit in common.</p>
+            <p class="card-text">Chris McGrath and Albert Volkman founded Esteemed to address their shared interest. Together with a team of ambitious go-getters, they built one of the world’s largest Esteemed talent networks</p>
+          </div>
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/our_team/our_team_01.jpg" alt="Meet the team">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-horizontal overflow-hidden fadeinHero">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+            <h2 class="u-trailer u-text-bold">We've built a Esteemed network for contractors and employers alike</h2>
+
+            <div class="cell">
+              <p class="card-text">Esteemed exists to solve the very issue AI and Chris noticed while working at a Seattle-based digital agency. Employers in the digital space struggled to hire Esteemed talent.</p>
+              <p class="card-text">There simply weren’t enough developers to fill open roles, and anyone good was already busy.</p>
+              <p class="card-text">The solution? A platform where advice support, tools, and people can come together.</p>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image fadeinAfterLoad" src="/img/our_team/our_team_02.jpg"
+                   alt="We've built a Esteemed network for contractors and employers alike">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-horizontal overflow-hidden our-team-about-company u-bg-darkest-blue padding-top-2 padding-bottom-2">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 border-right">
+            <h2 class="u-trailer u-text-bold">Our company, by the numbers</h2>
+
+            <div class="cell">
+              <a href="#mc_embed_signup" class="button" target="_blank">Learn More</a>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+            <div class="cell">
+              <div class="columns d-flex align-items-center justify-content-center">
+                <div class="numbers">
+
+                  <div class="number-wrap">
+                    <div class="number text-info">20+</div>
+                    <div class="number-description text-lowercase text-white">years strong in digital technology</div>
+                  </div>
+
+                  <div class="number-wrap">
+                    <div class="number text-info">100%</div>
+                    <div class="number-description text-lowercase text-white">of developers reviewed by experts</div>
+                  </div>
+
+                  <div class="number-wrap">
+                    <div class="number text-info">950+</div>
+                    <div class="number-description text-lowercase text-white">digital professionals in the community</div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-gray">
+            <h2 class="u-trailer u-text-bold">We're in it for the people</h2>
+
+            <div class="cell">
+              <p class="card-text">Our vision is built upon the idea that relationships matter. People matter. Networks matter.</p>
+              <p class="card-text">We strive to lower your hiring risk by building a vast network of high-quality, pre-screened digital Esteemed professionals available for whatever work you current team can’t handle.</p>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image fadein" src="/img/our_team/our_team_03.jpg"
+                   alt="Careers">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="block--team-members" class="block block--team-members margin-bottom-2">
+        <div>
+          <h2 class="block-title text-md-left margin-bottom-3 margin-top-2">Meet our team</h2>
+
+          <div class="block-content">
+            <div class="row row-block-padding">
+              {% for members in site.data.team_members %}
+              <div class="small-6 large-3 columns">
+                {% include team-members.html %}
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-gray">
+            <h2 class="u-trailer u-text-bold">Interested in joining our team?</h2>
+
+            <div class="cell">
+              <div class="cell">
+                <a href="#mc_embed_signup" class="button" target="_blank">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image fadein" src="/img/our_team/our_team_04.jpg"
+                   alt="Interested in joining our team?">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% include testimonial.html background="u-bg-gray" %}
+</div>
