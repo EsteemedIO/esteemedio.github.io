@@ -1478,7 +1478,7 @@ body {
     .cloud-item {
       border-radius: 15px !important;
       @include breakpoint(large only) {
-        height: 500px !important;
+        height: 520px !important;
       }
     }
 
@@ -1566,10 +1566,11 @@ body {
       border-right: none;
       border-top: solid 1px black;
       font-family: $font-poppins;
-      font-size: 1.5rem;
+      font-size: 2rem;
       padding: 2rem;
       @include breakpoint(small only) {
         padding-right: 20%;
+        font-size: 1.5rem;
       }
     }
 
@@ -1594,6 +1595,13 @@ body {
 
     .accordion-item:last-of-type {
       border-bottom: solid 1px black;
+    }
+
+    .card-text {
+      font-size: 1.5rem;
+      @include breakpoint(small only) {
+        font-size: 1.125rem;
+      }
     }
   }
 
