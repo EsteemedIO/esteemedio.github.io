@@ -54,3 +54,17 @@ Online skill tests and coding assessments are fantastic tools if you’re lookin
 Applicant tracking systems (ATS) are software solutions that typically leverage AI to scan résumés and find the best candidate. They’re time savers: with ATS solutions, you can sort large volumes of résumés in a fraction of the time it would take to do it manually. The downside, however, is that by relying on automation, AI, and keyword-based filters, you can miss out on top talent. Plus, just because an ATS pings certain words doesn’t mean you learn anything about an applicant’s skills or experience.
 
 In our experience, this type of software can save you time, but often at a cost: you miss out on great candidates simply because you lose the human element of the hiring process.
+
+#### CRM: Candidate Relationship Management
+
+CRM software isn’t only for your customers. Recruiters are increasingly turning to candidate-specific CRM solutions to help them build and maintain relationships with their applicants. For companies hiring developers and other IT pros where, as we’ve mentioned, demand exceeds supply. Because of this, CRM can attract and retain top talent. Show your candidates that they’re not getting lost in the talent pool – schedule emails to follow up with applicants every step of the screening process, take notes to remember important information, and personalize the hiring process for potential employees. Remember: you’re assessing them just as they’re assessing you!
+
+#### Screening-as-a-Service
+
+With [Screening-as-a-Service](https://esteemed.io/screening/), you have the option to outsource your technical screening. If you’re short on time, low on expendable resources, or don’t have the technical expertise needed to thoroughly vet your candidates, you can find someone who can. Screening-as-a-Service provides you with a full screening and evaluating candidate experience. Simply submit your candidates and [let a team of experts](https://esteemed.io/screening/) screen, assess, report, and offer thoughtful suggestions and insight.
+
+### Next Steps
+
+As you can see, there are many solutions to the challenges you face as you search for the right tech candidate. You can leverage the many available tools and platforms to screen and evaluate your candidates yourself, or you can turn to a Screening-as-a-Service provider. It all depends upon how much time and resources you can free up to devote to the screening process. If you choose to DIY, there are hundreds of articles which compare the various tools and services out there.
+
+If you choose to enlist the help of a Screening-as-a-Service company and team up to screen your tech candidates, we recommend [Esteemed Screening](https://esteemed.io/screening/). We use coding assessments, algorithm challenges, live technical interviews, and code reviews to find your perfect match. We know that no two candidates are the same, so we offer tailored screening and human-based reviews. [Check it out](https://esteemed.io/screening/)!
