@@ -6,10 +6,10 @@ title: The Beginner’s Guide to Screening and Evaluating Tech Candidates
 description: 2020 was a tumultuous year for all of us – job loss, unemployment, and
   a pervading sense of uncertainty clouded business and commerce. Thankfully, the
   workforce has been quick to adapt and overcome.
-image: ''
-thumbnail: ''
-color_overlay: ''
-featured: false
+image: "/uploads/pexels-tima-miroshnichenko-5439449.jpg"
+thumbnail: "/uploads/pexels-fauxels-3184465-1.jpg"
+color_overlay: "#1779BA"
+featured: true
 type: ''
 
 ---
@@ -33,11 +33,11 @@ Read on to learn what your company needs to do in order to find the right fit fo
 
 #### What is candidate screening?
 
-Candidate screening is the process by which your team reviews and assesses job applications. By this stage, you’re past the talent sourcing part of the hiring process. Your job is to figure out who has the skills, experience, and qualities necessary for the position, and who doesn’t. Candidate screening is time- and resource-intensive, but most importantly, it’s critical to keeping the best talent from slipping away.
+[Candidate screening](https://esteemed.io/blog/2021/08/19/the-power-of-candidate-assessments/) is the process by which your team reviews and assesses job applications. By this stage, you’re past the talent sourcing part of the hiring process. Your job is to figure out who has the skills, experience, and qualities necessary for the position, and who doesn’t. Candidate screening is time- and resource-intensive, but most importantly, it’s critical to keeping the best talent from slipping away.
 
 #### Why is candidate screening particularly important for tech positions?
 
-By screening and evaluating candidates early on in the hiring process, you’re saving your team valuable time and money. This recruitment technique improves your efficiency and gives your company insight into your potential employees. For IT roles (including developers, architects, designers, project managers, and QA testers), there is a widening skills gap separating top talent from inexperienced individuals. Moreover, demand for tech talent far exceeds supply, so if you’re looking for a seasoned IT professional, you need to move fast.
+By [screening and evaluating candidates early on in the hiring process](https://esteemed.io/blog/2021/08/19/the-power-of-candidate-assessments/), you’re saving your team valuable time and money. This recruitment technique improves your efficiency and gives your company insight into your potential employees. For IT roles (including developers, architects, designers, project managers, and QA testers), there is a widening skills gap separating top talent from inexperienced individuals. Moreover, demand for tech talent far exceeds supply, so if you’re looking for a seasoned IT professional, you need to move fast.
 
 #### What are the most common methods of screening and evaluating tech candidates?
 
@@ -47,7 +47,7 @@ There are several ways in which you can successfully [assess your tech candidate
 
 #### Skill tests and assessments
 
-Online skill tests and coding assessments are fantastic tools if you’re looking to hire a developer or IT pro. These tests allow your candidates to showcase their skills and personality, and more importantly, prove to you that they’re able to perform the tasks they’ll be expected to do. If you’re unfamiliar with Drupal but need to hire someone who’s highly skilled in the subject, you don’t need to crack open a _Drupal for Dummies_ book – simply ask them to take a test. There are a variety of platforms that offer tests and assessments, but the best ones provide both pre-made tests, interactive coding challenges, and the option for custom assessments. Find a solution that balances automation and technical specification without compromising the _human_ element. Take us, for example: [Esteemed Screening](https://esteemed.io/screening/) engages over a thousand engineers and experienced technical leads who interpret each candidate’s test results and provide you with accurate feedback in easy-to-understand language.
+Online skill tests and coding assessments are fantastic tools if you’re looking to hire a developer or IT pro. [These tests allow your candidates to showcase their skills and personality](https://esteemed.io/blog/2021/08/19/the-power-of-candidate-assessments/), and more importantly, prove to you that they’re able to perform the tasks they’ll be expected to do. If you’re unfamiliar with Drupal but need to hire someone who’s highly skilled in the subject, you don’t need to crack open a _Drupal for Dummies_ book – simply ask them to take a test. There are a variety of platforms that offer tests and assessments, but the best ones provide both pre-made tests, interactive coding challenges, and the option for custom assessments. Find a solution that balances automation and technical specification without compromising the _human_ element. Take us, for example: [Esteemed Screening](https://esteemed.io/screening/) engages over a thousand engineers and experienced technical leads who interpret each candidate’s test results and provide you with accurate feedback in easy-to-understand language.
 
 #### Applicant tracking systems
 
