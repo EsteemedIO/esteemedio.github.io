@@ -1,7 +1,8 @@
 ---
-date: 2021-08-19 17:47:07 +0000
+date: 2021-08-19T17:47:07.000+00:00
 author: casey-horgan
-categories: []
+categories:
+- Screening
 title: The Power of Candidate Assessments
 description: Not all business is created equal, and not all business challenges are
   universal. We may like to think we operate on a level playing field, but the obstacles
