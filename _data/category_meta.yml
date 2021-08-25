@@ -18,3 +18,7 @@ developer-life:
   title: "Developer Life &#124; Esteemed.io"
   description: "Whether brushing up on skills or learning new tricks, check out our blog to learn the latest in web and software development."
   image: "/img/categories.png"
+screening:
+  title: "Screening"
+  description: "Need to find your next best hire? Follow our tips for screening your candidates."
+  image: "/img/categories.png"
