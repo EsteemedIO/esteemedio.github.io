@@ -1,0 +1,97 @@
+---
+title: Blog
+description: If you’re growing your business, looking for opportunities, or learning new skills, we’re here to help you. Our blog aims to provide advice, support, and the right tools to get started.
+image: "/img/blog.png"
+permalink: /blog/
+pagination:
+  enabled: true
+---
+
+{% assign featured_posts = site.posts | where:'featured', true | sort: 'date' | reverse %}
+
+<div class="hero-blog-container">
+  <div class="heroBanner-left">
+    <h1 class="u-text-bold main-title">The Star</h1>
+    <div class="heading-subtitle">Resources you need to land flexible jobs,
+      meet like-minded colleagues, and build
+      your business with confidence.</div>
+  </div>
+  <div class="heroBanner-right">
+    <img class="heroBanner-image" src="/img/blog_hero.jpg" alt="Esteemed makes it easier for you to get flexible jobs.">
+  </div>
+</div>
+<div class="grid-container page--blog">
+  <div class="blog-categories">
+    <a href="/blog/">All posts</a>
+    {% for category in site.categories %}
+    <a href="/blog/category/{{ category | first | downcase }}/">{{ category | first }}</a>
+    {% endfor %}
+  </div>
+  <div class="grid-x align-top grid-padding-x blog-featured-posts">
+    {% for featured_post in featured_posts limit:3 %}
+      {% assign author = site.data.authors[featured_post.author] %}
+      <a href="{{ featured_post.url }}" class="blog-card blog-featured-card cell medium-4">
+        <div class="blog-card__wrapper">
+          {% if featured_post.thumbnail %}
+            <div class="blog-card__wrapper--image" style="{% if featured_post.color_overlay %}background-image:linear-gradient(0deg, {{ featured_post.color_overlay }} 25%, rgba(0, 0, 0, 0)), url('{{ featured_post.thumbnail }}');{% else %}background-image: url('{{ featured_post.thumbnail }}');{% endif %} background-size: cover;">
+            </div>
+          {% endif %}
+          <div class="blog-card__bottom">
+            <h2>{{ featured_post.title }}</h2>
+            <div class="blog-card__bottom--author">{{ author.name }}</div>
+            <div class="blog-card__bottom--date-categories">
+              <span class="blog-card__bottom--date">{{ featured_post.date | date: "%b %d, %Y" }}</span>
+              <span class="blog-card__bottom--line">|</span>
+              <span class="blog-card__bottom--categories">{{ featured_post.categories | first }}</span>
+            </div>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+{% include sign-up-block.html %}
+<div class="grid-container page--blog">
+  <h2 class="u-text-bold" id="all-posts">All Posts</h2>
+  <div class="grid-x align-top grid-padding-x blog-all-posts">
+    {% for post in paginator.posts %}
+    {% assign author = site.data.authors[post.author] %}
+    <a href="{{ post.url }}" class="blog-card cell small-6 medium-4">
+      <div class="blog-card__wrapper">
+        {% if post.thumbnail %}
+          <div class="blog-card__wrapper--image" style="{% if post.color_overlay %}background-image:linear-gradient(0deg, {{ post.color_overlay }} 25%, rgba(255, 255, 255, 0)), url('{{ post.thumbnail }}');{% else %}background-image: url('{{ featured_post.thumbnail }}');{% endif %} background-size: cover;">
+          </div>
+        {% else %}
+          <div class="blog-card__wrapper--image" style="background-image: url('/img/blog-performance.jpg'); background-size: cover;">
+          </div>
+        {% endif %}
+        <div class="blog-card__bottom">
+          <h2>{{ post.title }}</h2>
+          <div class="blog-card__bottom--author">{{ author.name }}</div>
+          <div class="blog-card__bottom--date-categories">
+            <span class="blog-card__bottom--date">{{ post.date | date: "%b %d, %Y" }}</span>
+            <span class="blog-card__bottom--line">|</span>
+            <span class="blog-card__bottom--categories">{{ post.categories | first }}</span>
+          </div>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% if paginator.total_pages > 1 %}
+  <ul class="pager">
+      {% if paginator.previous_page %}
+      <li class="previous">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+      </li>
+      {% endif %}
+  </ul>
+  {% endif %}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+</div>

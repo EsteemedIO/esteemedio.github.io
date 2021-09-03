@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+{% assign author = site.data.authors[page.author] %}
+{% assign categories = site[page.collection] | map: 'categories' | uniq | sort %}
+{% assign category = categories | first %}
+{% assign list_url = page.url | split: "/" %}
+{% assign list_url = list_url[1] %}
+
+<div class="grid-container breadcrumb">
+  <a href="/{{ list_url }}/">{{ list_url | camelcase }}</a>
+  {% if category %}
+  <span class="breadcrumb--chevron">></span>
+  <a href="/{{ list_url }}/category/{{ category | trim | downcase | uri_escape }}/">{{ category }}</a>
+  {% endif %}
+</div>
+
+<div class="grid-container blog-post">
+
+  <div class="blog-categories">
+    <a href="/{{ list_url }}/">All {{ page.collection | camelcase }}</a>
+    {% for category_element in categories %}
+    <a {% if category_element == category %}class="active" {% endif %}href="/{{ list_url }}/category/{{ category_element | downcase }}/">{{ category_element }}</a>
+    {% endfor %}
+  </div>
+
+  <div class="grid-x align-center-middle">
+    <div class="cell large-8">
+      <h1>{{ page.title }}</h1>
+      <address class="blog-post__author">By
+        <span>
+          {% if list_url == 'press' %}
+            {{ author.name }}
+          {% else %}
+            <a href="/blog/author/{{ page.author }}/">{{ author.name }}</a>
+          {% endif %}
+        </span>
+      </address>
+      <div class="blog-post__date">{{ page.date | date: "%m.%-d.%Y" }}</div>
+
+      <div class="blog-post__content">
+        {% if page.image %}
+        <div class="blog-post__content--image">
+          <img src="{{ page.image }}" alt="Header image">
+        </div>
+        {% endif %}
+
+        <!-- AddToAny BEGIN -->
+        <div class="blog-post__share-buttons a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="left:0px; top:150px;">
+        <a class="a2a_button_facebook"></a>
+        <a class="a2a_button_twitter"></a>
+        <a class="a2a_button_linkedin"></a>
+        <a class="a2a_button_email"></a>
+        </div>
+        <script async src="https://static.addtoany.com/menu/page.js"></script>
+        <!-- AddToAny END -->
+
+        {{ page.content | markdownify }}
+      </div>
+      {% if categories != empty %}
+      <div class="post-categories">
+        <span class="post-categories--title">Category: </span>
+        {% for category in page.categories %}
+        <a href="/{{ list_url }}/category/{{ category | downcase }}/">{{ category }}</a>
+        {% unless forloop.last %}<span class="space-between">,</span>{% endunless %}
+        {% endfor %}
+      </div>
+      {% endif %}
+      <div class="blog-post__author-block">
+        <div class="blog-post__author-block--container grid-x">
+          <div class="cell medium-4 large-3">
+            <div class="blog-post__author-block--image">
+              {% if list_url == 'press' %}
+                <img src="{% if author.profile_image %}{{ author.profile_image }}{% else %}/img/profile-pic.png{% endif %}" alt="{{ author.name }}">
+              {% else %}
+                <a href="/blog/author/{{ page.author }}/"><img src="{% if author.profile_image %}{{ author.profile_image }}{% else %}/img/profile-pic.png{% endif %}" alt="{{ author.name }}"></a>
+              {% endif %}
+            </div>
+          </div>
+          <div class="cell medium-8 large-9">
+            <div class="blog-post__author-block--name">
+              {% if list_url == 'press' %}
+                {{ author.name }}
+              {% else %}
+                <a href="/blog/author/{{ page.author }}/">{{ author.name }}</a>
+              {% endif %}
+            </div>
+            <div class="blog-post__author-block--bio">
+              {{ author.bio | markdownify }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

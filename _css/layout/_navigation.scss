@@ -1,0 +1,300 @@
+.title-bar {
+  justify-content: flex-end;
+  @include breakpoint(small only and large up) {
+    display: block !important;
+  }
+}
+
+.w-nav {
+  background: $white;
+  opacity: 1;
+  padding: $spacing 0;
+  transition: .3s;
+
+  @include breakpoint(medium down) {
+    box-shadow: 0 2px 2px -2px $light-gray;
+    transition: .75s;
+  }
+
+  &.not-visible {
+
+    @include breakpoint(medium down) {
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+
+  img.logo {
+    max-width: 12.25rem;
+
+    @include breakpoint(large up) {
+      bottom: -2px;
+      height: 46px;
+      position: relative;
+      transition: .3s;
+    }
+
+    @include breakpoint(medium down) {
+      height: 30px;
+    }
+  }
+
+  &.shrink {
+
+    @include breakpoint(large up) {
+      box-shadow: 0 2px 2px -2px $light-gray;
+      padding: 0.7em 0;
+    }
+
+    img.logo {
+
+      @include breakpoint(large up) {
+        height: 30px;
+        max-width: 8rem;
+      }
+    }
+
+    #main-navigation__content {
+
+      ul {
+
+        li {
+
+          a {
+
+            @include breakpoint(large up) {
+              font-size: 0.9375rem;
+              padding: 0.35rem 1rem;
+            }
+
+            &.button {
+
+              @include breakpoint(large up) {
+                padding: $button-padding-small;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  > .grid-container {
+    position: relative;
+
+    @include breakpoint(large up) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .top-bar {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+    .dropdown {
+      width: 100%;
+
+      @include breakpoint(large up) {
+        align-items: center;
+      }
+    }
+
+    &,
+    ul {
+      background: $white;
+    }
+  }
+
+  .menu {
+
+    a:not(.button) {
+      color: $dark-gray;
+      font-weight: $global-weight-bold;
+    }
+
+    .button-group {
+      @include breakpoint(medium) {
+        margin-bottom: 0;
+      }
+    }
+
+    .button {
+      padding: $button-padding;
+    }
+  }
+
+  #main-navigation {
+
+    @include breakpoint(medium down) {
+      display: none;
+    }
+
+    &__button {
+
+      button {
+        transition: .3s;
+
+        &:focus {
+          outline: none;
+        }
+
+        &:hover:after,
+        &:focus:after,
+        &:after {
+          background: $black;
+          box-shadow: 0 7px 0 $black, 0 14px 0 $black;
+        }
+
+        &[aria-expanded='true'] {
+
+          &:after {
+            background: $blue--btn;
+            box-shadow: 0 7px 0 $blue--btn, 0 14px 0 $blue--btn;
+          }
+        }
+      }
+    }
+
+    &__content {
+
+      @include breakpoint(medium down) {
+        box-shadow: 0 4px 5px -2px $light-gray;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        top: 100%;
+        width: 100%;
+      }
+
+      li {
+        font-family: $font-poppins;
+
+        @include breakpoint(medium down) {
+          border-top: 1px solid $light-gray;
+        }
+
+        a {
+          color: $black;
+          font-size: 1.25rem;
+          font-weight: $global-weight-normal;
+          transition: .3s;
+
+          @include breakpoint(medium down) {
+            padding: 30px 10px;
+          }
+
+          @include breakpoint(large up) {
+            font-size: 1.125rem;
+            font-weight: $global-weight-medium;
+          }
+
+          @include breakpoint(large down) {
+            font-size: 1rem;
+          }
+
+          &:hover {
+            color: $blue--btn;
+          }
+
+          &.button {
+            color: $white;
+
+            @include breakpoint(medium down) {
+              padding: $button-padding;
+            }
+          }
+
+          &:not(.button).is-active {
+
+            @include breakpoint(medium down) {
+              color: $blue--bg;
+            }
+
+            @include breakpoint(large up) {
+              margin-bottom: -7px;
+            }
+
+            &:after {
+
+              @include breakpoint(large up) {
+                background: $blue--bg;
+                content: "";
+                display: block;
+                height: 0.125rem;
+                margin: 0.3125rem -0.1875rem 0 -0.1875rem;
+                width: calc(100% + 0.375rem);
+              }
+            }
+          }
+        }
+      }
+
+      li a.button,
+      button {
+        font-weight: $global-weight-normal;
+
+        @include breakpoint(medium up) {
+          display: inline-block;
+          margin-left: 1.5rem;
+        }
+
+        @include breakpoint(medium down) {
+          margin: 20px auto;
+        }
+
+        @include breakpoint(small only) {
+          width: calc(100% - 20px);
+        }
+      }
+
+      .bg-white {
+        color: $button-blue !important;
+        border: solid 1px $button-blue;
+        background: $white;
+      }
+
+      .bg-white:hover {
+        background-color: $lighter-gray
+      }
+    }
+  }
+}
+
+.w-nav-menu {
+  padding: $spacing;
+}
+
+.navlink {
+  @include breakpoint(large down) {
+    align-self: auto;
+  }
+}
+
+.blog-categories {
+  padding: 0rem 0rem 3rem;
+  text-align: center;
+
+  a {
+    color: $black;
+    font: $global-weight-bold 1rem $font-lato;
+    padding: 0.625rem;
+    text-transform: capitalize;
+
+    &:hover,
+    &.active {
+      color: $blue--btn;
+    }
+  }
+}
+
+.col5-unit{
+  @include grid-column(2.4);
+  @include breakpoint(medium down) {
+    width: 33.33%;
+  }
+  @include breakpoint(small only) {
+    width: 50%;
+  }
+}

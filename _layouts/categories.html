@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="grid-container category-post-item">
+  <div class="grid-x align-top">
+    <h1 class="u-text-bold main-title text-center">{{ page.autopage.display_name }} Posts</h1>
+  </div>
+
+  <div class="blog-categories">
+    <a href="/blog/">All posts</a>
+    {% for category_element in site.categories %}
+    <a {% if category_element[0] == page.autopage.display_name %}class="active" {% endif %}href="/blog/category/{{ category_element | first | downcase }}/">{{ category_element | first | downcase }}</a>
+    {% endfor %}
+  </div>
+
+  <div class="grid-x align-top grid-padding-x blog-all-posts">
+    {% for post in paginator.posts %}
+    {% assign author = site.data.authors[post.author] %}
+    <a href="{{ post.url }}" class="blog-card cell small-6 medium-4">
+      <div class="blog-card__wrapper">
+        {% if post.image %}
+          <div class="blog-card__wrapper--image" style="{% if post.color_overlay %}background-image:linear-gradient(0deg, {{ post.color_overlay }} 25%, rgba(0, 0, 0, 0)), url('{{ post.thumbnail }}');{% else %}background-image: url('{{ featured_post.thumbnail }}');{% endif %} background-size: cover;">
+          </div>
+        {% else %}
+          <div class="blog-card__wrapper--image" style="{% if post.color_overlay %}background-image:linear-gradient(0deg, {{ post.color_overlay }} 25%, rgba(0, 0, 0, 0)), url('/img/blog-performance.jpg');{% else %}background-image: url('/img/blog-performance.jpg');{% endif %} background-size: cover;">
+          </div>
+        {% endif %}
+        <div class="blog-card__bottom">
+          <h2>{{ post.title }}</h2>
+          <div class="blog-card__bottom--author">{{ author.name }}</div>
+          <div class="blog-card__bottom--date-categories">
+            <span class="blog-card__bottom--date">{{ post.date | date: "%b %d, %Y" }}</span>
+          </div>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+  {% if paginator.total_pages > 1 %}
+  <ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+  </ul>
+  {% endif %}
+</div>

@@ -1,0 +1,109 @@
+.orbit {
+
+  &-bullets {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-right: -.9375rem;
+    margin-left: -.9375rem;
+
+    @include breakpoint(medium down) {
+      margin-bottom: 2rem;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    button {
+      background-color: transparent;
+      cursor: pointer;
+      height: auto;
+      margin: 0;
+      padding-right: .9375rem;
+      padding-left: .9375rem;
+      opacity: 0.3;
+      transition: .5s;
+      width: auto;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:hover,
+      &.is-active {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        opacity: 1;
+      }
+
+      img {
+        height: 2.5rem;
+      }
+    }
+
+    &--no-image {
+      margin-bottom: 1.5rem;
+
+      button {
+        background-color: $medium-gray;
+        height: 1rem;
+        padding: 0;
+        width: 1rem;
+
+        &:hover,
+        &.is-active {
+          background-color: $dark-gray;
+          border: none;
+          outline: none;
+          opacity: 1;
+        }
+
+        &:not(:last-child) {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+
+  &-container {
+    &__wrapper {
+      display: flex;
+      font-family: $font-poppins;
+
+      ul {
+        font-size: 1.5rem;
+        flex: 1;
+
+        @include breakpoint(medium down) {
+          font-size: 1.25rem;
+        }
+
+        p {
+          line-height: normal;
+
+          &:not(:last-child) {
+            margin-bottom: 1rem;
+          }
+
+          span {
+            bottom: -0.25rem;
+            font-family: $font-lato;
+            font-size: 2rem;
+            position: relative;
+
+            @include breakpoint(medium down) {
+              bottom: -0.5rem;
+            }
+          }
+        }
+
+        &,
+        * {
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<div class="member-wrapper d-flex flex-column align-items-center padding-bottom-2">
+  <div class="image-wrapper mb-3 mb-md-5 embed-responsive embed-responsive-1by1">
+    <img src="{{ members.img }}" 
+         alt="{% if members.img_alt %}{{ members.img_alt }}{% else %}{{ members.name }}{% endif %}"
+         class="embed-responsive-item rounded-circle grayscale"
+    >
+  </div>
+
+  <h4 class="member-name text-center mb-2 mb-md-4 padding-bottom-0 padding-top-1">
+    {{ members.name }}
+  </h4>
+
+  <div class="member-title">
+    {{ members.title }}
+  </div>
+</div>

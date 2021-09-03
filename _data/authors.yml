@@ -1,0 +1,62 @@
+---
+alex-novak:
+  name: Alex Novak
+  profile_image: "/img/alex-novak.jpg"
+  image_meta: "/img/alex-novak.jpg"
+  bio: Alex Novak is a WordPress\Drupal developer and blogger for Esteemed. He has
+    been a part of Drupal Contractors, WP Contractors, and Esteemed for over 4 years.
+    As a developer, he has participated in extensive projects of varying complexity
+    and scale. Most recently, he has been using React and Angular as well. Connect
+    with him on Esteemed!
+casey-horgan:
+  name: Casey Horgan
+  profile_image: "/img/casey-horgan.jpg"
+  image_meta: "/img/casey-horgan-meta.png"
+  bio: Casey Horgan is an experienced editor, B2B content marketer, and wordsmith.
+    Her talents include SEO, content creation, marketing research, and graphic design.
+    When she's not writing, she studies primary source documents at the Accademia
+    di Merano's Ezra Pound Research Center in northern Italy.
+dori-kelner:
+  name: Dori Kelner
+  profile_image: "/img/dori-kelner.jpg"
+  image_meta: "/img/dori-kelner.png"
+  bio: Dori Kelner has served the technology industry for decades and is currently teaching and facilitating
+    mindfulness programs and workshops for organizations and individuals. You can connect with her on [LinkedIn](https://www.linkedin.com/in/dorikelner/)
+    and through [Insightful Culture](https://www.insightfulculture.com).
+jessica-devine:
+  name: Jessica Devine
+  profile_image: "/img/jessica-devine.jpg"
+  image_meta: "/img/jessica-devine.jpg"
+  bio: "Jessica Devine is a Full Stack developer, WordPress expert, and Social Media Manager.
+  With an eye for design and user experience, she works with business owners to help them win online.
+  On the WP Contractors blog, she enjoys writing about how to improve your WordPress site with tips and tools."
+kelton-reid:
+  name: Kelton Reid
+  profile_image: "/img/kelton-reid.jpg"
+  image_meta: "/img/kelton-reid-meta.png"
+  bio: Kelton Reid is an independent podcast producer, writer, mediaphile, and the
+    former VP of Multimedia Production for Copyblogger. Find out how great writers
+    keep the cursor moving on his podcast [The Writer Files](https://writerfiles.libsyn.com/),
+    and connect with Kelton on [Twitter](https://twitter.com/KeltonReid).
+m-shakaib-zafar:
+  name: M Shakaib Zafar
+  profile_image: "/img/m-shakaib-zafar.jpg"
+  image_meta: "/img/m-shakaib-zafar.jpg"
+  bio: M Shakaib Zafar is a Software Engineer at Programmers Force. He creates diverse
+    and attention-caching websites for a variety of clients. Having won the Young
+    Developer Award twice, his services have been solicited by companies including
+    Programmers Force (ISO Certified) and Gertrude Marketers.
+matthew-pritchard:
+  name: Matthew Pritchard
+  profile_image: "/img/matthew-pritchard.jpg"
+  image_meta: "/img/matthew-pritchard-meta.png"
+  bio: 'Matthew Ellis Pritchard is a digital content marketer and Esteemed Talent
+    Network member, creating useful content for agency-owners, businesses and freelancers/contractors
+    alike. Let''s connect at m.pritchard@esteemed.io. '
+gloria-tucker:
+  name: Gloria Tucker
+  profile_image: "/img/gloria-tucker.jpg"
+  image_meta: "/img/gloria-tucker.jpg"
+  bio: 'Gloria is an ambitious senior backend web developer who specializes in Drupal
+    and is passionate about open-source software and government web projects. In her
+    spare time, she enjoys her family, having fun with friends, and reading literature. '

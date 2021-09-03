@@ -1,0 +1,152 @@
+h1,
+h2,
+h3,
+h4 {
+  font-weight: $global-weight-thin;
+}
+
+h1,
+.h1 {
+
+  &.main-title {
+    font-size: 2rem;
+
+    @include breakpoint(medium only) {
+      font-size: 4rem;
+    }
+
+    @include breakpoint(large) {
+      font-size: 5rem;
+    }
+  }
+}
+
+h2,
+.h2 {
+
+  @include breakpoint(medium) {
+    font-size: 3.438rem;
+  }
+}
+
+.h5 {
+  margin-bottom: $spacing;
+  line-height: 1.75;
+}
+
+.h6 {
+  font-family: $font-lato;
+  font-size: 1.125rem;
+}
+
+a {
+  transition: all 0.3s ease-out;
+
+  &.mail {
+    color: $black;
+
+    &:hover {
+      color: $blue--bg;
+    }
+  }
+}
+
+.company-heading {
+
+  @include breakpoint(medium) {
+    font-size: 2rem;
+  }
+}
+
+.button {
+  font-family: $font-poppins;
+  font-weight: $global-weight-normal;
+
+  &.black {
+    background-color: $black;
+    transition: .3s;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+
+  &.orange {
+    background-color: $orange--btn;
+  }
+
+  &.transparent {
+    background-color: transparent;
+    border: 2px solid $dark-gray;
+    color: $dark-gray;
+  }
+  &__small {
+    padding: 0.9rem 1.3rem;
+  }
+
+  &__no-bg {
+    align-items: center;
+    display: flex;
+    font-family: $font-poppins;
+    font-weight: $global-weight-medium;
+
+    &:after {
+      background-image: url("../img/arrow-sm-right.svg");
+      background-repeat: no-repeat;
+      background-size: 100%;
+      content: "";
+      display: inline-block;
+      height: 1rem;
+      margin-left: 0.5rem;
+      width: 1rem;
+    }
+  }
+}
+
+.sup-head {
+  color: $blue--header;
+  font-weight: $global-weight-bold;
+  text-transform: uppercase;
+
+  &:after {
+    border-bottom: 2px solid $black;
+    content: "";
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+    width: 100px;
+  }
+}
+
+.quote {
+  margin-bottom: $spacing;
+
+  &::before {
+    content: "″";
+    display: block;
+    font-size: rem-calc(70);
+    font-weight: $global-weight-bold;
+    line-height: 1;
+    margin-bottom: -25px;
+  }
+}
+
+.company-logo {
+  margin-bottom: $spacing;
+}
+
+.breadcrumb {
+  font-family: $font-poppins;
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+
+.heading-subtitle {
+  font-family: $font-lato;
+  font-size: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 0 3rem 0;
+  text-align: center;
+  width: 65%;
+}

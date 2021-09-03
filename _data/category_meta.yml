@@ -1,0 +1,20 @@
+distributed-workforce:
+  title: "Distributed Workforce &#124; Esteemed.io"
+  description: "Remote-working has completely changed the workforce. Stay on top of the trends here."
+  image: "/img/categories.png"
+talent-sourcing:
+  title: "Talent Sourcing &#124; Esteemed.io"
+  description: "Want to improve your candidate pipeline? Read out latest takes on sourcing top talent."
+  image: "/img/categories.png"
+contracting-tips:
+  title: "Contracting Tips &#124; Esteemed.io"
+  description: "A series of contracting tips, case studies, and best practices — all the stuff that'll help you and your company grow, just for businesses."
+  image: "/img/categories.png"
+hiring-strategy:
+  title: "Hiring Strategy &#124; Esteemed.io"
+  description: "Need hiring tips, case studies, and best practices? Look no further. We're here to help."
+  image: "/img/categories.png"
+developer-life:
+  title: "Developer Life &#124; Esteemed.io"
+  description: "Whether brushing up on skills or learning new tricks, check out our blog to learn the latest in web and software development."
+  image: "/img/categories.png"

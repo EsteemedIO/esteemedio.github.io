@@ -1,0 +1,56 @@
+---
+label: Authors
+hide_body: true
+fields:
+- type: field_group
+  name: casey-horgan
+  label: casey-horgan
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: image
+    label: image
+  - type: textarea
+    name: bio
+    label: bio
+- type: field_group
+  name: kelton-reid
+  label: kelton-reid
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: image
+    label: image
+  - type: textarea
+    name: bio
+    label: bio
+- type: field_group
+  name: m-shakaib-zafar
+  label: m-shakaib-zafar
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: image
+    label: image
+  - type: textarea
+    name: bio
+    label: bio
+- type: field_group
+  name: matthew-pritchard
+  label: matthew-pritchard
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: image
+    label: image
+  - type: textarea
+    name: bio
+    label: bio

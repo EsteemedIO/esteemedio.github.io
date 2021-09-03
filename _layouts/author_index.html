@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+{% assign author = site.data.authors[page.author] %}
+{% assign posts = site.posts | where:'author', page.author %}
+<div class="grid-container author-post-item">
+  <div class="grid-x align-top">
+    <h1 class="u-text-bold main-title text-center"><img src="{% if author.profile_image %}{{ author.profile_image }}{% else %}/img/profile-pic.png{% endif %}" alt="{{ author.name }}" />{{ author.name }}'s Posts</h1>
+    <div class="heading-subtitle">{{ author.bio | markdownify }}</div>
+  </div>
+  <div class="grid-x align-top grid-padding-x blog-all-posts">
+    {% for post in posts %}
+    <a href="{{ post.url }}" class="blog-card cell small-6 medium-4">
+      <div class="blog-card__wrapper">
+        {% if post.image %}
+          <div class="blog-card__wrapper--image" style="background-image: url('{{ post.image }}'); background-size: cover;">
+          </div>
+        {% else %}
+          <div class="blog-card__wrapper--image" style="background-image: url('/img/blog-performance.jpg'); background-size: cover;">
+          </div>
+        {% endif %}
+        <div class="blog-card__bottom">
+          <h2>{{ post.title }}</h2>
+          <div class="blog-card__bottom--date-categories">
+            <span class="blog-card__bottom--date">{{ post.date | date: "%b %d, %Y" }}</span>
+            <span class="blog-card__bottom--line">|</span>
+            <span class="blog-card__bottom--categories">{{ post.categories | first }}</span>
+          </div>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+    {% if paginator.total_pages > 1 %}
+    <ul class="pager">
+      {% if paginator.previous_page %}
+      <li class="previous">
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+      </li>
+      {% endif %}
+      {% if paginator.next_page %}
+      <li class="next">
+          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+      </li>
+      {% endif %}
+    </ul>
+    {% endif %}
+  </div>
+</div>

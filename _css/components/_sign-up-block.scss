@@ -1,0 +1,121 @@
+#mc_embed_signup {
+  background: $lightest-gray;
+  clear: left;
+  overflow: hidden;
+
+  @include breakpoint(medium down) {
+    padding-bottom: 3rem;
+  }
+
+  h2 {
+    font-size: 2.1875rem;
+    margin-bottom: 2rem !important;
+
+    @include breakpoint(small only) {
+      font-size: 1.25rem !important;
+    }
+  }
+
+  form {
+    padding: 0;
+  }
+
+  .sign-up-subtitle {
+    font-family: $font-lato;
+    font-size: 1.25rem;
+    margin-bottom: 4rem;
+
+    @include breakpoint(medium down) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  button {
+    background-color: $blue--btn !important;
+    font-size: 1.125rem !important;
+    height: initial !important;
+    line-height: 1 !important;
+    padding: 1.4em 1.7em !important;
+    border: 1px solid transparent !important;
+    margin-top: 1rem !important;
+
+    &:hover {
+      background-color: $blue--btn-hover !important;
+    }
+  }
+
+  input[type="email"] {
+    border: transparent !important;
+    color: $dark-gray !important;
+    font-family: $font-lato !important;
+    font-size: 1.125rem !important;
+    max-width: 100% !important;
+    padding: 1.4em 1em !important;
+
+    @include breakpoint(medium down) {
+      width: 100% !important;
+    }
+
+    &::placeholder {
+      color: $dark-gray !important;
+    }
+  }
+
+  .sign-up-image {
+
+    @include breakpoint(medium down) {
+      order: 1;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    @include breakpoint(large) {
+      text-align: right;
+    }
+  }
+
+  .sign-up-text {
+
+    @include breakpoint(large) {
+      margin-top: 7rem;
+    }
+
+    @include breakpoint(medium down) {
+      order: 2;
+      text-align: center;
+    }
+  }
+
+  img {
+    -webkit-filter: drop-shadow(2px 2px 28px $medium-gray);
+    filter: drop-shadow(2px 2px 28px $medium-gray);
+    margin-top: 3rem;
+    max-width: 350px;
+
+    @include breakpoint(large) {
+      margin-top: 5rem;
+      width: 85%;
+    }
+  }
+
+  .input-mobile-wrapper {
+    align-items: center;
+    display: flex;
+    max-width: 500px;
+
+    @include breakpoint(medium down) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    input,
+    button {
+      margin-bottom: 0 !important;
+      margin-top: 0 !important;
+    }
+
+    button {
+      padding: 0.85em 1.7em !important;
+    }
+  }
+}

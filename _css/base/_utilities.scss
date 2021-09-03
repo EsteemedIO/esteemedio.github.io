@@ -1,0 +1,104 @@
+.u-text-bold {
+  font-weight: $global-weight-bold;
+}
+
+.u-text-medium {
+  font-weight: $global-weight-medium;
+}
+
+.u-text-normal {
+  font-weight: $global-weight-normal;
+}
+
+.u-text-orange {
+  color: $orange;
+}
+
+.u-text-white {
+  color: $white;
+}
+
+.u-bg-blue {
+  background-color: $blue--bg;
+}
+
+.u-bg-lighter-blue {
+  background-color: $blue-lighter-bg;
+}
+
+.u-bg-lighter-gray {
+  background-color: $lighter-gray
+}
+
+.u-bg-gray {
+  background-color: $gray--bg;
+}
+
+.u-bg-yellow {
+  background-color: $yellow;
+}
+
+.u-leader {
+  margin-top: $spacing;
+}
+
+.u-trailer {
+  margin-bottom: $spacing;
+}
+
+@include breakpoint(medium) {
+  .main-title {
+    line-height: 1.2;
+    font-size: 4rem;
+    font-weight: $global-weight-bold;
+  }
+
+  .main-text-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-poppins;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.small-margin-bottom-2 {
+  @include breakpoint(small only) {
+    margin-bottom: 2rem;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.width-50vw {
+  min-width: 50vw;
+  height: 100%;
+  overflow: hidden;
+
+  & > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.card-text {
+  font-family: $font-poppins;
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+.button-yellow {
+  background-color: $hero-gold;
+  color: $peppercorn;
+}
+
+.button-yellow:hover {
+  background-color: #e8c848;
+  color: $peppercorn;
+}

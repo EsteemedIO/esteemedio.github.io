@@ -1,0 +1,14 @@
+- name: Avionos
+  image: "/img/partners/avionos.svg"
+- name: Robert Half
+  image: "/img/partners/robert_half.svg"
+- name: Kanopi
+  image: "/img/partners/kanopi.svg"
+- name: Isovera
+  image: "/img/partners/isovera.svg"
+- name: Oomph
+  image: "/img/partners/oomph.svg"
+- name: Fresh Form
+  image: "/img/partners/fresh_form.svg"
+- name: Phase2
+  image: "/img/partners/phase2.svg"

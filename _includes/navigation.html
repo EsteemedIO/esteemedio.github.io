@@ -1,0 +1,37 @@
+{% assign dir_with_slashes = '/' | append: dir | append: '/' %}
+{% unless dir %}
+{% assign dir_with_slashes = page.url | split: '/' %}
+{% assign dir_with_slashes = '/' | append: dir_with_slashes[1] | append: '/' %}
+{% endunless %}
+<div data-collapse="large" data-animation="default" data-duration="400" class="hero-menu w-nav sticky is-stuck is-at-top">
+  <div class="grid-container">
+    <div class="grid-x align-justify align-middle">
+      <div class="w-nav-brand w--current large-shrink grid-x align-justify">
+        <a href="/" class="w-logo">
+          <img src="{{ site.logo }}" alt="Esteemed Logo" class="logo">
+        </a>
+      </div>
+      <div id="main-navigation__button" class="hide-for-large">
+        <div class="title-bar" data-toggle="main-navigation" data-responsive-toggle="main-navigation" data-hide-for="large">
+          <button class="menu-icon" type="button" data-toggle="main-navigation"></button>
+        </div>
+      </div>
+    </div>
+    <div class="grid-x" id="main-navigation__content">
+      <div class="top-bar cell" id="main-navigation" data-toggler data-animate="fade-in fade-out">
+        <ul class="dropdown vertical large-horizontal menu" data-dropdown-menu>
+          {% for nav in site.data.menus.navigation %}
+          {% if nav.url == page.dir or nav.url == dir_with_slashes %}
+          {% assign active = true %}
+          {% else %}
+          {% assign active = false %}
+          {% endif %}
+            <li>
+              <a class="{% if nav.button != 0 %}button {% endif %}{% if nav.bg_white != null %}bg-white {% endif %}{% if active %} is-active{% endif %}" href="{{ nav.url }}">{{ nav.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

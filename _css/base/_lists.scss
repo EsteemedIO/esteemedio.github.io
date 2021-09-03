@@ -1,0 +1,14 @@
+.cards-list-reverse {
+  .card-horizontal:nth-child(even) {
+    & > .row {
+      @include breakpoint(medium) {
+        flex-direction: row-reverse;
+      }
+    }
+
+    .img-wrapper {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
