@@ -1,0 +1,121 @@
+---
+title: "Work with us"
+description: "We help organizations realize their vision with our expertise across all digital platforms, and create personal experiences that make an impression. "
+permalink: "/work-with-us/"
+---
+{% assign posts = site.posts | where:'featured', true | sort: 'date' | reverse %}
+<div class="page--products">
+  <section id="section-service" class="section padding-vertical-0">
+    <div class="cards-list-reverse fadeinHero">
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/work-with-us-1.jpg" alt="Powering Your Business at Every Step">
+            </div>
+          </div>
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+            <p class="eyebrow"></p>
+            <h2 class="u-trailer u-text-bold">Customized for Your Business. Created by Us.</h2>
+            <p class="card-text">We create custom solutions that prioritize your goals
+              and drive results, always taking your business’ objectives
+              into considerate on.</p>
+            <p class="card-text">By asking the right questions, we strive to deepen your
+              relationships with your audiences across the web.</p>
+            <p class="card-text">From content writing to cloud management, our trained
+              experts in all disciplines of digital technology ensure not
+              only quality products but also high-touch partnerships.</p>
+            <div class="cell">
+              <a href="#" class="button" target="_blank">Sign Up Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-horizontal overflow-hidden fadeinHero">
+        <div class="row">
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/work-with-us-2.jpg"
+                   alt="Global Brands Rely On Us">
+            </div>
+          </div>
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-lighter-blue">
+            <h2 class="u-trailer u-text-bold">Read Our Case Studies</h2>
+
+            <div class="cell">
+              <p class="card-text">
+                We offer content strategy, cloud hosting, development,
+                web design, data visualization,and many more visual
+                communication and web services.</p>
+              <p class="card-text">
+                With many projects to our name, we can only show a small
+                sample of our work here. Have a question about our services?
+                Don’t hesitate to connect with us! We’d love to chat
+                about what Esteemed Digital can do for your company.
+              </p>
+              <div class="cell">
+                <a href="#" class="button" target="_blank">Get in Touch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="screening-slider card-horizontal overflow-hidden">
+      <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+        <div class="orbit-wrapper">
+          <div class="orbit-controls">
+
+
+          </div>
+          <ul class="orbit-container">
+          {% for post in posts %}
+            <li class="{% if post.index == 0 %}is-active{% endif %} orbit-slide">
+              <figure class="orbit-figure">
+                <div class="card-horizontal overflow-hidden screening-testimonial">
+                  <div class="row">
+                    <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+                      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+                      <h2 class="u-trailer">{{ post.title }}</h2>
+
+                      <div class="cell">
+                        <p class="card-text margin-bottom-3">
+                          {{ post.description}}</p>
+                        <div class="cell text-center margin-top-3">
+                          <a href="#mc-embedded-subscribe-form" class="button text-center" target="_blank">Start
+                            now</a>
+                          <a href="{{ post.url}}" class="button bg-white text-center margin-left-2" target="_blank">Learn
+                            More</a>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+                      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+                      <div class="width-25vw slider-image">
+                        <img class="section-image fadein work-with-us-img" src="{{post.thumbnail}}"
+                             alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </figure>
+            </li>
+          {% endfor %}
+            <nav class="orbit-bullets">
+            {% for post in posts %}
+                <button class="{% if post.index == 0 %}is-active{% endif %}" data-slide="{{ post.index }}"></button>
+            {% endfor %}
+            </nav>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+</div>
