@@ -1902,3 +1902,36 @@ body {
     font-size: 32px;
   }
 }
+.block--team-members {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  h2 {
+    width: 100%;
+  }
+  .card-text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .block-content {
+    margin: 0 auto;
+
+    img {
+      border-radius: 5px !important;
+    }
+
+    .image-wrapper {
+      width: 290px !important;
+    }
+
+    .rounded-circle {
+      border-radius: 15px !important;
+    }
+
+    .member-title {
+      font-size: 1.125rem;
+    }
+  }
+}

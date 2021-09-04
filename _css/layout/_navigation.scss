@@ -290,11 +290,14 @@
 }
 
 .col5-unit{
-  @include grid-column(2.4);
+  width: 25%;
   @include breakpoint(medium down) {
-    width: 33.33%;
+    width: 25%;
   }
   @include breakpoint(small only) {
     width: 50%;
+  }
+  .grid-x {
+    width: 60%;
   }
 }

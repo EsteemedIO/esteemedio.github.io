@@ -1,0 +1,112 @@
+---
+title: "Get to know us"
+description: "We help organizatons realize their vision with our expertse across all digital platorms, and create personal experiences that make an impression. "
+permalink: "/get-to-know-us/"
+---
+<div class="page--products">
+  <section id="section-service" class="section padding-vertical-0">
+    <div class="cards-list-reverse fadeinHero">
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/get-to-know-us-1.jpg" alt="Powering Your Business at Every Step">
+            </div>
+          </div>
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+            <p class="eyebrow"></p>
+            <h2 class="u-trailer u-text-bold">Powering Your Business at Every Step</h2>
+            <p class="card-text">We help organizatons realize their vision with our expertse
+              across all digital platorms, and create personal experiences
+              that make an impression.</p>
+            <div class="cell">
+              <a href="/get-a-quote" class="button" target="_blank">Get a Quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-horizontal overflow-hidden fadeinHero">
+        <div class="row">
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/get-to-know-us-2.jpg"
+                   alt="Global Brands Rely On Us">
+            </div>
+          </div>
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-lighter-blue">
+            <h2 class="u-trailer u-text-bold">Global Brands Rely On Us</h2>
+
+            <div class="cell">
+              <p class="card-text">
+                For nearly two decades, we have advised some of the most
+                inﬂuental corporate brands and government organizatons
+                on digital strategy and web development.              </p>
+              <p class="card-text">
+                We work together with leading talent and resources to deliver an approach that merges emerging technologies with
+                the foundaton of business – your customer relatonships.
+              </p>
+              <div class="cell">
+                <a href="/get-a-quote" class="button" target="_blank">Get in Touch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/get-to-know-us-3.jpg"
+                   alt="We Create User-Centered Solutions">
+            </div>
+          </div>
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-gray">
+            <h2 class="u-trailer u-text-bold" id="go-to-source">We Create User-Centered Solutions</h2>
+
+            <div class="cell">
+              <p class="card-text">
+                Our solutons leverage technologies and data to contnually
+                reﬁne the user-experience and identfy ways to automate
+                relatonship building with the user.               </p>
+              <p class="card-text">
+                We start by working to form an intmate understanding of
+                the business needs and goals of our clients. Then we identfy problems, and take a look at your users. The process
+                result is customer-centric personas that deliver personalized digital experiences.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="block--team-members" class="block block--team-members margin-bottom-2">
+        <h2 class="block-title text-center margin-bottom-1 margin-top-2">Meet Our Team</h2>
+        <p class="card-text margin-bottom-3 text-center">Together, we’re a team of digital leaders, strategists, writers, designers, and
+          developers — creatng thoughtul experiences designed to satsfy your goals.</p>
+        <div class="block-content margin-top-3">
+          <div class="row row-block-padding">
+            {% for members in site.data.team_members %}
+            <div class="small-6 large-4 columns">
+              <div class="member-wrapper d-flex flex-column align-items-center padding-bottom-2">
+                <div class="image-wrapper mb-3 mb-md-5 embed-responsive embed-responsive-1by1">
+                  <img src="{{ members.img }}"
+                       alt="{% if members.img_alt %}{{ members.img_alt }}{% else %}{{ members.name }}{% endif %}"
+                       class="embed-responsive-item rounded-circle grayscale">
+                </div>
+
+                <h4 class="member-name text-center mb-2 mb-md-4 padding-bottom-0 padding-top-1">
+                  {{ members.name }}
+                </h4>
+
+                <div class="member-title">
+                  {{ members.title }}
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+        <p class="card-text text-center margin-top-3"> What can we help you create today? Get in touch with us below. </p>
+    </div>
+  </section>
+</div>
