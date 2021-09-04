@@ -1,0 +1,103 @@
+---
+our_service_1:
+  - label_tab: Hosting & Support
+    label_icon: /img/tab-1/hosting_support.png
+    description: |-
+      We’re here to help you with your Web Content Management System.
+      We’ve been hostng enterprise clients for over 18 years. When you
+      choose Esteemed Digital as your hostng partner we work with your
+      team to ensure contnuous up-tme.
+
+      We can help keep your applicaton up-to-date and secure through
+      regular updates as well as provide contnued enhancements and debugging,
+      and assist with a site that is having issues or has gone down.
+    img: /img/tab-1/hosting_support.jpg
+  - label_tab: Digital Strategy
+    label_icon: /img/tab-1/digital_strategy.png
+    description: |-
+      We provide end-to-end, full-service digital solutons with expertise
+      across defferent disciplines to improve your business’ performance.
+
+      Turn your product vision into actonable goals for your teams. With
+      lean strategy, data-driven decision making, and cross-functonal experts,
+      Esteemed Digital is your trusted strategic partner.
+    img: /img/tab-1/digital_strategy.jpg
+  - label_tab: Architecture
+    label_icon: /img/tab-1/architerture.png
+    description: |-
+      Esteemed Digital is composed of technical professionals with
+      expertse gained all over the world and in all ﬁelds of the tech industry.
+      It’s our mission to put this expertse to work for you. We serve all
+      industries, including banking, ﬁnance, legal services, life sciences &
+      healthcare, technology, media, and the public sector.
+    img: /img/tab-1/architerture.jpg
+  - label_tab: Custom Development
+    label_icon: /img/tab-1/custom_development.png
+    description: |-
+      Our clients are central to our team. We’ll ﬂesh out complex requirements,
+      and design effective systems that solve your problems.
+
+      We focus on creatng big changes like enabling marketng efforts and
+      content publishing, workﬂow improvements, leveraging Open Source
+      technologies, and improving your business as a whole.
+    img: /img/tab-1/custom_development.jpg
+  - label_tab: CMS Design & Development
+    label_icon: /img/tab-1/cms_design_development.png
+    description: |-
+      Our CMS Web Solutons provide end-users with diﬀerent permissions
+      to manage or even access informaton, content, and assets of the
+      organizaton.
+
+      As pioneers in providing end-to-end IT deliverables, we shoulder the
+      responsibility to provide cutng-edge CMS Web Development
+      Services to our clients.
+    img: /img/tab-1/cms_design_development.jpg
+our_service_2:
+  - label_tab: Content Strategy
+    label_icon: /img/tab-2/content-strategy.png
+    description: |-
+      Our content writers, editors, and managers are up-to-date on the
+      latest search trends, tools, and tactics to garner maximum engagement and exposure for your business across the web.
+
+      Working with our team, we ask questions to determine your content
+      goals and the best digital methods to fulﬁll them.
+    img: /img/tab-2/content-strategy.jpg
+  - label_tab: Social Media Management
+    label_icon: /img/tab-2/social-media-management.png
+    description: |-
+      We use social media marketing services to help businesses meet their
+      goals. We create and manage top-performing social media campaigns,
+      leveraging Facebook, Instagram, Twitter, LinkedIn and Pinterest.
+
+      Our integrated approach considers all avenues of marketing, to make
+      sure you’re getting the most ROI out of every campaign.
+    img: /img/tab-2/social-media-management.jpg
+  - label_tab: Web & Graphic Design
+    label_icon: /img/tab-2/web_graphic_design.png
+    description: |-
+      Our design team is experienced creating elegant, responsive design.
+      We ﬁrst consider your users, and the website’s intended purpose.
+
+      From there we can establish design details such as layout, art direction, and usability,
+      integrating your website’s look and feel with your organization's current branding.
+    img: /img/tab-2/web_graphic_design.jpg
+  - label_tab: Digital Advertising
+    label_icon: /img/tab-2/digital_advertising.png
+    description: |-
+      Our digital marketing experts have put together successful digital
+      marketing campaigns for businesses looking to increase sales, leads,
+      phone calls, transactions, and qualiﬁed website traﬃc.
+
+      Working with our team, we determine which avenues are best suited
+      for your business’s campaign goals and objectives.
+    img: /img/tab-2/digital_advertising.jpg
+  - label_tab: Campaign Management
+    label_icon: /img/tab-2/campaign_management.png
+    description: |-
+      Take the hard work out of running large-scale digital ad campaigns
+      with Esteemed Digital’s custom campaign management service.
+
+      Whether you’re growing your brand, seeking new customers, or driv-
+      ing engagement, we’ll come up with the right campaign to ﬁt your
+      needs and execute it with speed and accuracy.
+    img: /img/tab-2/campaign_management.jpg

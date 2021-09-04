@@ -1,0 +1,126 @@
+---
+title: "Our Services"
+description: "Solutions and Services for All Your Projects"
+permalink: "/our-services/"
+---
+{% assign posts = site.posts | where:'featured', true | sort: 'date' | reverse %}
+<div class="page--products">
+  <section id="section-service" class="section padding-vertical-0">
+    <div class="cards-list-reverse fadeinHero">
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+            <div class="width-25vw">
+              <img class="section-image" src="/img/work-with-us-1.jpg" alt="Powering Your Business at Every Step">
+            </div>
+          </div>
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+            <p class="eyebrow"></p>
+            <h2 class="u-trailer u-text-bold">Solutions and Services for All Your Projects.</h2>
+            <p class="card-text">The digital landscape is always changing. Your company’s
+              ability to fulfill their goals is as important as ever – so you’ll
+              be ready for whatever’s ahead.
+            </p>
+            <p class="card-text">Whether you need to scale your operations quickly or
+              improve your offerings, Esteemed Digital gives you the
+              right people, tools, and support to take on what’s next.</p>
+            <div class="cell">
+              <a href="#" class="button " target="_blank">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container padding-2">
+            <div class="tabs-content vertical our-service-tab" data-tabs-content="our-service-tab-1">
+              {% for data in site.data.service_tabs.our_service_1 %}
+              <div class="tabs-panel {% if forloop.index == 1 %}is-active{% endif %}"
+                   id="our-service-tab-1-{{forloop.index}}">
+                <div class="title">{{ data.label_tab }}</div>
+                <div class="large-4 title-border"></div>
+                <div class="description margin-top-1">{{ data.description | markdownify }}</div>
+                <div class="image-content"><img src="{{ data.img }}" alt="{{ data.label_tab }}"></div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-2">
+            <h2 class="text-center">Improve your Operations with Esteemed Cloud</h2>
+            <div class="our-service-tab-mob">
+              {% for data in site.data.service_tabs.our_service_1 %}
+              <div class="padding-1">
+                <div class="title">{{ data.label_tab }}</div>
+                <div class="large-4 title-border"></div>
+                <div class="description margin-top-1">{{ data.description | markdownify }}</div>
+                <div class="image-content"><img src="{{ data.img }}" alt="{{ data.label_tab }}"></div>
+              </div>
+              {% endfor %}
+            </div>
+            <ul class="vertical tabs our-service-tab tab-1" data-tabs id="our-service-tab-1">
+              {% for data in site.data.service_tabs.our_service_1 %}
+              <li class="tabs-title {% if forloop.index == 1 %}is-active{% endif %}">
+                <span class="icon"><img src="{{ data.label_icon }}" alt="{{ data.label_tab }}"></span>
+                <a class="link" href="#our-service-tab-1-{{ forloop.index }}" {% if forloop.index== 1
+                   %}aria-selected="true" {% endif
+                   %}>{{ data.label_tab }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+            <div class="cell services-button">
+              <a href="#" class="button margin-top-2" target="_blank">Get a quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-horizontal overflow-hidden">
+        <div class="row">
+          <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container padding-2">
+            <div class="tabs-content vertical our-service-tab" data-tabs-content="our-service-tab-2">
+              {% for data in site.data.service_tabs.our_service_2 %}
+              <div class="tabs-panel {% if forloop.index == 1 %}is-active{% endif %}"
+                   id="our-service-tab-2-{{forloop.index}}">
+                <div class="title">{{ data.label_tab }}</div>
+                <div class="large-4 title-border"></div>
+                <div class="description margin-top-1">{{ data.description | markdownify }}</div>
+                <div class="image-content"><img src="{{ data.img }}" alt="{{ data.label_tab }}"></div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-2">
+            <h2 class="text-center">Improve your Campaigns with Esteemed Marketing</h2>
+            <div class="our-service-tab-mob">
+              {% for data in site.data.service_tabs.our_service_2 %}
+              <div class="padding-1">
+                <div class="title">{{ data.label_tab }}</div>
+                <div class="large-4 title-border"></div>
+                <div class="description margin-top-1">{{ data.description | markdownify }}</div>
+                <div class="image-content"><img src="{{ data.img }}" alt="{{ data.label_tab }}"></div>
+              </div>
+              {% endfor %}
+            </div>
+            <ul class="vertical tabs our-service-tab tab-2" data-tabs id="our-service-tab-2">
+              {% for data in site.data.service_tabs.our_service_2 %}
+              <li class="tabs-title {% if forloop.index == 1 %}is-active{% endif %}">
+                <span class="icon"><img src="{{ data.label_icon }}" alt="{{ data.label_tab }}"></span>
+                <a class="link" href="#our-service-tab-2-{{ forloop.index }}" {% if forloop.index== 1
+                   %}aria-selected="true" {% endif
+                   %}>{{ data.label_tab }}</a>
+              </li>
+
+              {% endfor %}
+            </ul>
+            <div class="cell services-button">
+              <a href="#" class="button margin-top-2" target="_blank">Get a quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+</div>
