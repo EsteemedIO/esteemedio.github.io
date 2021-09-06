@@ -1902,3 +1902,101 @@ body {
     font-size: 32px;
   }
 }
+.block--team-members {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  h2 {
+    width: 100%;
+  }
+  .card-text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .block-content {
+    margin: 0 auto;
+
+    img {
+      border-radius: 5px !important;
+    }
+
+    .image-wrapper {
+      width: 290px !important;
+    }
+
+    .rounded-circle {
+      border-radius: 15px !important;
+    }
+
+    .member-title {
+      font-size: 1.125rem;
+    }
+  }
+}
+
+.work-with-us-img {
+  height: 380px !important;
+}
+
+.our-service-tab, .our-service-tab-mob {
+  border: none !important;
+  .tabs-title {
+    display: flex !important;
+    flex-wrap: wrap;
+    padding: 1rem;
+    border-bottom: solid 1px $blue--btn;
+    align-items: center;
+    .link {
+      color: $black;
+      font-size: 1.25rem;
+    }
+    .link:hover {
+      background-color: #f5f5f5;
+    }
+    .icon {
+      padding: 0 2rem;
+    }
+  }
+  .tabs-title:hover{
+    background-color: #f5f5f5;
+  }
+  .tabs-panel {
+    background-color: $white !important;
+  }
+  .is-active,.tabs-title.is-active:hover, .link[aria-selected="true"]:hover {
+    background: #e6e6e6;
+  }
+  .title-border {
+    height: 1px;
+    border-bottom: solid 1px $blue--btn;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .image-content img{
+    border-radius: 10px;
+    max-height: 330px;
+  }
+}
+
+@include breakpoint(large down) {
+  .our-service-tab-mob {
+    display: none;
+  }
+}
+@include breakpoint(small only) {
+  .our-service-tab-mob {
+    display: block;
+  }
+  .our-service-tab {
+    display: none;
+  }
+  .services-button {
+    width: auto;
+    margin: 0 auto;
+  }
+}

@@ -6,7 +6,7 @@ navigation:
   weight: 1
 - button: 0
   title: Get to Know Us
-  url: "/get-to-work-with-us/"
+  url: "/get-to-know-us/"
   weight: 2
 - button: 0
   title: Our Services
