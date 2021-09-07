@@ -1983,12 +1983,12 @@ body {
   }
 }
 
-@include breakpoint(large down) {
+@include breakpoint(large up) {
   .our-service-tab-mob {
-    display: none;
+    display: none !important;
   }
 }
-@include breakpoint(small only) {
+@include breakpoint(small and medium only) {
   .our-service-tab-mob {
     display: block;
   }
