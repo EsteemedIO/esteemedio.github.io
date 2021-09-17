@@ -14,7 +14,7 @@ navigation:
   weight: 3
 - button: 0
   title: Contact Us
-  url: "/contact-us/"
+  url: "https://us10.list-manage.com/contact-form?u=ec5b82da5b213df9999d28215&form_id=e2baac9cf48cd098afc7bef27227c990"
   weight: 4
 - button: 1
   title: Get a Quote
