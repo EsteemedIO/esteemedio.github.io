@@ -30,7 +30,7 @@ author_title_suffix: ""
 collections:
   press:
     output: true
-  case-studies:
+  case_study:
     output: true
 pagination:
   enabled: true
@@ -76,7 +76,7 @@ defaults:
       permalink: /:title/
   - scope:
       path: ""
-      type: "case-studies"
+      type: "case_study"
     values:
       layout: "post"
       permalink: /:title/
