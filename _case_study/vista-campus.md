@@ -1,0 +1,22 @@
+---
+date: 2021-09-27 13:49:54 -0700
+author: matthew-pritchard
+categories: []
+title: Vista Campus
+description: JBS International contracted Esteemed Digital to provide Drupal developer
+  services for their client Vista Campus, a project of the Corporation for National
+  and Community Service (CNCS).
+image: "/uploads/vista2.jpg"
+thumbnail: "/uploads/vista_0.jpg"
+color_overlay: ''
+featured: false
+type: ''
+
+---
+JBS International contracted Esteemed Digital to provide Drupal developer services for their client [Vista Campus](vistacampus.gov), a project of the [Corporation for National and Community Service](http://www.nationalservice.gov/) (CNCS). They work in conjunction with Phase 2 Technology, the original vendor, to maintain and enhance the flagship property of the Americorps Vista program. 
+
+The site is fully responsive and uses the Aurora theme for Drupal and SASS to enhance performance. The site also uses the Panels module for ease of layout configuration, and the Organic Groups module to provide an array of community and collaboration features.
+
+Esteemed Digital has assisted with ongoing feature enhancement requests, via contributed module additions and custom code. Digital also works in an Agile style with a complex workflow involving GIT, the Acquia Cloud platform and the JIRA ticketing system where the Digital team collaborates with developers and stakeholders.
+
+The site is aimed at helping members of the VISTA program connect, collaborate and take advantage of the many resources available to them through CNCS.
