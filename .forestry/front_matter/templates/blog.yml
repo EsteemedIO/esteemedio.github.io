@@ -74,6 +74,7 @@ fields:
   label: Type
 pages:
 - _case_study/exide-batteries.md
+- _case_study/hasbro-wizards-of-the-coast.md
 - _case_study/san-francisco-airport.md
 - _case_study/the-u.s.national-archives.md
 - _case_study/wa-state-department-of-fish-and-wildlife.md
