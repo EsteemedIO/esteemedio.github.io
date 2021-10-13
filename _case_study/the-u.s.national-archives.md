@@ -3,8 +3,8 @@ date: 2021-09-27 12:01:52 -0700
 author: matthew-pritchard
 categories: []
 title: The U.S. National Archives
-description: Esteemed Digital provides architecture and cloud hosting expertise for
-  the Archives.gov
+description: 'Esteemed Digital provided a senior Drupal consultant for the U.S. National
+  Archives to assist with an AWS migration and Drupal version upgrade.  '
 image: "/uploads/nat-archives-home.png"
 thumbnail: "/uploads/nat-archives_0.png"
 color_overlay: ''
