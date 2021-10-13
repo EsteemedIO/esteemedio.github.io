@@ -3,7 +3,10 @@ date: 2021-09-27 12:50:30 -0700
 author: matthew-pritchard
 categories: []
 title: Voya Financial
-description: Esteemed Digital works with ING Financial on a Re-Brand
+description: Faced with a challenging rebrand that affected both a consumer and corporate
+  site, Voya Financial engaged a senior front end Drupal developer through Esteemed
+  Digital in order to manage a large team of developers and assist with the company’s
+  brand transition.
 image: "/uploads/voya4.jpg"
 thumbnail: "/uploads/voya_0.jpg"
 color_overlay: ''
