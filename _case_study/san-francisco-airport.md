@@ -1,10 +1,12 @@
 ---
-date: 2021-09-15 14:16:11 -0700
+date: 2021-09-15T14:16:11.000-07:00
 author: matthew-pritchard
 categories: []
 title: San Francisco Airport
-description: San Francisco Airport — responsive wayfinding, and creating a plan to
-  transition to Drupal 8
+description: The San Francisco Airport had complex needs and a number of parallel
+  projects, so they teamed up with Esteemed Digital to tackle top priorities, including
+  interior mapping, upgrading their AWS platform, enhancing security policies, and
+  creating their museum’s Drupal-run website.
 image: "/uploads/sfo_international_terminal_0.jpg"
 thumbnail: ''
 color_overlay: ''

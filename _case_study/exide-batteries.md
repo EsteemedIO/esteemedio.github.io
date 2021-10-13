@@ -1,10 +1,12 @@
 ---
-date: 2021-09-15 13:53:20 -0700
+date: 2021-09-15T13:53:20.000-07:00
 author: matthew-pritchard
 categories: []
 title: Exide Batteries
-description: Exide Batteries — an updated look paired with D8 multisite serving 30
-  international regions
+description: 'Exide Technologies needed a CMS solution that could handle it’s global
+  reach and extensive organization. Exide serves over 90 countries in 30 regions around
+  the globe, and their customer-facing website needed to reflect this. Esteemed Digital
+  was chosen to assist with the technical implementation and digital transformation. '
 image: ''
 thumbnail: "/uploads/exide-teaser_0.jpg"
 color_overlay: ''
