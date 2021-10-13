@@ -3,8 +3,10 @@ date: 2021-09-27 12:19:11 -0700
 author: matthew-pritchard
 categories: []
 title: The State of North Carolina
-description: 'Esteemed Digital was contracted for The State of North Carolina on three
-  separate projects. Read more about the projects. '
+description: The State of North Carolina enlisted the help of Esteemed Digital to
+  find a senior Drupal consultant, senior front end developer, and technical lead
+  to successfully manage multiple projects, including an Innovation Center, website
+  for the Governor, and an ambitious business portal.
 image: "/uploads/ncblnc-home.jpg"
 thumbnail: "/uploads/icenter-home_0.png"
 color_overlay: ''
