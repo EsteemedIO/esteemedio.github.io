@@ -8,7 +8,7 @@ description: The Washington State Department of Fish and Wildlife, with the help
   of a public-facing website. Our team provided ongoing on-site and remote consulting,
   tailored training, and staffing recommendations.
 image: "/uploads/fish-1_0.jpg"
-thumbnail: ''
+thumbnail: "/uploads/fish-1_0.jpg"
 color_overlay: ''
 featured: false
 type: ''
