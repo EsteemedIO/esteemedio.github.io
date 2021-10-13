@@ -3,9 +3,10 @@ date: 2021-09-27 13:49:54 -0700
 author: matthew-pritchard
 categories: []
 title: Vista Campus
-description: JBS International contracted Esteemed Digital to provide Drupal developer
-  services for their client Vista Campus, a project of the Corporation for National
-  and Community Service (CNCS).
+description: Vista Campus engaged an Esteemed Digital senior Drupal developer with
+  the goal of maintaining and enhancing the Americorp Vista program website. Due to
+  the success of the project, the client has turned to our team for assistance with
+  feature enhancement requests, custom coding challenges, and complex workflows.
 image: "/uploads/vista2.jpg"
 thumbnail: "/uploads/vista_0.jpg"
 color_overlay: ''
