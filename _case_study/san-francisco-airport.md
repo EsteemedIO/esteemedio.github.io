@@ -8,7 +8,7 @@ description: The San Francisco Airport had complex needs and a number of paralle
   interior mapping, upgrading their AWS platform, enhancing security policies, and
   creating their museum’s Drupal-run website.
 image: "/uploads/sfo_international_terminal_0.jpg"
-thumbnail: ''
+thumbnail: "/uploads/sfo_international_terminal_0.jpg"
 color_overlay: ''
 featured: false
 type: ''
