@@ -3,8 +3,9 @@ date: 2021-09-27 13:43:14 -0700
 author: matthew-pritchard
 categories: []
 title: Georgia Health Information Network
-description: Esteemed Digital implements and improves the portal for the Georgia Health
-  Network.
+description: When the Georgia Health Network needed to design and implement improvements
+  to their website, their team enlisted the assistance of Esteemed Digital to get
+  the job done.
 image: "/uploads/gahin_slide3-1.png"
 thumbnail: "/uploads/gahin_home2-1.png"
 color_overlay: ''
