@@ -3,7 +3,10 @@ date: 2021-09-27 12:55:45 -0700
 author: matthew-pritchard
 categories: []
 title: Teach.org
-description: Esteemed Digital revitalizes Teach.org's Drupal site.
+description: The U.S. Department of Education turned to Esteemed Digital to contract
+  multiple senior Drupal consultants for their Teach.org website. Esteemed colleagues
+  assisted with the site’s roll out, recommending a migration to MySQL, and implementing
+  a variety of enhancements.
 image: "/uploads/teach3.jpg"
 thumbnail: "/uploads/home_1.jpg"
 color_overlay: ''
