@@ -3,7 +3,10 @@ date: 2021-09-27 13:15:43 -0700
 author: matthew-pritchard
 categories: []
 title: Missouri Department of Labor
-description: 'Esteemed Digital revitalizes the Missouri Department of Labor''s site. '
+description: Over the course of 9 months, Esteemed Digital revitalized the website
+  for the Missouri Department of Labor and Industrial Relations, providing the client
+  with a lead Drupal developer, architect, and technical project lead to roll out
+  a full site redesign and migration to Drupal 7.
 image: "/uploads/dolir3-1.jpg"
 thumbnail: "/uploads/dolir4-1.jpg"
 color_overlay: ''
