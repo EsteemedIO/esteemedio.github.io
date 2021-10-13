@@ -3,7 +3,9 @@ date: 2021-09-27 12:09:48 -0700
 author: matthew-pritchard
 categories: []
 title: Hasbro & Wizards of the Coast
-description: Esteemed Digital provides front-end development resources for Hasbro.
+description: When Hasbro Inc. was in need of a senior front end developer for Wizards
+  of the Coast, Esteemed Digital stepped in to provide both on- and off-site expertise
+  regarding Wizards development, architecture, design, and project management staff.
 image: "/uploads/wizards3_0.png"
 thumbnail: "/uploads/wizards.png"
 color_overlay: ''
