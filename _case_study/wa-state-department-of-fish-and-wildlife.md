@@ -1,10 +1,12 @@
 ---
-date: 2021-09-15 14:23:29 -0700
+date: 2021-09-15T14:23:29.000-07:00
 author: matthew-pritchard
 categories: []
 title: WA State Department of Fish and Wildlife
-description: Washington State Fish & Wildlife — digital transformation and shift to
-  D8
+description: The Washington State Department of Fish and Wildlife, with the help of
+  Esteemed Digital architects and consultants, underwent a digital transformation
+  of a public-facing website. Our team provided ongoing on-site and remote consulting,
+  tailored training, and staffing recommendations.
 image: "/uploads/fish-1_0.jpg"
 thumbnail: ''
 color_overlay: ''
