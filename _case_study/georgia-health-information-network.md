@@ -1,5 +1,5 @@
 ---
-date: 2021-09-27 13:43:14 -0700
+date: 2021-09-27T13:43:14.000-07:00
 author: matthew-pritchard
 categories: []
 title: Georgia Health Information Network
@@ -8,7 +8,7 @@ description: When the Georgia Health Network needed to design and implement impr
   the job done.
 image: "/uploads/gahin_slide3-1.png"
 thumbnail: "/uploads/gahin_home2-1.png"
-color_overlay: ''
+color_overlay: "#B8CFEB"
 featured: false
 type: ''
 

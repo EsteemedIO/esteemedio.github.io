@@ -9,7 +9,7 @@ description: 'Exide Technologies needed a CMS solution that could handle it’s 
   was chosen to assist with the technical implementation and digital transformation. '
 image: ''
 thumbnail: "/uploads/exide-teaser_0.jpg"
-color_overlay: ''
+color_overlay: "#B8CFEB"
 featured: false
 type: ''
 
