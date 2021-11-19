@@ -1,5 +1,5 @@
 ---
-date: 2021-09-27 12:19:11 -0700
+date: 2021-09-27T12:19:11.000-07:00
 author: matthew-pritchard
 categories: []
 title: The State of North Carolina
@@ -9,7 +9,7 @@ description: The State of North Carolina enlisted the help of Esteemed Digital t
   for the Governor, and an ambitious business portal.
 image: "/uploads/ncblnc-home.jpg"
 thumbnail: "/uploads/icenter-home_0.png"
-color_overlay: ''
+color_overlay: "#B8CFEB"
 featured: false
 type: ''
 
