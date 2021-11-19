@@ -1,5 +1,5 @@
 ---
-date: 2021-09-27 12:01:52 -0700
+date: 2021-09-27T12:01:52.000-07:00
 author: matthew-pritchard
 categories: []
 title: The U.S. National Archives
@@ -7,7 +7,7 @@ description: 'Esteemed Digital provided a senior Drupal consultant for the U.S. 
   Archives to assist with an AWS migration and Drupal version upgrade.  '
 image: "/uploads/nat-archives-home.png"
 thumbnail: "/uploads/nat-archives_0.png"
-color_overlay: ''
+color_overlay: "#B8CFEB"
 featured: false
 type: ''
 
