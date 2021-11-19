@@ -1,5 +1,5 @@
 ---
-date: 2021-09-27 13:49:54 -0700
+date: 2021-09-27T13:49:54.000-07:00
 author: matthew-pritchard
 categories: []
 title: Vista Campus
@@ -9,7 +9,7 @@ description: Vista Campus engaged an Esteemed Digital senior Drupal developer wi
   feature enhancement requests, custom coding challenges, and complex workflows.
 image: "/uploads/vista2.jpg"
 thumbnail: "/uploads/vista_0.jpg"
-color_overlay: ''
+color_overlay: "#B8CFEB"
 featured: false
 type: ''
 
