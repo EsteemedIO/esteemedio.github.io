@@ -9,7 +9,7 @@ description: The San Francisco Airport had complex needs and a number of paralle
   creating their museum’s Drupal-run website.
 image: "/uploads/sfo_international_terminal_0.jpg"
 thumbnail: "/uploads/sfo_international_terminal_0.jpg"
-color_overlay: ''
+color_overlay: "#B8CFEB"
 featured: false
 type: ''
 
