@@ -8,7 +8,7 @@ description: Faced with a challenging rebrand that affected both a consumer and 
   Digital in order to manage a large team of developers and assist with the company’s
   brand transition.
 image: "/uploads/voya4.jpg"
-thumbnail: "/uploads/voya_0.jpg"
+thumbnail: "/uploads/voyafinancial-1.jpg"
 color_overlay: "#B8CFEB"
 featured: false
 type: ''
