@@ -1,5 +1,5 @@
 ---
-date: 2021-09-27 13:15:43 -0700
+date: 2021-09-27T13:15:43.000-07:00
 author: matthew-pritchard
 categories: []
 title: Missouri Department of Labor
@@ -9,7 +9,7 @@ description: Over the course of 9 months, Esteemed Digital revitalized the websi
   a full site redesign and migration to Drupal 7.
 image: "/uploads/dolir3-1.jpg"
 thumbnail: "/uploads/dolir4-1.jpg"
-color_overlay: ''
+color_overlay: "#B8CFEB"
 featured: false
 type: ''
 
