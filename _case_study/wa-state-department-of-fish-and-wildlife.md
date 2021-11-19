@@ -9,7 +9,7 @@ description: The Washington State Department of Fish and Wildlife, with the help
   tailored training, and staffing recommendations.
 image: "/uploads/fish-1_0.jpg"
 thumbnail: "/uploads/fish-1_0.jpg"
-color_overlay: ''
+color_overlay: "#B8CFEB"
 featured: false
 type: ''
 
