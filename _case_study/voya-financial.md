@@ -1,5 +1,5 @@
 ---
-date: 2021-09-27 12:50:30 -0700
+date: 2021-09-27T12:50:30.000-07:00
 author: matthew-pritchard
 categories: []
 title: Voya Financial
@@ -9,7 +9,7 @@ description: Faced with a challenging rebrand that affected both a consumer and 
   brand transition.
 image: "/uploads/voya4.jpg"
 thumbnail: "/uploads/voya_0.jpg"
-color_overlay: ''
+color_overlay: "#B8CFEB"
 featured: false
 type: ''
 
