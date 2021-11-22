@@ -6,7 +6,7 @@ title: The U.S. National Archives
 description: 'Esteemed Digital provided a senior Drupal consultant for the U.S. National
   Archives to assist with an AWS migration and Drupal version upgrade.  '
 image: "/uploads/nat-archives-home.png"
-thumbnail: "/uploads/nat-archives_0.png"
+thumbnail: "/uploads/nationalarchives.jpg"
 color_overlay: "#B8CFEB"
 featured: false
 type: ''
