@@ -15,6 +15,7 @@
         <div class="title-bar" data-toggle="main-navigation" data-responsive-toggle="main-navigation" data-hide-for="large">
           <button class="menu-icon" type="button" data-toggle="main-navigation"></button>
         </div>
+        <span class="close"></span>
       </div>
     </div>
     <div class="grid-x" id="main-navigation__content">
@@ -26,9 +27,40 @@
           {% else %}
           {% assign active = false %}
           {% endif %}
-            <li>
-              <a class="{% if nav.button != 0 %}button {% endif %}{% if nav.bg_white != null %}bg-white {% endif %}{% if active %} is-active{% endif %}" href="{{ nav.url }}">{{ nav.title }}</a>
+            <li class="{% if nav.button != 0 %}hover-white{% endif %}">
+              <a  class="mega-menu-parent {% if nav.button != 0 %}button {% endif %}{% if nav.bg_white != null %}bg-white {% endif %}{% if active %} is-active{% endif %}" href="{{ nav.url }}">{{ nav.title }}{% if nav.button == 0 %}<span class="icon"></span>{% endif %}</a>
+              <div class="mega-menu w-nav">
+                  <div class="menu grid-x">
+                      {% for mega in site.data.menus[nav.id] %}
+                      <div class="large-4 small-12">
+                        <a class="head" href="{{ mega.url}}"><h6>{{ mega.title}}</h6></a>
+                        <ul>
+                          {% for menu in mega.submenus %}
+                          <li><a href="{{ menu.url}}">{{ menu.title}}</a></li>
+                          {% endfor %}
+                        </ul>
+                      </div>
+                    {% if mega.cta.title %}
+                    <div class="large-6 small-12 content border-left-yellow">
+                      <div class="grid-x">
+                        <div class="large-4 small-12 flex-container flex-dir-column">
+                          <div class="title-mobile hide">{{ mega.cta.title }}</div>
+                          <img class="image" src="{{ mega.cta.image_url }}" alt="{{ mega.cta.image_alt }}"/>
+                        </div>
+                        <div class="large-8 small-12 padding-left-2">
+                          <div class="title">{{ mega.cta.title }}</div>
+                          <div class="sub-title">{{ mega.cta.sub_title }}</div>
+                          <div class="description">{{ mega.cta.description }}</div>
+                          <a class="button-yellow" href="{{ mega.cta.button_link }}">{{ mega.cta.button_title }}</a>
+                        </div>
+                      </div>
+                    </div>
+                    {% endif %}
+                      {% endfor %}
+                  </div>
+              </div>
             </li>
+
           {% endfor %}
         </ul>
       </div>

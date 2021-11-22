@@ -99,6 +99,13 @@
       @include breakpoint(large up) {
         align-items: center;
       }
+
+      li:hover {
+        background-color: black;
+        a {
+          color: white !important;
+        }
+      }
     }
 
     &,
@@ -173,6 +180,7 @@
 
         @include breakpoint(medium down) {
           border-top: 1px solid $light-gray;
+          background-color: black;
         }
 
         a {
@@ -192,6 +200,7 @@
 
           @include breakpoint(large down) {
             font-size: 1rem;
+            color: $white;
           }
 
           &:hover {
@@ -297,4 +306,243 @@
   @include breakpoint(small only) {
     width: 50%;
   }
+}
+
+.mega-menu {
+  display: none;
+  @include breakpoint(small only) {
+    overflow-y: scroll;
+    max-width: 100%;
+  }
+}
+
+.mega-menu.shrink {
+  top: 57px;
+  @include breakpoint(small only) {
+    top: 0;
+  }
+}
+
+.mega-menu-parent {
+  margin-bottom: 22px !important;
+  @include breakpoint(small only) {
+    text-align: left;
+    padding-left: 3rem !important;
+  }
+
+}
+
+.mega-menu-active {
+  display: flex;
+  width: 75rem;
+  position: fixed;
+  top: 92px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  @include breakpoint(small only) {
+    width: 100rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(0%);
+    text-align: left;
+    height: 100vh;
+    max-width: 100%;
+    z-index: 999;
+  }
+
+  .menu {
+    padding: 2rem;
+    width: 75rem;
+    @include breakpoint(small only) {
+      width: 90rem;
+      display: block !important;
+    }
+  }
+
+  li {
+    @include breakpoint(small only) {
+      border: none !important;
+    }
+  }
+
+  a {
+    color: white !important;
+    font-family: $font-georgia;
+    font-size: 1.5rem !important;
+    @include breakpoint(small only) {
+      padding: 0 !important;
+      line-height: 2rem;
+    }
+  }
+
+  a:hover {
+    color: #e0e0e0 !important;
+  }
+
+  h6 {
+    color: #eec100;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    margin-left: 20px;
+    @include breakpoint(small only) {
+      font-size: 1rem !important;
+      line-height: 2rem;
+      margin-top: 2rem;
+    }
+  }
+
+  ul {
+    background-color: black !important;
+  }
+
+  .head {
+    padding-bottom: 0;
+  }
+
+  .content {
+    color: white;
+    padding: 1rem 0 1rem 4rem;
+    @include breakpoint(small only) {
+      padding: 1rem 0 1rem 0rem;
+    }
+
+    .title {
+      color: #eec100;
+      padding-bottom: 10px;
+      font-weight: bold;
+      @include breakpoint(small only) {
+        display: none;
+      }
+    }
+
+    .title-mobile {
+      display: none;
+      @include breakpoint(small only) {
+        color: #eec100;
+        padding-bottom: 10px;
+        font-weight: bold;
+        display: block !important;
+      }
+    }
+
+    .sub-title {
+      font-weight: bold;
+      padding-bottom: 10px;
+      margin-top: 1rem;
+    }
+
+    .description {
+      padding-bottom: 20px;
+      font-size: 0.85rem;
+    }
+
+    .image {
+      border-radius: 20px;
+      min-height: 185px;
+      @include breakpoint(small only) {
+        width: 75%;
+      }
+    }
+
+    .large-4 {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hover-white:hover {
+      background-color: white !important;
+    }
+  }
+
+  .border-left-yellow {
+    border-left: 1px solid #eec100;
+    @include breakpoint(small only) {
+      border-left: none;
+      border-top: 1px solid #eec100;
+      margin-top: 1rem;
+    }
+  }
+}
+
+.w-nav .top-bar .mega-menu-active a:hover {
+  color: #7a7a7a !important;
+}
+
+#main-navigation > ul > li {
+  .button-yellow {
+    padding: 0.7rem 1rem !important;
+    display: block;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 0 10px 0;
+    min-width: 90px;
+    font-family: $font-lato;
+    font-size: 1em !important;
+    color: black !important;
+    z-index: 999;
+  }
+
+  .button {
+    @include breakpoint(small only) {
+      width: calc(60% - 20px) !important;
+      margin-left: 3rem !important;
+    }
+  }
+
+  @include breakpoint(small only) {
+    background-color: black;
+    border-top: none !important;
+  }
+
+  a {
+    @include breakpoint(small only) {
+      color: white !important;
+    }
+  }
+
+  .icon {
+    @include breakpoint(small only) {
+      border: solid #eec100;
+      border-width: 0 1px 1px 0;
+      display: inline-block;
+      padding: 7px;
+      transform: rotate(-45deg);
+      position: absolute;
+      right: 30%;
+    }
+  }
+}
+
+.close {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 1px;
+  background-color: #eec100 !important;
+  box-shadow: none !important;
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
 }

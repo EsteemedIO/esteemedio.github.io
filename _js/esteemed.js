@@ -108,3 +108,23 @@ $(document).ready(function() {
     });
   });
 });
+
+// Mega menu.
+$(window).ready(function() {
+  $('.close').click(function(e) {
+    $('.mega-menu-active').removeClass('mega-menu-active');
+    $('.close').hide();
+    $('.menu-icon').show();
+    $('.title-bar').show();
+  });
+  $('.mega-menu-parent').mouseover(function() {
+    $('.mega-menu-active').removeClass('mega-menu-active');
+    $(this).next().addClass('mega-menu-active');
+    $('.menu-icon').hide();
+    $('.title-bar').hide();
+    $('.close').show();
+  });
+  $('.bg-white').mouseover(function() {
+    $('.mega-menu-active').removeClass('mega-menu-active');
+  });
+});
