@@ -8,7 +8,7 @@ description: The U.S. Department of Education turned to Esteemed Digital to cont
   assisted with the site’s roll out, recommending a migration to MySQL, and implementing
   a variety of enhancements.
 image: "/uploads/teach3.jpg"
-thumbnail: "/uploads/home_1.jpg"
+thumbnail: "/uploads/teachorg.jpg"
 color_overlay: "#B8CFEB"
 featured: false
 type: ''
