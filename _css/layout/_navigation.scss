@@ -28,7 +28,7 @@
     max-width: 12.25rem;
 
     @include breakpoint(large up) {
-      bottom: -2px;
+      bottom: 15px;
       height: 46px;
       position: relative;
       transition: .3s;
@@ -47,6 +47,7 @@
     }
 
     img.logo {
+      bottom: 10px;
 
       @include breakpoint(large up) {
         height: 30px;
@@ -77,6 +78,9 @@
         }
       }
     }
+    .hover-white a {
+      padding-bottom: 0.5rem;
+    }
   }
 
   > .grid-container {
@@ -102,8 +106,11 @@
 
       li:hover {
         background-color: black;
+        position: relative;
         a {
           color: white !important;
+          position: relative;
+          z-index: 11;
         }
       }
     }
@@ -177,6 +184,7 @@
 
       li {
         font-family: $font-poppins;
+        position: relative;
 
         @include breakpoint(medium down) {
           border-top: 1px solid $light-gray;
@@ -188,6 +196,7 @@
           font-size: 1.25rem;
           font-weight: $global-weight-normal;
           transition: .3s;
+          padding-bottom: 0.5rem;
 
           @include breakpoint(medium down) {
             padding: 30px 10px;
@@ -317,7 +326,7 @@
 }
 
 .mega-menu.shrink {
-  top: 57px;
+  top: 75px;
   @include breakpoint(small only) {
     top: 0;
   }
@@ -325,11 +334,18 @@
 
 .mega-menu-parent {
   margin-bottom: 22px !important;
+  z-index: 9999;
+  position: relative;
   @include breakpoint(small only) {
+    z-index: 1;
     text-align: left;
     padding-left: 3rem !important;
   }
 
+}
+
+.hover-white:hover {
+  background-color: white !important;
 }
 
 .mega-menu-active {
@@ -340,6 +356,7 @@
   left: 50%;
   transform: translateX(-50%);
   background-color: black;
+  z-index: 998;
   @include breakpoint(small only) {
     width: 100rem;
     position: absolute;
@@ -391,6 +408,10 @@
       line-height: 2rem;
       margin-top: 2rem;
     }
+  }
+
+  h6:hover {
+    text-decoration: underline #eec100 2px;
   }
 
   ul {
@@ -450,10 +471,6 @@
       justify-content: center;
       align-items: center;
     }
-
-    .hover-white:hover {
-      background-color: white !important;
-    }
   }
 
   .border-left-yellow {
@@ -464,9 +481,14 @@
       margin-top: 1rem;
     }
   }
+  .close {
+    @include breakpoint(small only) {
+      display: none !important;
+    }
+  }
 }
 
-.w-nav .top-bar .mega-menu-active a:hover {
+body .w-nav .top-bar .mega-menu-active a:hover {
   color: #7a7a7a !important;
 }
 
@@ -523,6 +545,7 @@
   width: 32px;
   height: 32px;
   opacity: 1;
+  z-index: 99999;
 }
 
 .close:hover {
@@ -545,4 +568,26 @@
 
 .close:after {
   transform: rotate(-45deg);
+}
+
+.close:hover::before {
+  transform: rotate(225deg);
+  transition: 0.6s;
+}
+
+.close:hover::after {
+  transform: rotate(-225deg);
+  transition: 0.6s;
+}
+
+.bg-help {
+  background-color: black;
+  width: 100%;
+  height: 125px;
+  z-index: 11;
+  position: absolute;
+  top: -30px;
+  @include breakpoint(small only) {
+    display: none !important;
+  }
 }

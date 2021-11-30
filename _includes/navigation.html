@@ -27,9 +27,11 @@
           {% else %}
           {% assign active = false %}
           {% endif %}
-            <li class="{% if nav.button != 0 %}hover-white{% endif %}">
+          <li class="{% if nav.button != 0 %}hover-white{% endif %}">{% if site.data.menus[nav.id] != null %}<span class="bg-help" style="display: none;"></span>{% endif %}
               <a  class="mega-menu-parent {% if nav.button != 0 %}button {% endif %}{% if nav.bg_white != null %}bg-white {% endif %}{% if active %} is-active{% endif %}" href="{{ nav.url }}">{{ nav.title }}{% if nav.button == 0 %}<span class="icon"></span>{% endif %}</a>
-              <div class="mega-menu w-nav">
+            {% if site.data.menus[nav.id] != null %}
+            <div class="mega-menu w-nav">
+                <div class="close" style="display: none;"></div>
                   <div class="menu grid-x">
                       {% for mega in site.data.menus[nav.id] %}
                       <div class="large-4 small-12">
@@ -60,7 +62,7 @@
                   </div>
               </div>
             </li>
-
+          {% endif %}
           {% endfor %}
         </ul>
       </div>

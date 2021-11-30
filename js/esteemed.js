@@ -14119,6 +14119,8 @@ $(window).ready(function() {
     $('.close').hide();
     $('.menu-icon').show();
     $('.title-bar').show();
+    $('.bg-help').hide();
+    $('.mega-menu-parent').css("color", "black");
   });
   $('.mega-menu-parent').mouseover(function() {
     $('.mega-menu-active').removeClass('mega-menu-active');
@@ -14126,6 +14128,16 @@ $(window).ready(function() {
     $('.menu-icon').hide();
     $('.title-bar').hide();
     $('.close').show();
+    $('.bg-help').hide();
+    $(this).prev().show();
+    $('.mega-menu-parent').css("color", "black");
+    $(this).css("color", "white");
+  });
+  $('#main-navigation li').mouseover(function() {
+    $('.bg-help').hide();
+    $(this).children().first().show();
+    $('.mega-menu-parent').css("color", "black");
+    $(this).find('a').css("color", "white");
   });
   $('.bg-white').mouseover(function() {
     $('.mega-menu-active').removeClass('mega-menu-active');
