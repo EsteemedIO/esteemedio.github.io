@@ -8,7 +8,7 @@
 .w-nav {
   background: $white;
   opacity: 1;
-  padding: $spacing 0;
+  padding: 0;
   transition: .3s;
 
   @include breakpoint(medium down) {
@@ -28,7 +28,7 @@
     max-width: 12.25rem;
 
     @include breakpoint(large up) {
-      bottom: 15px;
+      bottom: 8px;
       height: 46px;
       position: relative;
       transition: .3s;
@@ -43,7 +43,7 @@
 
     @include breakpoint(large up) {
       box-shadow: 0 2px 2px -2px $light-gray;
-      padding: 0.7em 0;
+      padding: 0;
     }
 
     img.logo {
@@ -105,7 +105,6 @@
         background-color: black;
         position: relative;
         a {
-          color: white !important;
           position: relative;
           z-index: 11;
         }
@@ -132,12 +131,12 @@
     }
 
     .button {
-      padding: $button-padding;
+      padding: 0.7rem 1rem !important;
     }
   }
 
   #main-navigation {
-
+    padding-top: 0;
     @include breakpoint(medium down) {
       display: none;
     }
@@ -322,22 +321,28 @@
 }
 
 .mega-menu.shrink {
-  top: 75px;
+  top: 82px;
   @include breakpoint(small only) {
     top: 0;
   }
 }
 
 body .mega-menu-parent {
-  margin-bottom: 22px !important;
   z-index: 9999;
   position: relative;
+  padding: 2rem 1rem !important;
   @include breakpoint(small only) {
+    background-color: black !important;
+    color: white !important;
     z-index: 1;
     text-align: left;
     padding-left: 3rem !important;
   }
+}
 
+.mega-menu-parent:hover {
+  background-color: black !important;
+  color: white !important;
 }
 
 .hover-white:hover {
@@ -348,7 +353,7 @@ body .mega-menu-parent {
   display: flex;
   width: 75rem;
   position: fixed;
-  top: 92px;
+  top: 85px;
   left: 50%;
   transform: translateX(-50%);
   background-color: black;
@@ -477,11 +482,6 @@ body .mega-menu-parent {
       margin-top: 1rem;
     }
   }
-  .close {
-    @include breakpoint(small only) {
-      display: none !important;
-    }
-  }
 }
 
 body .w-nav .top-bar .mega-menu-active a:hover {
@@ -539,16 +539,12 @@ body .w-nav .top-bar .mega-menu-active a:hover {
 .close {
   display: none;
   position: absolute;
-  right: 10px;
-  top: -6px;
+  right: 25px;
+  top: 25px;
   width: 32px;
   height: 32px;
   opacity: 1;
   z-index: 99999;
-  @include breakpoint(large up) {
-    right: 25px;
-    top: 25px;
-  }
 }
 
 .close:hover {

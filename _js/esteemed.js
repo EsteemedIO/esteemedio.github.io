@@ -116,27 +116,18 @@ $(window).ready(function() {
     $('.close').hide();
     $('.menu-icon').show();
     $('.title-bar').show();
-    $('.bg-help').hide();
     $('.mega-menu-parent').css("color", "black");
+    $('.mega-menu-parent').css("background", "white");
   });
-  $('.mega-menu-parent').mouseover(function() {
+  $('.mega-menu-parent').click(function() {
     $('.mega-menu-active').removeClass('mega-menu-active');
     $(this).next().addClass('mega-menu-active');
     $('.menu-icon').hide();
     $('.title-bar').hide();
     $('.close').show();
-    $('.bg-help').hide();
-    $(this).prev().show();
     $('.mega-menu-parent').css("color", "black");
+    $('.mega-menu-parent').css("background", "white");
     $(this).css("color", "white");
-  });
-  $('#main-navigation li').mouseover(function() {
-    $('.bg-help').hide();
-    $(this).children().first().show();
-    $('.mega-menu-parent').css("color", "black");
-    $(this).find('a').css("color", "white");
-  });
-  $('.bg-white').mouseover(function() {
-    $('.mega-menu-active').removeClass('mega-menu-active');
+    $(this).css("background", "black");
   });
 });
