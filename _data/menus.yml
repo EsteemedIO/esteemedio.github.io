@@ -77,13 +77,13 @@ resources:
       - title: Open Jobs
         url: "https://talent.esteemed.io/jobs/"
     cta:
-      image_url: "/img/drupalnyc.png"
-      image_alt: "DrupalCon NYC 2021"
+      image_url: "https://www.fldrupal.camp/themes/pubsub/images/social-media-logo.png"
+      image_alt: "Florida DrupalCamp"
       title: Join Us!
-      sub_title: DrupalCon NYC 2021
-      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gotham (Platinum) sponsor of DrupalCampNYC 2021.
-      button_title: Rigester Now
-      button_link: "https://2021.drupalcamp.nyc/"
+      sub_title: Florida DrupalCamp
+      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gold Sponsor for Florida DrupalCamp.
+      button_title: Register Now
+      button_link: "https://www.fldrupal.camp/"
 about-us:
   - about-us:
     title: About Us
@@ -101,12 +101,12 @@ about-us:
         url: "https://us10.list-manage.com/contact-form?u=ec5b82da5b213df9999d28215&form_id=3748ccb203457ce78b32c876123b02bf"
     cta:
       image_url: "/img/home_1.jpg"
-      image_alt: "DrupalCon NYC 2021"
+      image_alt: "Florida DrupalCamp"
       title: Join Us!
-      sub_title: DrupalCon NYC 2021
-      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gotham (Platinum) sponsor of DrupalCampNYC 2021.
-      button_title: Rigester Now
-      button_link: "https://2021.drupalcamp.nyc/"
+      sub_title: Florida DrupalCamp
+      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gold Sponsor for Florida DrupalCamp.
+      button_title: Register Now
+      button_link: "https://www.fldrupal.camp/"
 community:
   - community:
     title: Community
@@ -120,12 +120,12 @@ community:
         url: "https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
     cta:
       image_url: "/img/community_1.jpg"
-      image_alt: "DrupalCon NYC 2021"
+      image_alt: "DrupalCamp Florida"
       title: Join Us!
-      sub_title: DrupalCon NYC 2021
-      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gotham (Platinum) sponsor of DrupalCampNYC 2021.
-      button_title: Rigester Now
-      button_link: "https://2021.drupalcamp.nyc/"
+      sub_title: Florida DrupalCamp
+      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gold Sponsor for Florida DrupalCamp.
+      button_title: Register Now
+      button_link: "https://www.fldrupal.camp/"
 footer:
 - title: Communities
   menu:
