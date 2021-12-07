@@ -1,30 +1,131 @@
 ---
 navigation:
 - button: 0
-  title: Products
-  url: "/products/"
+  title: Products & Solutions
+  url: "#"
   weight: 1
-- button: 0
-  title: Solutions
-  url: "/solutions/"
-  weight: 2
+  id: "products-solutions"
 - button: 0
   title: Resources
-  url: "/resources/"
+  url: "#"
   weight: 3
+  id: "resources"
 - button: 0
   title: About Us
-  url: "/about-us/"
+  url: "#"
   weight: 4
+  id: "about-us"
+- button: 0
+  title: Community
+  url: "#"
+  weight: 4
+  id: "community"
 - button: 1
-  title: Get a Quote
+  title: Shedule Demo
   url: "/get-a-quote/"
   weight: 6
-- button: 1
-  bg_white: 1
-  title: Join Talent Network
-  url: "/join-talent-network/"
-  weight: 7
+products-solutions:
+  - products:
+    title: Products
+    url: "/products/"
+    submenus:
+      - title: Esteemed Talent Network
+        url: "/join-talent-network/"
+      - title: "[x]Contractors"
+        url: "/xcontractors/"
+      - title: Esteemed Digital
+        url: "/esteemed-digital/"
+      - title: Esteemed Screening
+        url: "/screening/"
+  - services:
+    title: Services
+    url: "/services/"
+    submenus:
+      - title: Digital Delivery
+        url: "/digital-delivery/"
+      - title: Agile Coaching
+        url: "/agile-coaching/"
+      - title: Technical Architecture
+        url: "/technical-architecture/"
+      - title: Project Management
+        url: "/project-management/"
+      - title: Discovery & Planning
+        url: "/discovery-planning/"
+      - title: Fractional CTO
+        url: "/fractional-cto/"
+  - solutions:
+    title: Solutions
+    url: "/solutions/"
+    submenus:
+      - title: For Brands
+        url: "/for-brands/"
+      - title: For Agencies
+        url: "/for-agencies/"
+      - title: For Talent
+        url: "/join-talent-network/"
+resources:
+  - resources:
+    title: Resources
+    url: "/resources/"
+    submenus:
+      - title: Blog
+        url: "/blog/"
+      - title: Tips & Tools
+        url: "/resources/"
+      - title: Partner With Us
+        url: "/partners/partner-registration/"
+      - title: Open Jobs
+        url: "https://talent.esteemed.io/jobs/"
+    cta:
+      image_url: "https://www.fldrupal.camp/themes/pubsub/images/social-media-logo.png"
+      image_alt: "Florida DrupalCamp"
+      title: Join Us!
+      sub_title: Florida DrupalCamp
+      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gold Sponsor for Florida DrupalCamp.
+      button_title: Register Now
+      button_link: "https://www.fldrupal.camp/"
+about-us:
+  - about-us:
+    title: About Us
+    url: "/about-us/"
+    submenus:
+      - title: Our Company
+        url: "/company/"
+      - title: Our Team
+        url: "/our-team/"
+      - title: Careers
+        url: "/careers/"
+      - title: Press
+        url: "/news-center/"
+      - title: Contact Us
+        url: "https://us10.list-manage.com/contact-form?u=ec5b82da5b213df9999d28215&form_id=3748ccb203457ce78b32c876123b02bf"
+    cta:
+      image_url: "/img/home_1.jpg"
+      image_alt: "Florida DrupalCamp"
+      title: Join Us!
+      sub_title: Florida DrupalCamp
+      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gold Sponsor for Florida DrupalCamp.
+      button_title: Register Now
+      button_link: "https://www.fldrupal.camp/"
+community:
+  - community:
+    title: Community
+    url: "/community/"
+    submenus:
+      - title: Events
+        url: "/events/"
+      - title: Join Our Newsletter
+        url: "https://eepurl.com/g_fqE1"
+      - title: Join Talent Network
+        url: "https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
+    cta:
+      image_url: "/img/community_1.jpg"
+      image_alt: "DrupalCamp Florida"
+      title: Join Us!
+      sub_title: Florida DrupalCamp
+      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gold Sponsor for Florida DrupalCamp.
+      button_title: Register Now
+      button_link: "https://www.fldrupal.camp/"
 footer:
 - title: Communities
   menu:
