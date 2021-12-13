@@ -21,7 +21,7 @@ navigation:
   weight: 4
   id: "community"
 - button: 1
-  title: Shedule Demo
+  title: Schedule Demo
   url: "/get-a-quote/"
   weight: 6
 products-solutions:
