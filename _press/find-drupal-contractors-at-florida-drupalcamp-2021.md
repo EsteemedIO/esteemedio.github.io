@@ -26,7 +26,7 @@ Florida DrupalCamp is a community-led event designed to bring local web develope
 
 [Drupal Contractors](https://www.drupalcontractors.com/){:target='_blank'} is proud to announce that we’ve partnered with Florida DrupalCamp as a Gold sponsor. Two of our members, Chris McGrath and Gloria Tucker, have been chosen as speakers for the event. Below, you can find details for each session:
 
-### [Finding a Drupal Mentor](https://www.fldrupal.camp/sessions/project-management-and-consulting/finding-drupal-mentor-how-guide-kicking-you-career-high){:target='_blank'}: A How-To Guide for Kicking Your Career Into High Gear
+### Finding a Drupal Mentor{:target='_blank'}: A How-To Guide for Kicking Your Career Into High Gear
 
 This project management- and consulting-themed FLDC session, led by Chris McGrath, is designed for all audiences. Chris is a veteran developer, strategic advisor, and CEO of [Esteemed Inc.](https://esteemed.io/){:target='_blank'}, a staffing platform for digital niches like [Drupal](https://www.drupalcontractors.com/){:target='_blank'}, [WordPress](https://wpcontractors.com/){:target='_blank'}, and many others.
 
@@ -36,7 +36,7 @@ In this session, attendees will have a chance to learn about the importance of m
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XGFS2sKoj9s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-### [Creating and Using Plugins as a Module Developer](https://www.fldrupal.camp/sessions/development-performance/creating-and-using-plugins-module-developer){:target='_blank'}
+### Creating and Using Plugins as a Module Developer{:target='_blank'}
 
 Gloria Tucker, a senior backend web developer who [specializes in Drupal](https://www.fldrupal.camp/users/gtucker6){:target='_blank'}, is presenting an intermediate-level tutorial on Drupal plugins for module developers. She’ll lead attendees through the process of creating and using Drupal plugins.
 
