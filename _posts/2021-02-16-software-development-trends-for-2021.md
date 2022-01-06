@@ -1,5 +1,5 @@
 ---
-date: 2021-02-16 20:48:41 +0000
+date: 2021-02-16T20:48:41.000+00:00
 author: kelton-reid
 categories:
 - Developer Life
@@ -60,7 +60,7 @@ As businesses ask developers to speed up this transformation and automation, dev
 
 The flexibility and cost-effectiveness of Serverless infrastructures has grown by leaps and bounds (see also: cloud). Combined with the rising popularity of open-source, extensible platforms for managing storage and containerized services, there’s been a sea change for DevOps.
 
-> “Serverless delivers exact units of resources in response to a demand from the application. ... With traditional cloud computing, the computer resources are dedicated to you whether you're using them or not while with Serverless, you're dynamically pulling only what you need from a vast ocean of resources.” — [What’s the Difference Between Cloud Computing and Serverless?](https://dis.co/blog/serverless-computing-vs-cloud-computing-whats-the-difference/){:target='_blank'}
+> “Serverless delivers exact units of resources in response to a demand from the application. ... With traditional cloud computing, the computer resources are dedicated to you whether you're using them or not while with Serverless, you're dynamically pulling only what you need from a vast ocean of resources.” — [What’s the Difference Between Cloud Computing and Serverless?](https://northstack.com/cloud-computing-vs-serverless/){:target='_blank'}
 
 As workloads shift to highly adaptable platforms like [Kubernetes](https://enterprisersproject.com/article/2017/10/how-explain-kubernetes-plain-english){:target='_blank'}, demand for individuals with a deep understanding of cloud development grows.
 
@@ -100,4 +100,4 @@ Connecting top IT pros across the globe is our thing. That's why we created our 
 
 Esteemed teams work smarter. With the right help, you can take on projects, make a profit, and quit your day job (or make more on your side hustle).
 
-We’re always here to lend a hand. If you haven't already, [join us today](https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg). 
+We’re always here to lend a hand. If you haven't already, [join us today](https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg).
