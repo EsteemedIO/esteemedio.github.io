@@ -13,7 +13,7 @@ featured: false
 type: Events
 
 ---
-We’re pleased to announce that Esteemed is a Platinum sponsor for DrupalCamp Atlanta (DCATL) for 2021. The two-day annual Drupal conference (one of the southeast’s largest) will be held virtually on Thursday, September 9 and Friday, September 10. 
+We’re pleased to announce that Esteemed is a Platinum sponsor for DrupalCamp Atlanta (DCATL) for 2021. The two-day annual Drupal conference (one of the southeast’s largest) will be held virtually on Thursday, September 9 and Friday, September 10.
 
 This year’s conference is expected to attract hundreds of developers, designers, business leaders, and Drupal aficionados of all levels. The DCATL summit offers attendees the opportunity to join half-day hands-on trainings and sessions centered around business leadership, development and performance, design/theming and usability, site building, marketing, being human (people operations), future of Drupal, and education. As the organizers of DCATL note, “Not only is \[the conference\] a chance to expand your knowledge of Drupal, it's also a chance to make lasting connections within a community that welcomes all.”
 
@@ -28,8 +28,6 @@ DCATL will commence on Thursday, September 9 with a half day of trainings, follo
 
 For a complete list of sessions, visit the [DCATL 2021 session information here](https://www.drupalcampatlanta.com/2021/schedule/2021-09-09).
 
-**Friday, September 10 | Current Session 9:00am - 5:00pm**
-
 Friday, September 10, is filled with sessions (offered from 9:00am to 3:45pm) and will conclude with a Zoom afterparty at 4:00pm.
 
 ### Finding Drupal Talent in a Seller's Market
@@ -42,7 +40,7 @@ We look forward to seeing you there!
 
 ### Stressed? It's Time to Reclaim Your Focus.
 
-Join Esteemed member Dori Kelner on Friday, September 10, from 3:00pm to 3:45pm for a meditative session, "[Stressed? It's Time to Reclaim Your Focus]( https://www.drupalcampatlanta.com/2021/sessions/stressed-its-time-reclaim-your-focus)."
+Join Esteemed member Dori Kelner on Friday, September 10, from 3:00pm to 3:45pm for a meditative session, "[Stressed? It's Time to Reclaim Your Focus](https://www.drupalcampatlanta.com/2021/sessions/stressed-its-time-reclaim-your-focus)."
 
 Join Dori Kelner, a certified mindfulness teacher, for an informative and interactive session of practices, sharing, and tips for managing stress. No experience on the topic is necessary, and after this session attendees will:
 
