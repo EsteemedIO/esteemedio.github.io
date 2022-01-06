@@ -1,13 +1,13 @@
 ---
-date: 2021-09-08 16:55:33 +0000
+date: 2021-09-08T16:55:33.000+00:00
 author: casey-horgan
 categories: []
 title: Esteemed Sponsors DrupalCamp Atlanta 2021 as Platinum Sponsor
 description: We’re pleased to announce that Esteemed is a Platinum sponsor for DrupalCamp
   Atlanta (DCATL) for 2021. The two-day annual Drupal conference (one of the southeast’s
   largest) will be held virtually on Thursday, September 9 and Friday, September 10.
-image: ''
-thumbnail: ''
+image: "/uploads/drupalcampatlantaheader.png"
+thumbnail: "/uploads/drupalcampatlantalogo.jpg"
 color_overlay: ''
 featured: false
 type: Events
@@ -50,4 +50,4 @@ Join Dori Kelner, a certified mindfulness teacher, for an informative and intera
 * Recognize the signs of stress and burnout
 * Be able to apply practical, evidence-based techniques to alleviate stress
 
-[Sign up for the event here](https://www.drupalcampatlanta.com/2021). 
+[Sign up for the event here](https://www.drupalcampatlanta.com/2021).
