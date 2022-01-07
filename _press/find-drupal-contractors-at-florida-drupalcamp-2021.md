@@ -38,7 +38,7 @@ In this session, attendees will have a chance to learn about the importance of m
 
 ### Creating and Using Plugins as a Module Developer{:target='_blank'}
 
-Gloria Tucker, a senior backend web developer who [specializes in Drupal](https://www.fldrupal.camp/users/gtucker6){:target='_blank'}, is presenting an intermediate-level tutorial on Drupal plugins for module developers. She’ll lead attendees through the process of creating and using Drupal plugins.
+Gloria Tucker, a senior backend web developer who [specializes in Drupal](https://www.drupal.org/u/gtucker6){:target='_blank'}, is presenting an intermediate-level tutorial on Drupal plugins for module developers. She’ll lead attendees through the process of creating and using Drupal plugins.
 
 This tutorial will explore plugin discovery, decorators, management, derivatives, and definitions. If you’ve ever wanted to learn about Drupal plugins as a module developer, this session is for you.
 
@@ -46,7 +46,7 @@ This tutorial will explore plugin discovery, decorators, management, derivatives
 
 ### Don’t Miss FLDC’s Contribution Day
 
-[Drupal Contractors](https://www.drupalcontractors.com/){:target='_blank'} is a [Gold sponsor of FLDC’s contribution day](https://www.fldrupal.camp/conference/contribution-day){:target='_blank'}, which will be held on Saturday, February 20, from 12pm to 4pm ET. Contribution days are great ways in which members of the Drupal community can network, collaborate, and further the Drupal project.
+[Drupal Contractors](https://www.drupalcontractors.com/){:target='_blank'} is a [Gold sponsor of FLDC’s contribution day](https://www.fldrupal.camp/contribution-day){:target='_blank'}, which will be held on Saturday, February 20, from 12pm to 4pm ET. Contribution days are great ways in which members of the Drupal community can network, collaborate, and further the Drupal project.
 
 This year, we’ll collaborate on several projects and initiatives, including Olivero and Drupal recipes. We’ll also have breakout groups available for attendees to focus on documentation, coding standards, accessibility, and more.
 
@@ -68,4 +68,4 @@ The schedule will be as follows:
 
 #### About Drupal Contractors
 
-[Drupal Contractors](app.drupalcontractors.com){:target='_blank'}, a subsidiary of Esteemed Inc., is the largest source for contract Drupal resources in the world. Esteemed is a multi-channel brand and integrated service provider founded in 2019. We help job seekers succeed in their chosen careers and employers scale their businesses with quality tools and resources to thrive within the changing global landscape.
+[Drupal Contractors](https://www.drupalcontractors.com){:target='_blank'}, a subsidiary of Esteemed Inc., is the largest source for contract Drupal resources in the world. Esteemed is a multi-channel brand and integrated service provider founded in 2019. We help job seekers succeed in their chosen careers and employers scale their businesses with quality tools and resources to thrive within the changing global landscape.
