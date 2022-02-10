@@ -388,7 +388,8 @@ body .mega-menu-parent {
   a {
     color: white !important;
     font-family: $font-georgia;
-    font-size: 1.5rem !important;
+    font-size: 1.25rem !important;
+    line-height: 1.75rem;
     @include breakpoint(small only) {
       padding: 0 !important;
       line-height: 2rem;
