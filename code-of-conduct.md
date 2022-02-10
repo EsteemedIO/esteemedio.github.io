@@ -1,6 +1,6 @@
 ---
-title: "Code of Conduct"
-description: 
+title: "Code of Conduct | Your Platform for DevOps, Marketing Enablement, Business Partnerships & Managed Services "
+description: "Read more about our Code of Conduct here. "
 contact_form: false
 permalink: "/code-of-conduct/"
 layout: single

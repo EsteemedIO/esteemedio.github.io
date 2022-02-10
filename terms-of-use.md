@@ -1,6 +1,6 @@
 ---
-title: "Terms of Use"
-description: By using Esteemed or signing up for an account, you agree to these Terms, which will result in a legal agreement between you and Esteemed.
+title: "Terms of Use | Your Platform for DevOps, Marketing Enablement, Business Partnerships & Managed Services "
+description: "Read more about our Code of Conduct here."
 permalink: "/terms-use/"
 layout: single
 ---
