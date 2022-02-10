@@ -1,6 +1,6 @@
 ---
-title: Privacy Policy
-description: Esteemed treats data privacy seriously. Learn more about who we are, how we collect, share and use Personal Information in our Privacy Policy.
+title: "Privacy Policy | Your Platform for DevOps, Marketing Enablement, Business Partnerships & Managed Services"
+description: "Read more about our Privacy Policy here. "
 permalink: "/privacy-policy/"
 layout: single
 ---
