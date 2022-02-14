@@ -8,7 +8,7 @@ description: The State of North Carolina enlisted the help of Esteemed Digital t
   to successfully manage multiple projects, including an Innovation Center, website
   for the Governor, and an ambitious business portal.
 image: "/uploads/ncblnc-home.jpg"
-thumbnail: "/uploads/pexels-jt-creative-6185651.jpg"
+thumbnail: "/uploads/icenter-home_0.png"
 color_overlay: "#B8CFEB"
 featured: false
 type: ''
