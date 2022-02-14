@@ -1,8 +1,9 @@
+---
 - name: Chris McGrath
   img: /img/team/Chris McGrath.jpg
   img_alt: Chris McGrath
   title: Chief Executive Officer
-  - name: Will Kirchheimer
+- name: Will Kirchheimer
   img: /img/team/will-kirchheimer.jpg
   img_alt: Will Kirchheimer
   title: VP of Esteemed Digital
