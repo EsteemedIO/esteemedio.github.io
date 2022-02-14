@@ -8,7 +8,7 @@ description: 'Exide Technologies needed a CMS solution that could handle it’s 
   the globe, and their customer-facing website needed to reflect this. Esteemed Digital
   was chosen to assist with the technical implementation and digital transformation. '
 image: "/uploads/exide_batteries.jpg"
-thumbnail: "/uploads/exide-teaser_0.jpg"
+thumbnail: "/uploads/woman-lying-and-typing-on-laptop-6249.jpg"
 color_overlay: "#B8CFEB"
 featured: false
 type: ''
