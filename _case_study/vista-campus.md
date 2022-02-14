@@ -8,7 +8,7 @@ description: Vista Campus engaged an Esteemed Digital senior Drupal developer wi
   the success of the project, the client has turned to our team for assistance with
   feature enhancement requests, custom coding challenges, and complex workflows.
 image: "/uploads/vista2.jpg"
-thumbnail: "/uploads/vistacampus.jpg"
+thumbnail: "/uploads/vista_0.jpg"
 color_overlay: "#B8CFEB"
 featured: false
 type: ''
