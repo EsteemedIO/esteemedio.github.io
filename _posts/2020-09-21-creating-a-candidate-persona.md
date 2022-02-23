@@ -90,7 +90,7 @@ And during these times when technology seems to be all-pervasive, this can only 
 
 Esteemed has been in the game long enough to know. With over ten years of experience, we understand the importance of finding only the best candidates for agencies and clients.
 
-That’s why we use a multi-dimensional approach to vetting and qualifying every member of our Talent Network. Our team-leads use both skills assessments and advanced personality tests to help remove steps in the hiring process.
+That’s why we use a multi-dimensional approach to vetting and qualifying every member of our Colleagues Community. Our team-leads use both skills assessments and advanced personality tests to help remove steps in the hiring process.
 
 By reducing the time to hire for our clients and our providers/candidates, we’re saving everyone a little sanity. And who couldn’t use more of that right now?  
   
