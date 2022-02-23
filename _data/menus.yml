@@ -29,7 +29,7 @@ products-solutions:
     title: Products
     url: "/products/"
     submenus:
-      - title: Esteemed Talent Network
+      - title: Esteemed Colleagues Community
         url: "/join-talent-network/"
       - title: "[x]Contractors"
         url: "/xcontractors/"
