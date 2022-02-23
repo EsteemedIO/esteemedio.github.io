@@ -47,7 +47,7 @@ You pay your contractors only for the hours they work or jobs they complete, as 
 
 ### **Where Should I Turn for Contract Staffing Solutions?**
 
-There is no centralized source for contractors and freelancers. Talent is scattered. Developers and engineers are on LinkedIn, Indeed, job boards, and working for your competitors. Your touchpoints are overwhelming. Looking for [top talent](https://esteemed.io/blog/2020/07/25/5-reasons-why-you-should-join-a-talent-network/ "Learn more about our Talent Network."){:target='_blank'} in a sea of choices is no easy feat.
+There is no centralized source for contractors and freelancers. Talent is scattered. Developers and engineers are on LinkedIn, Indeed, job boards, and working for your competitors. Your touchpoints are overwhelming. Looking for [top talent](https://esteemed.io/blog/2020/07/25/5-reasons-why-you-should-join-a-talent-network/ "Learn more about our Colleagues Community."){:target='_blank'} in a sea of choices is no easy feat.
 
 Trying to fill a technical position? Work with an industry-specific contract staffing agency, like [WP Contractors](https://app.wpcontractors.com "Visit WPContractors!"){:target='_blank'} or [Drupal Contractors](https://app.drupalcontractors.com "Visit DrupalContractors!"){:target='_blank'}. It’s better than trying to recruit a developer contractor on your own. Why? Tech staffing differs from other freelance and contractor placement. There’s a fundamental lack of engineers and technical management, making it hard to find your ideal candidate.
 

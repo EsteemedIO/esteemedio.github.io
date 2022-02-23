@@ -45,7 +45,7 @@ Global firms and agencies too have reported more positive relationships between 
 
 > “95% of employers say that telework has a high impact on employee retention.”— PGI.com
 
-We see it every day on the happy faces of our clients and the [Esteemed Talent Network](https://esteemed.io/blog/2020/07/25/5-reasons-why-you-should-join-a-talent-network/){:target='_blank'}. That’s good business.
+We see it every day on the happy faces of our clients and the [Esteemed Colleagues Community](https://esteemed.io/blog/2020/07/25/5-reasons-why-you-should-join-a-talent-network/){:target='_blank'}. That’s good business.
 
 ### **The Bottom-Line for Your Business or Agency**
 

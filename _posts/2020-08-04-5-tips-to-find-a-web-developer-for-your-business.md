@@ -58,7 +58,7 @@ Looking for web developers on LinkedIn can be strenuous. As you’re scouting ta
 
 #### Esteemed
 
-At Esteemed, we've pre-screened our 13,000+ resources in areas like WordPress, Drupal, E-commerce, and UI/UX. Our unique team of [distributed](https://esteemed.io/blog/2020/07/08/5-benefits-of-a-distributed-workforce/ "Learn more about a distributed workforce. "){:target='_blank'}, digital experts integrate with your company's communication networks. Instantly, you are connected with resource managers who will help you get the [talent you need](https://esteemed.io/blog/2020/07/25/5-reasons-why-you-should-join-a-talent-network/ "Learn more about our Talent Network!"){:target='_blank'} to finish your project.
+At Esteemed, we've pre-screened our 13,000+ resources in areas like WordPress, Drupal, E-commerce, and UI/UX. Our unique team of [distributed](https://esteemed.io/blog/2020/07/08/5-benefits-of-a-distributed-workforce/ "Learn more about a distributed workforce. "){:target='_blank'}, digital experts integrate with your company's communication networks. Instantly, you are connected with resource managers who will help you get the [talent you need](https://esteemed.io/blog/2020/07/25/5-reasons-why-you-should-join-a-talent-network/ "Learn more about our Colleagues Community!"){:target='_blank'} to finish your project.
 
 ### **Get to Work**
 
