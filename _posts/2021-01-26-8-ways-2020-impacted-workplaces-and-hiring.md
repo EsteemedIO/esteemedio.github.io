@@ -29,7 +29,7 @@ At the height of the pandemic 50-70% of the US workforce was working remotely. T
 
 Agile, distributed teams have been a necessary sea change for many big tech companies like Google, Twitter, Microsoft, and Facebook. And their employees say that without a remote option in the future, they’ll be unlikely to stay.
 
-> “Remote work tantalizes with its promises of diverse talent pools, increased productivity and retention, and savings on salaries and facilities, not to mention smaller carbon footprint.” — [State of Remote Work 2020](https://www.owllabs.com/state-of-remote-work/2020){:target='_blank'}
+> “Remote work tantalizes with its promises of diverse talent pools, increased productivity and retention, and savings on salaries and facilities, not to mention smaller carbon footprint.” — [State of Remote Work 2020](https://resources.owllabs.com/state-of-remote-work/2020){:target='_blank'}
 
 Work From Anywhere is now a benefit to both candidates and employers. And in our hyper-connected world, we have access to a global talent pool of top tech candidates.
 
