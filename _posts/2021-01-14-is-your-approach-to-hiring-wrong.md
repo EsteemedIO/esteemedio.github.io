@@ -60,7 +60,7 @@ Unfortunately, analytics are often flawed and backward-looking. We’ve never ex
 
 With the rise of cutting-edge tech — and the necessary players to implement it —there’s no question that your hiring process needs to be seamless.
 
-“Artificial intelligence (AI), blockchain, Internet of Things (IoT), virtual reality, 3D printing, and combinations of these, are viewed as cost-cutting and revenue-generating opportunities.” — [PwC’s 2020 CEO Survey](https://www.pwc.com/us/en/library/ceo-agenda/ceo-survey.html)
+“Artificial intelligence (AI), blockchain, Internet of Things (IoT), virtual reality, 3D printing, and combinations of these, are viewed as cost-cutting and revenue-generating opportunities.” — [PwC’s 2020 CEO Survey](https://www.pwc.com/gx/en/ceo-agenda/ceosurvey/2022.html)
 
 ### Don’t go pound-for-pound with hiring gorillas without help
 
