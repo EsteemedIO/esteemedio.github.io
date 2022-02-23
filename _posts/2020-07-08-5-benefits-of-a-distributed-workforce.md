@@ -47,7 +47,7 @@ Many top-tier developers have avoided the traditional office for years for good 
 
 #### **2. Happier Employees Are More Productive**
 
-Happy workers get more done. In a survey from the [State of Remote Work 2019](https://www.owllabs.com/state-of-remote-work/2019){:target='_blank'} “83% of survey respondents agreed that the ability to work remotely would make them happier.”
+Happy workers get more done. In a survey from the [State of Remote Work 2019](https://resources.owllabs.com/state-of-remote-work/2019){:target='_blank'} “83% of survey respondents agreed that the ability to work remotely would make them happier.”
 
 Not to mention that \~1,100 US-based firms reported improved relations between managers and workers after implementing a remote-work program.
 
