@@ -1,4 +1,4 @@
-name: Esteemed
+name: Spell Check
 on:
   push:
     branches: develop

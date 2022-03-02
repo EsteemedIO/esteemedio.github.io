@@ -1,0 +1,19 @@
+version: '3.3'
+
+services:
+  jekyll:
+    image: jekyll/jekyll
+    container_name: esteemed_digital_build
+    volumes:
+      - $PWD:/srv/jekyll
+    restart: on-failure
+    command: jekyll build
+
+  nginx:
+    image: nginx
+    container_name: esteemed_digital
+    ports:
+      - 3458:80
+    volumes:
+      - $PWD/_site:/usr/share/nginx/html:ro
+    restart: always
