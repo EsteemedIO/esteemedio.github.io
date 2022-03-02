@@ -1,3 +1,5 @@
-# esteemedio.github.io
+# Esteemed.io
 
-[![Build Status](https://travis-ci.com/EsteemedIO/esteemedio.github.io.svg?branch=develop)](https://travis-ci.com/EsteemedIO/esteemedio.github.io)
+![Build](https://github.com/EsteemedIO/esteemedio.github.io/actions/workflows/build.yml/badge.svg)
+![HTML](https://github.com/EsteemedIO/esteemedio.github.io/actions/workflows/htmlproofer.yml/badge.svg)
+![Spell Check](https://github.com/EsteemedIO/esteemedio.github.io/actions/workflows/spellcheck.yml/badge.svg)
