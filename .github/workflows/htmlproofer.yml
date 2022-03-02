@@ -1,4 +1,4 @@
-name: Esteemed
+name: HTML Proofer
 on:
   push:
     branches: develop
