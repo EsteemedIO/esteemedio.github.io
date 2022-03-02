@@ -18,6 +18,8 @@ social:
 
 # Build settings
 markdown: kramdown
+exclude:
+  - docker-compose.yml
 plugins:
   - jekyll-feed
   - jekyll-menus
