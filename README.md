@@ -10,3 +10,6 @@ Build HTML: docker-compose up --build jekyll
 
 Serve HTML: docker-compose up nginx
 ```
+
+## Deployment
+Pushing to the develop branch will trigger a GitHub Actions build and GitHub pages deployment.
