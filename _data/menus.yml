@@ -29,28 +29,20 @@ products-solutions:
     title: Products
     url: "/products/"
     submenus:
-      - title: Esteemed Colleagues Community
+      - title: Esteemed Colleagues
         url: "/join-talent-network/"
-      - title: "[x]Contractors"
-        url: "/xcontractors/"
-      - title: Esteemed Digital
-        url: "https://digital.esteemed.io/"
       - title: Esteemed Screening
         url: "/screening/"
   - services:
     title: Services
     url: "/services/"
     submenus:
-      - title: Digital Delivery
-        url: "/digital-delivery/"
+      - title: Talent Sourcing
+        url: "/talent-sourcing/"
+      - title: Digital Services
+        url: "https://digital.esteemed.io/"
       - title: Agile Coaching
         url: "/agile-coaching/"
-      - title: Technical Architecture
-        url: "/technical-architecture/"
-      - title: Project Management
-        url: "/project-management/"
-      - title: Discovery & Planning
-        url: "/discovery-planning/"
       - title: Fractional CTO
         url: "/fractional-cto/"
   - solutions:
