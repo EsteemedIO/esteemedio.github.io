@@ -694,7 +694,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15% 10% 10% 10%;
+    padding: 15% 10% 5% 10%;
     @include breakpoint(large down) {
       font-size: 2rem;
     }
