@@ -1,7 +1,8 @@
 ---
-date: 2022-01-28 18:41:15 +0000
+date: 2022-01-28T18:41:15.000+00:00
 author: casey-horgan
-categories: []
+categories:
+- Fractional CTO
 title: Should Your Business Hire a Fractional CTO?
 description: 'CTOs are responsible for managing an organization’s technology, science,
   and engineering efforts. They wear many hats, though their greatest benefits lie
