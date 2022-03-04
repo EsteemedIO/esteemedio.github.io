@@ -1808,6 +1808,36 @@ body {
   }
 }
 
+.page--service {
+  .news-blog-featured-posts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .news-blog-card__wrapper {
+    flex: 1 0 20%;
+    padding: 5%;
+    @include breakpoint(small only) {
+      flex: 1 0 100%;
+    }
+  }
+
+  .news-blog-card__wrapper--image {
+    background-size: cover;
+    background-position: center;
+    height: 10rem;
+  }
+
+  .news-blog-card__bottom--date-title {
+    color: $black;
+  }
+
+  .news-blog-card__bottom--categories {
+    color: $black;
+  }
+}
+
 .page--404 {
   h1 {
     font-family: $font-georgia;

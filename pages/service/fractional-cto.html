@@ -3,6 +3,8 @@ title: "Hire a Fractional CTO in Hours, Not Days"
 description: "Scaling your business and looking for a CTO? Hire a part-time technology executive with the skills, knowledge, and experience of a full-time Chief Technology Officer."
 permalink: "/fractional-cto/"
 ---
+
+{% assign featured_posts = site.posts | where:'categories', 'Fractional CTO' | sort: 'date' | reverse %}
 <div class="page--service">
   <section id="section-service" class="section padding-vertical-0">
     <div class="cards-list-reverse fadeinHero">
@@ -144,5 +146,34 @@ permalink: "/fractional-cto/"
       </li>
     </ul>
   </div>
+  <section class="section padding-vertical-0 u-bg-lighter-blue">
+    <div class="row">
+      <p class="card-text margin-top-2 margin-left-3">Featured Resources</p>
+      <h2 class="u-trailer u-text-bold margin-left-3">Get curated insights into freelancing, networking, and working
+        remotely.</h2>
+      <div class="grid-x align-top grid-padding-x news-blog-featured-posts">
+        {% for featured_post in featured_posts limit:3 %}
+        <div class="news-blog-card__wrapper">
+          {% if featured_post.thumbnail %}
+          <a href="{{ featured_post.url }}">
+            <div class="news-blog-card__wrapper--image"
+                 style="background-image: url('{{ featured_post.thumbnail }}');"></div>
+          </a>
+          {% endif %}
+          <div class="news-blog-card__bottom margin-top-1 margin-bottom-1">
+            <div class="news-blog-card__bottom--date-categories">
+              <a href="/blog/category/{{ featured_post.categories | first | downcase }}/">
+                <span class="news-blog-card__bottom--categories">{{ featured_post.categories | first }}</span>
+              </a>
+            </div>
+            <a href="{{ featured_post.url }}" class="news-blog-card__bottom--date-title">
+              <p class="card-text margin-top-1 margin-bottom-2">{{ featured_post.title }}</p>
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
   {% include testimonial.html background="u-bg-gray" %}
 </div>
