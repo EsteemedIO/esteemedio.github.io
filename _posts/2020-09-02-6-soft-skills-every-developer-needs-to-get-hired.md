@@ -25,7 +25,7 @@ Soft skills are now the greatest complement to your hard skills for retention. I
 
 Soft skills have long been undervalued in tech. Analytical skills and quantitative expertise won’t be the only deciding factors for candidates anymore.
 
-> “In an increasingly data-driven economy, the [demand for ‘soft’ social skills](https://www.pnas.org/content/pnas/115/50/12630.full.pdf){:target='_blank'}, like teamwork and communication, increase with greater demand for ‘hard’ technical skills and tools.” —PNAS
+> “In an increasingly data-driven economy, the [demand for ‘soft’ social skills](https://www.pnas.org/doi/pdf/10.1073/pnas.1804247115){:target='_blank'}, like teamwork and communication, increase with greater demand for ‘hard’ technical skills and tools.” —PNAS
 
 But soft skills are hard to measure. They’re qualities that include things like common sense, how well you mesh with co-workers, and your adaptability to change.
 

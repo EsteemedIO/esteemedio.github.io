@@ -35,7 +35,7 @@ Most top-tier developers have avoided the traditional office for years. 44% of r
 
 ### **Employee Productivity Vs. Hours Worked**
 
-One misconception about distributed teams is that they work fewer hours than their on-site counterparts. This is simply not true. Remote workers say they work more than [40 hours per week](https://www.owllabs.com/state-of-remote-work/2019 "Remote Work Report"){:target='_blank'}, 43% more than on-site workers.
+One misconception about distributed teams is that they work fewer hours than their on-site counterparts. This is simply not true. Remote workers say they work more than [40 hours per week](https://resources.owllabs.com/state-of-remote-work/2019 "Remote Work Report"){:target='_blank'}, 43% more than on-site workers.
 
 The State of Remote Work Survey discovered the biggest reasons employees choose remote work:
 
