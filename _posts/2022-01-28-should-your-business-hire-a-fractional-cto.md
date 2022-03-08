@@ -13,7 +13,7 @@ description: 'CTOs are responsible for managing an organization’s technology, 
 image: "/uploads/fractional-cto-header-should-hire.jpg"
 thumbnail: "/uploads/fractional-cto-thumbnail-should-hire.jpg"
 color_overlay: "#EC7249"
-featured: false
+featured: true
 type: ''
 
 ---
