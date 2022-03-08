@@ -9,7 +9,7 @@ description: With over a decade of expertise helping companies connect with tale
 image: "/uploads/paige-cody-ittqjs3upoy-unsplash.jpg"
 thumbnail: "/uploads/pexels-andrew-neel-2682452-1.jpg"
 color_overlay: "#EEC10C"
-featured: true
+featured: false
 
 ---
 Are you thinking about venturing out on your own to start a software development or contracting business? Then it occurs to you, “How the heck do I go from idea to service or product?”
