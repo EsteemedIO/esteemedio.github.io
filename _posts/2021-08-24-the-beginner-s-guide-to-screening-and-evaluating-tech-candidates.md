@@ -10,7 +10,7 @@ description: 2020 was a tumultuous year for all of us – job loss, unemployment
 image: "/uploads/pexels-tima-miroshnichenko-5439449.jpg"
 thumbnail: "/uploads/pexels-fauxels-3184465-1.jpg"
 color_overlay: "#1779BA"
-featured: true
+featured: false
 type: ''
 
 ---
