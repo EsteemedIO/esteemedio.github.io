@@ -1,7 +1,8 @@
 ---
 date: 2022-03-07 23:51:42 +0000
 author: matt-brennan
-categories: []
+categories:
+- Screening
 title: 'Technical Screening in 2022: 15 Methods for Assessing Senior and Junior Developers'
 description: Selecting the right technical screening methods to properly assess the
   skill and experience level of job applicants during the hiring process can help
