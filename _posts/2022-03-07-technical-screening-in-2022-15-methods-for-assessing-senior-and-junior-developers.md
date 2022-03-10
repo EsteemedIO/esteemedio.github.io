@@ -1,6 +1,6 @@
 ---
-date: 2022-03-07 23:51:42 +0000
-author: matt-brennan
+date: 2022-03-07T23:51:42.000+00:00
+author: matt-obert
 categories:
 - Screening
 title: 'Technical Screening in 2022: 15 Methods for Assessing Senior and Junior Developers'
