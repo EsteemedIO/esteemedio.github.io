@@ -60,8 +60,8 @@ Screening and evaluating candidates with the following methods in mind can help 
 
 If your open position is a Drupal role, it’s worth checking for profiles at Drupal.org. Those profiles should have project links where applicable, and link to a portfolio. Moreover, Drupal.org profiles also keep track of community contributions, including participation in issue queues (bug reports and patches), edits to documentation, code contributions merged into core or community-contributed projects, and modules or themes released to the public. While it's entirely possible to find Senior developers whose profiles don't have much activity (some people only code during work hours or are prohibited from open-sourcing client code), it's rare to find profiles with a lot of activity that _aren't_ backed up by the skills.
 
-A quick check on Facebook and other less professional-oriented platforms can also provide telling information. These social media sites can help to determine whether a candidate will provide the right type of cultural fit within your organization. There shouldn’t be any questionable or offensive content in any public profile.  
-  
+A quick check on Facebook and other less professional-oriented platforms can also provide telling information. These social media sites can help to determine whether a candidate will provide the right type of cultural fit within your organization. There shouldn’t be any questionable or offensive content in any public profile.
+
 When conducting **Experience Verification**, differentiating between Junior and Senior developers requires more than simply counting years of experience. Senior experience should include roles with more responsibility, whether leading a team, taking charge of a key element of a project, or completing entire projects as a solo developer. Senior projects tend to be more complex, and project scope should be more ambitious. With Juniors, be on the lookout for steady roles in smaller projects, or supporting roles in larger projects.
 
 ### **_Identity Verification_**
@@ -99,8 +99,8 @@ The reality is that it’s hard to assess a developer’s ability through interv
 
 Algorithm challenges are quick and easy, and may be included in automated skills testing. Take-home challenges require more time to evaluate, so it does not make sense to require everyone to complete these; they are typically reserved for candidates who have already passed automated skills testing. Pair Programming and Whiteboarding require a significant investment of time and effort from the hiring team as well as the job applicant, so they are best reserved for developers who have already passed earlier rounds of screening.
 
-Senior developers generally write clean, concise, well-structured code. They follow coding standards such as adding doc blocks to all classes and methods, but they don’t clutter up their code with irrelevant comments. They anticipate unexpected inputs, throwing and catching exceptions correctly. They strive to produce elegant, minimal, testable, and maintainable code.  
-  
+Senior developers generally write clean, concise, well-structured code. They follow coding standards such as adding doc blocks to all classes and methods, but they don’t clutter up their code with irrelevant comments. They anticipate unexpected inputs, throwing and catching exceptions correctly. They strive to produce elegant, minimal, testable, and maintainable code.
+
 Junior developers often write code that works in a given scenario, but may not be flexible enough to catch exceptions from edge cases and unexpected inputs. They seldom follow all coding standards, and their inline comments may be chatty and redundant. They may repeat themselves or hard-code values that should be configurable. Still, if they are able to get the job done and write code that works, they may be ready to join your team and gain experience.
 
 Take a look here if you’re looking for more information on [how to get started with coding challenges.](https://www.quora.com/How-do-I-get-started-with-online-coding-challenges)
@@ -144,9 +144,9 @@ The interviewer should be able to get valuable information from both Junior and 
 
 Screening developer candidates has become more complex in a remote work environment, but it’s still possible to do it well. Each company will have its own projects, and each role will have its own requirements. Clearly identifying the requirements for your open role should always be your first step. After you've posted the job description and the applicants start flooding in, you'll need every tool available to separate the wheat from the chaff.
 
-* **Skills Verification** methods, such as skills testing, code review, and coding challenges, ensure that you consider only applicants whose skills fit perfectly into this new role on your team. 
-* **Experience Verification** methods, such as review of resumes and public profiles, ensure that your top picks are neither over-qualified for a Junior role, nor under-qualified for a Senior role. 
-* **Identity Verification** methods protect you from scammers, fake candidates, and identity thieves. 
+* **Skills Verification** methods, such as skills testing, code review, and coding challenges, ensure that you consider only applicants whose skills fit perfectly into this new role on your team.
+* **Experience Verification** methods, such as review of resumes and public profiles, ensure that your top picks are neither over-qualified for a Junior role, nor under-qualified for a Senior role.
+* **Identity Verification** methods protect you from scammers, fake candidates, and identity thieves.
 * **Screening Interviews** give you the opportunity to evaluate applicants in real-time, to determine whether they actually possess the knowledge they claim or are just good at bluffing.
 
 ### **Evaluate All Your Screening Options**
