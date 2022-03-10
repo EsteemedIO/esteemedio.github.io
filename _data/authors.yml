@@ -58,6 +58,11 @@ matt-brennan:
   profile_image: "/img/matt-brennan.jpg"
   image_meta: "/img/matt-brennan.jpg"
   bio: Matt Brennan is an experienced freelance copywriter, author, and marketing consultant. When he’s not working, he enjoys playing with his young son, reading books, and listening to music.
+matt-obert:
+  name: Matt Obert
+  profile_image: "/img/mattobert.png"
+  image_meta: "/img/mattobert.png"
+  bio: Matt Obert is the Director of Screening at Esteemed. He is a creative technologist and Acquia Certified Drupal 8 Site Builder with more than twenty years of experience building and hosting websites.
 gloria-tucker:
   name: Gloria Tucker
   profile_image: "/img/gloria-tucker.jpg"
