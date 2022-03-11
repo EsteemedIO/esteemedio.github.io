@@ -1,6 +1,6 @@
 ---
-date: 2022-03-11 17:08:36 +0000
-author: alex-novak
+date: 2022-03-11T17:08:36.000+00:00
+author: nell-gladson
 categories: []
 title: 'How to Hire a Fractional CTO: 3 Ways to Find Top Talent'
 description: Chief technology officers (CTOs) are key members of the executive team
