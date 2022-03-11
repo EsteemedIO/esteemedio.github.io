@@ -3,7 +3,7 @@ date: 2022-01-21T20:13:32.000+00:00
 author: casey-horgan
 categories:
 - Fractional CTO
-title: Why Hire a Fractional CTO?
+title: 5 Benefits of Hiring a Fractional CTO
 description: 'If you’re actively growing your organization, and if your business has
   a technical side that requires management, you need a Chief Technology Officer (CTO).
   That’s an easy call. But who to hire, and how to hire? These are trickier questions. '
