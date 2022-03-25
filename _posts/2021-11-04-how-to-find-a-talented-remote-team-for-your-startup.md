@@ -1,5 +1,5 @@
 ---
-date: 2021-11-04 20:18:24 +0000
+date: 2021-11-04T20:18:24.000+00:00
 author: casey-horgan
 categories: []
 title: How to Find a Talented Remote Team for Your Startup
