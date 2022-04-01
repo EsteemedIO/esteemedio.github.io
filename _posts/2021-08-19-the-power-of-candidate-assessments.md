@@ -12,7 +12,7 @@ description: Not all business is created equal, and not all business challenges 
 image: "/uploads/pexels-tima-miroshnichenko-5439153.jpg"
 thumbnail: "/uploads/pexels-cottonbro-5989925.jpg"
 color_overlay: "#EEC10C"
-featured: true
+featured: false
 type: ''
 
 ---
