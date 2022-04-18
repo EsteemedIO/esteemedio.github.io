@@ -4,30 +4,30 @@ our_service_1:
     label_icon: /img/tab-1/hosting_support.png
     description: |-
       We’re here to help you with your Web Content Management System.
-      We’ve been hostng enterprise clients for over 18 years. When you
-      choose Esteemed Digital as your hostng partner we work with your
-      team to ensure contnuous up-tme.
+      We’ve been hosting enterprise clients for over 18 years. When you
+      choose Esteemed Digital as your hosting partner we work with your
+      team to ensure continuous up-tme.
 
-      We can help keep your applicaton up-to-date and secure through
-      regular updates as well as provide contnued enhancements and debugging,
+      We can help keep your application up-to-date and secure through
+      regular updates as well as provide continued enhancements and debugging,
       and assist with a site that is having issues or has gone down.
     img: /img/tab-1/hosting_support.jpg
   - label_tab: Digital Strategy
     label_icon: /img/tab-1/digital_strategy.png
     description: |-
-      We provide end-to-end, full-service digital solutons with expertise
+      We provide end-to-end, full-service digital solutions with expertise
       across defferent disciplines to improve your business’ performance.
 
-      Turn your product vision into actonable goals for your teams. With
-      lean strategy, data-driven decision making, and cross-functonal experts,
+      Turn your product vision into actionable goals for your teams. With
+      lean strategy, data-driven decision making, and cross-functional experts,
       Esteemed Digital is your trusted strategic partner.
     img: /img/tab-1/digital_strategy.jpg
   - label_tab: Architecture
     label_icon: /img/tab-1/architerture.png
     description: |-
       Esteemed Digital is composed of technical professionals with
-      expertse gained all over the world and in all ﬁelds of the tech industry.
-      It’s our mission to put this expertse to work for you. We serve all
+      expertise gained all over the world and in all ﬁelds of the tech industry.
+      It’s our mission to put this expertise to work for you. We serve all
       industries, including banking, ﬁnance, legal services, life sciences &
       healthcare, technology, media, and the public sector.
     img: /img/tab-1/architerture.jpg
@@ -37,19 +37,19 @@ our_service_1:
       Our clients are central to our team. We’ll ﬂesh out complex requirements,
       and design effective systems that solve your problems.
 
-      We focus on creatng big changes like enabling marketng efforts and
+      We focus on creating big changes like enabling marketing efforts and
       content publishing, workﬂow improvements, leveraging Open Source
       technologies, and improving your business as a whole.
     img: /img/tab-1/custom_development.jpg
   - label_tab: CMS Design & Development
     label_icon: /img/tab-1/cms_design_development.png
     description: |-
-      Our CMS Web Solutons provide end-users with diﬀerent permissions
+      Our CMS Web Solutions provide end-users with diﬀerent permissions
       to manage or even access informaton, content, and assets of the
       organizaton.
 
       As pioneers in providing end-to-end IT deliverables, we shoulder the
-      responsibility to provide cutng-edge CMS Web Development
+      responsibility to provide cutting-edge CMS Web Development
       Services to our clients.
     img: /img/tab-1/cms_design_development.jpg
 our_service_2:
@@ -89,7 +89,7 @@ our_service_2:
       phone calls, transactions, and qualiﬁed website traﬃc.
 
       Working with our team, we determine which avenues are best suited
-      for your business’s campaign goals and objectives.
+      for your business’ campaign goals and objectives.
     img: /img/tab-2/digital_advertising.jpg
   - label_tab: Campaign Management
     label_icon: /img/tab-2/campaign_management.png
