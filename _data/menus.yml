@@ -30,7 +30,7 @@ products-solutions:
     url: "/products/"
     submenus:
       - title: Esteemed Colleagues
-        url: "/join-talent-network/"
+        url: "/join-colleagues/"
       - title: Esteemed Screening
         url: "/screening/"
   - services:
@@ -54,7 +54,7 @@ products-solutions:
       - title: For Agencies
         url: "/for-agencies/"
       - title: For Talent
-        url: "/join-talent-network/"
+        url: "/join-colleagues/"
 resources:
   - resources:
     title: Resources
