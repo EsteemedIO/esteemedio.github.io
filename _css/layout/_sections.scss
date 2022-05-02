@@ -1835,6 +1835,8 @@ body {
 
   .news-blog-card__bottom--categories {
     color: $black;
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
 }
 
