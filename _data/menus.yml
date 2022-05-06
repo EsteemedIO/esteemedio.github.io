@@ -18,5 +18,5 @@ navigation:
   weight: 4
 - button: 1
   title: Get a Quote
-  url: "/get-a-quote/"
+  url: "#contact-form"
   weight: 6
