@@ -1373,6 +1373,12 @@ body {
     }
     .card-text {
       color: $black;
+      margin-bottom: 3rem;
+    }
+    .button {
+      position: absolute;
+      bottom: 1rem;
+      margin: 0;
     }
   }
   .events {
