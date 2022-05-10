@@ -10,8 +10,8 @@ description: In any organization, part of the key to innovation is the chief tec
   model comes in. This guide explains how the fractional CTO role works, considers
   the pros and cons, and offers guidance on how to find the best fit for your business-specific
   needs.
-image: "/uploads/screeningdevelopers_header.jpg"
-thumbnail: "/uploads/screeningdevelopers_thumb.jpg"
+image: "/uploads/pexels-christina-morillo-1181346-1-min.jpg"
+thumbnail: "/uploads/pexels-fauxels-3184295-min.jpg"
 color_overlay: "#264083"
 featured: true
 type: ''
