@@ -34,13 +34,13 @@ Thursday, September 10 | 2:30 - 3:15pm
 
 This afternoon session is great for beginners. Tyler Ashbaugh, a web developer for Drupal Contractors with over 15 years experience, will walk attendees through the following:
 
-* Setting up simplesamlphp as a Service Provider
-* Setting up simplesamlphp as an Identity Provider
+* Setting up SimpleSAMLphp as a Service Provider
+* Setting up SimpleSAMLphp as an Identity Provider
 * Common pitfalls of enabling SSO in Drupal 7/8
 * How to see the handshakes and assertions of SAML between SP and IDP
-* How to plugin to the simplesamlphp community
+* How to plugin to the SimpleSAMLphp community
 * How to leverage the metadata asserted via SAML in a Drupal module
-* How to dynamically deploy simplesamlphp as a Service Provider without hard coding your configurations for each environment
+* How to dynamically deploy SimpleSAMLphp as a Service Provider without hard coding your configurations for each environment
 
 By the end of this tutorial, attendees will know more about where to start, what to do, and how to tackle SAML-based SSO.
 
