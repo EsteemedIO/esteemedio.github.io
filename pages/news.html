@@ -61,11 +61,13 @@ permalink: "/news-center/"
             </a>
             {% endif %}
             <div class="news-blog-card__bottom margin-top-1 margin-bottom-1">
+              {% unless featured_post.categories == empty %}
               <div class="news-blog-card__bottom--date-categories">
                 <a href="/blog/category/{{ featured_post.categories | first | downcase }}/">
                   <span class="news-blog-card__bottom--categories">{{ featured_post.categories | first }}</span>
                 </a>
               </div>
+              {% endunless %}
               <a href="{{ featured_post.url }}" class="news-blog-card__bottom--date-title">
                 <p class="card-text margin-top-1 margin-bottom-2">{{ featured_post.title }}</p>
               </a>
