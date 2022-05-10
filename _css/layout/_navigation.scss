@@ -269,7 +269,8 @@
       }
 
       .bg-white:hover {
-        background-color: $lighter-gray
+        background-color: $button-blue;
+        color: $white !important;
       }
     }
   }
@@ -330,7 +331,7 @@
 body .mega-menu-parent {
   z-index: 9999;
   position: relative;
-  padding: 2rem 1rem !important;
+  padding: 2rem 0.5rem !important;
   @include breakpoint(small only) {
     background-color: black !important;
     color: white !important;

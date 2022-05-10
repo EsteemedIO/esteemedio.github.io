@@ -987,7 +987,8 @@ body {
     }
 
     .bg-white:hover {
-      background-color: #f3f3f3;
+      background-color: #4389c8;
+      color: #fefefe !important;
     }
 
     .cloud-button {
@@ -1372,6 +1373,12 @@ body {
     }
     .card-text {
       color: $black;
+      margin-bottom: 3rem;
+    }
+    .button {
+      position: absolute;
+      bottom: 1rem;
+      margin: 0;
     }
   }
   .events {
@@ -1835,6 +1842,8 @@ body {
 
   .news-blog-card__bottom--categories {
     color: $black;
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
 }
 
@@ -1938,5 +1947,15 @@ body {
 
   .number-description {
     font-size: 32px;
+  }
+}
+
+.fractional-cto-banner {
+  h3 {
+    text-align: center;
+  }
+
+  .footer-form {
+    padding-bottom: 2rem;
   }
 }

@@ -24,6 +24,11 @@ navigation:
   title: Schedule Demo
   url: "/get-a-quote/"
   weight: 6
+- button: 1
+  title: Join Colleagues
+  url: "https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
+  weight: 6
+  bg_white: 1
 products-solutions:
   - products:
     title: Products
