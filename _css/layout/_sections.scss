@@ -1169,6 +1169,16 @@ body {
     }
 
   }
+  .bg-white {
+    color: $button-blue !important;
+    border: solid 1px $button-blue;
+    background: $white;
+  }
+
+  .bg-white:hover {
+    background-color: $button-blue;
+    color: $white !important;
+  }
 }
 
 .page--news, .page--case-studies {
