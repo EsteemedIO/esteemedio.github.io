@@ -198,7 +198,7 @@
           }
 
           @include breakpoint(large up) {
-            font-size: 1.125rem;
+            font-size: 1rem;
             font-weight: $global-weight-medium;
           }
 
@@ -331,7 +331,7 @@
 body .mega-menu-parent {
   z-index: 9999;
   position: relative;
-  padding: 2rem 0.5rem !important;
+  padding: 2rem 1rem !important;
   @include breakpoint(small only) {
     background-color: black !important;
     color: white !important;
