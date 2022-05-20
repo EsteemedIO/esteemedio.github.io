@@ -322,7 +322,7 @@
 }
 
 .mega-menu.shrink {
-  top: 82px;
+  top: 81px;
   @include breakpoint(small only) {
     top: 0;
   }
@@ -354,7 +354,7 @@ body .mega-menu-parent {
   display: flex;
   width: 75rem;
   position: fixed;
-  top: 85px;
+  top: 81px;
   left: 50%;
   transform: translateX(-50%);
   background-color: black;
@@ -406,15 +406,12 @@ body .mega-menu-parent {
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
     margin-left: 20px;
+    cursor: default;
     @include breakpoint(small only) {
       font-size: 1rem !important;
       line-height: 2rem;
       margin-top: 2rem;
     }
-  }
-
-  h6:hover {
-    text-decoration: underline #eec100 2px;
   }
 
   ul {
