@@ -1,0 +1,96 @@
+#search-results {
+  padding-top: 0.2rem;
+
+  .search-for {
+    font-size: 1.25rem;
+    @include breakpoint(small and xlarge down) {
+      margin: 0 1rem;
+    }
+
+    .text-bold {
+      font-weight: bold;
+    }
+  }
+
+  ul {
+    margin-left: 0;
+    @include breakpoint(small and xlarge down) {
+      margin: 0 1rem;
+    }
+  }
+}
+
+.search-result {
+  padding-bottom: 1rem;
+  list-style: none;
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    @include breakpoint(small only) {
+      flex-direction: column;
+    }
+  }
+
+  .search-content {
+    width: 75%;
+    @include breakpoint(small only) {
+      width: 100%;
+    }
+    @include breakpoint(medium only) {
+      width: 65%;
+    }
+  }
+
+  .title {
+    color: $button-background-hover;
+    font-size: 1.25rem;
+  }
+
+  .body {
+    color: $button-hover-black;
+  }
+
+  a {
+    display: block;
+    font-size: 1.15rem;
+  }
+
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+
+  a:hover .title {
+    text-decoration: underline;
+  }
+
+  .image-wrapper {
+    width: 15%;
+    background-size: cover;
+    background-position: center;
+    min-height: 10rem;
+    margin-right: 1rem;
+    @include breakpoint(medium only) {
+      width: 30%;
+    }
+    @include breakpoint(small only) {
+      width: 100%;
+      min-height: 15rem;
+    }
+  }
+}
+
+.search-form {
+  display: flex;
+  @include breakpoint(small and xlarge down) {
+    margin: 0 1rem;
+  }
+
+  #lunrsearch {
+    height: auto;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    background-color: white !important;
+  }
+}

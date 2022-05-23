@@ -1,0 +1,73 @@
+<script src="/js/lunr.js"></script>
+<script>
+    {% assign counter = 0 %}
+    var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
+        "id": {{ counter }},
+        "url": "{{ site.url }}{{ page.url }}",
+            "title": "{{ page.title }}",
+            "thumbnail": "{{ page.thumbnail }}",
+            "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    }, {% endif %}{% endfor %}{% for page in site.without-plugin %}{
+        "id": {{ counter }},
+        "url": "{{ site.url }}{{ page.url }}",
+            "title": "{{ page.title }}",
+            "thumbnail": "{{ page.thumbnail }}",
+            "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    }, {% endfor %}{% for page in site.posts %}{
+        "id": {{ counter }},
+        "url": "{{ site.url }}{{ page.url }}",
+            "title": "{{ page.title }}",
+            "thumbnail": "{{ page.thumbnail }}",
+            "body": "{{ page.date | date: "%Y/%m/%d" }} - {{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
+
+    var idx = lunr(function () {
+        this.ref('id')
+        this.field('title')
+        this.field('body')
+        this.field('thumbnail')
+
+        documents.forEach(function (doc) {
+            this.add(doc)
+        }, this)
+    });
+    function lunr_search(term) {
+        document.getElementById('search-results').innerHTML = '<ul></ul>';
+        if(term) {
+            document.getElementById('search-results').innerHTML = "<p class='search-for'>Search results for '<span class='text-bold'>" + term + "'</span></p>" + document.getElementById('search-results').innerHTML;
+            //put results on the screen.
+            console.log(idx.search(term));
+            var results = idx.search(term);
+            if(results.length>0){
+                //if results
+                for (var i = 0; i < results.length; i++) {
+                    // more statements
+                    var ref = results[i]['ref'];
+                    var url = documents[ref]['url'];
+                    var title = documents[ref]['title'];
+                    var body = documents[ref]['body'].substring(0,200)+'...';
+                    if (documents[ref]['thumbnail']) {
+                        var thumbnail = documents[ref]['thumbnail'];
+                    }
+                    else {
+                        var thumbnail = 'img/categories.png';
+                    }
+                    document.querySelectorAll('#search-results ul')[0].innerHTML = document.querySelectorAll('#search-results ul')[0].innerHTML + "<li class='search-result'><a class='flex-container' href='" + url + "' target='_blank'><div class='image-wrapper' style='background-image: url(" + thumbnail + ");'></div><div class='search-content'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /></div></a></li>";
+                }
+            } else {
+                document.querySelectorAll('#search-results ul')[0].innerHTML = "<li class='search-result'>No results found...</li>";
+            }
+        }
+        return false;
+    }
+</script>
+<div class="margin-top-1">
+  <form class="search-form" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search..."/>
+    <span class="fa fa-search"></span>
+    <button type="submit" class="button">Search</button>
+  </form>
+</div>
+<div id="search-results">
+  <ul></ul>
+</div>
