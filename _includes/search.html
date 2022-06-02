@@ -1,7 +1,7 @@
 <script src="/js/lunr.js"></script>
 <script>
     {% assign counter = 0 %}
-    var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
+    var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' % or page.url contains '/blog/author' %}{% else %}{
         "id": {{ counter }},
         "url": "{{ site.url }}{{ page.url }}",
             "title": "{{ page.title }}",
@@ -50,7 +50,7 @@
                         var thumbnail = documents[ref]['thumbnail'];
                     }
                     else {
-                        var thumbnail = 'img/categories.png';
+                        var thumbnail = '/img/esteemed-default-search.jpg';
                     }
                     document.querySelectorAll('#search-results ul')[0].innerHTML = document.querySelectorAll('#search-results ul')[0].innerHTML + "<li class='search-result'><a class='flex-container' href='" + url + "' target='_blank'><div class='image-wrapper' style='background-image: url(" + thumbnail + ");'></div><div class='search-content'><span class='title'>" + title + "</span><br /><span class='body'>"+ body +"</span><br /></div></a></li>";
                 }
@@ -61,9 +61,14 @@
         return false;
     }
 </script>
+{% for page in site.pages %}
+{{ page.title }}<br>
+{{ page.url }}
+
+{% endfor %}
 <div class="margin-top-1">
   <form class="search-form" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-    <input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search..."/>
+    <input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder='Try "Fractional CTO", "Team Retreats", or "Hiring Strategy"'/>
     <span class="fa fa-search"></span>
     <button type="submit" class="button">Search</button>
   </form>
