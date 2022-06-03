@@ -61,11 +61,6 @@
         return false;
     }
 </script>
-{% for page in site.pages %}
-{{ page.title }}<br>
-{{ page.url }}
-
-{% endfor %}
 <div class="margin-top-1">
   <form class="search-form" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
     <input type="text" class="form-control" id="lunrsearch" name="q" maxlength="255" value="" placeholder='Try "Fractional CTO", "Team Retreats", or "Hiring Strategy"'/>
