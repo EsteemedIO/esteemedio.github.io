@@ -5,6 +5,7 @@ image: "/img/blog.png"
 permalink: /blog/
 pagination:
   enabled: true
+thumbnail: "/img/blog_hero.jpg"
 ---
 
 {% assign featured_posts = site.posts | where:'featured', true | sort: 'date' | reverse %}
