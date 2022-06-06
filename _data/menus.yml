@@ -21,7 +21,7 @@ navigation:
   weight: 4
   id: "community"
 - button: 1
-  title: Schedule Demo
+  title: Talk With Us
   url: "/get-a-quote/"
   weight: 6
 - button: 1
@@ -32,7 +32,7 @@ navigation:
 products-solutions:
   - products:
     title: Products
-    url: "/products/"
+    url: "#"
     submenus:
       - title: Esteemed Colleagues
         url: "/join-colleagues/"
@@ -40,7 +40,7 @@ products-solutions:
         url: "/screening/"
   - services:
     title: Services
-    url: "/services/"
+    url: "#"
     submenus:
       - title: Talent Sourcing
         url: "/talent-sourcing/"
@@ -52,7 +52,7 @@ products-solutions:
         url: "/fractional-cto/"
   - solutions:
     title: Solutions
-    url: "/solutions/"
+    url: "#"
     submenus:
       - title: For Brands
         url: "/for-brands/"
@@ -63,7 +63,7 @@ products-solutions:
 resources:
   - resources:
     title: Resources
-    url: "/resources/"
+    url: "#"
     submenus:
       - title: Blog
         url: "/blog/"
@@ -84,7 +84,7 @@ resources:
 about-us:
   - about-us:
     title: About Us
-    url: "/about-us/"
+    url: "#"
     submenus:
       - title: Our Company
         url: "/company/"
@@ -107,7 +107,7 @@ about-us:
 community:
   - community:
     title: Community
-    url: "/community/"
+    url: "#"
     submenus:
       - title: Events
         url: "/events/"
