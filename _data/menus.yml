@@ -74,13 +74,13 @@ resources:
       - title: Open Jobs
         url: "https://talent.esteemed.io/jobs/"
     cta:
-      image_url: "/img/drupalconportland-01-min.png"
-      image_alt: "DrupalCon Portland"
+      image_url: "img/DCA.jpg"
+      image_alt: "DrupalCamp Asheville"
       title: Join Us!
-      sub_title: DrupalCon Portland
-      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is an Exhibitor at DrupalCon Portland.
+      sub_title: DrupalCamp Asheville
+      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gold Sponsor at DrupalCamp Asheville.
       button_title: Register Now
-      button_link: "https://events.drupal.org/portland2022"
+      button_link: "https://www.drupalasheville.com/"
 about-us:
   - about-us:
     title: About Us
@@ -97,13 +97,13 @@ about-us:
       - title: Contact Us
         url: "https://us10.list-manage.com/contact-form?u=ec5b82da5b213df9999d28215&form_id=3748ccb203457ce78b32c876123b02bf"
     cta:
-      image_url: "/img/drupalconportland-01-min.png"
-      image_alt: "DrupalCon Portland"
+      image_url: "img/DCA.jpg"
+      image_alt: "DrupalCamp Asheville"
       title: Join Us!
-      sub_title: DrupalCon Portland
-      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is an Exhibitor at DrupalCon Portland.
+      sub_title: DrupalCamp Asheville
+      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gold Sponsor at DrupalCamp Asheville.
       button_title: Register Now
-      button_link: "https://events.drupal.org/portland2022"
+      button_link: "https://www.drupalasheville.com/"
 community:
   - community:
     title: Community
@@ -116,13 +116,13 @@ community:
       - title: Join Talent Network
         url: "https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
     cta:
-      image_url: "/img/drupalconportland-01-min.png"
-      image_alt: "DrupalCon Portland"
+     image_url: "img/DCA.jpg"
+      image_alt: "DrupalCamp Asheville"
       title: Join Us!
-      sub_title: DrupalCon Portland
-      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is an Exhibitor at DrupalCon Portland.
+      sub_title: DrupalCamp Asheville
+      description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gold Sponsor at DrupalCamp Asheville.
       button_title: Register Now
-      button_link: "https://events.drupal.org/portland2022"
+      button_link: "https://www.drupalasheville.com/"
 footer:
 - title: Communities
   menu:
