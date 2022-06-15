@@ -34,10 +34,10 @@
                   <div class="menu grid-x">
                       {% for mega in site.data.menus[nav.id] %}
                       <div class="large-4 small-12">
-                        <a class="head" href="{{ mega.url}}"><h6>{{ mega.title}}</h6></a>
+                        <a class="head" href="{{ mega.url}}"{% if mega.target != null %} target="{{ mega.target}}"{% endif %}><h6>{{ mega.title}}</h6></a>
                         <ul>
                           {% for menu in mega.submenus %}
-                          <li><a href="{{ menu.url}}">{{ menu.title}}</a></li>
+                          <li><a href="{{ menu.url}}"{% if menu.target != null %} target="{{ menu.target}}"{% endif %}>{{ menu.title}}</a></li>
                           {% endfor %}
                         </ul>
                       </div>
@@ -52,7 +52,7 @@
                           <div class="title">{{ mega.cta.title }}</div>
                           <div class="sub-title">{{ mega.cta.sub_title }}</div>
                           <div class="description">{{ mega.cta.description }}</div>
-                          <a class="button-yellow" href="{{ mega.cta.button_link }}">{{ mega.cta.button_title }}</a>
+                          <a class="button-yellow" href="{{ mega.cta.button_link }}"{% if mega.cta.target != null %} target="{{ mega.cta.target}}"{% endif %}>{{ mega.cta.button_title }}</a>
                         </div>
                       </div>
                     </div>
