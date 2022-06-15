@@ -9,7 +9,7 @@ description: 'The Wall Street Journal warns recent remote-work trends will force
   jobs offshore to higher-skilled workers. To grow and thrive in the digital space,
   remote software developers must stay fluid in a fast-changing world, continually
   improve their skills, and maintain accountability and visibility.  '
-image: "/uploads/screeningdevelopers_header.jpg"
+image: "/uploads/pexels-mikhail-fesenko-9553909.jpg"
 thumbnail: "/uploads/screeningdevelopers_thumb.jpg"
 color_overlay: "#264083"
 featured: false
