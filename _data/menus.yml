@@ -46,6 +46,7 @@ products-solutions:
         url: "/talent-sourcing/"
       - title: Digital Services
         url: "https://digital.esteemed.io/"
+        target: "_blank"
       - title: Agile Coaching
         url: "/agile-coaching/"
       - title: Fractional CTO
@@ -81,6 +82,7 @@ resources:
       description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gold Sponsor at DrupalCamp Asheville.
       button_title: Register Now
       button_link: "https://www.drupalasheville.com/"
+      target: "_blank"
 about-us:
   - about-us:
     title: About Us
@@ -96,6 +98,7 @@ about-us:
         url: "/news-center/"
       - title: Contact Us
         url: "https://us10.list-manage.com/contact-form?u=ec5b82da5b213df9999d28215&form_id=3748ccb203457ce78b32c876123b02bf"
+        target: "_blank"
     cta:
       image_url: "img/DCA.jpg"
       image_alt: "DrupalCamp Asheville"
@@ -104,6 +107,7 @@ about-us:
       description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gold Sponsor at DrupalCamp Asheville.
       button_title: Register Now
       button_link: "https://www.drupalasheville.com/"
+      target: "_blank"
 community:
   - community:
     title: Community
@@ -113,16 +117,19 @@ community:
         url: "/events/"
       - title: Join Our Newsletter
         url: "https://eepurl.com/g_fqE1"
+        target: "_blank"
       - title: Join Talent Network
         url: "https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
+        target: "_blank"
     cta:
-     image_url: "img/DCA.jpg"
+      image_url: "img/DCA.jpg"
       image_alt: "DrupalCamp Asheville"
       title: Join Us!
       sub_title: DrupalCamp Asheville
       description: Drupal holds a special place for all of us at Esteemed, which is why we’re proud to announce that our company is a Gold Sponsor at DrupalCamp Asheville.
       button_title: Register Now
       button_link: "https://www.drupalasheville.com/"
+      target: "_blank"
 footer:
 - title: Communities
   menu:
