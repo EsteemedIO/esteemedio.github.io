@@ -75,7 +75,7 @@ resources:
       - title: Open Jobs
         url: "https://talent.esteemed.io/jobs/"
     cta:
-      image_url: "img/DCA.jpg"
+      image_url: "/img/DCA.jpg"
       image_alt: "DrupalCamp Asheville"
       title: Join Us!
       sub_title: DrupalCamp Asheville
@@ -100,7 +100,7 @@ about-us:
         url: "https://us10.list-manage.com/contact-form?u=ec5b82da5b213df9999d28215&form_id=3748ccb203457ce78b32c876123b02bf"
         target: "_blank"
     cta:
-      image_url: "img/DCA.jpg"
+      image_url: "/img/DCA.jpg"
       image_alt: "DrupalCamp Asheville"
       title: Join Us!
       sub_title: DrupalCamp Asheville
@@ -122,7 +122,7 @@ community:
         url: "https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
         target: "_blank"
     cta:
-      image_url: "img/DCA.jpg"
+      image_url: "/img/DCA.jpg"
       image_alt: "DrupalCamp Asheville"
       title: Join Us!
       sub_title: DrupalCamp Asheville
