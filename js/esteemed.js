@@ -14164,6 +14164,22 @@ $('#lead_submission').on('submit', function(e) {
   });
 });
 
+$('#join_esteemed').on('submit', function(e) {
+  e.preventDefault();
+  $('#join_esteemed input[name="submit"]').fadeOut(2000, function() {
+    $.post('https://esteemed-api-97dnt.ondigitalocean.app/join', $('#join_esteemed').serialize())
+      .done(function(data) {
+        $('#success-response').html('Thank you for joining!').show();
+
+        // Redirect user to Slack.
+        window.location.href = data.url;
+      })
+      .fail(function(data) {
+        $('#success-response').html('There was an issue joining').show();
+      });
+  });
+});
+
 $(document).ready(function() {
   $('.fadeinAfterLoad').delay(1000).animate({ 'opacity': '1' }, 1000);
   $('.fadeinHero').delay(200).animate({'opacity':'1'},500);
