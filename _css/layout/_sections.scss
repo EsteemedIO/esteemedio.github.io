@@ -766,6 +766,16 @@ body {
   #section-07-talent .section-content{
     padding: 10%;
   }
+
+  .talent-list {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 20px;
+      margin-right: 10px;
+    }
+  }
 }
 #section-partner, #section-member-compensation-plan, #section-talent-network, #section-service, #section-search {
   width: 100%;
