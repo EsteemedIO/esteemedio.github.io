@@ -14,6 +14,13 @@ body {
   }
 }
 
+@include breakpoint(large) {
+  .grid-container, .row {
+    width: 100%;
+    max-width: 1440px;
+  }
+}
+
 .section {
   padding: $small-section-spacing;
 
@@ -473,7 +480,8 @@ body {
 }
 
 .page--quote {
-  max-width: 75rem;
+  width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
 
   h1 {
@@ -760,7 +768,8 @@ body {
   }
 }
 #section-partner, #section-member-compensation-plan, #section-talent-network, #section-service, #section-search {
-  max-width: 75rem;
+  width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
 
   .section-image {
@@ -1256,7 +1265,8 @@ body {
 .page--events,
 .page--screening {
   .width-75rem {
-    max-width: 75rem;
+    width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
   }
 
