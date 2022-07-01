@@ -107,3 +107,50 @@
     }
   }
 }
+
+.section__member_testimonial {
+  h2 {
+    font-family: $font-georgia;
+    @include breakpoint(small only) {
+      font-size: 2rem;
+    }
+  }
+
+  .orbit {
+    .item {
+      border-radius: 20px;
+      background-color: white;
+      max-height: 20rem;
+      padding: 2rem;
+      width: 50rem;
+      margin: 0 auto;
+      box-shadow: 0 0 8px 8px rgb(153 153 153 / 35%);
+      @include breakpoint(small only) {
+        width: 100%;
+        max-height: 100%;
+        height: 100%;
+      }
+    }
+
+    .image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include breakpoint(small only) {
+        padding-bottom: 1rem;
+      }
+
+      img {
+        border-radius: 100%;
+      }
+    }
+
+    .content {
+      font-size: 1.25rem;
+      @include breakpoint(small only) {
+        text-align: center;
+        padding-left: 0 !important;
+      }
+    }
+  }
+}
