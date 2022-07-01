@@ -22,6 +22,10 @@
   img: /img/our_team/team/will-kirchheimer.jpg
   img_alt: Will Kirchheimer
   title: VP of Esteemed Digital
+- name: Harvey Lenar
+  img: /img/our_team/team/HarveyLenar.jpg
+  img_alt: Harvey Lenar
+  title: Director of Community Experience
 - name: Julia Panchenko
   img: /img/our_team/team/Julia Panchenko.jpg
   img_alt: Julia Panchenko
@@ -49,15 +53,11 @@
 - name: Alex Novak
   img: /img/our_team/team/Alex Novak.jpg
   img_alt: Alex Novak
-  title: Back-end Developer
-- name: Patrick Lake
-  img: /img/our_team/team/patrick-lake.jpg
-  img_alt: Patrick Lake
-  title: Full-stack developer
-- name: Kelton Reid
-  img: /img/our_team/team/Kelton Reid.jpg
-  img_alt: Kelton Reid
-  title: Content Writer
+  title: Full-Stack Developer
+- name: Jenn Lackey
+  img: /img/our_team/team/JennLackey.jpg
+  img_alt: Jenn Lackey
+  title: Content Editor
 - name: Casey Horgan
   img: /img/our_team/team/Casey Horgan.jpg
   img_alt: Casey Horgan
