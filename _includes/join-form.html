@@ -1,0 +1,117 @@
+<section id="application" class="section section-mcp-form">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x align-top text-left">
+      <div class="cell">
+        <h2 class="h2 text-center">Join Colleagues</h2>
+        <p class="h5 text-center">Colleagues offers a holistic approach to getting the most from your work and the career you build – every day.</p>
+        <form
+          id="join_esteemed"
+          action="https://esteemed-api-97dnt.ondigitalocean.app/join"
+          method="post"
+        >
+          <div class="row">
+            <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
+              <label for="first_name">First Name</label>
+              <input type="text" value="" name="first_name">
+            </div>
+            <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
+              <label for="last_name">Last Name</label>
+              <input type="text" value="" name="last_name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 medium-12 padding-top-1 padding-right-1 padding-left-1">
+              <label for="email">Email Address</label>
+              <input type="text" value="" name="email" class="required">
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
+              <label for="phone">Phone Number</label>
+              <input type="text" name="phone" value="">
+            </div>
+            <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
+              <label for="occupation">Occupation</label>
+              <input type="text" value="" name="occupation">
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
+              <label for="city">City</label>
+              <input type="text" value="" name="city" class="required">
+            </div>
+            <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
+              <label for="state">State</label>
+              <input type="text" name="state" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
+              <label for="interested_in">What are you most interested in doing with Colleagues?</label>
+              <select name="interested_in" class="required">
+                <option disabled selected value> -- select an option --</option>
+                <option value="improve_worklife">Joining an open-source initiative to improve work-life</option>
+                <option value="opps">Finding job opportunities, and referring friends for open jobs</option>
+                <option value="support">Securing support for my ongoing projects</option>
+                <option value="network">Just here to network and enjoy the community</option>
+              </select>
+            </div>
+            <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
+              <label for="resources_excited">Which of the following resources from Colleagues are you most excited
+                about?</label>
+              <select name="resources_excited" class="required">
+                <option disabled selected value> -- select an option --</option>
+                <option value="dashboard">Career Dashboard</option>
+                <option value="discounts">Discounts on Talent</option>
+                <option value="referrals">Referrals</option>
+                <option value="coaching">1-1 Coaching</option>
+                <option value="contribution">Contribution opportunities to the platform</option>
+                <option value="learning">Events, Content, and Learning</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
+              <label for="discuss_opps">Would you like to discuss career opportunities?</label>
+              <select name="discuss_opps" class="required">
+                <option disabled selected value> -- select an option --</option>
+                <option value="contract">Yes, contract opportunities</option>
+                <option value="full_time">Yes, full-time opportunities</option>
+                <option value="all">Yes, contract and full-time opportunities</option>
+                <option value="no">No, but I am open to discussion in the future</option>
+              </select>
+            </div>
+            <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
+              <label for="work_preference">What do you prefer as a work paradigm?</label>
+              <select name="work_preference" class="required">
+                <option disabled selected value> -- select an option --</option>
+                <option value="remote">100% remote</option>
+                <option value="hybrid">Hybrid, some time in the office</option>
+                <option value="office">100% in the office</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
+              <input type="checkbox" value="Yes" name="coc_policy">
+              <label for="coc">I've read and agree to the <a class="link" href="/code-of-conduct/" target="_blank">Code of Conduct</a> Policy</label>
+            </div>
+          </div>
+          <div class="row">
+            <div id="responses">
+              <div class="response" id="error-response" style="display:none"></div>
+              <div class="response" id="success-response" style="display:none"></div>
+            </div>
+          </div>
+          <div class="row padding-top-1 padding-right-1 padding-left-1">
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+              <input type="text" name="b_ec5b82da5b213df9999d28215_8595453212" tabindex="-1" value="">
+            </div>
+            <input type="submit" value="Register Now" name="submit" class="button">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

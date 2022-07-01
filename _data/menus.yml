@@ -26,7 +26,7 @@ navigation:
   weight: 6
 - button: 1
   title: Join Colleagues
-  url: "https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
+  url: "/join-colleagues/"
   weight: 6
   bg_white: 1
 products-solutions:
