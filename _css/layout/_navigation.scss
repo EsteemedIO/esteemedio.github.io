@@ -322,7 +322,7 @@
 }
 
 .mega-menu.shrink {
-  top: 81px;
+  top: 82px;
   @include breakpoint(small only) {
     top: 0;
   }
@@ -354,7 +354,7 @@ body .mega-menu-parent {
   display: flex;
   width: 75rem;
   position: fixed;
-  top: 81px;
+  top: 83px;
   left: 50%;
   transform: translateX(-50%);
   background-color: black;
@@ -462,6 +462,8 @@ body .mega-menu-parent {
     .image {
       border-radius: 20px;
       min-height: 185px;
+      width: 100%;
+      object-fit: cover;
       @include breakpoint(small only) {
         width: 75%;
       }
