@@ -118,8 +118,8 @@ community:
       - title: Join Our Newsletter
         url: "https://eepurl.com/g_fqE1"
         target: "_blank"
-      - title: Join Talent Network
-        url: "https://join.slack.com/t/esteemed/shared_invite/zt-aejwraa8-mFs6ZUEs6voPD5RCV3vwvg"
+      - title: Join Colleagues
+        url: "https://esteemed.io/join-colleagues/"
         target: "_blank"
     cta:
       image_url: "/img/DCA.jpg"
