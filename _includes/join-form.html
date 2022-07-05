@@ -12,17 +12,17 @@
           <div class="row">
             <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
               <label for="first_name">First Name</label>
-              <input type="text" value="" name="first_name">
+              <input type="text" value="" name="first_name" required oninvalid="this.setCustomValidity('First Name required')" oninput="this.setCustomValidity('')">
             </div>
             <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
               <label for="last_name">Last Name</label>
-              <input type="text" value="" name="last_name">
+              <input type="text" value="" name="last_name" required oninvalid="this.setCustomValidity('Last Name required')" oninput="this.setCustomValidity('')">
             </div>
           </div>
           <div class="row">
             <div class="small-12 medium-12 padding-top-1 padding-right-1 padding-left-1">
               <label for="email">Email Address</label>
-              <input type="text" value="" name="email" class="required">
+              <input type="email" value="" name="email" class="required" required oninvalid="this.setCustomValidity('Email required')" oninput="this.setCustomValidity('')">
             </div>
           </div>
           <div class="row">
@@ -93,7 +93,7 @@
           </div>
           <div class="row">
             <div class="small-12 medium-6 padding-top-1 padding-right-1 padding-left-1">
-              <input type="checkbox" value="Yes" name="coc_policy">
+              <input type="checkbox" value="Yes" name="coc_policy" required>
               <label for="coc">I've read and agree to the <a class="link" href="/code-of-conduct/" target="_blank">Code of Conduct</a> Policy</label>
             </div>
           </div>
