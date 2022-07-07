@@ -1191,6 +1191,17 @@ body {
     background-color: $button-blue;
     color: $white !important;
   }
+
+  .how-it-works-title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 6rem;
+    @include breakpoint(small only) {
+      top: 4rem;
+      white-space: nowrap;
+    }
+  }
 }
 
 .page--news, .page--case-studies {
