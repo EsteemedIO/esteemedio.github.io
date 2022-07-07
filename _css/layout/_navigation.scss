@@ -581,3 +581,9 @@ body .w-nav .top-bar .mega-menu-active a:hover {
     display: none !important;
   }
 }
+
+.padding-mobile {
+  @include breakpoint(small only) {
+    padding: 5px;
+  }
+}
