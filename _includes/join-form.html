@@ -108,7 +108,13 @@
             <div style="position: absolute; left: -5000px;" aria-hidden="true">
               <input type="text" name="b_ec5b82da5b213df9999d28215_8595453212" tabindex="-1" value="">
             </div>
-            <input type="submit" value="Register Now" name="submit" class="button">
+            {% if page.recaptcha and jekyll.environment == 'production' %}
+              <input type="submit" value="Register Now" name="submit" class="button g-recaptcha"
+                   data-sitekey="{{ site.recaptcha_api_key }}"
+                   data-callback='onSubmit' data-action='submit'>
+            {% else %}
+              <input type="submit" value="Register Now" name="submit" class="button">
+            {% endif %}
           </div>
         </form>
       </div>
