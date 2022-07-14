@@ -27,7 +27,7 @@
           {% assign active = false %}
           {% endif %}
           <li class="{% if nav.button != 0 %}hover-white{% endif %}">
-              <a  class="{% if nav.button == 0 %}mega-menu-parent{% endif %} {% if nav.button != 0 %}button {% endif %}{% if nav.bg_white != null %}bg-white {% endif %}{% if active %} is-active{% endif %}" href="{{ nav.url }}">{{ nav.title }}{% if nav.button == 0 %}<span class="icon"></span>{% endif %}</a>
+              <a  class="{% if nav.button == 0 %}mega-menu-parent{% endif %} {% if nav.button != 0 %}button {% endif %}{% if nav.bg_white != null %}bg-white {% endif %}{% if active %} is-active{% endif %}" href="{{ nav.url }}"><span class="menu-item">{{ nav.title }}</span>{% if nav.button == 0 %}<span class="icon"></span>{% endif %}</a>
             {% if site.data.menus[nav.id] != null %}
             <div class="mega-menu w-nav">
                 <div class="close" style="display: none;"></div>
