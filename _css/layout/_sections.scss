@@ -437,10 +437,6 @@ body {
 .contact-form__wrapper {
   background: $blue--btn;
   color: $white;
-  padding-left: 2rem;
-  @include breakpoint(small only) {
-    padding-left: 0;
-  }
 
   h3 {
     margin-bottom: 2rem;
