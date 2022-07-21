@@ -98,7 +98,7 @@
         align-items: center;
       }
 
-      @include breakpoint(small up) {
+      @include breakpoint(small only) {
         padding: 0;
       }
 
