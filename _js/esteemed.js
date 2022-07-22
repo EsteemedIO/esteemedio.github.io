@@ -112,9 +112,17 @@ $('#join_esteemed').on('submit', function(e) {
 });
 
 $(document).ready(function() {
+  // Use this for the first sections that should display on load page.
   $('.fadeinAfterLoad').delay(1000).animate({ 'opacity': '1' }, 1000);
   $('.fadeinHero').delay(200).animate({'opacity':'1'},500);
   $(window).scroll( function(){
+    $('.component-offscreen').each( function(i){
+      var bottom_of_element = $(this).offset().top + ($(this).outerHeight()/4);
+      var bottom_of_window = $(window).scrollTop() + $(window).height();
+      if( bottom_of_window > bottom_of_element ){
+        $(this).removeClass('component-offscreen').addClass('component-is-showing');
+      }
+    });
     $('.fadein').each( function(i){
       var bottom_of_element = $(this).offset().top + ($(this).outerHeight()/4);
       var bottom_of_window = $(window).scrollTop() + $(window).height();

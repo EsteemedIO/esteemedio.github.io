@@ -10,7 +10,7 @@ thumbnail: "/img/blog_hero.jpg"
 
 {% assign featured_posts = site.posts | where:'featured', true | sort: 'date' | reverse %}
 
-<div class="hero-blog-container">
+<div class="hero-blog-container fadeinAfterLoad">
   <div class="heroBanner-left">
     <h1 class="u-text-bold main-title">The Star</h1>
     <div class="heading-subtitle">Resources you need to land flexible jobs,
@@ -21,7 +21,7 @@ thumbnail: "/img/blog_hero.jpg"
     <img class="heroBanner-image" src="/img/blog_hero.jpg" alt="Esteemed makes it easier for you to get flexible jobs.">
   </div>
 </div>
-<div class="grid-container page--blog">
+<div class="grid-container page--blog fadeinAfterLoad">
   <div class="blog-categories">
     <a href="/blog/">All posts</a>
     {% for category in site.categories %}

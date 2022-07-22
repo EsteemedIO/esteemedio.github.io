@@ -122,3 +122,15 @@ h1, h2, h3, h4, h5, h6 {
   color: $peppercorn;
   border: 1px solid $peppercorn;
 }
+
+.component-offscreen {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.component-is-showing {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all .7s cubic-bezier(.25,.1,.25,.1);
+  transition-property: opacity,transform;
+}
