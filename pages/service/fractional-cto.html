@@ -8,8 +8,8 @@ thumbnail: "/img/service/fractional_cto_1.jpg"
 {% assign featured_posts = site.posts | where:'categories', 'Fractional CTO' | sort: 'date' | reverse %}
 <div class="page--service">
   <section id="section-service" class="section padding-vertical-0">
-    <div class="cards-list-reverse fadeinAfterLoad">
-      <div class="card-horizontal overflow-hidden">
+    <div class="cards-list-reverse">
+      <div class="card-horizontal overflow-hidden fadeinAfterLoad">
         <div class="row">
           <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-lighter-blue">
             <p class="eyebrow">Fractional CTO</p>
@@ -56,7 +56,7 @@ thumbnail: "/img/service/fractional_cto_1.jpg"
         </div>
       </div>
 
-      <div class="card-horizontal overflow-hidden">
+      <div class="card-horizontal overflow-hidden component-offscreen">
         <div class="row">
           <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
             <h2 class="u-trailer u-text-bold">What Does a Fractional CTO Do?</h2>
@@ -76,18 +76,18 @@ thumbnail: "/img/service/fractional_cto_1.jpg"
 
           <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
             <div class="width-25vw">
-              <img class="section-image fadein" src="/img/service/fractional_cto_3.jpg"
+              <img class="section-image" src="/img/service/fractional_cto_3.jpg"
                    alt="What does a Fractional CTO Do?">
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="card-horizontal overflow-hidden">
+    <div class="card-horizontal overflow-hidden component-offscreen">
       <div class="row">
         <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
           <div class="width-25vw">
-            <img class="section-image fadein" src="/img/service/fractional_cto_4.jpg"
+            <img class="section-image" src="/img/service/fractional_cto_4.jpg"
                  alt="Hire a Chief Technology Officer For a Fraction of the Cost">
           </div>
         </div>
@@ -98,7 +98,7 @@ thumbnail: "/img/service/fractional_cto_1.jpg"
       </div>
     </div>
   </section>
-  <div class="container">
+  <div class="container component-offscreen">
     <div class="block-bg-text" style="background-image: url(/img/service/discovery_planning_5.jpg);">
       <div class="width-75rem padding-top-3 padding-right-20">
         <p class="card-text">For businesses looking to cut costs or compartmentalize technological management, a Fractional CTO
@@ -119,7 +119,7 @@ thumbnail: "/img/service/fractional_cto_1.jpg"
     </div>
   </div>
   {% include cto-leaders.html background="u-bg-lighter-blue" %}
-  <div class="screening-faq margin-bottom-3 width-75rem" id="faq">
+  <div class="screening-faq margin-bottom-3 width-75rem component-offscreen" id="faq">
     <h2 class="text-center margin-top-3 margin-bottom-2">Frequently Asked Questions</h2>
     <ul class="accordion" data-accordion>
       <li class="accordion-item" data-accordion-item>
@@ -154,7 +154,7 @@ thumbnail: "/img/service/fractional_cto_1.jpg"
       </li>
     </ul>
   </div>
-  <section class="section padding-vertical-0 u-bg-lighter-blue">
+  <section class="section padding-vertical-0 u-bg-lighter-blue component-offscreen">
     <div class="row">
       <p class="card-text margin-top-2 margin-left-3">Featured Resources</p>
       <h2 class="u-trailer u-text-bold margin-left-3">Get curated insights about bringing a Fractional CTO into your business.</h2>
@@ -163,7 +163,7 @@ thumbnail: "/img/service/fractional_cto_1.jpg"
         <div class="news-blog-card__wrapper">
           {% if featured_post.thumbnail %}
           <a href="{{ featured_post.url }}">
-            <div class="news-blog-card__wrapper--image fadein"
+            <div class="news-blog-card__wrapper--image"
                  style="background-image: url('{{ featured_post.thumbnail }}');"></div>
           </a>
           {% endif %}
