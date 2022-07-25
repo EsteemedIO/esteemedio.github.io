@@ -5,10 +5,10 @@ categories: []
 title: Using Face Detection with Tensorflow.js to Find Avatars Missing a Face
 description: Combining Tensorflow.js, Slack APIs, and a little bit of code-magic,
   we were able to determine which members were using profile pictures and which weren't.
-image: "/uploads/screeningdevelopers_header.jpg"
-thumbnail: "/uploads/screeningdevelopers_thumb.jpg"
+image: "/uploads/slack-tensorflow-js-header.jpg"
+thumbnail: "/uploads/slack-tensorflow-js.jpg"
 color_overlay: "#264083"
-featured: true
+featured: false
 type: ''
 
 ---
@@ -57,4 +57,4 @@ Luckily, Google Sheets has the following handy formula:
 
 Adding this formula to the column following the URL, we now magically had a rendered copy of the linked image directly within the Google Sheet! Applying that same formula to the rest of the column provided us with the results we were looking for. We could now rifle through the list and identify the false-positives, compile a list of users, and connect and request that they update their avatars from the default Slack image to a picture of their smiling face.
 
-If you're managing a remote community, or looking for more integration of technology and relationship-building, reach out to us for more information! 
+If you're managing a remote community, or looking for more integration of technology and relationship-building, reach out to us for more information!
