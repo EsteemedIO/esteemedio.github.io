@@ -1,6 +1,6 @@
 ---
 date: 2022-07-19T19:10:41.000+00:00
-author: matthew-pritchard
+author: albert-volkman
 categories: []
 title: Using Face Detection with Tensorflow.js to Find Avatars Missing a Face
 description: Combining Tensorflow.js, Slack APIs, and a little bit of code-magic,
