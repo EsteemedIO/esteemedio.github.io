@@ -27,6 +27,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-webp
 author_dir: "blog/author"
 author_title_suffix: ""
 collections:
@@ -82,3 +83,13 @@ defaults:
     values:
       layout: "post"
       permalink: /:title/
+webp:
+  enabled: true
+  quality: 75
+  img_dir: ["/img/"]
+  nested: true
+  formats: [".jpeg", ".jpg", ".png"]
+  regenerate: false
+  webp_path: nil
+  exclude: []
+  append_ext: false

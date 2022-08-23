@@ -47,7 +47,10 @@
                       <div class="grid-x">
                         <div class="large-4 small-12 flex-container flex-dir-column">
                           <div class="title-mobile hide">{{ mega.title }}</div>
-                          <img class="image" src="{{ mega.image_url }}" alt="{{ mega.image_alt }}"/>
+                          <picture>
+                            <source srcset="{{ mega.image_url }}.webp" type="image/webp">
+                            <img class="image" src="{{ mega.image_url }}.jpg" alt="{{ mega.image_alt }}"/>
+                          </picture>
                         </div>
                         <div class="large-8 small-12 padding-left-2">
                           <div class="title">{{ mega.title }}</div>
