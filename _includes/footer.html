@@ -5,7 +5,7 @@
       <!-- Begin Mailchimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
       <div id="mc_embed_signup" class="footer-form">
-        <form action="https://esteemed.us10.list-manage.com/subscribe/post?u=ec5b82da5b213df9999d28215&amp;id=4f1b3ddc37" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="main-form validate" target="formResult" novalidate>
+        <form action="https://esteemed.us10.list-manage.com/subscribe/post?u=ec5b82da5b213df9999d28215&amp;id=4f1b3ddc37" method="post" id="contact_form_submit" name="mc-embedded-subscribe-form" class="main-form validate" target="formResult" novalidate>
           <h3>Scale your workforce instantly to meet the needs of your business</h3>
           <div id="mc_embed_signup_scroll">
             <div class="mc-field-group size1of2">
@@ -67,6 +67,13 @@
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ec5b82da5b213df9999d28215_4f1b3ddc37" tabindex="-1" value=""></div>
             <input type="hidden" name="u" value="ec5b82da5b213df9999d28215">
             <input type="hidden" name="id" value="4f1b3ddc37">
+            {% if page.recaptcha %}
+            <input type="submit" value="Register Now" name="submit" class="button g-recaptcha"
+                data-sitekey="{{ site.recaptcha_api_key }}"
+                data-callback="submitContactForm" data-size="invisible">
+            {% else %}
+              <input type="submit" value="Register Now" name="submit" class="button">
+            {% endif %}
             <div class="submit"><input type="submit" value="Talk to us" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
           </div>
         </form>
