@@ -68,7 +68,7 @@
             <input type="hidden" name="u" value="ec5b82da5b213df9999d28215">
             <input type="hidden" name="id" value="4f1b3ddc37">
             <div class="submit">
-            {% if page.recaptcha %}
+            {% if page.recaptcha and jekyll.environment == 'production' %}
               <input type="submit" id="mc-embedded-subscribe" value="Talk to us" name="submit" class="button g-recaptcha"
                 data-sitekey="{{ site.recaptcha_api_key }}"
                 data-callback="submitContactForm" data-size="invisible">
