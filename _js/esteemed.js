@@ -55,14 +55,14 @@ $(window).ready(function() {
 
 // Add multi-MC forms to one page.
 function submitContactForm(token) {
-  var formData = $('#contact_form_submit').serialize();
+  var formData = $('#mc-embedded-subscribe-form').serialize();
   $.post('https://esteemed-api-97dnt.ondigitalocean.app/check-human', formData)
     .done(function(data) {
       if (data === 'human') {
         jQuery.ajax({
           type: 'GET',
           url: 'https://esteemed.us10.list-manage.com/subscribe/post-json?c=?',
-          data: $this.serialize(),
+          data: formData,
           dataType: 'json',
           contentType: 'application/json; charset=utf-8',
           error: function (err) {
