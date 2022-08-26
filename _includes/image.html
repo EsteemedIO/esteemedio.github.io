@@ -1,14 +1,5 @@
+{% assign imageUrl = include.url | replace: '.jpg', '.webp' | replace: '.png', '.webp' | replace: ".jpeg", ".webp"%}
 <picture>
-
-  {% assign webp_filename = include.url | replace: ".jpg", ".webp" | replace: ".jpeg", ".webp" | replace: ".png",
-  ".webp" | replace: ".tif", ".webp" %}
-
-  <source
-    srcset='{% unless jekyll.environment == "development" %}{{ site.url }}{% endunless %}/images/{{ webp_filename }}'
-    type="image/webp">
-
-  <img src='{% unless jekyll.environment == "development" %}{{ site.url }}{% endunless %}/images/{{ include.url }}'
-       alt="{{ include.alt }}" {% unless include.not-lazy %} loading="lazy" {% endunless %}{% if include.height %}
-       height="{{ include.height }}" {% endif %}{% if include.width %} width="{{ include.width }}" {% endif %}>
-
+  <source srcset="{{ imageUrl }}" type="image/webp">
+  <img class="{{ include.classes }}" src="{{ include.url }}" alt="{{ include.alt }}">
 </picture>
