@@ -32,9 +32,8 @@ sections:
 - type: document
   path: pages/events.html
   label: Events
-  match: "**/*"
 - type: document
-  path: pages/faq.html
+  path: pages/faqs.html
   label: FAQs
 - type: document
   path: pages/about_us/company.html
