@@ -53,23 +53,41 @@ $(window).ready(function() {
   });
 });
 
-// Add multi-MC forms to one page.
-function submitContactForm(token) {
-  var formData = $('#mc-embedded-subscribe-form').serialize();
-  $.post('https://esteemed-api-97dnt.ondigitalocean.app/check-human', formData)
+function submitScreeningForm(token) {
+  const $form = $('.screening-form');
+  submitForm($form);
+}
+
+function submitMainForm(token) {
+  const $form = $('.main-form');
+  submitForm($form);
+}
+
+function submitDigitalForm(token) {
+  const $form = $('.digital-form');
+  submitForm($form);
+}
+function submitScheduleDemoForm(token) {
+  const $form = $('.schedule-demo-form');
+  submitForm($form);
+}
+
+function submitForm($form) {
+  const $formData = $form.serialize();
+  const $required = $('.main-form-required');
+  $.post('https://esteemed-api-97dnt.ondigitalocean.app/check-human', $formData)
     .done(function(data) {
       if (data === 'human') {
         jQuery.ajax({
           type: 'GET',
           url: 'https://esteemed.us10.list-manage.com/subscribe/post-json?c=?',
-          data: formData,
+          data: $formData,
           dataType: 'json',
           contentType: 'application/json; charset=utf-8',
           error: function (err) {
             $('#mce-error-response-main').text('Could not connect to the server.').show();
           },
           success: function (data) {
-            var $required = $('.main-form-required');
             if (data.result !== 'success') {
               if ($required.val().length === 0) {
                 $required.addClass('mce_inline_error');
