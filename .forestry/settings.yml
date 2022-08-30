@@ -30,6 +30,10 @@ sections:
   path: index.html
   label: Homepage
 - type: document
+  path: pages/events.html
+  label: Events
+  match: "**/*"
+- type: document
   path: pages/faq.html
   label: FAQs
 - type: document
