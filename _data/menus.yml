@@ -75,7 +75,7 @@ resources:
       - title: Open Jobs
         url: "https://talent.esteemed.io/jobs/"
     cta:
-      image_url: "/img/dcampatlanta.jpg"
+      image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
       image_alt: "DrupalCamp Atlanta"
       title: Join Us!
       sub_title: DrupalCamp Atlanta
@@ -100,7 +100,7 @@ about-us:
         url: "https://us10.list-manage.com/contact-form?u=ec5b82da5b213df9999d28215&form_id=3748ccb203457ce78b32c876123b02bf"
         target: "_blank"
     cta:
-      image_url: "/img/dcampatlanta.jpg"
+      image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
       image_alt: "DrupalCamp Atlanta"
       title: Join Us!
       sub_title: DrupalCamp Atlanta
@@ -122,7 +122,7 @@ community:
         url: "https://esteemed.io/join-colleagues/"
         target: "_blank"
     cta:
-      image_url: "/img/dcampatlanta.jpg"
+      image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
       image_alt: "DrupalCamp Atlanta"
       title: Join Us!
       sub_title: DrupalCamp Atlanta
