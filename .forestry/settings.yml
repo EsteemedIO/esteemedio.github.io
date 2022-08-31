@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Pages
+  label: Content
 - type: jekyll-posts
   label: Blog
   create: documents
@@ -25,8 +25,14 @@ sections:
   match: "**/*"
   templates:
   - blog
+- type: directory
+  path: _data
+  label: Data
+  create: documents
+  match: "**/*"
+  new_doc_ext: yml
 - type: heading
-  label: Content
+  label: Pages
 - type: document
   path: index.html
   label: Homepage
@@ -54,12 +60,6 @@ sections:
 - type: document
   path: code-of-conduct.md
   label: Code of Conduct
-- type: directory
-  path: _data
-  label: Data
-  create: documents
-  match: "**/*"
-  new_doc_ext: yml
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
