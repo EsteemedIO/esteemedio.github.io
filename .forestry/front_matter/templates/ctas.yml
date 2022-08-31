@@ -8,72 +8,120 @@ fields:
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
   - type: text
     name: sub_title
-    label: sub_title
+    label: Sub Title
   - type: textarea
     name: description
-    label: description
+    label: Description
   - type: file
     name: image_url
-    label: image_url
+    label: Image URL
   - type: text
     name: image_alt
-    label: image_alt
+    label: Image Alt
   - type: text
     name: button_title
-    label: button_title
+    label: Button Title
   - type: text
     name: button_link
-    label: button_link
+    label: Button Link
+  - name: target
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - _blank
+      - _self
+      - _parent
+      - _top
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Target
 - type: field_group
   name: about-us
   label: About Us
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
   - type: text
     name: sub_title
-    label: sub_title
+    label: Sub Title
   - type: textarea
     name: description
-    label: description
+    label: Description
   - type: file
     name: image_url
-    label: image_url
+    label: Image URL
   - type: text
     name: image_alt
-    label: image_alt
+    label: Image Alt
   - type: text
     name: button_title
-    label: button_title
+    label: Button Title
   - type: text
     name: button_link
-    label: button_link
+    label: Button Link
+  - name: target
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - _blank
+      - _self
+      - _parent
+      - _top
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Target
 - type: field_group
   name: community
   label: Community
   fields:
   - type: text
     name: title
-    label: title
+    label: Title
   - type: text
     name: sub_title
-    label: sub_title
+    label: Sub Title
   - type: textarea
     name: description
-    label: description
+    label: Description
   - type: file
     name: image_url
-    label: image_url
+    label: Image URL
   - type: text
     name: image_alt
-    label: image_alt
+    label: Image Alt
   - type: text
     name: button_title
-    label: button_title
+    label: Button Title
   - type: text
     name: button_link
-    label: button_link
+    label: Button Link
+  - name: target
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - _blank
+      - _self
+      - _parent
+      - _top
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Target
