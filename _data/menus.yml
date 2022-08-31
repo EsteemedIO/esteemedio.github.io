@@ -74,15 +74,6 @@ resources:
         url: "/partners/partner-registration/"
       - title: Open Jobs
         url: "https://talent.esteemed.io/jobs/"
-    cta:
-      image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
-      image_alt: "DrupalCamp Atlanta"
-      title: Join Us!
-      sub_title: DrupalCamp Atlanta
-      description: Drupal holds a special place for all of us at Esteemed, which is why we're proud to announce that our company is a Platinum Sponsor at DrupalCamp Atlanta .
-      button_title: Register Now
-      button_link: "https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/"
-      target: "_blank"
 about-us:
   - about-us:
     title: About Us
@@ -99,15 +90,6 @@ about-us:
       - title: Contact Us
         url: "https://us10.list-manage.com/contact-form?u=ec5b82da5b213df9999d28215&form_id=3748ccb203457ce78b32c876123b02bf"
         target: "_blank"
-    cta:
-      image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
-      image_alt: "DrupalCamp Atlanta"
-      title: Join Us!
-      sub_title: DrupalCamp Atlanta
-      description: Drupal holds a special place for all of us at Esteemed, which is why we're proud to announce that our company is a Platinum Sponsor at DrupalCamp Atlanta .
-      button_title: Register Now
-      button_link: "https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/"
-      target: "_blank"
 community:
   - community:
     title: Community
@@ -121,15 +103,6 @@ community:
       - title: Join Colleagues
         url: "https://esteemed.io/join-colleagues/"
         target: "_blank"
-    cta:
-      image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
-      image_alt: "DrupalCamp Atlanta"
-      title: Join Us!
-      sub_title: DrupalCamp Atlanta
-      description: Drupal holds a special place for all of us at Esteemed, which is why we're proud to announce that our company is a Platinum Sponsor at DrupalCamp Atlanta.
-      button_title: Register Now
-      button_link: "https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/"
-      target: "_blank"
 footer:
 - title: Communities
   menu:

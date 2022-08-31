@@ -32,27 +32,28 @@
             <div class="mega-menu w-nav">
                 <div class="close" style="display: none;"></div>
                   <div class="menu grid-x">
-                      {% for mega in site.data.menus[nav.id] %}
+                      {% for menu in site.data.menus[nav.id] %}
                       <div class="large-4 small-12">
-                        <a class="head" href="{{ mega.url}}"{% if mega.target != null %} target="{{ mega.target}}"{% endif %}><h6>{{ mega.title}}</h6></a>
+                        <a class="head" href="{{ menu.url}}"{% if menu.target != null %} target="{{ menu.target}}"{% endif %}><h6>{{ menu.title}}</h6></a>
                         <ul>
-                          {% for menu in mega.submenus %}
-                          <li><a href="{{ menu.url}}"{% if menu.target != null %} target="{{ menu.target}}"{% endif %}>{{ menu.title}}</a></li>
+                          {% for submenu in menu.submenus %}
+                          <li><a href="{{ submenu.url}}"{% if submenu.target != null %} target="{{ submenu.target}}"{% endif %}>{{ submenu.title}}</a></li>
                           {% endfor %}
                         </ul>
                       </div>
-                    {% if mega.cta.title %}
+                    {% assign mega = site.data.ctas[nav.id] %}
+                    {% if mega.title %}
                     <div class="large-6 small-12 content border-left-yellow">
                       <div class="grid-x">
                         <div class="large-4 small-12 flex-container flex-dir-column">
-                          <div class="title-mobile hide">{{ mega.cta.title }}</div>
-                          <img class="image" src="{{ mega.cta.image_url }}" alt="{{ mega.cta.image_alt }}"/>
+                          <div class="title-mobile hide">{{ mega.title }}</div>
+                          <img class="image" src="{{ mega.image_url }}" alt="{{ mega.image_alt }}"/>
                         </div>
                         <div class="large-8 small-12 padding-left-2">
-                          <div class="title">{{ mega.cta.title }}</div>
-                          <div class="sub-title">{{ mega.cta.sub_title }}</div>
-                          <div class="description">{{ mega.cta.description }}</div>
-                          <a class="button-yellow" href="{{ mega.cta.button_link }}"{% if mega.cta.target != null %} target="{{ mega.cta.target}}"{% endif %}>{{ mega.cta.button_title }}</a>
+                          <div class="title">{{ mega.title }}</div>
+                          <div class="sub-title">{{ mega.sub_title }}</div>
+                          <div class="description">{{ mega.description }}</div>
+                          <a class="button-yellow" href="{{ mega.button_link }}"{% if mega.target != null %} target="{{ mega.target}}"{% endif %}>{{ mega.button_title }}</a>
                         </div>
                       </div>
                     </div>
