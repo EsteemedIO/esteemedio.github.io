@@ -86,7 +86,7 @@ defaults:
 webp:
   enabled: true
   quality: 75
-  img_dir: ["/img/"]
+  img_dir: ["/img/", "/uploads/"]
   nested: true
   formats: [".jpeg", ".jpg", ".png"]
   regenerate: false
