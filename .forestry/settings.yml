@@ -37,6 +37,10 @@ sections:
   path: index.html
   label: Homepage
 - type: document
+  path: _data/ctas.yml
+  label: CTAs
+  match: "**/*"
+- type: document
   path: pages/events.html
   label: Events
 - type: document
