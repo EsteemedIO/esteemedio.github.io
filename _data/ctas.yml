@@ -1,27 +1,33 @@
+---
 resources:
   image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
-  image_alt: "DrupalCamp Atlanta"
+  image_alt: DrupalCamp Atlanta
   title: Join Us!
   sub_title: DrupalCamp Atlanta
-  description: Drupal holds a special place for all of us at Esteemed, which is why we're proud to announce that our company is a Platinum Sponsor at DrupalCamp Atlanta .
+  description: Drupal holds a special place for all of us at Esteemed, which is why
+    we're proud to announce that our company is a Platinum Sponsor at DrupalCamp Atlanta
+    .
   button_title: Register Now
-  button_link: "https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/"
-  target: "_blank"
+  button_link: https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/
+  target: _blank
 about-us:
   image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
-  image_alt: "DrupalCamp Atlanta"
+  image_alt: DrupalCamp Atlanta
   title: Join Us!
   sub_title: DrupalCamp Atlanta
-  description: Drupal holds a special place for all of us at Esteemed, which is why we're proud to announce that our company is a Platinum Sponsor at DrupalCamp Atlanta .
+  description: Drupal holds a special place for all of us at Esteemed, which is why
+    we're proud to announce that our company is a Platinum Sponsor at DrupalCamp Atlanta
+    .
   button_title: Register Now
-  button_link: "https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/"
-  target: "_blank"
+  button_link: https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/
+  target: _blank
 community:
   image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
-  image_alt: "DrupalCamp Atlanta"
+  image_alt: DrupalCamp Atlanta
   title: Join Us!
   sub_title: DrupalCamp Atlanta
-  description: Drupal holds a special place for all of us at Esteemed, which is why we're proud to announce that our company is a Platinum Sponsor at DrupalCamp Atlanta.
+  description: Drupal holds a special place for all of us at Esteemed, which is why
+    we're proud to announce that our company is a Platinum Sponsor at DrupalCamp Atlanta.
   button_title: Register Now
-  button_link: "https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/"
-  target: "_blank"
+  button_link: https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/
+  target: _blank

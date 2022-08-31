@@ -125,3 +125,5 @@ fields:
         file: 
         path: 
     label: Target
+pages:
+- _data/ctas.yml
