@@ -6,9 +6,6 @@ webhook_url:
 sections:
 - type: heading
   label: Pages
-- type: document
-  path: pages/learn-more.html
-  label: Learn More
 - type: jekyll-posts
   label: Blog
   create: documents
@@ -28,12 +25,17 @@ sections:
   match: "**/*"
   templates:
   - blog
+- type: heading
+  label: Content
 - type: document
   path: index.html
   label: Homepage
 - type: document
   path: pages/events.html
   label: Events
+- type: document
+  path: pages/learn-more.html
+  label: Learn More
 - type: document
   path: pages/faqs.html
   label: FAQs
