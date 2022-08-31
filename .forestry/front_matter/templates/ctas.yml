@@ -4,14 +4,8 @@ hide_body: true
 fields:
 - type: field_group
   name: resources
-  label: resources
+  label: Resources
   fields:
-  - type: file
-    name: image_url
-    label: image_url
-  - type: text
-    name: image_alt
-    label: image_alt
   - type: text
     name: title
     label: title
@@ -21,25 +15,22 @@ fields:
   - type: textarea
     name: description
     label: description
+  - type: file
+    name: image_url
+    label: image_url
+  - type: text
+    name: image_alt
+    label: image_alt
   - type: text
     name: button_title
     label: button_title
   - type: text
     name: button_link
     label: button_link
-  - type: text
-    name: target
-    label: target
 - type: field_group
   name: about-us
-  label: about-us
+  label: About Us
   fields:
-  - type: file
-    name: image_url
-    label: image_url
-  - type: text
-    name: image_alt
-    label: image_alt
   - type: text
     name: title
     label: title
@@ -49,25 +40,22 @@ fields:
   - type: textarea
     name: description
     label: description
+  - type: file
+    name: image_url
+    label: image_url
+  - type: text
+    name: image_alt
+    label: image_alt
   - type: text
     name: button_title
     label: button_title
   - type: text
     name: button_link
     label: button_link
-  - type: text
-    name: target
-    label: target
 - type: field_group
   name: community
-  label: community
+  label: Community
   fields:
-  - type: file
-    name: image_url
-    label: image_url
-  - type: text
-    name: image_alt
-    label: image_alt
   - type: text
     name: title
     label: title
@@ -77,12 +65,15 @@ fields:
   - type: textarea
     name: description
     label: description
+  - type: file
+    name: image_url
+    label: image_url
+  - type: text
+    name: image_alt
+    label: image_alt
   - type: text
     name: button_title
     label: button_title
   - type: text
     name: button_link
     label: button_link
-  - type: text
-    name: target
-    label: target
