@@ -22,12 +22,13 @@ about-us:
   button_link: https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/
   target: _blank
 community:
-  image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
-  image_alt: DrupalCamp Atlanta
-  title: Join Us!
-  sub_title: DrupalCamp Atlanta
-  description: Drupal holds a special place for all of us at Esteemed, which is why
-    we're proud to announce that our company is a Platinum Sponsor at DrupalCamp Atlanta.
-  button_title: Register Now
-  button_link: https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/
+  image_url: "/uploads/talent_network_5.jpg"
+  image_alt: Esteemed Colleagues
+  title: Join Colleagues
+  sub_title: 'Co-working and community talent platform for digital professionals. '
+  description: Whether you’re a front-end developer, UX designer, project manager,
+    or one of the many other digital professions we support, our Colleagues community
+    is here to boost your career.
+  button_title: Sign Up
+  button_link: https://esteemed.io/join-colleagues/
   target: _blank
