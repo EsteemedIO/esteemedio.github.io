@@ -1,14 +1,13 @@
 ---
 resources:
-  image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
-  image_alt: DrupalCamp Atlanta
-  title: Join Us!
-  sub_title: DrupalCamp Atlanta
-  description: Drupal holds a special place for all of us at Esteemed, which is why
-    we're proud to announce that our company is a Platinum Sponsor at DrupalCamp Atlanta
-    .
-  button_title: Register Now
-  button_link: https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/
+  image_url: "/uploads/screen-shot-2022-09-07-at-9-27-34-pm.png"
+  image_alt: 7 Mistakes eBook
+  title: Download Our E-Book
+  sub_title: 7 Mistakes to Avoid When Hiring Developers
+  description: Check out our list of seven areas where agencies and business owners
+    might slip up when hiring a developer.
+  button_title: Download Now
+  button_link: https://mailchi.mp/727fbf0dd6e0/7-mistakes-ebook
   target: _blank
 about-us:
   image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
