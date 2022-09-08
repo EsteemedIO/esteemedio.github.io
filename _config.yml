@@ -2,6 +2,7 @@ title: "Esteemed.io"
 description: "Best-in-class, Esteemed is the fastest-growing AI-powered talent management and career solutions provider delivering frictionless hiring and talent incubation for digital professionals."
 url: "https://esteemed.io"
 email: service@esteemed.io
+recaptcha_api_key: 6LcC3KAhAAAAAMSRHTEA2IdzlbNBRGiWBoGprcfc
 meta:
   image: "/img/main-hero.svg"
 google_analytics: UA-167435008-1
