@@ -14121,64 +14121,35 @@ $(window).ready(function() {
     $('#main-navigation').toggle();
   });
 });
-
-function submitScreeningForm(token) {
-  const $form = $('.screening-form');
-  submitForm($form);
-}
-
-function submitMainForm(token) {
-  const $form = $('.main-form');
-  submitForm($form);
-}
-
-function submitDigitalForm(token) {
-  const $form = $('.digital-form');
-  submitForm($form);
-}
-function submitScheduleDemoForm(token) {
-  const $form = $('.schedule-demo-form');
-  submitForm($form);
-}
-
-function submitForm($form) {
-  const $formData = $form.serialize();
-  const $required = $('.main-form-required');
-  $.post('https://esteemed-api-97dnt.ondigitalocean.app/check-human', $formData)
-    .done(function(data) {
-      if (data === 'human') {
-        jQuery.ajax({
-          type: 'GET',
-          url: 'https://esteemed.us10.list-manage.com/subscribe/post-json?c=?',
-          data: $formData,
-          dataType: 'json',
-          contentType: 'application/json; charset=utf-8',
-          error: function (err) {
-            $('#mce-error-response-main').text('Could not connect to the server.').show();
-          },
-          success: function (data) {
-            if (data.result !== 'success') {
-              if ($required.val().length === 0) {
-                $required.addClass('mce_inline_error');
-                $required.after('<div class="mce_inline_error" id="mce_required_error">This field is required.</div>');
-              }
-            }
-            else {
-              $required.removeClass('mce_inline_error');
-              $('#mce_required_error').hide();
-              $('#mce-success-response-main').text('Thank you for applying!').show();
-            }
-          }
-        });
+// Add multi-MC forms to one page.
+$('.main-form').submit(function (e) {
+  var $this = $(this);
+  jQuery.ajax({
+    type: 'GET',
+    url: 'https://esteemed.us10.list-manage.com/subscribe/post-json?c=?',
+    data: $this.serialize(),
+    dataType: 'json',
+    contentType: 'application/json; charset=utf-8',
+    error: function (err) {
+      $('#mce-error-response-main').text('Could not connect to the server.').show();
+    },
+    success: function (data) {
+      var $required = $('.main-form-required');
+      if (data.result !== 'success') {
+        if ($required.val().length === 0) {
+          $required.addClass('mce_inline_error');
+          $required.after('<div class="mce_inline_error" id="mce_required_error">This field is required.</div>');
+        }
       }
       else {
-        return;
+        $required.removeClass('mce_inline_error');
+        $('#mce_required_error').hide();
+        $('#mce-success-response-main').text('Thank you for applying!').show();
       }
-    })
-    .fail(function(data) {
-      console.log('fail: ', data)
-    });
-}
+    }
+  });
+  return false;
+});
 
 $('#lead_submission').on('submit', function(e) {
   e.preventDefault();
