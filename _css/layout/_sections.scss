@@ -440,11 +440,10 @@ body {
 
   h3 {
     margin-bottom: 2rem;
-    text-align: left;
+    text-align: center;
 
     @include breakpoint(large) {
       margin-bottom: 2rem;
-      max-width: 60%;
     }
   }
 }
