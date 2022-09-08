@@ -17,3 +17,5 @@ fields:
 - type: file
   name: thumbnail
   label: thumbnail
+pages:
+- pages/test-landing-page.md
