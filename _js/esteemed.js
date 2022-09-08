@@ -165,3 +165,11 @@ $(window).ready(function() {
     $('.dropdown').css("background", "black");
   });
 });
+
+
+//Our team page. Remove the greyscale filter on hover.
+$('.js-grayscale').hover(function () {
+  $(this).css("filter", "grayscale(0)");
+}, function () {
+  $(this).css("filter", "grayscale(1)");
+})
