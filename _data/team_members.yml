@@ -22,10 +22,6 @@
   img: /img/our_team/team/will-kirchheimer.jpg
   img_alt: Will Kirchheimer
   title: VP of Esteemed Digital
-- name: Harvey Lenar
-  img: /img/our_team/team/HarveyLenar.jpg
-  img_alt: Harvey Lenar
-  title: Director of Community Experience
 - name: Julia Panchenko
   img: /img/our_team/team/Julia Panchenko.jpg
   img_alt: Julia Panchenko
@@ -34,6 +30,10 @@
   img: /img/our_team/team/Bianca Perez-Rubio.jpg
   img_alt: Bianca Perez-Rubio
   title: Associate Business Manager
+- name: Jacqueline McGrath
+  img: /img/our_team/team/jacqueline-mcgrath.jpg
+  img_alt: Jacqueline McGrath
+  title: Operations Manager
 - name: Trishia Cachila
   img: /img/our_team/team/trishia-cachila.jpg
   img_alt: Trishia Cachila
@@ -46,19 +46,19 @@
   img: /img/our_team/team/Rachel_Anne_Cadag.jpg
   img_alt: Rachel Anne Cadag
   title: Recruitment Coordinator
-- name: Josh Kendall
-  img: /img/our_team/team/josh-kendall.jpg
-  img_alt: Josh Kendall
-  title: Front-end Developer
+- name: Raju Khunt
+  img: /img/our_team/team/raju-khunt.jpg
+  img_alt: Raju Khunt
+  title: Senior Web Developer
 - name: Alex Novak
   img: /img/our_team/team/Alex Novak.jpg
   img_alt: Alex Novak
   title: Full-Stack Developer
+- name: Daniel Bongomin
+  img: /img/our_team/team/bongomin-daniel.jpg
+  img_alt: Daniel Bongomin
+  title: Web Developer
 - name: Jenn Lackey
   img: /img/our_team/team/JennLackey.jpg
   img_alt: Jenn Lackey
   title: Content Editor
-- name: Casey Horgan
-  img: /img/our_team/team/Casey Horgan.jpg
-  img_alt: Casey Horgan
-  title: Web Content Creator
