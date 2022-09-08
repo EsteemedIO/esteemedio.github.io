@@ -1,0 +1,19 @@
+---
+label: Landing Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: image
+  label: image
+- type: text
+  name: permalink
+  label: permalink
+- type: file
+  name: thumbnail
+  label: thumbnail
