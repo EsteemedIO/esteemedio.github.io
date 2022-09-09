@@ -14136,6 +14136,10 @@ function submitDigitalForm(token) {
   const $form = $('.digital-form');
   submitForm($form);
 }
+function submitScheduleDemoForm(token) {
+  const $form = $('.schedule-demo-form');
+  submitForm($form);
+}
 
 function submitForm($form) {
   const $formData = $form.serialize();
@@ -14153,7 +14157,6 @@ function submitForm($form) {
             $('#mce-error-response-main').text('Could not connect to the server.').show();
           },
           success: function (data) {
-            console.log(data.result);
             if (data.result !== 'success') {
               if ($required.val().length === 0) {
                 $required.addClass('mce_inline_error');
