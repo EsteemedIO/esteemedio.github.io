@@ -1943,6 +1943,12 @@ body {
 
     .grayscale {
       filter: grayscale(1);
+      transition: filter 600ms ease-in-out;
+    }
+
+    .grayscale:hover {
+      filter: grayscale(0);
+      transition: filter 600ms ease-in-out;
     }
 
     .rounded-circle {
