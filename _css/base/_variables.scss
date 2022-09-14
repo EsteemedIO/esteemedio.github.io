@@ -7,6 +7,38 @@ $blue-list: #4389c8;
 $half-spacing: 0.5em;
 $spacing: 1em;
 $double-spacing: 2em;
+$padding: 30;
+
+@for $i from 0 through $padding {
+  .p-#{$i} {
+    padding: $i + px !important;
+  }
+
+  .pr-#{$i} {
+    padding-right: $i + px !important;
+  }
+
+  .pl-#{$i} {
+    padding-left: $i + px !important;
+  }
+
+  .pt-#{$i} {
+    padding-top: $i + px !important;
+  }
+
+  .pb-#{$i} {
+    padding-bottom: $i + px !important;
+  }
+
+  .py-#{$i} {
+    padding: $i + px, 0px, $i + px, 0px !important;
+  }
+
+  .px-#{$i} {
+    padding: 0px, $i + px, 0px, $i + px !important;
+  }
+}
+
 
 $small-section-spacing: rem-calc(30);
 $section-spacing: rem-calc(60);
