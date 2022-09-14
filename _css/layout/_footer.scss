@@ -1,6 +1,30 @@
 .footer {
   padding: $small-section-spacing 0;
 
+  .footerbottom__first--content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+  }
+  .footerbottom__first--content img{
+    width: 20rem;
+  }
+  .grid-container {
+    max-width: 100% ;
+    width: 100% !important;
+  }
+
+  .card-text {
+    font-family: $font-georgia !important;
+    line-height: 1.125;
+    font-size: 1.5rem;
+    padding-left: 25%;
+    @include breakpoint(small only) {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
   h6 {
     font-weight: $global-weight-bold;
   }

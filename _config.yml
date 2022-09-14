@@ -1,7 +1,8 @@
-title: "Esteemed.io"
-description: "Scale your business with speed and confidence with trusted colleagues from the Esteemed Talent Network. Made up of over 13,000 digital professionals. The first and only integrated staffing and collaboration solution delivered through your existing communications platforms."
-url: "https://esteemed.io"
+title: "Getworklounge.io"
+description: "WorkLounge is a members-only business club, lounge, meeting, and flexible office space."
+url: "https://Getworklounge.io"
 email: service@esteemed.io
+recaptcha_api_key: 6LcC3KAhAAAAAMSRHTEA2IdzlbNBRGiWBoGprcfc
 meta:
   image: "/img/main-hero.svg"
 google_analytics: UA-167435008-1
@@ -9,7 +10,7 @@ twitter:
   username: EsteemedTalent
 facebook:
   publisher: Esteemed-106526290944059
-logo: /img/esteemed-bw-logo.svg
+logo: /img/workloungelogo.svg
 social:
   links:
     - https://www.facebook.com/Esteemed-106526290944059/

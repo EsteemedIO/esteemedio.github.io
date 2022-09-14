@@ -38,6 +38,10 @@
   background-color: $yellow;
 }
 
+.u-bg-peppercorn {
+  background-color: $peppercorn;
+}
+
 .u-leader {
   margin-top: $spacing;
 }
@@ -101,4 +105,25 @@ h1, h2, h3, h4, h5, h6 {
 .button-yellow:hover {
   background-color: #e8c848;
   color: $peppercorn;
+}
+
+.button {
+  background-color: $peppercorn;
+  color: $white !important;
+  padding: 0.5rem 1.2rem !important;
+  font-size: 0.85rem !important;
+  min-width: 120px;
+}
+.button:hover {
+  background-color: $white;
+  color: $peppercorn !important;
+  border: solid 1px $peppercorn;
+}
+.button.orange {
+  background-color: $orange--btn;
+  color: $peppercorn !important;
+}
+.button.orange:hover {
+  background-color: $peppercorn;
+  color: $orange--btn !important;
 }

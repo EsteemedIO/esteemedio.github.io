@@ -1,6 +1,10 @@
 .partner-registration-form {
   background: transparent !important;
 
+  h3 {
+    font-size: 3rem !important;
+    font-family: "Poppins", sans-serif;
+  }
   .mc-field-group {
     padding-bottom: 0 !important;
     @include breakpoint(small only) {
@@ -80,7 +84,7 @@
 }
 
 .footer-form {
-  background: $blue--btn !important;
+  background: #264083 !important;
   color: $white !important;
   padding-bottom: 4rem;
 
@@ -148,7 +152,6 @@
     padding: 10px 20px 10px 20px !important;
     height: auto !important;
     border-radius: 3px !important;
-    margin: 0 auto !important;
   }
 
   .benefits {
@@ -163,6 +166,23 @@
 
   select {
     width: 100% !important;
+    height: 2.4375rem;
+    margin: 0 0 1rem;
+    padding: 0.5rem;
+    appearance: none;
+    border: 1px solid #cacaca;
+    border-radius: 4px;
+    background-color: #fefefe;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #0a0a0a;
+    background-origin: content-box;
+    background-position: right -1rem center;
+    background-repeat: no-repeat;
+    background-size: 9px 6px;
+    padding-right: 1.5rem;
 
     option {
       outline: transparent;
@@ -175,6 +195,19 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+  }
+  .button {
+    font-family: "Lato",sans-serif;
+    font-weight: bold;
+    background: #e5c248;
+    border-color: #e5c248;
+    color: #0a0a0a;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px 20px 10px 20px;
+    height: auto;
+    border-radius: 3px;
+    margin: 0 auto !important;
   }
 }
 

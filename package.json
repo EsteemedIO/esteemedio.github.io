@@ -5,10 +5,10 @@
   "main": "gulpfile.js",
   "devDependencies": {
     "child_process": "^1.0.2",
-    "cssnano": "^4.1.10",
+    "cssnano": "^5.1.13",
     "fancy-log": "^2.0.0",
     "foundation-sites": "^6.6.3",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-htmlmin": "^5.0.1",
     "gulp-postcss": "^8.0.0",
@@ -16,7 +16,8 @@
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.5.1",
     "motion-ui": "^2.0.3",
-    "uncss": "^0.17.3",
+    "sass": "^1.54.9",
+    "uncss": "^0.14.1",
     "what-input": "^5.2.10"
   },
   "scripts": {

@@ -1,22 +1,11 @@
 ---
 navigation:
-- button: 0
-  title: Work With Us
-  url: "/work-with-us/"
-  weight: 1
-- button: 0
-  title: Get to Know Us
-  url: "/get-to-know-us/"
-  weight: 2
-- button: 0
-  title: Our Services
-  url: "/our-services/"
-  weight: 3
-- button: 0
+- button: 1
   title: Contact Us
-  url: "https://us10.list-manage.com/contact-form?u=ec5b82da5b213df9999d28215&form_id=e2baac9cf48cd098afc7bef27227c990"
+  url: "#contact-form"
   weight: 4
 - button: 1
-  title: Get a Quote
+  title: Sign Up
   url: "#contact-form"
   weight: 6
+  bg_orange: 1

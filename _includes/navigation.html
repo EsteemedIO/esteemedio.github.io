@@ -27,7 +27,7 @@
           {% assign active = false %}
           {% endif %}
             <li>
-              <a class="{% if nav.button != 0 %}button {% endif %}{% if nav.bg_white != null %}bg-white {% endif %}{% if active %} is-active{% endif %}" href="{{ nav.url }}">{{ nav.title }}</a>
+              <a class="{% if nav.button != 0 %}button {% endif %}{% if nav.bg_orange != null %}orange {% endif %}{% if active %} is-active{% endif %}" href="{{ nav.url }}">{{ nav.title }}</a>
             </li>
           {% endfor %}
         </ul>

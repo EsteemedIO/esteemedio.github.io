@@ -1,0 +1,29 @@
+<section class="section section__member_testimonial {{ include.background }}">
+  <div class="grid-container">
+    <div class="grid-x align-center-middle">
+      <h2 class="text-center u-text-bold u-text-white">What Our Members Have to Say</h2>
+    </div>
+    <div class="align-center-middle">
+      <div class="orbit" role="region" aria-label="Favorite Text Ever" data-orbit
+           data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+        <div class="orbit-container__wrapper align-center-middle">
+          <ul class="orbit-container padding-bottom-1">
+            {% for member in site.data.member_testimonials %}
+            <li class="orbit-slide text-center">
+                <div class="grid-x item margin-bottom-2 margin-top-2">
+                    <div class="cell medium-4 large-3 image">
+                      <img src="{{ member.img }}" alt="{{ member.name }}">
+                    </div>
+                    <div class="cell medium-8 large-9 text-left padding-left-2 content">
+                      <div class="description padding-bottom-1">“{{ member.body }}“</div>
+                      <div class="title">– {{ member.name }}, {{ member.title }}</div>
+                    </div>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

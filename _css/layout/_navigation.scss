@@ -80,6 +80,7 @@
   }
 
   > .grid-container {
+    max-width: 85rem;
     position: relative;
 
     @include breakpoint(large up) {
@@ -89,9 +90,7 @@
   }
 
   .top-bar {
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
 
     .dropdown {
       width: 100%;

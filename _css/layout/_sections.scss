@@ -1,5 +1,5 @@
 body {
-  padding-top: 6.1rem;
+  padding-top: 5rem;
 
   @include breakpoint(medium down) {
     padding-top: 4.875rem;
@@ -414,6 +414,11 @@ body {
   margin-top: -4.5rem;
   padding-top: 4.5rem;
 
+  .grid-container {
+    max-width: 1440px !important;
+    padding: 0 !important;
+  }
+
   @include breakpoint(medium down) {
     margin-top: -4.875rem;
     padding-top: 4.875rem;
@@ -421,20 +426,19 @@ body {
 }
 
 .contact-form__wrapper {
-  background: $blue--btn;
+  background: #264083;
   color: $white;
-  padding-left: 2rem;
   @include breakpoint(small only) {
     padding-left: 0;
   }
 
   h3 {
+    font-size: 3rem;
     margin-bottom: 2rem;
-    text-align: left;
+    text-align: center;
 
     @include breakpoint(large) {
       margin-bottom: 2rem;
-      max-width: 60%;
     }
   }
 }
@@ -759,8 +763,8 @@ body {
     padding: 10%;
   }
 }
-#section-partner, #section-member-compensation-plan, #section-talent-network, #section-service {
-  max-width: 75rem;
+#section-service {
+  max-width: 1440px;
   margin: 0 auto;
 
   .section-image {
@@ -1244,6 +1248,11 @@ body {
 .page--careers,
 .page--events,
 .page--screening {
+
+  .row {
+    max-width: 100%;
+  }
+
   .width-75rem {
     max-width: 75rem;
     margin: 0 auto;
@@ -1448,7 +1457,12 @@ body {
   }
 
   .goals {
-    background-color: #aec6e1;
+    background-color: $peppercorn;
+    color: $white;
+
+    h2 {
+      margin: 0 auto;
+    }
 
     .simple-card__header {
       font-size: 1.125rem;
@@ -1464,6 +1478,7 @@ body {
       font-family: $font-lato;
       width: 80%;
       margin: 0 auto;
+      line-height: 1.125;
     }
   }
 
@@ -1798,6 +1813,7 @@ body {
   .position-relative {
     position: relative;
   }
+
 }
 
 .page--404 {
@@ -1998,5 +2014,40 @@ body {
   .services-button {
     width: auto;
     margin: 0 auto;
+  }
+}
+
+.pricing-cards {
+  .card-container {
+    margin: 0 auto !important;
+    width: 75%;
+  }
+  .simple-card {
+    background-color: $white;
+    color: $peppercorn;
+  }
+
+  .simple-card--narrow {
+    max-width: 200px;
+    border-radius: 20px;
+    padding: 1.5rem 0;
+  }
+
+  .line {
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: solid 1px $peppercorn;
+  }
+  .card-title, .card-price {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-title {
+    font-size: 1.125rem;
+  }
+
+  .card-price {
+    font-size: 2rem;
   }
 }
