@@ -46,7 +46,7 @@ fields:
       required: false
     label: Link
   config:
-    min: 
-    max: 
+    min: 3
+    max: 3
     labelField: 
   label: Items
