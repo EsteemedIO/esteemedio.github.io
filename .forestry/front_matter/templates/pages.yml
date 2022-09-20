@@ -21,6 +21,11 @@ fields:
   config:
     required: true
   label: Permalink
+- name: redirect_to
+  type: text
+  config:
+    required: false
+  label: Redirect to
 - name: thumbnail
   type: file
   config:
