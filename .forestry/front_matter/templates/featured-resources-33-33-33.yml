@@ -1,4 +1,52 @@
 ---
 label: Featured Resources(33/33/33)
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
+- name: background_color
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - white
+    - blue
+    - gray
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Background color
+- name: items
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Items
