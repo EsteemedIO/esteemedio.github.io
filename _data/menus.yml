@@ -1,7 +1,7 @@
 ---
 navigation:
 - button: 0
-  title: Products & Solutions
+  title: Solutions
   url: "#"
   weight: 1
   id: "products-solutions"
@@ -52,7 +52,7 @@ products-solutions:
       - title: Fractional CTO
         url: "/fractional-cto/"
   - solutions:
-    title: Solutions
+    title: Markets
     url: "#"
     submenus:
       - title: For Brands
