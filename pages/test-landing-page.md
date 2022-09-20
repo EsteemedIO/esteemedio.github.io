@@ -40,5 +40,15 @@ page_sections:
   title: Get curated insights into freelancing, networking, and working remotely.
   subtitle: Featured Resources
   background_color: gray
+  items:
+  - image: "/uploads/pexels-sarah-chai-7282637.jpg"
+    title: The Ultimate Guide to Fractional CTOs
+    link: https://esteemed.io/blog/2022/05/02/the-ultimate-guide-to-fractional-ctos/
+  - image: "/uploads/tipsfornetworkingctoheader.jpg"
+    title: The 6 Biggest Challenges Tech Recruiters Face in 2022
+    link: https://esteemed.io/blog/2022/04/25/the-6-biggest-challenges-tech-recruiters-face-in-2022/
+  - image: "/uploads/slack-tensorflow-js-header.jpg"
+    title: 8 Tips for Hosting a Remote Team Retreat
+    link: https://esteemed.io/blog/2022/04/01/8-tips-for-hosting-a-remote-team-retreat/
 
 ---
