@@ -19,7 +19,7 @@ page_sections:
   title_tag: H1
   target: _blank
   background_color: white
-  button_color: yellow
+  button_color: white
   image_position: Right
 - template: 1-2-block-content-image-text
   title: Find your community.
