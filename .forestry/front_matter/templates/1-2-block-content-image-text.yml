@@ -7,6 +7,23 @@ fields:
   config:
     required: true
   label: Title
+- name: title_tag
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - H1
+    - H2
+    - H3
+    - H4
+    - H5
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Title tag
 - name: image_url
   type: file
   config:
@@ -52,3 +69,18 @@ fields:
       file: 
       path: 
   label: Target
+- name: background_color
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - white
+    - gray
+    - lighter-blue
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Background color
