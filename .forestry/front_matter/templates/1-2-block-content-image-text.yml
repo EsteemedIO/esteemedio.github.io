@@ -34,6 +34,20 @@ fields:
   config:
     required: false
   label: Image Alt
+- name: image_position
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Left
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Image position
 - name: description
   type: textarea
   default: ''
@@ -98,17 +112,3 @@ fields:
       file: 
       path: 
   label: Target
-- name: image_position
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - Left
-    - Right
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Image position
