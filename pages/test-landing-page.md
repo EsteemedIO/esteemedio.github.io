@@ -30,5 +30,7 @@ page_sections:
   button_title: Get Started
   button_link: "#application"
   target: _blank
+  title_tag: H2
+  background_color: lighter-blue
 
 ---
