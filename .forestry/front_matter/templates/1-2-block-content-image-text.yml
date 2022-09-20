@@ -7,11 +7,16 @@ fields:
   config:
     required: true
   label: Title
-- name: img
+- name: image_url
   type: file
   config:
     maxSize: 64
-  label: Image
+  label: Image URL
+- name: image_alt
+  type: text
+  config:
+    required: false
+  label: Image Alt
 - name: description
   type: textarea
   default: ''
@@ -21,8 +26,29 @@ fields:
     schema:
       format: html-blocks
   label: Description
-- name: link
+- name: button_title
   type: text
   config:
     required: false
-  label: Link
+  label: Button title
+- name: button_link
+  type: text
+  config:
+    required: false
+  label: Button Link
+- name: target
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - _blank
+    - _self
+    - _parent
+    - _top
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Target
