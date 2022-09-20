@@ -20,6 +20,7 @@ page_sections:
   target: _blank
   background_color: white
   button_color: yellow
+  image_position: Right
 - template: 1-2-block-content-image-text
   title: Find your community.
   image_url: "/uploads/talent_network_5.jpg"
@@ -33,5 +34,6 @@ page_sections:
   target: _blank
   title_tag: H2
   background_color: lighter-blue
+  image_position: Left
 
 ---
