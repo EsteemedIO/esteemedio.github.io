@@ -12,3 +12,33 @@
     }
   }
 }
+
+.card-horizontal {
+  h1 {
+    font-family: $font-georgia;
+    font-weight: normal;
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-family: $font-georgia;
+    font-weight: normal;
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+
+  .button-white {
+    color: #4389c8 !important;
+    border: solid 1px #4389c8;
+    background: #fefefe;
+  }
+
+  .button-white:hover {
+    background-color: #4389c8;
+    color: #fefefe !important;
+  }
+}
