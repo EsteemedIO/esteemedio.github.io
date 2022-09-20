@@ -36,5 +36,9 @@ page_sections:
   background_color: lighter-blue
   image_position: Left
   button_color: yellow
+- template: featured-resources-33-33-33
+  title: Get curated insights into freelancing, networking, and working remotely.
+  subtitle: Featured Resources
+  background_color: gray
 
 ---
