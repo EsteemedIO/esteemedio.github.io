@@ -79,8 +79,6 @@ about-us:
     title: About Us
     url: "#"
     submenus:
-      - title: Our Company
-        url: "/company/"
       - title: Our Team
         url: "/our-team/"
       - title: Careers
