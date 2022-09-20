@@ -9,8 +9,6 @@ sections:
   label: Pages
   create: documents
   match: "**/*"
-  templates:
-  - landing-page
 - type: heading
   label: Content
 - type: jekyll-posts
