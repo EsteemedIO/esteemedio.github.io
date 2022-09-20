@@ -98,3 +98,17 @@ fields:
       file: 
       path: 
   label: Target
+- name: image_position
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Left
+    - Right
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Image position
