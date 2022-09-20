@@ -35,5 +35,6 @@ page_sections:
   title_tag: H2
   background_color: lighter-blue
   image_position: Left
+  button_color: yellow
 
 ---
