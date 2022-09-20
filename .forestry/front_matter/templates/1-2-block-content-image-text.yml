@@ -43,6 +43,21 @@ fields:
     schema:
       format: html-blocks
   label: Description
+- name: background_color
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - white
+    - gray
+    - lighter-blue
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Description bg color
 - name: button_title
   type: text
   config:
@@ -83,18 +98,3 @@ fields:
       file: 
       path: 
   label: Target
-- name: background_color
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - white
-    - gray
-    - lighter-blue
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Background block color
