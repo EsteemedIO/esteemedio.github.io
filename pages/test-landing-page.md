@@ -19,6 +19,7 @@ page_sections:
   title_tag: H1
   target: _blank
   background_color: white
+  button_color: yellow
 - template: 1-2-block-content-image-text
   title: Find your community.
   image_url: "/uploads/talent_network_5.jpg"
