@@ -4,6 +4,13 @@
 <body class="body{%- if page.class %} {{ page.class }}{%- endif -%}">
   {% include navigation.html %}
   {{ content }}
+  {% for block in page.page_sections %}
+    {% assign template = block.template %}
+    {% case template %}
+    {% when template %}
+      {% include block_{{template}}.html %}
+    {% endcase %}
+  {% endfor %}
   {% include footer.html %}
 </body>
 </html>

@@ -1,0 +1,23 @@
+<div class="card-horizontal overflow-hidden fadeinAfterLoad">
+  <div class="row {% if block.image_position == 'Left' %}flex-dir-row-reverse{% endif %}">
+    <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 u-bg-{{ block.background_color }}">
+      <{{ block.title_tag }} class="u-trailer u-text-bold">{{ block.title }}</{{ block.title_tag }}>
+
+      <div class="cell">
+        <p class="card-text">
+          {{ block.description }}
+        </p>
+        <div class="cell">
+          <a href="{{ block.button_link }}"
+             class="button button__small button-{{ block.button_color }}" target="{{ block.target }}">{{ block.button_title }}</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+      <div class="width-25vw">
+        <img class="section-image fadeinAfterLoad" src="{{ block.image_url }}" alt="{{ block.image_alt }}">
+      </div>
+    </div>
+  </div>
+</div>
