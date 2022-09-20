@@ -1,6 +1,14 @@
 .partner-registration-form {
   background: transparent !important;
 
+  form {
+    padding: 0 !important;
+  }
+
+  .button {
+    display: inline-block !important;
+  }
+
   .mc-field-group {
     padding-bottom: 0 !important;
     @include breakpoint(small only) {
