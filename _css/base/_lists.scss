@@ -31,6 +31,16 @@
     padding-bottom: 20px;
   }
 
+  p {
+    font-family: $font-poppins;
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+
   .button-white {
     color: #4389c8 !important;
     border: solid 1px #4389c8;
