@@ -36,7 +36,7 @@ page_sections:
   title_tag: H2
   target: _blank
   background_color: white
-  button_color: white
+  button_color: yellow
   image_position: Left
 - template: featured-resources-33-33-33
   title: Get curated insights into freelancing, networking, and working remotely.
