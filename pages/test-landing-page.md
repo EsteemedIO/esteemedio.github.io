@@ -7,21 +7,6 @@ thumbnail: ''
 contact_form: true
 page_sections:
 - template: 1-2-block-content-image-text
-  title: We Bring Colleagues Together
-  description: "<p>Whether you’re a front-end developer, UX designer, project manager,
-    or one of the many other digital professions we support, our Colleagues community
-    is here to boost your career.</p><ul><li><p>Meet like-minded members</p></li><li><p>Explore
-    new career options</p></li><li><p>Grow personally and professionally</p></li></ul>"
-  button_title: Learn more
-  button_link: "#application"
-  image_alt: We Bring Colleagues Together
-  image_url: "/uploads/talent_network_2.jpg"
-  title_tag: H1
-  target: _blank
-  background_color: white
-  button_color: white
-  image_position: Right
-- template: 1-2-block-content-image-text
   title: Find your community.
   image_url: "/uploads/talent_network_5.jpg"
   image_alt: Find your community.
@@ -32,10 +17,25 @@ page_sections:
   button_title: Get Started
   button_link: "#application"
   target: _blank
-  title_tag: H2
-  background_color: lighter-blue
-  image_position: Left
+  title_tag: H1
+  background_color: white
+  image_position: Right
   button_color: yellow
+- template: 1-2-block-content-image-text
+  title: We Bring Colleagues Together
+  description: "<p>Whether you’re a front-end developer, UX designer, project manager,
+    or one of the many other digital professions we support, our Colleagues community
+    is here to boost your career.</p><ul><li><p>Meet like-minded members</p></li><li><p>Explore
+    new career options</p></li><li><p>Grow personally and professionally</p></li></ul>"
+  button_title: Learn more
+  button_link: "#application"
+  image_alt: We Bring Colleagues Together
+  image_url: "/uploads/talent_network_2.jpg"
+  title_tag: H2
+  target: _blank
+  background_color: white
+  button_color: white
+  image_position: Left
 - template: featured-resources-33-33-33
   title: Get curated insights into freelancing, networking, and working remotely.
   subtitle: Featured Resources
