@@ -29,7 +29,7 @@ page_sections:
     * Meet like-minded members
     * Explore new career options
     * Grow personally and professionally
-  button_title: Learn more
+  button_title: Learn More
   button_link: "#application"
   image_alt: We Bring Colleagues Together
   image_url: "/uploads/talent_network_2.jpg"
