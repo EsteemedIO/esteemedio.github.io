@@ -4,9 +4,7 @@
       <{{ block.title_tag }} class="u-trailer u-text-bold">{{ block.title }}</{{ block.title_tag }}>
 
       <div class="cell">
-        <p class="card-text">
-          {{ block.description }}
-        </p>
+          {{ block.description | markdownify }}
         <div class="cell">
           <a href="{{ block.button_link }}"
              class="button button__small button-{{ block.button_color }}" target="{{ block.target }}">{{ block.button_title }}</a>
