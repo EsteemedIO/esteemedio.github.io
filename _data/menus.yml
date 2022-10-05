@@ -44,9 +44,6 @@ products-solutions:
     submenus:
       - title: Talent Sourcing
         url: "/talent-sourcing/"
-      - title: Digital Services
-        url: "https://digital.esteemed.io/"
-        target: "_blank"
       - title: Agile Coaching
         url: "/agile-coaching/"
       - title: Fractional CTO
