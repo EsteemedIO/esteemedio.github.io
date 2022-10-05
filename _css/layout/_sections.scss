@@ -2123,3 +2123,18 @@ body {
     text-decoration: underline;
   }
 }
+
+#application {
+  font-family: $font-poppins;
+  color: $peppercorn;
+
+  label {
+    font-family: $font-lato;
+    color: $peppercorn;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+
+}
