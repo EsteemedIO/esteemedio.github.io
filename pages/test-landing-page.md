@@ -52,5 +52,6 @@ page_sections:
   - image: "/uploads/slack-tensorflow-js-header.jpg"
     title: 8 Tips for Hosting a Remote Team Retreat
     link: https://esteemed.io/blog/2022/04/01/8-tips-for-hosting-a-remote-team-retreat/
+published: false
 
 ---
