@@ -1,5 +1,5 @@
 ---
-date: 2022-10-05 23:00:00 +0000
+date: '2022-10-05T23:00:00.000+00:00'
 author: matt-brennan
 categories: []
 title: 'Building a Human Workplace '
@@ -26,7 +26,10 @@ page_sections:
   button_title: Learn More
   button_color: yellow
   target: _blank
+  button_link: ''
 permalink: human-workplace
+redirect_to: ''
+contact_form: false
 published: false
 
 ---

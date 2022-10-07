@@ -44,3 +44,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- pages/building-a-human-workplace.md
