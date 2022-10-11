@@ -75,5 +75,6 @@ page_sections:
   - icon: "/uploads/goals-3.svg"
     title: 100% Human Reviewers
     description: Each candidate is evaluated by our technical leads.
+  background_color: lighter-blue
 
 ---
