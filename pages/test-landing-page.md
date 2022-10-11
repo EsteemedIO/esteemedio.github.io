@@ -55,14 +55,14 @@ page_sections:
 - template: faq
   title: Frequently Asked Questions
   faqs:
-  - question: Which programming languages and disciplines do we screen?
-    answer: With Esteemed Screening, we cover all major programming languages, like
-      HTML5, CSS, PHP, JavaScript, React, .NET, and C#. Additionally, we cover CMS
-      like WordPress, Drupal, Shopify, and Magento. Need a different language or discipline?
-      We can help with that. Contact us at <a href= "mailto:screening@esteemed.io">screening@esteemed.io</a>
   - question: What is Esteemed Screening?
     answer: Esteemed Screening is your go-to source for fulfilling your team’s hiring
       needs. Our process helps you find the right candidates, further your relationships
       with clients, and complete your projects with trusted resources.
+  - question: Which programming languages and disciplines do we screen?
+    answer: With Esteemed Screening, we cover all major programming languages, like
+      HTML5, CSS, PHP, JavaScript, React, .NET, and C#. Additionally, we cover CMS
+      like WordPress, Drupal, Shopify, and Magento. Need a different language or discipline?
+      We can help with that. Contact us at [screening@esteemed.io](screening@esteemed.io)
 
 ---
