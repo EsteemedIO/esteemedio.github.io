@@ -23,12 +23,12 @@ page_sections:
   button_color: yellow
 - template: 3-icon-block
   icons:
-  - icon: "/uploads/goals-1.svg"
-    title: Accelerate Your Hiring
-    description: Hire faster and smarter with a dedicated team of IT pros.
   - icon: "/uploads/goals-2.svg"
     title: Unlimited Screening
     description: Pay only for what you use on our platform.
+  - icon: "/uploads/goals-1.svg"
+    title: Accelerate Your Hiring
+    description: Hire faster and smarter with a dedicated team of IT pros.
   - icon: "/uploads/goals-3.svg"
     title: 100% Human Reviewers
     description: Each candidate is evaluated by our technical leads.
