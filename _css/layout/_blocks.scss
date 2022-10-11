@@ -67,3 +67,26 @@
     }
   }
 }
+
+.block-goals {
+  background-color: #aec6e1;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  .simple-card__header {
+    font-size: 1.125rem;
+    padding-bottom: 0;
+    font-family: $font-lato;
+  }
+
+  .simple-card .simple-card__image img {
+    height: 100px;
+  }
+
+  .card-text {
+    font-family: $font-lato;
+    width: 80%;
+    margin: 0 auto;
+  }
+}

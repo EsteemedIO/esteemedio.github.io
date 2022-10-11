@@ -1,0 +1,15 @@
+<section class="section block-goals fadeinAfterLoad u-bg-{{ block.background_color }}">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      {% for item in block.icons %}
+        <div class="cell medium-4">
+          <div class="simple-card simple-card--narrow">
+            <div class="simple-card__image text-center"><img src="{{ item.icon }}" alt="{{ item.title }}"></div>
+            <h4 class="simple-card__header text-center u-text-bold">{{ item.title }}</h4>
+            <p class="text-center card-text">{{ item.description }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
