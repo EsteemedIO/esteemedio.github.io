@@ -64,5 +64,10 @@ page_sections:
       HTML5, CSS, PHP, JavaScript, React, .NET, and C#. Additionally, we cover CMS
       like WordPress, Drupal, Shopify, and Magento. Need a different language or discipline?
       We can help with that. Contact us at [screening@esteemed.io](screening@esteemed.io)
+- template: 3-icon-block
+  icons:
+  - icon: "/uploads/goals-1.svg"
+    title: Accelerate Your Hiring
+    description: Hire faster and smarter with a dedicated team of IT pros.
 
 ---
