@@ -21,6 +21,18 @@ page_sections:
   background_color: white
   image_position: Right
   button_color: yellow
+- template: 3-icon-block
+  icons:
+  - icon: "/uploads/goals-1.svg"
+    title: Accelerate Your Hiring
+    description: Hire faster and smarter with a dedicated team of IT pros.
+  - icon: "/uploads/goals-2.svg"
+    title: Unlimited Screening
+    description: Pay only for what you use on our platform.
+  - icon: "/uploads/goals-3.svg"
+    title: 100% Human Reviewers
+    description: Each candidate is evaluated by our technical leads.
+  background_color: lighter-blue
 - template: 1-2-block-content-image-text
   title: We Bring Colleagues Together
   description: |-
@@ -64,17 +76,5 @@ page_sections:
       HTML5, CSS, PHP, JavaScript, React, .NET, and C#. Additionally, we cover CMS
       like WordPress, Drupal, Shopify, and Magento. Need a different language or discipline?
       We can help with that. Contact us at [screening@esteemed.io](screening@esteemed.io)
-- template: 3-icon-block
-  icons:
-  - icon: "/uploads/goals-1.svg"
-    title: Accelerate Your Hiring
-    description: Hire faster and smarter with a dedicated team of IT pros.
-  - icon: "/uploads/goals-2.svg"
-    title: Unlimited Screening
-    description: Pay only for what you use on our platform.
-  - icon: "/uploads/goals-3.svg"
-    title: 100% Human Reviewers
-    description: Each candidate is evaluated by our technical leads.
-  background_color: lighter-blue
 
 ---
