@@ -52,6 +52,12 @@ page_sections:
   - image: "/uploads/slack-tensorflow-js-header.jpg"
     title: 8 Tips for Hosting a Remote Team Retreat
     link: https://esteemed.io/blog/2022/04/01/8-tips-for-hosting-a-remote-team-retreat/
-published: false
+- template: faq
+  title: Frequently Asked Questions
+  faqs:
+  - question: What is Esteemed Screening?
+    answer: Esteemed Screening is your go-to source for fulfilling your team’s hiring
+      needs. Our process helps you find the right candidates, further your relationships
+      with clients, and complete your projects with trusted resources.
 
 ---
