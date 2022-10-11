@@ -5,6 +5,8 @@ fields:
 - type: text
   name: title
   label: Title
+  config:
+    required: true
 - type: field_group_list
   name: faqs
   label: FAQs
@@ -12,6 +14,14 @@ fields:
   - type: text
     name: question
     label: Question
-  - type: text
-    name: answer
+    config:
+      required: true
+  - name: answer
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: false
+      schema:
+        format: markdown
     label: Answer
