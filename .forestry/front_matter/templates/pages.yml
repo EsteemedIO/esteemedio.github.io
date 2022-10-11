@@ -41,6 +41,7 @@ fields:
   template_types:
   - 1-2-block-content-image-text
   - featured-resources-33-33-33
+  - faq
   config:
     min: 
     max: 
