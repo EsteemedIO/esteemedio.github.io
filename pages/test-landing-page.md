@@ -32,7 +32,6 @@ page_sections:
   - icon: "/uploads/goals-3.svg"
     title: 100% Human Reviewers
     description: Each candidate is evaluated by our technical leads.
-  background_color: lighter-blue
 - template: 1-2-block-content-image-text
   title: We Bring Colleagues Together
   description: |-
