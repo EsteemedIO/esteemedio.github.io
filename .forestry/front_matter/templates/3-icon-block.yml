@@ -2,21 +2,6 @@
 label: 3 Icon Block
 hide_body: true
 fields:
-- name: background_color
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - white
-    - gray
-    - lighter-blue
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Background color
 - name: icons
   type: field_group_list
   fields:
