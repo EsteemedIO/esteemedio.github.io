@@ -42,6 +42,7 @@ fields:
   - 1-2-block-content-image-text
   - featured-resources-33-33-33
   - faq
+  - 3-icon-block
   config:
     min: 
     max: 
