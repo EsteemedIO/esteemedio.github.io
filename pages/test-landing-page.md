@@ -75,16 +75,5 @@ page_sections:
       HTML5, CSS, PHP, JavaScript, React, .NET, and C#. Additionally, we cover CMS
       like WordPress, Drupal, Shopify, and Magento. Need a different language or discipline?
       We can help with that. Contact us at [screening@esteemed.io](screening@esteemed.io)
-- template: carousel-block
-  slides:
-  - title: Avoid Bad Hires
-    description: Costly hiring mistakes add up, and add pressure to already-stressed
-      teams. Understand your candidates’ core technical competencies and how they’ll
-      integrate with your business before Day One.
-    image: "/uploads/slide4.jpg"
-    button:
-      button_name: Start now
-      button_link: "/test/"
-      button_color: blue
 
 ---
