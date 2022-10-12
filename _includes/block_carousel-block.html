@@ -1,0 +1,53 @@
+<div class="block-carousel card-horizontal overflow-hidden component-offscreen">
+  <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+    <div class="orbit-wrapper">
+      <div class="orbit-controls">
+        <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+        <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+      </div>
+      <ul class="orbit-container">
+        {% for slide in block.slides %}
+        <li class="is-active orbit-slide">
+          <figure class="orbit-figure">
+            <div class="card-horizontal overflow-hidden screening-testimonial">
+              <div class="row">
+                <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3">
+                  <h2 class="u-trailer">{{ slide.title}}</h2>
+
+                  <div class="cell">
+                    {{ slide.description | markdownify}}
+                    <div class="cell text-center margin-top-3 buttons">
+
+                      {% for button in slide.buttons %}
+                      <a href="{{ button.button_link }}" class="button text-center bg-{{ button.button_color }}" target="_blank">{{ button.button_name }}</a>
+                      {% endfor %}
+
+                    </div>
+                  </div>
+
+                </div>
+
+                <div class="small-12 medium-6 padding-horizontal-0 img-wrapper flex-container">
+                  <div class="width-25vw slider-image">
+                    <img class="section-image" src="{{ slide.image }}"
+                         alt="{{ slide.title}}">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </figure>
+        </li>
+        {% endfor %}
+        <nav class="orbit-bullets">
+          <button class="is-active" data-slide="0"></button>
+          <button data-slide="1"></button>
+          <button data-slide="2"></button>
+          <button data-slide="3"></button>
+          <button data-slide="4"></button>
+          <button data-slide="5"></button>
+        </nav>
+      </ul>
+
+    </div>
+  </div>
+</div>
