@@ -1,4 +1,61 @@
 ---
 label: Carousel Block
 hide_body: true
-fields: []
+fields:
+- name: slides
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: description
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Description
+  - name: button
+    type: field_group
+    config: {}
+    fields:
+    - name: button_name
+      type: text
+      config:
+        required: false
+      label: Button Name
+    - name: button_link
+      type: text
+      config:
+        required: false
+      label: Button Link
+    - name: button_color
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - white
+        - yellow
+        - blue
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Button Color
+    label: Button
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Slides
