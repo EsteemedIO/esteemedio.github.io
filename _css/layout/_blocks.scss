@@ -90,3 +90,54 @@
     margin: 0 auto;
   }
 }
+
+
+.block-carousel {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #e9e9e9;
+
+  .bg-white {
+    color: #4389c8 !important;
+    border: solid 1px #4389c8;
+    background: #fefefe;
+  }
+
+  .bg-white:hover {
+    background-color: #f3f3f3;
+  }
+
+  h2 {
+    font-size: 3rem !important;
+    font-family: $font-georgia;
+    margin-bottom: 0;
+    @include breakpoint(small only) {
+      font-size: 2rem;
+    }
+  }
+  p {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    font-family: $font-poppins;
+  }
+
+  .button:nth-child(even) {
+    margin-left: 2rem;
+    @include breakpoint(small only) {
+      margin-left: 7px;
+    }
+  }
+
+  .slider-image {
+    padding: 12rem 3rem;
+    @include breakpoint(small only) {
+      padding: 1rem;
+    }
+  }
+  .slider-image img {
+    min-height: 0 !important;
+    border-radius: 15px;
+  }
+
+}
