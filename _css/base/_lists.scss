@@ -20,6 +20,9 @@
     font-size: 5rem;
     line-height: 1;
     margin-bottom: 0;
+    @include breakpoint(small only) {
+      font-size: 3rem;
+    }
   }
 
   h2 {
