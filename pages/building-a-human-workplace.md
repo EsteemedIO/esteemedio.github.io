@@ -28,7 +28,6 @@ page_sections:
   target: _blank
   button_link: ''
 permalink: "/human-workplace/"
-redirect_to: ''
 contact_form: false
 
 ---
