@@ -19,15 +19,19 @@ fields:
       schema:
         format: markdown
     label: Description
-  - name: button
-    type: field_group
-    config: {}
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: buttons
+    type: field_group_list
     fields:
     - name: button_name
       type: text
       config:
         required: false
-      label: Button Name
+      label: Button name
     - name: button_link
       type: text
       config:
@@ -40,20 +44,19 @@ fields:
         required: false
         options:
         - white
-        - yellow
         - blue
+        - yellow
         source:
           type: simple
           section: 
           file: 
           path: 
       label: Button Color
-    label: Button
-  - name: image
-    type: file
     config:
-      maxSize: 64
-    label: Image
+      min: 
+      max: 2
+      labelField: 
+    label: Buttons
   config:
     min: 
     max: 
