@@ -43,6 +43,7 @@ fields:
   - featured-resources-33-33-33
   - faq
   - 3-icon-block
+  - carousel-block
   config:
     min: 
     max: 
