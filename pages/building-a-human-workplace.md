@@ -17,12 +17,7 @@ page_sections:
   image_alt: Human Workplace
   image_url: "/uploads/screeningdevelopers_header.jpg"
   background_color: white
-  description: "The workplace is undergoing a transformation. A shift from Employer-
-    to Employee-driven has taken hold. As permanent and contract workers are increasing,
-    so are hybrid and remote workplaces. With all these changes, developing a human
-    workplace, or, a people and remote-first culture, presents challenges. \n\nBusinesses
-    are in need of adjusting their thinking, practices and tools. We help organizations
-    navigate this journey."
+  description: ''
   button_title: Learn More
   button_color: yellow
   target: _blank
@@ -30,6 +25,5 @@ page_sections:
 permalink: human-workplace
 redirect_to: ''
 contact_form: false
-published: false
 
 ---
