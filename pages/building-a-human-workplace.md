@@ -17,7 +17,12 @@ page_sections:
   image_alt: Human Workplace
   image_url: "/uploads/screeningdevelopers_header.jpg"
   background_color: white
-  description: ''
+  description: |-
+    The workplace is undergoing a transformation. There is a palpable shift from Employer- to Employee-driven. The blending of permanent and contract workers is on the rise. Hybrid and remote workplaces are taking hold.
+
+    For your business to thrive in this environment, you need to adjust your thinking, practices and tools. Developing a people- and remote-first culture is challenging.
+
+    We help organizations to navigate this journey.
   button_title: Learn More
   button_color: yellow
   target: _blank
