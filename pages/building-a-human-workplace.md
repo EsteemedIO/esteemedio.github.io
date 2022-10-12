@@ -27,7 +27,7 @@ page_sections:
   button_color: yellow
   target: _blank
   button_link: ''
-permalink: human-workplace
+permalink: "/human-workplace/"
 redirect_to: ''
 contact_form: false
 
