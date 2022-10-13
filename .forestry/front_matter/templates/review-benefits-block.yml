@@ -5,6 +5,30 @@ fields:
 - name: benefits
   type: field_group
   config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  - name: bullet_points
+    type: field_group_list
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 64
+      label: Icon
+    - name: description
+      type: text
+      config:
+        required: false
+      label: Description
+    config:
+      min: 
+      max: 3
+      labelField: 
+    label: Bullet points
   label: Benefits
 - name: review
   type: field_group
