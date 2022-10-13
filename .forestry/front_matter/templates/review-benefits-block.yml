@@ -1,4 +1,12 @@
 ---
 label: Review + Benefits Block
 hide_body: true
-fields: []
+fields:
+- name: benefits
+  type: field_group
+  config: {}
+  label: Benefits
+- name: review
+  type: field_group
+  config: {}
+  label: Review
