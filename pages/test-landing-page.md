@@ -89,5 +89,20 @@ page_sections:
     - button_name: Learn More
       button_link: "/test/"
       button_color: white
+- template: review-benefits-block
+  review:
+    reviewer_name_position: "– Brandon Baker, VP at FreshForm"
+    review_text: Esteemed Screening has saved my team countless hours with their technical
+      interviews, hand-picked assessments, and interactive coding challenges. Highly
+      recommended!
+    review_logo: "/uploads/freshform.svg"
+    photo: "/uploads/brandon-baker.jpg"
+  benefits:
+    title: Drastically Reduce Your Time-to-Hire
+    bullet_points:
+    - icon: "/uploads/check.svg"
+      description: Fast, accurate results delivered directly to your inbox
+    - icon: "/uploads/check.svg"
+      description: Screen as many candidates as needed for your position
 
 ---
