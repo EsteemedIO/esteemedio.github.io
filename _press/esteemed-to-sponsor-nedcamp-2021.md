@@ -1,5 +1,5 @@
 ---
-date: 2021-11-10 21:26:36 +0000
+date: 2021-11-10T21:26:36.000+00:00
 author: casey-horgan
 categories: []
 title: Esteemed to Sponsor NEDCamp 2021
@@ -31,7 +31,7 @@ Join _Evolving Web_ cofounder Suzanne Dergacheva at 10:00am ET for a nearly two 
 
 ##### Friday, November 19, 2021 | 1:00 - 1:45pm ET
 
-Clinician and on-air personality Courtney Kelley Bedard will deliver NEDCamp 2021’s [keynote](https://nedcamp.org/index.php/sessions/2021/keynote-time-now-lets-get-it) address. Given the challenging, exhausting, and uncertainty of the past year and a half as we’ve navigated our way through this pandemic, we could all use some inspiration. Bedard plans to use this session to address the elephant in the room: the overwhelming division, depletion, and procrastination so many of us are trying to keep at bay. Attendees take notes: despite the circumstances that have led us here, Bedard intends to explain why _now_ “may actually be the most ideal time to take action,” and which tools we’ll need to set ourselves back on the right track. Join this session to be inspired and come away with simple and effective ways to manage time, stress, and shifting priorities.
+Clinician and on-air personality Courtney Kelley Bedard will deliver NEDCamp 2021’s [keynote](https://nedcamp.org/) address. Given the challenging, exhausting, and uncertainty of the past year and a half as we’ve navigated our way through this pandemic, we could all use some inspiration. Bedard plans to use this session to address the elephant in the room: the overwhelming division, depletion, and procrastination so many of us are trying to keep at bay. Attendees take notes: despite the circumstances that have led us here, Bedard intends to explain why _now_ “may actually be the most ideal time to take action,” and which tools we’ll need to set ourselves back on the right track. Join this session to be inspired and come away with simple and effective ways to manage time, stress, and shifting priorities.
 
 For a complete schedule, [click here](https://nedcamp.org/schedule).  
 To register for NEDCamp 2021, [click here](https://ti.to/nedcamp/2021ticket).
