@@ -44,6 +44,7 @@ fields:
   - faq
   - 3-icon-block
   - carousel-block
+  - review-benefits-block
   config:
     min: 
     max: 
