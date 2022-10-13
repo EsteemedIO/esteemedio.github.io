@@ -63,18 +63,6 @@ page_sections:
   - image: "/uploads/slack-tensorflow-js-header.jpg"
     title: 8 Tips for Hosting a Remote Team Retreat
     link: https://esteemed.io/blog/2022/04/01/8-tips-for-hosting-a-remote-team-retreat/
-- template: faq
-  title: Frequently Asked Questions
-  faqs:
-  - question: What is Esteemed Screening?
-    answer: Esteemed Screening is your go-to source for fulfilling your team’s hiring
-      needs. Our process helps you find the right candidates, further your relationships
-      with clients, and complete your projects with trusted resources.
-  - question: Which programming languages and disciplines do we screen?
-    answer: With Esteemed Screening, we cover all major programming languages, like
-      HTML5, CSS, PHP, JavaScript, React, .NET, and C#. Additionally, we cover CMS
-      like WordPress, Drupal, Shopify, and Magento. Need a different language or discipline?
-      We can help with that. Contact us at [screening@esteemed.io](screening@esteemed.io)
 - template: carousel-block
   slides:
   - title: Avoid Bad Hires
@@ -89,6 +77,18 @@ page_sections:
     - button_name: Learn More
       button_link: "/test/"
       button_color: white
+- template: faq
+  title: Frequently Asked Questions
+  faqs:
+  - question: What is Esteemed Screening?
+    answer: Esteemed Screening is your go-to source for fulfilling your team’s hiring
+      needs. Our process helps you find the right candidates, further your relationships
+      with clients, and complete your projects with trusted resources.
+  - question: Which programming languages and disciplines do we screen?
+    answer: With Esteemed Screening, we cover all major programming languages, like
+      HTML5, CSS, PHP, JavaScript, React, .NET, and C#. Additionally, we cover CMS
+      like WordPress, Drupal, Shopify, and Magento. Need a different language or discipline?
+      We can help with that. Contact us at [screening@esteemed.io](screening@esteemed.io)
 - template: review-benefits-block
   review:
     reviewer_name_position: "– Brandon Baker, VP at FreshForm"
