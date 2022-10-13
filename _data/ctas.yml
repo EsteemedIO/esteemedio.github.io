@@ -10,15 +10,14 @@ resources:
   button_link: https://mailchi.mp/727fbf0dd6e0/7-mistakes-ebook
   target: _blank
 about-us:
-  image_url: "/uploads/pexels-alteredsnaps-11599618.jpg"
-  image_alt: DrupalCamp Atlanta
+  image_url: "/uploads/nedcamp-2018_0.jpg"
+  image_alt: 'NEDCamp '
   title: Join Us!
-  sub_title: DrupalCamp Atlanta
+  sub_title: NEDCamp
   description: Drupal holds a special place for all of us at Esteemed, which is why
-    we're proud to announce that our company is a Platinum Sponsor at DrupalCamp Atlanta
-    .
+    we're proud to announce that our company is sponsoring NEDCamp.
   button_title: Register Now
-  button_link: https://www.eventbrite.com/e/2022-drupalcamp-atlanta-tickets-334602855147/
+  button_link: https://nedcamp.org/
   target: _blank
 community:
   image_url: "/uploads/talent_network_5.jpg"
