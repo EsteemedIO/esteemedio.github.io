@@ -101,8 +101,10 @@ page_sections:
     title: Drastically Reduce Your Time-to-Hire
     bullet_points:
     - icon: "/uploads/check.svg"
+      description: Screen as many candidates as needed for your position
+    - icon: "/uploads/check.svg"
       description: Fast, accurate results delivered directly to your inbox
     - icon: "/uploads/check.svg"
-      description: Screen as many candidates as needed for your position
+      description: " Identify the candidates who will fit best alongside your team"
 
 ---
