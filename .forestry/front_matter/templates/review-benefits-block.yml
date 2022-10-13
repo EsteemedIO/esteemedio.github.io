@@ -33,4 +33,30 @@ fields:
 - name: review
   type: field_group
   config: {}
+  fields:
+  - name: review_text
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Review text
+  - name: reviewer_name_position
+    type: text
+    config:
+      required: true
+    label: Name, position of the reviewer
+    description: 'e.g.: – Brandon Baker, VP at FreshForm'
+  - name: review_logo
+    type: file
+    config:
+      maxSize: 64
+    label: Logo
+  - name: photo
+    type: file
+    config:
+      maxSize: 64
+    label: Photo
   label: Review
