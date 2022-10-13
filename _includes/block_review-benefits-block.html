@@ -1,0 +1,21 @@
+<div class="card-horizontal overflow-hidden screening-testimonial component-offscreen block-testimonial">
+  <div class="row">
+    <div class="small-12 medium-6 align-center padding-3">
+      <h2 class="u-trailer large-10 margin-top-3 margin-bottom-2">{{ block.benefits.title }}</h2>
+      {% for point in block.benefits.bullet_points %}
+        <div class="row">
+          <div class="large-2 small-12 text-center"><img class="icon" src="{{ point.icon }}" alt="check"></div>
+          <div class="large-10"><p class="card-text screening-list-icon margin-bottom-2">{{ point.description }}</p></div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="small-12 medium-6 flex-container flex-dir-column align-center padding-3 position-relative">
+      <div class="testimonial-card">
+        <p class="card-text padding-top-3 text-center screening-list-icon">{{ block.review.review_text }}</p>
+        <p class="card-text margin-top-2 u-text-bold text-center">{{ block.review.reviewer_name_position }}</p>
+        <img class="company-logo margin-bottom-3" src="{{ block.review.review_logo }}" alt="{{ block.review.reviewer_name_position }}">
+        <img class="company-person" src="{{ block.review.photo }}" alt="{{ block.review.reviewer_name_position }}">
+      </div>
+    </div>
+  </div>
+</div>
