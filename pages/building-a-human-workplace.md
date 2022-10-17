@@ -27,7 +27,28 @@ page_sections:
   button_color: yellow
   target: _blank
   button_link: ''
+- template: 1-2-block-content-image-text
+  title: 'People First, Stronger Business '
+  title_tag: H2
+  image_position: Right
+  image_url: "/uploads/tipsfornetworkingctoheader.jpg"
+  description: "Companies investing in programs that create people-first cultures
+    in the workplace are rewarded with higher performance, lower turnover rates, and
+    happier employees.   \n  \nBusinesses that cultivate an inclusive, diverse culture
+    focusing on employee needs, are experiencing an increase in employee alignment
+    as a result. This strategy requires the implementation of programs and practices
+    that lead with honesty and integrity.\n\nAt Esteemed, we take pride in our ability
+    to aid organizations in developing programs for human workplaces. Our offerings
+    include:\n\n* Well-Being Programs\n* Leadership Training\n* Mindfulness Coaching\n*
+    DEI Training\n* Event Speakers\n* Custom Tailored Workshops"
+  background_color: lighter-blue
+  button_title: Start Now
+  button_color: yellow
+  target: _blank
+  image_alt: ''
+  button_link: ''
 permalink: "/human-workplace/"
 contact_form: false
+redirect_to: ''
 
 ---
