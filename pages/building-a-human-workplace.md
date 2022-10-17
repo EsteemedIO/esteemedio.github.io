@@ -77,6 +77,5 @@ page_sections:
   target: ''
 permalink: "/human-workplace/"
 contact_form: false
-redirect_to: ''
 
 ---
