@@ -61,6 +61,20 @@ page_sections:
   title: Read More on the Human Workplace
   background_color: gray
   subtitle: ''
+- template: 1-2-block-content-image-text
+  title: 'The Impacts of a More Human Workplace  '
+  title_tag: H2
+  image_url: "/uploads/pexels-photo-4099096.jpg"
+  image_position: Left
+  description: Research shows that employers are struggling to develop human workplace
+    programs for their teams. The latest statistics on well-being within the workplace
+    demonstrate how necessary these programs are for teams and their leadership.
+  background_color: white
+  image_alt: ''
+  button_title: ''
+  button_link: ''
+  button_color: ''
+  target: ''
 permalink: "/human-workplace/"
 contact_form: false
 redirect_to: ''
