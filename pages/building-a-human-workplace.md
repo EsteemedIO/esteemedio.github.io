@@ -47,6 +47,20 @@ page_sections:
   target: _blank
   image_alt: ''
   button_link: ''
+- template: featured-resources-33-33-33
+  items:
+  - image: "/uploads/fractional-cto-thumb.jpg"
+    title: Article 1
+    link: ''
+  - image: "/uploads/pexels-christina-morillo-1181346-1-min.jpg"
+    title: Article 2
+    link: ''
+  - image: "/uploads/fractional-cto-header.jpg"
+    title: Article 3
+    link: ''
+  title: Read More on the Human Workplace
+  background_color: gray
+  subtitle: ''
 permalink: "/human-workplace/"
 contact_form: false
 redirect_to: ''
