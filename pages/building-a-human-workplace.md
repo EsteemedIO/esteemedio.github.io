@@ -75,7 +75,76 @@ page_sections:
   button_link: ''
   button_color: ''
   target: ''
+- template: 3-icon-block
+  icons:
+  - icon: "/uploads/check.svg"
+    title: More Productivity
+    description: Well-being support lowers absenteeism by 40%, and turnover by 65%.
+  - icon: "/uploads/check.svg"
+    title: More Savings
+    description: 'Every dollar spent on employee well-being lowers medical costs by
+      $3. '
+  - icon: "/uploads/check.svg"
+    title: More Profits
+    description: Companies with more engaged employees report 22% higher profitability.
+- template: 1-2-block-content-image-text
+  title_tag: H2
+  description: "When you are focused on growing your business, it can be difficult
+    to build culture. As business requirements and ecosystems rapidly change, businesses
+    can become reactive to their environments. \n\nIntentionally building an inclusive,
+    purpose-driven culture has been shown to unlock the potential of the workforce
+    by putting people at the center of decision-making. Your workforce will have greater
+    impact when they are trusted to bring their competencies to the table."
+  title: Invest in Your People
+  image_url: "/uploads/screen-shot-2021-03-04-at-5-18-37-pm.png"
+  image_position: Right
+  background_color: gray
+  button_title: Sign Up
+  button_color: yellow
+  image_alt: ''
+  button_link: ''
+  target: ''
+- template: 1-2-block-content-image-text
+  title: Culture design unlocks the hidden potential in your workforce.
+  description: 'Partnering with a team of experienced advisors assures you are ready
+    to adapt to the new realities of doing business. Our experts can evaluate, implement,
+    and manage your business’ culture to create sustainable, high-performing teams
+    that drive results, uphold company values, and provide a welcoming workplace for
+    all your employees                                                                                                                                                                                                                                                                                  '
+  background_color: lighter-blue
+  button_title: Get a Quote
+  button_color: yellow
+  title_tag: H3
+  image_url: "/uploads/fractional-cto-thumbnail-should-hire.jpg"
+  image_alt: ''
+  image_position: ''
+  button_link: ''
+  target: ''
+- template: faq
+  title: 'Human Workplace FAQ '
+  faqs:
+  - question: 'What is the Human Workplace? '
+    answer: A new way of working, the human workplace moves away from command and
+      control management styles to authentic leadership that emphasizes human connection
+      and work-life integration. It addresses the most pressing challenge for leadership
+      today - human factors. Human workplaces are more resilient, teaching us how
+      to do hard things in a human way. Human workplaces empower people to do their
+      best work.
+  - question: 'What are some of the direct benefits of a human workplace? '
+    answer: Shared decision-making, flexibility, diversity, individual empowerment,
+      social connection, community, and a sense of meaning. You’ll experience a happier,
+      more motivated workforce while reaching your goals, attracting the best talent,
+      and building competitive advantage.
+  - question: What do your consultants do?
+    answer: Our consultants pair company data with tailored experiences to transform
+      your organization. Our information and insights will have a lasting impact on
+      the culture of your business.
+  - question: How do I start transforming my organization?
+    answer: Audit your culture, review your hiring data, and execute a plan from the
+      leadership level. With these key steps, you’ll be showing your employees and
+      contractors how much the human workplace matters to your business goals.
 permalink: "/human-workplace/"
 contact_form: false
+redirect_to: ''
 
 ---
