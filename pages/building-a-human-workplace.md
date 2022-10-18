@@ -145,6 +145,4 @@ page_sections:
       contractors how much the human workplace matters to your business goals.
 permalink: "/human-workplace/"
 contact_form: false
-redirect_to: ''
-
 ---
