@@ -2,26 +2,30 @@
   img: /img/our_team/team/Chris McGrath.jpg
   img_alt: Chris McGrath
   title: CEO
-- name: Albert Volkman
-  img: /img/our_team/team/Albert Volkman.jpg
-  img_alt: Albert Volkman
-  title: CTO
+#- name: Albert Volkman
+#  img: /img/our_team/team/Albert Volkman.jpg
+#  img_alt: Albert Volkman
+#  title: CTO
 - name: Rob Schaust
   img: /img/our_team/team/Rob Schaust.jpg
   img_alt: Rob Schaust
   title: Vice President
-- name: Matt Obert
-  img: /img/our_team/team/matt-obert.jpg
-  img_alt: Matt Obert
-  title: Director of Engineering
 - name: Matthew Ellis Pritchard
   img: /img/our_team/team/Matthew Ellis Pritchard.jpg
   img_alt: Matthew Ellis Pritchard
   title: Director of Marketing
-- name: Will Kirchheimer
-  img: /img/our_team/team/will-kirchheimer.jpg
-  img_alt: Will Kirchheimer
-  title: VP of Esteemed Digital
+- name: Matt Obert
+  img: /img/our_team/team/matt-obert.jpg
+  img_alt: Matt Obert
+  title: Director of Engineering
+- name: Dori Kelner
+  img: /img/our_team/team/Dori.jpeg
+  img_alt: Dori Kelner
+  title: VP, Human Workplace
+- name: Byron Sommardahl
+  img: /img/our_team/team/Byron.jpeg
+  img_alt: Byron Sommardahl
+  title: Head of Product
 - name: Julia Panchenko
   img: /img/our_team/team/Julia Panchenko.jpg
   img_alt: Julia Panchenko
@@ -46,6 +50,26 @@
   img: /img/our_team/team/Rachel_Anne_Cadag.jpg
   img_alt: Rachel Anne Cadag
   title: Recruitment Coordinator
+- name: Sarah Miskin
+  img: /img/our_team/team/Sarah.png
+  img_alt: Sarah Miskin
+  title: Visual Designer
+- name: Cody Beale
+  img: /img/our_team/team/Cody.jpeg
+  img_alt: Cody Beale
+  title: UX Designer
+- name: Christopher Rossing
+  img: /img/our_team/team/Christopher Rossing.jpeg
+  img_alt: Christopher Rossing
+  title: Relationship Manager
+- name: Ynnah Robles
+  img: /img/our_team/team/Ynnah Robles.jpeg
+  img_alt: Ynnah Robles
+  title: Recruiter
+- name: Mik Lapinid
+  img: /img/our_team/team/Mik Lapinid.png
+  img_alt: Mik Lapinid
+  title: Recruiter
 - name: Raju Khunt
   img: /img/our_team/team/raju-khunt.jpg
   img_alt: Raju Khunt
