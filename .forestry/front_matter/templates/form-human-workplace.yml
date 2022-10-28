@@ -1,4 +1,13 @@
 ---
 label: 'Form Human Workplace '
 hide_body: true
-fields: []
+fields:
+- name: form_html_code
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Form HTML code
