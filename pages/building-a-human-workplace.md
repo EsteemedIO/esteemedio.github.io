@@ -145,12 +145,8 @@ page_sections:
       contractors how much the human workplace matters to your business goals.
 - template: form-human-workplace
   form_html_code: "<!-- Begin Mailchimp Signup Form -->  \n<link href=\"[//cdn-images.mailchimp.com/embedcode/classic-071822.css](//cdn-images.mailchimp.com/embedcode/classic-071822.css)\"
-    rel=\"stylesheet\" type=\"text/css\">  \n<style type=\"text/css\">  \n\\#mc_embed_signup{background:#fff;
-    clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}  \n/* Add your
-    own Mailchimp form style overrides in your site stylesheet or in this style block.
-    \ \nWe recommend moving this block and the preceding CSS link to the HEAD of your
-    HTML file. _/_  \n_</style>_<div id=\"mc_embed_signup\"></em><br><em><form action=\"</em><a
-    href=\"https://esteemed.us10.list-manage.com/subscribe/post?u=ec5b82da5b213df9999d28215&id=ba0a0d118c&f_id=00d33ae2f0\"
+    rel=\"stylesheet\" type=\"text/css\">  \n<div id=\"mc_embed_signup\"></em><br><em><form
+    action=\"</em><a href=\"https://esteemed.us10.list-manage.com/subscribe/post?u=ec5b82da5b213df9999d28215&id=ba0a0d118c&f_id=00d33ae2f0\"
     title=\"https://esteemed.us10.list-manage.com/subscribe/post?u=ec5b82da5b213df9999d28215&id=ba0a0d118c&f_id=00d33ae2f0\"
     target=\"_blank\"><em>https://esteemed.us10.list-manage.com/subscribe/post?u=ec5b82da5b213df9999d28215&id=ba0a0d118c&f_id=00d33ae2f0</em></a>_\"
     method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\"
