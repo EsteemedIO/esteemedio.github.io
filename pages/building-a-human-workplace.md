@@ -143,6 +143,50 @@ page_sections:
     answer: Audit your culture, review your hiring data, and execute a plan from the
       leadership level. With these key steps, you’ll be showing your employees and
       contractors how much the human workplace matters to your business goals.
+- template: form-human-workplace
+  form_html_code: '&lt;!-- Begin Mailchimp Signup Form --&gt;<br>&lt;link href="//<a
+    href="http://cdn-images.mailchimp.com/embedcode/classic-071822.css" target="_blank">cdn-images.mailchimp.com/embedcode/classic-071822.css</a>"
+    rel="stylesheet" type="text/css"&gt;<br><em>&lt;div id="mc_embed_signup"&gt;</em><br><em>&lt;form
+    action="</em><a href="https://esteemed.us10.list-manage.com/subscribe/post?u=ec5b82da5b213df9999d28215&amp;id=ba0a0d118c&amp;f_id=00d33ae2f0"
+    title="https://esteemed.us10.list-manage.com/subscribe/post?u=ec5b82da5b213df9999d28215&amp;id=ba0a0d118c&amp;f_id=00d33ae2f0"
+    target="_blank"><em>https://esteemed.us10.list-manage.com/subscribe/post?u=ec5b82da5b213df9999d28215&amp;id=ba0a0d118c&amp;f_id=00d33ae2f0</em></a>_"
+    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+    class="validate" target="<em>blank" novalidate&gt;</em><br><em>&lt;div id="mc_embed_signup_scroll"&gt;</em><br><em>&lt;h2&gt;Subscribe&lt;/h2&gt;</em><br><em>&lt;div
+    class="indicates-required"&gt;&lt;span class="asterisk"&gt;</em>&lt;/span&gt;
+    indicates required&lt;/div&gt;<br>&lt;div class="mc-field-group"&gt;<br>&lt;label
+    for="mce-MMERGE8"&gt;Industry Type &lt;/label&gt;<br>&lt;select name="MMERGE8"
+    class="" id="mce-MMERGE8"&gt;<br>&lt;option value=""&gt;&lt;/option&gt;<br>&lt;option
+    value="Commerce"&gt;Commerce&lt;/option&gt;<br>&lt;option value="Construction"&gt;Construction&lt;/option&gt;<br>&lt;option
+    value="Education"&gt;Education&lt;/option&gt;<br>&lt;option value="Financial Services"&gt;Financial
+    Services&lt;/option&gt;<br>&lt;option value="Health Services"&gt;Health Services&lt;/option&gt;<br>&lt;option
+    value="Engineering"&gt;Engineering&lt;/option&gt;<br>&lt;option value="Media &amp;amp;
+    PR"&gt;Media &amp;amp; PR&lt;/option&gt;<code>&lt;/select&gt; &lt;span id="mce-MMERGE8-HELPERTEXT"
+    class="helper_text"&gt;&lt;/span&gt;</code>&lt;/div&gt;<br>&lt;div class="mc-field-group"&gt;<br>&lt;label
+    for="mce-MMERGE7"&gt;Organization Size &lt;/label&gt;<br>&lt;select name="MMERGE7"
+    class="" id="mce-MMERGE7"&gt;<br>&lt;option value=""&gt;&lt;/option&gt;<br>&lt;option
+    value="1 - 10"&gt;1 - 10&lt;/option&gt;<br>&lt;option value="11 - 50"&gt;11 -
+    50&lt;/option&gt;<br>&lt;option value="51 - 100"&gt;51 - 100&lt;/option&gt;<br>&lt;option
+    value="101 - 1000"&gt;101 - 1000&lt;/option&gt;<br>&lt;option value="1000+"&gt;1000+&lt;/option&gt;<code>&lt;/select&gt;
+    &lt;span id="mce-MMERGE7-HELPERTEXT" class="helper_text"&gt;&lt;/span&gt;</code>&lt;/div&gt;<br>&lt;div
+    class="mc-field-group"&gt;<br>&lt;label for="mce-MMERGE9"&gt;Years in Business
+    &lt;/label&gt;<br>&lt;select name="MMERGE9" class="" id="mce-MMERGE9"&gt;<br>&lt;option
+    value=""&gt;&lt;/option&gt;<br>&lt;option value="0 - 1"&gt;0 - 1&lt;/option&gt;<br>&lt;option
+    value="2 - 3"&gt;2 - 3&lt;/option&gt;<br>&lt;option value="4 - 5"&gt;4 - 5&lt;/option&gt;<br>&lt;option
+    value="6 - 7"&gt;6 - 7&lt;/option&gt;<br>&lt;option value="8 - 9"&gt;8 - 9&lt;/option&gt;<br>&lt;option
+    value="10+"&gt;10+&lt;/option&gt;<code>&lt;/select&gt; &lt;span id="mce-MMERGE9-HELPERTEXT"
+    class="helper_text"&gt;&lt;/span&gt;</code>&lt;/div&gt;<br>&lt;div id="mce-responses"
+    class="clear"&gt;<br>&lt;div class="response" id="mce-error-response" style="display:none"&gt;&lt;/div&gt;<br>&lt;div
+    class="response" id="mce-success-response" style="display:none"&gt;&lt;/div&gt;<br>&lt;/div&gt;
+    &lt;!-- real people should not fill this in and expect good things - do not remove
+    this or risk form bot signups--&gt;<br>&lt;div style="position: absolute; left:
+    -5000px;" aria-hidden="true"&gt;&lt;input type="text" name="b_ec5b82da5b213df9999d28215_ba0a0d118c"
+    tabindex="-1" value=""&gt;&lt;/div&gt;<br>&lt;div class="clear"&gt;&lt;input type="submit"
+    value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"&gt;&lt;/div&gt;<br>&lt;/div&gt;<br>&lt;/form&gt;<br>&lt;/div&gt;<br>&lt;script
+    type=''text/javascript'' src=''//<a href="http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+    target="_blank">s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js</a>''&gt;&lt;/script&gt;&lt;script
+    type=''text/javascript''&gt;(function($) {window.fnames = new Array(); window.ftypes
+    = new Array();fnames[0]=''EMAIL'';ftypes[0]=''email'';fnames[1]=''FNAME'';ftypes[1]=''text'';fnames[2]=''LNAME'';ftypes[2]=''text'';fnames[4]=''PHONE'';ftypes[4]=''phone'';fnames[6]=''MMERGE6'';ftypes[6]=''text'';fnames[5]=''MMERGE5'';ftypes[5]=''url'';fnames[3]=''MMERGE3'';ftypes[3]=''dropdown'';fnames[8]=''MMERGE8'';ftypes[8]=''dropdown'';fnames[7]=''MMERGE7'';ftypes[7]=''dropdown'';fnames[9]=''MMERGE9'';ftypes[9]=''dropdown'';}(jQuery));var
+    $mcj = jQuery.noConflict(true);&lt;/script&gt;<br>&lt;!--End mc_embed_signup--&gt;'
 permalink: "/human-workplace/"
 contact_form: false
 
