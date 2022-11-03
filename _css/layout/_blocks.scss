@@ -237,3 +237,29 @@
     }
   }
 }
+
+
+#human-form {
+  .row {
+    flex-wrap: wrap;
+  }
+  .mc-field-group {
+    flex: 50%;
+    padding: 0 1rem;
+    @include breakpoint(small only) {
+      flex: 100%;
+    }
+  }
+
+  #mc-embedded-subscribe {
+    margin: 0 auto;
+  }
+
+  .mce_inline_error {
+    color: $input-error-color;
+  }
+
+  #mce-success-response {
+    padding-left: 15px;
+  }
+}
