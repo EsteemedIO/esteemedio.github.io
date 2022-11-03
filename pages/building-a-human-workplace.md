@@ -143,6 +143,7 @@ page_sections:
     answer: Audit your culture, review your hiring data, and execute a plan from the
       leadership level. With these key steps, you’ll be showing your employees and
       contractors how much the human workplace matters to your business goals.
+- template: form-human-workplace
 permalink: "/human-workplace/"
 contact_form: false
 
