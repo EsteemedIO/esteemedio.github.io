@@ -144,6 +144,8 @@ page_sections:
       leadership level. With these key steps, you’ll be showing your employees and
       contractors how much the human workplace matters to your business goals.
 - template: form-human-workplace
+  title: Subscribe
+  subheading: Let us know and we’ll be in touch.
 permalink: "/human-workplace/"
 contact_form: false
 
