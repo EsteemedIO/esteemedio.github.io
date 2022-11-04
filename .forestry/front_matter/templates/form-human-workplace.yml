@@ -1,4 +1,14 @@
 ---
 label: 'Form Human Workplace '
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: subheading
+  type: text
+  config:
+    required: false
+  label: Subheading
