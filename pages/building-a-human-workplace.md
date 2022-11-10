@@ -148,5 +148,6 @@ page_sections:
   subheading: Let us know and we’ll be in touch.
 permalink: "/human-workplace/"
 contact_form: false
+redirect_to: /
 
 ---
