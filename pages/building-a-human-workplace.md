@@ -146,7 +146,7 @@ page_sections:
 - template: form-human-workplace
   title: Subscribe
   subheading: Let us know and we’ll be in touch.
-permalink: "/human-workplace/"
+permalink: "/human-workplace1/"
 contact_form: false
 published: false
 
