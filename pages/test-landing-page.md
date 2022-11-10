@@ -106,5 +106,6 @@ page_sections:
       description: Fast, accurate results delivered directly to your inbox
     - icon: "/uploads/check.svg"
       description: " Identify the candidates who will fit best alongside your team"
+published: false
 
 ---
