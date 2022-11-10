@@ -3,7 +3,7 @@ date: '2022-10-05T23:00:00.000+00:00'
 author: matt-brennan
 categories: []
 title: 'Building a Human Workplace '
-description: "<p>The human workplace is the next great shift</p>"
+description: "<p>The human workplace is the next great shift.</p>"
 image: "/uploads/screeningdevelopers_header.jpg"
 thumbnail: "/uploads/screeningdevelopers_thumb.jpg"
 color_overlay: "#264083"
