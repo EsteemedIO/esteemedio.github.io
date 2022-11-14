@@ -80,8 +80,6 @@ about-us:
         url: "/our-team/"
       - title: Careers
         url: "/careers/"
-      - title: Press
-        url: "/news-center/"
       - title: Contact Us
         url: "https://us10.list-manage.com/contact-form?u=ec5b82da5b213df9999d28215&form_id=3748ccb203457ce78b32c876123b02bf"
         target: "_blank"
