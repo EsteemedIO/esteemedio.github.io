@@ -30,8 +30,12 @@
       transition: .3s;
     }
 
-    @include breakpoint(medium down) {
+    @include breakpoint(large down) {
       height: 30px;
+      
+    }
+    @media (max-width: 1038px) {
+      max-width: 9.25rem;
     }
   }
 
@@ -203,7 +207,7 @@
             font-weight: $global-weight-medium;
           }
 
-          @include breakpoint(large down) {
+          @include breakpoint(medium down) {
             font-size: 1rem;
             color: $white;
           }
