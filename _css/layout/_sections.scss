@@ -2,7 +2,7 @@ body {
   padding-top: 5rem;
 
   @include breakpoint(medium down) {
-    padding-top: 4.875rem;
+    padding-top: 0;
   }
 
   &.page__mobile-nav-hidden {
