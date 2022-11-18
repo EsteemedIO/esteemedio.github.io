@@ -1,9 +1,19 @@
 ---
 title: Events
+layout: events
 description: "<p>Connect and learn more from your peers with Esteemed – from live
   events and webinars to on-demand recordings. </p>"
 permalink: "/events/"
 thumbnail: "/img/partner_2.jpg"
+pagination: 
+  enabled: true
+  collection: press
+  per_page: 3
+  permalink: "/:num/"
+  title: ":title - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
 
 ---
 <div class="page--events">
@@ -53,7 +63,7 @@ Check our event listings to connect with your colleagues at conferences and even
       </div>
 
       <div class="events row component-offscreen">
-        {% assign events = site.press | where:'type', 'Events' | sort: 'date' | reverse %}
+        {% assign events = paginator.press | where:'type', 'Events' | sort: 'date' | reverse %}
         {% assign today_date = 'now' | date: '%s' %}
         {% assign past_events = false %}
         {% assign upcoming_events = false %}
@@ -107,6 +117,20 @@ Check our event listings to connect with your colleagues at conferences and even
           {% endif %}
         </div>
         {% endfor %}
+        {% if paginator.total_pages > 1 %}
+<!-- <ul>
+  {% if paginator.previous_page %}
+  <li>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+  </li>
+  {% endif %}
+  {% if paginator.next_page %}
+  <li>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+  </li>
+  {% endif %}
+</ul> -->
+{% endif %}
       </div>
     </div>
   </section>

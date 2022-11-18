@@ -1413,7 +1413,7 @@ body {
     }
   }
   .events {
-    margin: 5%;
+    padding: 5%;
     h2 {
       @include breakpoint(small only) {
         text-align: center;
@@ -1429,7 +1429,7 @@ body {
     }
 
     .event {
-      border-bottom: solid 1px $black;
+      border-bottom: solid 1px $light-gray;
       @include breakpoint(small only) {
         padding: 10%;
       }
