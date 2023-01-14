@@ -1,5 +1,5 @@
 ---
-date: 2022-04-25 13:50:48 +0000
+date: 2022-04-25T13:50:48.000+00:00
 author: matt-brennan
 categories: []
 title: The 6 Biggest Challenges Tech Recruiters Face in 2022
@@ -10,7 +10,7 @@ description: Recruiting leading talent continues to be a problem within tech in 
 image: "/uploads/pexels-christina-morillo-1181263.jpg"
 thumbnail: "/uploads/pexels-cottonbro-5483070.jpg"
 color_overlay: "#264083"
-featured: true
+featured: false
 type: ''
 
 ---
@@ -76,4 +76,4 @@ Talent sourcing allows companies to bypass these common hiring challenges. It co
 
 With this approach you’ll be able to future proof your workforce, pursue talent from a wider demographic, and speed up candidate searches. You can gain full access to qualified professionals in hard-to-hire specialties. [Talent sourcing](https://esteemed.io/talent-sourcing/) is your chance to create a full funnel of highly talented applicants.
 
-Want to learn more about Talent Sourcing at Esteemed? Learn more by reading our blog or fill out the form below to get in touch. 
+Want to learn more about Talent Sourcing at Esteemed? Learn more by reading our blog or fill out the form below to get in touch.
