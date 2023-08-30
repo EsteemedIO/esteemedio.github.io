@@ -14,18 +14,18 @@
   img: /img/our_team/team/Matthew Ellis Pritchard.jpg
   img_alt: Matthew Ellis Pritchard
   title: Director of Marketing
-- name: Matt Obert
-  img: /img/our_team/team/matt-obert.jpg
-  img_alt: Matt Obert
-  title: Director of Engineering
+#- name: Matt Obert
+#  img: /img/our_team/team/matt-obert.jpg
+#  img_alt: Matt Obert
+#  title: Director of Engineering
 - name: Dori Kelner
   img: /img/our_team/team/Dori.jpeg
   img_alt: Dori Kelner
   title: VP, Human Workplace
-- name: Byron Sommardahl
-  img: /img/our_team/team/Byron.jpeg
-  img_alt: Byron Sommardahl
-  title: Head of Product
+#- name: Byron Sommardahl
+#  img: /img/our_team/team/Byron.jpeg
+#  img_alt: Byron Sommardahl
+#  title: Head of Product
 - name: Julia Panchenko
   img: /img/our_team/team/Julia Panchenko.jpg
   img_alt: Julia Panchenko
@@ -34,10 +34,10 @@
   img: /img/our_team/team/Bianca Perez-Rubio.jpg
   img_alt: Bianca Perez-Rubio
   title: Associate Business Manager
-- name: Jacqueline McGrath
-  img: /img/our_team/team/jacqueline-mcgrath.jpg
-  img_alt: Jacqueline McGrath
-  title: Operations Manager
+#- name: Jacqueline McGrath
+#  img: /img/our_team/team/jacqueline-mcgrath.jpg
+#  img_alt: Jacqueline McGrath
+#  title: Operations Manager
 - name: Trishia Cachila
   img: /img/our_team/team/trishia-cachila.jpg
   img_alt: Trishia Cachila
@@ -46,42 +46,42 @@
   img: /img/our_team/team/Jenny Lam.jpg
   img_alt: Jenny Lam
   title: Social Media Coordinator
-- name: Rachel Anne Cadag
-  img: /img/our_team/team/Rachel_Anne_Cadag.jpg
-  img_alt: Rachel Anne Cadag
-  title: Recruitment Coordinator
-- name: Sarah Miskin
-  img: /img/our_team/team/Sarah.png
-  img_alt: Sarah Miskin
-  title: Visual Designer
-- name: Cody Beale
-  img: /img/our_team/team/Cody.jpeg
-  img_alt: Cody Beale
-  title: UX Designer
+#- name: Rachel Anne Cadag
+#  img: /img/our_team/team/Rachel_Anne_Cadag.jpg
+#  img_alt: Rachel Anne Cadag
+#  title: Recruitment Coordinator
+#- name: Sarah Miskin
+#  img: /img/our_team/team/Sarah.png
+#  img_alt: Sarah Miskin
+#  title: Visual Designer
+#- name: Cody Beale
+#  img: /img/our_team/team/Cody.jpeg
+#  img_alt: Cody Beale
+#  title: UX Designer
 - name: Christopher Rossing
   img: /img/our_team/team/Christopher Rossing.jpeg
   img_alt: Christopher Rossing
   title: Relationship Manager
-- name: Ynnah Robles
-  img: /img/our_team/team/Ynnah Robles.jpeg
-  img_alt: Ynnah Robles
-  title: Recruiter
+#- name: Ynnah Robles
+#  img: /img/our_team/team/Ynnah Robles.jpeg
+#  img_alt: Ynnah Robles
+#  title: Recruiter
 - name: Mik Lapinid
   img: /img/our_team/team/Mik Lapinid.png
   img_alt: Mik Lapinid
   title: Recruiter
-- name: Raju Khunt
-  img: /img/our_team/team/raju-khunt.jpg
-  img_alt: Raju Khunt
-  title: Senior Web Developer
+#- name: Raju Khunt
+#  img: /img/our_team/team/raju-khunt.jpg
+#  img_alt: Raju Khunt
+#  title: Senior Web Developer
 - name: Alex Novak
   img: /img/our_team/team/Alex Novak.jpg
   img_alt: Alex Novak
   title: Full-Stack Developer
-- name: Daniel Bongomin
-  img: /img/our_team/team/bongomin-daniel.jpg
-  img_alt: Daniel Bongomin
-  title: Web Developer
+#- name: Daniel Bongomin
+#  img: /img/our_team/team/bongomin-daniel.jpg
+#  img_alt: Daniel Bongomin
+#  title: Web Developer
 - name: Jenn Lackey
   img: /img/our_team/team/JennLackey.jpg
   img_alt: Jenn Lackey
