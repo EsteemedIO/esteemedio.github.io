@@ -66,7 +66,7 @@ Now that you have a clear picture of what you’re looking for in a fractional C
 
 When you work with Esteemed, we do the recruiting and onboarding of a fractional chief technical officer for you. You’ll get a hand-selected list of ready-to-hire [CTOs on demand](https://esteemed.io/fractional-cto/) that meet your must-have requirements.
 
-> “Our sourcing experts provide white glove service to our clients,” says Albert Volkman, CTO of Esteemed. “In a matter of hours, we can find the right fractional CTO that’s ready to take on your toughest business challenges.”
+> “Esteemed's sourcing experts provide white glove service to their clients,” says Albert Volkman. “In a matter of hours, Esteemed finds the right fractional CTO that’s ready to take on your toughest business challenges.”
 
 Sourcing top technical talent has never been more competitive. To find the right fractional CTO, you’ll need to take an inventory of critical skills, focus on the benefits to your company, and consider the urgent roles they can take on now. Most importantly, you need to decide if your remote hiring experience is competitive.
 
