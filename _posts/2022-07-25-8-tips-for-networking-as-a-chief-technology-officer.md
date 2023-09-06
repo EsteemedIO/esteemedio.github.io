@@ -28,7 +28,7 @@ Developing a personal networking strategy will help you stay grounded and make t
 
 If you're more of an introvert or more [neurodivergent](https://www.linkedin.com/pulse/networking-neurodiversity-robert-page/), establishing healthy boundaries can help you stay grounded. If you feel overwhelmed in large groups, you might want to choose networking activities where you have the opportunity to connect with others in small groups.
 
-For Albert Volkman, CTO at Esteemed, attending conferences and events seemed like a natural fit because he is naturally gregarious. But Volkman still doesn't consider attending events always easy.
+For Albert Volkman, attending conferences and events seemed like a natural fit because he is naturally gregarious. But Volkman still doesn't consider attending events always easy.
 
 > "My mantra is to get comfortable with being uncomfortable. I try to put myself into positions where I want to learn. If you look at attending conferences and events to find learning experiences, it can get you to a place where you can take the next step toward trying something new, and it can be a lot more fun."
 
