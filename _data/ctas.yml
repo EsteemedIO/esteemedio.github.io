@@ -10,14 +10,14 @@ resources:
   button_link: https://mailchi.mp/727fbf0dd6e0/7-mistakes-ebook
   target: _blank
 about-us:
-  image_url: "/uploads/nedcamp-2018_0.jpg"
-  image_alt: 'NEDCamp '
+  image_url: "/uploads/drupalgovcon.png"
+  image_alt: 'Drupal GovCon'
   title: Join Us!
-  sub_title: NEDCamp
-  description: Drupal holds a special place for all of us at Esteemed, which is why
-    we're proud to announce that our company is sponsoring NEDCamp.
+  sub_title: Drupal GovCon
+  description: Drupal holds a special place for all of us at Esteemed,
+    which is why we're proud to announce that we're sponsoring GovCon.
   button_title: Register Now
-  button_link: https://nedcamp.org/
+  button_link: https://www.drupalgovcon.org/
   target: _blank
 community:
   image_url: "/uploads/talent_network_5.jpg"
