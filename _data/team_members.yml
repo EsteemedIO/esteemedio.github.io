@@ -10,14 +10,14 @@
   img: /img/our_team/team/Rob Schaust.jpg
   img_alt: Rob Schaust
   title: Senior Vice President
+- name: Michael Kehl
+  img: /img/our_team/team/MichaelKehl.jpg
+  img_alt: Michael Kehl
+  title: Director, Sales
 - name: Matthew Ellis Pritchard
   img: /img/our_team/team/Matthew Ellis Pritchard.jpg
   img_alt: Matthew Ellis Pritchard
   title: Director, Marketing
-#- name: Michael Kehl
-#  img: /img/our_team/team/MichaelKehl.jpg
-#  img_alt: Michael Kehl
-#  title: Director, Sales
 - name: Dori Kelner
   img: /img/our_team/team/Dori.jpeg
   img_alt: Dori Kelner
@@ -62,10 +62,10 @@
   img: /img/our_team/team/Christopher Rossing.jpeg
   img_alt: Christopher Rossing
   title: Relationship Manager
-#- name: Germaine Cuenta
-#  img: /img/our_team/team/GermaineCuenta.jpg
-#  img_alt: Germaine Cuenta
-#  title: Recruiter
+- name: Germaine Cuenta
+  img: /img/our_team/team/GermaineCuenta.jpg
+  img_alt: Germaine Cuenta
+  title: Talent Acquisition Specialist
 - name: Mik Lapinid
   img: /img/our_team/team/Mik Lapinid.png
   img_alt: Mik Lapinid
