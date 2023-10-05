@@ -42,9 +42,9 @@
   img: /img/our_team/team/trishia-cachila.jpg
   img_alt: Trishia Cachila
   title: Operations Manager
-- name: Jenny Lam
-  img: /img/our_team/team/Jenny Lam.jpg
-  img_alt: Jenny Lam
+- name: Kristen Carter
+  img: /img/our_team/team/KristenCarter.jpg
+  img_alt: Kristen Carter
   title: Social Media Coordinator
 #- name: Rachel Anne Cadag
 #  img: /img/our_team/team/Rachel_Anne_Cadag.jpg
@@ -62,6 +62,10 @@
   img: /img/our_team/team/Christopher Rossing.jpeg
   img_alt: Christopher Rossing
   title: Relationship Manager
+- name: Aaron Gustin
+  img: /img/our_team/team/AaronGustin.jpg
+  img_alt: Aaron Gustin
+  title: Account Executive  
 - name: Germaine Cuenta
   img: /img/our_team/team/GermaineCuenta.jpg
   img_alt: Germaine Cuenta
@@ -70,19 +74,19 @@
   img: /img/our_team/team/Mik Lapinid.png
   img_alt: Mik Lapinid
   title: Talent Acquisition Specialist
-#- name: Raju Khunt
-#  img: /img/our_team/team/raju-khunt.jpg
-#  img_alt: Raju Khunt
-#  title: Senior Web Developer
 - name: Alex Novak
   img: /img/our_team/team/Alex Novak.jpg
   img_alt: Alex Novak
   title: Principal Developer, Aura ATS
-#- name: Daniel Bongomin
-#  img: /img/our_team/team/bongomin-daniel.jpg
-#  img_alt: Daniel Bongomin
-#  title: Web Developer
-- name: Jenn Lackey
-  img: /img/our_team/team/JennLackey.jpg
-  img_alt: Jenn Lackey
-  title: Content Editor
+- name: Rahul Aggarwal
+  img: /img/our_team/team/RahulAggarwal.jpg
+  img_alt: Rahul Aggarwal
+  title: Principal Developer, Colleagues TXP
+- name: Aayush Mittal
+  img: /img/our_team/team/AayushMittal.jpg
+  img_alt: Aayush Mittal
+  title: Senior Full-Stack Developer
+- name: Harsh Gupta
+  img: /img/our_team/team/HarshGupta.jpg
+  img_alt: Harsh Gupta
+  title: Full-Stack Developer
