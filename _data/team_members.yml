@@ -9,15 +9,15 @@
 - name: Rob Schaust
   img: /img/our_team/team/Rob Schaust.jpg
   img_alt: Rob Schaust
-  title: Vice President
+  title: Senior Vice President
 - name: Matthew Ellis Pritchard
   img: /img/our_team/team/Matthew Ellis Pritchard.jpg
   img_alt: Matthew Ellis Pritchard
-  title: Director of Marketing
+  title: Director, Marketing
 #- name: Michael Kehl
 #  img: /img/our_team/team/MichaelKehl.jpg
 #  img_alt: Michael Kehl
-#  title: Director of Sales
+#  title: Director, Sales
 - name: Dori Kelner
   img: /img/our_team/team/Dori.jpeg
   img_alt: Dori Kelner
@@ -29,11 +29,11 @@
 - name: Julia Panchenko
   img: /img/our_team/team/Julia Panchenko.jpg
   img_alt: Julia Panchenko
-  title: Executive Assistant
+  title: Business Development Manager
 - name: Bianca Perez-Rubio
   img: /img/our_team/team/Bianca Perez-Rubio.jpg
   img_alt: Bianca Perez-Rubio
-  title: Associate Business Manager
+  title: Talent Acquisition Specialist
 #- name: Jacqueline McGrath
 #  img: /img/our_team/team/jacqueline-mcgrath.jpg
 #  img_alt: Jacqueline McGrath
@@ -69,7 +69,7 @@
 - name: Mik Lapinid
   img: /img/our_team/team/Mik Lapinid.png
   img_alt: Mik Lapinid
-  title: Recruiter
+  title: Talent Acquisition Specialist
 #- name: Raju Khunt
 #  img: /img/our_team/team/raju-khunt.jpg
 #  img_alt: Raju Khunt
@@ -77,7 +77,7 @@
 - name: Alex Novak
   img: /img/our_team/team/Alex Novak.jpg
   img_alt: Alex Novak
-  title: Full-Stack Developer
+  title: Principal Developer, Aura ATS
 #- name: Daniel Bongomin
 #  img: /img/our_team/team/bongomin-daniel.jpg
 #  img_alt: Daniel Bongomin
