@@ -780,7 +780,7 @@ body {
     }
   }
 }
-#section-partner, #section-member-compensation-plan, #section-talent-network, #section-service, #section-search {
+#section-partner, #section-member-compensation-plan, #section-talent-network, #section-service, #section-search, #section-aura {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
@@ -1275,7 +1275,8 @@ body {
 .page--products,
 .page--careers,
 .page--events,
-.page--screening {
+.page--screening,
+ {
   .width-75rem {
     width: 100%;
     max-width: 1440px;
@@ -2152,6 +2153,199 @@ body {
     padding-bottom: 10px;
     font-weight: bold;
     margin-bottom: 3px;
+  }
+
+}
+
+.page--aura {
+  .simple-card .simple-card__image {
+    @include breakpoint(small only) {
+      text-align: center;
+    }
+  }
+
+  .goals {
+    color: $white;
+
+    .simple-card__header {
+      font-size: 1.125rem;
+      padding-bottom: 0;
+      font-family: $font-lato;
+    }
+
+    .simple-card .simple-card__image img {
+      height: 70px;
+    }
+
+    .card-text {
+      font-family: $font-lato;
+    }
+  }
+
+  .img-wrapper {
+    justify-content: center !important;
+  }
+
+  .section-image-80 {
+    width: 90%;
+    height: 90%;
+    object-fit: scale-down;
+  }
+
+  .card-sub-title {
+    font-size: 1.5rem;
+    @include breakpoint(small only) {
+      font-size: 1rem;
+    }
+  }
+
+  .bg-lines {
+    background-image: url('/img/aura/hero-bg.png');
+    background-size: cover;
+  }
+
+  .bg-ai {
+    background-image: url('/img/aura/aura-3-bg.png');
+    background-size: cover;
+  }
+
+  .cloud-grid {
+    grid-gap: 30px 30px !important;
+    padding: 20px 0 0 0 !important;
+  }
+
+  .cloud-item {
+    border-radius: 25px !important;
+
+    .cloud-head {
+      font-size: 2rem;
+    }
+
+    .cloud-sub-head {
+      font-size: 1.5rem;
+    }
+    .cloud-sub-head-2 {
+      font-size: 1.125rem;
+    }
+
+    .button {
+      width: 90%;
+      padding: 0.75rem 1.25rem;
+    }
+
+    .cloud-desc::before{
+      content:url('/img/aura/tick-circle.svg');
+      display: inline-block;
+      padding-right: 3px;
+      vertical-align: middle;
+    }
+    .cloud-desc-white::before{
+      content:url('/img/aura/tick-circle-white.svg');
+      display: inline-block;
+      padding-right: 3px;
+      vertical-align: middle;
+    }
+    .cloud-list {
+      @include breakpoint(small and large down) {
+        padding-left: 1rem !important;
+        font-size: 1rem !important;
+      }
+    }
+  }
+
+  .cloud-item.u-bg-peppercorn {
+    background-color: $peppercorn !important;
+    color: white;
+  }
+
+  .color-white {
+    color: $white;
+  }
+
+  .aura-faq {
+    background-image: url('/img/aura/lines.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 18rem;
+
+    .faq-wrapper {
+      margin: 0 auto;
+    }
+
+    .faq-title {
+      font-size: 2rem;
+    }
+    .faq-desc {
+      font-size: 1.125rem;
+    }
+  }
+  .screening-price {
+    @include breakpoint(small only) {
+      padding: 0 1rem;
+    }
+    @include breakpoint(xlarge down) {
+      padding: 0 3rem;
+    }
+  }
+
+  .aura-features {
+    @include breakpoint(xlarge down) {
+      padding: 0 3rem;
+    }
+    @include breakpoint(small only) {
+      padding: 0 1rem;
+    }
+    .features-large {
+      flex-basis: 40%;
+    }
+    .features-small {
+      display: flex;
+      flex-basis: 20%;
+      justify-content: center;
+    }
+    .icon-circle {
+      content:url('/img/aura/tick-circle.svg');
+      width: 30px;
+    }
+    .icon-circle-close {
+      content:url('/img/aura/close-circle.svg');
+      width: 30px;
+    }
+
+    .features-table .features-table-line {
+      border-color: $line-gray;
+      border-style: solid;
+      border-width: 0 0 1px 0;
+    }
+    .mobile-text-change span{
+      @include breakpoint(small only) {
+        display: none;
+      }
+    }
+    .mobile-text-change:after{
+      @include breakpoint(small only) {
+        content: 'Pro';
+      }
+    }
+  }
+
+  .mcp-contact-form {
+    color: $white !important;
+    label {
+      color: $white !important;
+    }
+    #success-response::before {
+      content:url('/img/aura/tick-circle.svg');
+      display: inline-block;
+      padding-right: 3px;
+      vertical-align: middle;
+    }
+    #error-response::before {
+      content:url('/img/aura/close-circle.svg');
+      display: inline-block;
+      padding-right: 3px;
+      vertical-align: middle;
+    }
   }
 
 }

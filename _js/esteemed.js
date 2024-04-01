@@ -95,6 +95,37 @@ $('#lead_submission').on('submit', function(e) {
   });
 });
 
+$('#esteemed_internal_site_request_a').on('submit', function(e) {
+  e.preventDefault();
+  const serialize_form = form => JSON.stringify(
+      Array.from(new FormData(form).entries())
+          .reduce((m, [ key, value ]) => Object.assign(m, { [key]: value }), {})
+  );
+  var formData = serialize_form(this);
+  console.log(formData);
+  $('#esteemed_internal_site_request_a input[name="submit"]').fadeOut(2000, function() {
+    var settings = {
+      "url": "https://aura.esteemed.io/webform_rest/submit",
+      "method": "POST",
+      "timeout": 0,
+      "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Basic cmVzdHVzZXI6ZUw5U1ZQN0ZwVTc5ZTN5"
+      },
+      "data": formData,
+    };
+
+    $.ajax(settings).done(function (response) {
+      $('#success-response').html('Thank you for your submission!').show();
+      $('#esteemed_internal_site_request_a').find('form')[0].reset();
+    })
+    .fail(function (response) {
+      $('#error-response').html('There was an issue submitting form. Please contact with administrator: a.novak@esteemed.io').show();
+    });
+  });
+});
+
+
 $('#join_esteemed').on('submit', function(e) {
   e.preventDefault();
   $('#join_esteemed input[name="submit"]').fadeOut(2000, function() {
