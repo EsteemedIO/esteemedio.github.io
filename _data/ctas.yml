@@ -11,13 +11,13 @@ resources:
   target: _blank
 about-us:
   image_url: "/uploads/drupalgovcon.png"
-  image_alt: 'Drupal GovCon'
+  image_alt: 'Drupal Portland'
   title: Join Us!
-  sub_title: Drupal GovCon
+  sub_title: DrupalCon Portland
   description: Drupal holds a special place for all of us at Esteemed,
-    which is why we're proud to announce that we're sponsoring GovCon.
+    which is why we're proud to announce that we're sponsoring DrupalCon Portland.
   button_title: Register Now
-  button_link: https://www.drupalgovcon.org/
+  button_link: https://events.drupal.org/
   target: _blank
 community:
   image_url: "/uploads/talent_network_5.jpg"
