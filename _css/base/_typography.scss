@@ -2,7 +2,8 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: $global-weight-thin;
+  font-family: $font-poppins;
+  font-weight: $global-weight-semi-bold !important;
 }
 
 h1,
@@ -23,19 +24,20 @@ h1,
 
 h2,
 .h2 {
-
+  font-family: $font-roboto;
   @include breakpoint(medium) {
     font-size: 3.438rem;
   }
 }
 
 .h5 {
+  font-family: $font-roboto;
   margin-bottom: $spacing;
   line-height: 1.75;
 }
 
 .h6 {
-  font-family: $font-lato;
+  font-family: $font-roboto;
   font-size: 1.125rem;
 }
 
@@ -60,7 +62,7 @@ a {
 
 .button {
   font-family: $font-poppins;
-  font-weight: $global-weight-normal;
+  font-weight: $global-weight-medium;
 
   &.black {
     background-color: $black;
@@ -87,7 +89,7 @@ a {
   &__no-bg {
     align-items: center;
     display: flex;
-    font-family: $font-poppins;
+    font-family: $font-roboto;
     font-weight: $global-weight-medium;
 
     &:after {
@@ -142,7 +144,7 @@ a {
 }
 
 .heading-subtitle {
-  font-family: $font-lato;
+  font-family: $font-roboto;
   font-size: 1.25rem;
   margin-left: auto;
   margin-right: auto;
