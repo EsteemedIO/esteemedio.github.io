@@ -2240,7 +2240,9 @@ body {
   }
 
   .cloud-item {
+    height: auto !important;
     border-radius: 25px !important;
+    padding-bottom: 2rem !important;
 
     .cloud-head {
       font-size: 2rem;
@@ -2274,10 +2276,15 @@ body {
     }
 
     .cloud-list {
-      @include breakpoint(small and large down) {
+      @media (max-width: 1240px) {
         padding-left: 1rem !important;
-        font-size: 1rem !important;
       }
+      .cloud-desc {
+        @media (max-width: 1240px) {
+          font-size: 1rem !important;
+        }
+      }
+
     }
   }
 
@@ -2314,7 +2321,7 @@ body {
       padding: 0 1rem;
     }
     @include breakpoint(xlarge down) {
-      padding: 0 3rem;
+      padding: 0 2rem;
     }
   }
 
