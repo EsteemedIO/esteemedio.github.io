@@ -2158,6 +2158,16 @@ body {
 }
 
 .page--aura {
+  @include breakpoint(large up) {
+    h2 {
+      line-height: 4.5rem !important;
+    }
+  }
+  @include breakpoint(small only) {
+    h2 {
+      line-height: 3rem !important;
+    }
+  }
   .simple-card .simple-card__image {
     @include breakpoint(small only) {
       text-align: center;
