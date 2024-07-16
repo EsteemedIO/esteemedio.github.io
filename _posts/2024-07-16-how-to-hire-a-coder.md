@@ -1,6 +1,7 @@
 ---
 date: 2024-07-16 18:42:39 +0000
 author: matthew-pritchard
+categories:
 title: How to Hire a Coder: The Ultimate Guide for Success
 description: Imposter syndrome can create a ruminating false narrative that your efforts
   will end in adverse outcomes, especially when you’re starting as a CTO or fractional
