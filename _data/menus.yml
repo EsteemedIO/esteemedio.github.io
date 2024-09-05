@@ -72,7 +72,7 @@ resources:
       - title: Partner With Us
         url: "/partners/partner-registration/"
       - title: Open Jobs
-        url: "https://jobs.esteemed.io/"
+        url: "https://colleagues.esteemed.io/opportunities"
 about-us:
   - about-us:
     title: About Us
@@ -80,8 +80,6 @@ about-us:
     submenus:
       - title: Our Team
         url: "/our-team/"
-      - title: Careers
-        url: "https://colleagues.esteemed.io/"
       - title: Contact Us
         url: "https://us10.list-manage.com/contact-form?u=ec5b82da5b213df9999d28215&form_id=3748ccb203457ce78b32c876123b02bf"
         target: "_blank"
