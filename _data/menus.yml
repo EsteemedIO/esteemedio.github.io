@@ -38,8 +38,8 @@ products-solutions:
         url: "/join-colleagues/"
       - title: Esteemed Screening
         url: "/screening/"
-      - title: Aura ATS + CRM
-        url: "/aura-ats-crm/"
+      - title: Esteemed Recruiting
+        url: "esteemed-recruitment-ats-crm/"
   - services:
     title: Services
     url: "#"
