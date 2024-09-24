@@ -10,14 +10,14 @@ resources:
   button_link: https://mailchi.mp/727fbf0dd6e0/7-mistakes-ebook
   target: _blank
 about-us:
-  image_url: "/uploads/DC_POR24_withdate.png"
-  image_alt: 'Drupal Portland'
+  image_url: "/uploads/seattle-skyline.jpg"
+  image_alt: 'PNW Drupal Summit'
   title: Join Us!
-  sub_title: DrupalCon Portland
+  sub_title: PNW Drupal Summit
   description: Drupal holds a special place for all of us at Esteemed,
-    which is why we're proud to announce that we're sponsoring DrupalCon Portland.
+    which is why we're proud to announce that we're sponsoring PNW Drupal Summit.
   button_title: Register Now
-  button_link: https://events.drupal.org/
+  button_link: https://pnwdrupalsummit.org/
   target: _blank
 community:
   image_url: "/uploads/talent_network_5.jpg"
