@@ -66,10 +66,10 @@
 #  img: /img/our_team/team/AaronGustin.jpg
 #  img_alt: Aaron Gustin
 #  title: Account Executive  
-- name: Germaine Cuenta
-  img: /img/our_team/team/GermaineCuenta.jpg
-  img_alt: Germaine Cuenta
-  title: Talent Acquisition Specialist
+#- name: Germaine Cuenta
+#  img: /img/our_team/team/GermaineCuenta.jpg
+#  img_alt: Germaine Cuenta
+#  title: Talent Acquisition Specialist
 - name: Mik Lapinid
   img: /img/our_team/team/Mik Lapinid.png
   img_alt: Mik Lapinid
