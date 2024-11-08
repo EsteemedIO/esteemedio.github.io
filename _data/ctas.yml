@@ -10,7 +10,7 @@ resources:
   button_link: https://mailchi.mp/727fbf0dd6e0/7-mistakes-ebook
   target: _blank
 about-us:
-  image_url: "/uploads/atlanta.png"
+  image_url: "/img/atlanta.png"
   image_alt: 'DrupalCon Atlanta'
   title: Join Us!
   sub_title: DrupalCon Atlanta
